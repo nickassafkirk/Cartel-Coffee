@@ -20,6 +20,7 @@ body{
 .navbar-brand{
     font-family: 'Bebas Neue', cursive;
     font-weight: 600;
+    font-size: 400%;
     color: var(--logo)
 }
 
