@@ -5,6 +5,14 @@
     --buttonblue: #22e5f3;
 }
 
+body{
+    font-family: 'Montserrat', open-sans;
+    color: #555555;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
 
 
 
