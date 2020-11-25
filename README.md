@@ -114,6 +114,13 @@ Is used to add styling, structure, layout and design to the page and to increase
 
 Is used to add structure, layout and mobile first design to webpages. 
 
+## Code 
+
+### Bugs 
+
+* Bug: Navbar toggle burger stack stacking vertically on XS screensizes. 
+  Fix: Added media query to navbar-brand so font-size shrinks on XS devices this left ample room for the burger stack icon and contact icons and prevented vertical stacking of Header items on XS devices.
+
 ## Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
