@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: 'Montserrat', open-sans;
+    font-family: 'Montserrat', sans-serif;
     color: #555555;
     font-size: 16px;
     margin: 0;
@@ -16,6 +16,12 @@ body{
 /*------- Colors -------*/
 
 /*------- Header -------*/
+
+.navbar-brand{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
+    color: var(--logo)
+}
 
 /*------- Footer -------*/
 
