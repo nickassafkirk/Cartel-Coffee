@@ -1,4 +1,4 @@
-# Caffeine Cartel Website Build
+# Cartel Coffee Website Build
 
 The purpose of this project is to build a mobile responsive website for a new coffee shop in Dublin called Cartel coffee. The Business wants to increase their online visibility, increase revenue and to attract new customers. They want to introduce the ability to receive takeaway orders and start selling online. They want to use the site as a platform to update customers on business changes and to continue trading if restaurants are forced to close during Covid-19 restrictions. 
 The goal is to build a mobile first site which meets the intial business needs while providing an excellent user experience for site users. I also aim to create a platform that can be built upon to meet the business's ongoing business needs.
