@@ -24,6 +24,16 @@ body{
     color: var(--logo)
 }
 
+@media (max-width: 450px){
+    .navbar-brand{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
+    font-size: 250%;
+    color: var(--logo)
+}
+
+}
+
 /*------- Footer -------*/
 
 
