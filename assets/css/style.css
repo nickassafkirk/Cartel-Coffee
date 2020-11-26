@@ -112,6 +112,10 @@ p:hover::before{
     background-color: rgba(7,7,7,0.5)
 }
 
+.container2{
+    clear: both;
+}
+
 /*------- Footer -------*/
 
 .footercustom{
@@ -134,5 +138,7 @@ p:hover::before{
     text-decoration: none;
     color: #fff;
 }
+
+
 
 
