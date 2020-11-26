@@ -35,24 +35,24 @@ body{
 
 /*------- Carousel -------*/
 
-.carousel .carousel-item{
-    height: 800px;
+.carousel-inner{
+    height: 75vh;
+    width: auto;
 }
 
-.carousel-item img{
- position: absolute;
- object-fit: cover;
- top: 0;
- left: 0;
- height: 800px;
+.carousel-inner .carousel-item img{
+    width: auto;
+    height: 75vh;
+    margin: auto auto;
 }
+
+/*------- Welcome -------*/
 
 .welcome{
 
     text-align: center;
     padding: 10%;
 }
-
 
 /*------- Footer -------*/
 
