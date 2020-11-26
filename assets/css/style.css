@@ -21,7 +21,7 @@ body{
     font-family: 'Bebas Neue', cursive;
     font-weight: 600;
     font-size: 400%;
-    color: var(--logo)
+    color: var(--logo);
 }
 
 @media (max-width: 450px){
@@ -30,11 +30,43 @@ body{
     font-weight: 600;
     font-size: 250%;
     color: var(--logo)
+    }
 }
 
+/*------- Carousel -------*/
+
+.carousel .carousel-item{
+    height: 800px;
 }
+
+.carousel-item img{
+ position: absolute;
+ object-fit: cover;
+ top: 0;
+ left: 0;
+ height: 800px;
+}
+
+.welcome{
+    color: red;
+    text-align: center;
+    padding: 10%;
+}
+
 
 /*------- Footer -------*/
 
+.footercustom{
+    background-color: #222222;
+}
+
+.footerlist li{
+    color: #fff;
+}
+
+.footerlist a{
+    text-decoration: none;
+    color: #fff;
+}
 
 
