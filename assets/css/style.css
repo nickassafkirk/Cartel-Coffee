@@ -1,6 +1,7 @@
 :root{
     --logo: #333333;
     --light: #dddddd;
+    --bg: #eeeeee;
     --warmyellow: #f1dc17;
     --buttonblue: #22e5f3;
 }
@@ -8,12 +9,17 @@
 body{
     font-family: 'Montserrat', sans-serif;
     color: #555555;
+    background-color: var(--bg);
     font-size: 16px;
     margin: 0;
     padding: 0;
 }
 
 /*------- Colors -------*/
+
+.bg-custom{
+    background-color: var(--bg);
+}
 
 /*------- Header -------*/
 
