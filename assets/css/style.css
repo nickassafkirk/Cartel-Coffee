@@ -81,7 +81,7 @@ body{
 
 }
 
-p:hover::before{
+.product p:hover::before{
     content: "+";
 }
 
