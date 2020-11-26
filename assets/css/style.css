@@ -48,7 +48,7 @@ body{
 }
 
 .welcome{
-    color: red;
+
     text-align: center;
     padding: 10%;
 }
@@ -58,15 +58,23 @@ body{
 
 .footercustom{
     background-color: #222222;
+    padding: 2%;
 }
 
 .footerlist li{
     color: #fff;
+    list-style-type: none;
 }
+
+.footerlist li::before{
+    content: "+ ";
+}
+
 
 .footerlist a{
     text-decoration: none;
     color: #fff;
 }
+
 
 
