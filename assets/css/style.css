@@ -36,13 +36,13 @@ body{
 /*------- Carousel -------*/
 
 .carousel-inner{
-    height: 75vh;
-    width: auto;
+    height: 80vh;
+    width: 100vw;
 }
 
 .carousel-inner .carousel-item img{
-    width: auto;
-    height: 75vh;
+    width: 90vw;
+    height: auto;
     margin: auto auto;
 }
 
