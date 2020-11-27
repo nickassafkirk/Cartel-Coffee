@@ -209,16 +209,21 @@ blockquote hr{
     line-height: 1.8;
 }
 
-@media (max-width: 768px){
-    .footerlist li{ 
-        line-height: 1.0;
-        }
-
-}
-
 .footerlist li::before{
     content: "+ ";
 }
+
+@media (max-width: 768px){
+    .footerlist li{ 
+        line-height: 1.2;
+    }
+    
+    .footerlist li::before{
+    content: none;
+    }
+}
+
+
 
 
 .footerlist a{
