@@ -86,6 +86,7 @@ blockquote hr{
 /*------- Menu Categories -------*/
 .menutab{
     Text-align: center;
+    position: relative;
 }
 
 .menutab img{
@@ -99,12 +100,28 @@ blockquote hr{
     .menutab img{
         height: 33vh;
         width: auto;
-        margin: 0 auto;
+        margin: 5% auto;
     }
 }
 
 .col-md-4.menutab{
     padding: 0;
+}
+
+.curtain{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51, 51, 51, 0.7)
+}
+
+.curtain h3{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50% 15%;
 }
 
 
