@@ -132,6 +132,48 @@ blockquote hr{
     padding: 50% 15%;
 }
 
+/*------- Shop Categories -------*/
+.catsec{
+    height: 25%;
+    width: 100%;
+}
+
+.catsec img{
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.catcol{
+    height: 25vh;
+    background-color: azure;
+    margin: 3% auto;
+    padding: 0;
+}
+
+.cathead{
+    text-align:center;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.ctablu{
+    background-color: var(--buttonblue);
+    border: 1px solid var(--buttonblue);
+    border-radius: 5px;
+    margin-left: 25%;
+    padding: 2%;
+    width: 50%;
+    height: 15%;
+    text-align: center;
+}
+
+.ctablu a{
+    color: var(--light);
+    font-weight: 600;
+}
 
 /*------- Shop.html -------*/
 
