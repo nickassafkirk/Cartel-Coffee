@@ -54,11 +54,26 @@ body{
 
 /*------- Welcome -------*/
 
+blockquote hr{
+    margin-top: 2%;
+    margin-bottom: 0;
+    color: #fff;
+    border-bottom: 10px;
+    width: 60%;
+    padding: 0;
+}
+
 .welcome{
     text-align: center;
-    padding: 10%;
-    font-size: 200%;  
+    padding: 5% 10%;
+    font-size: 200%;
+    width: 60%;  
+    margin: 0 auto;
 }
+
+
+
+
 
 /*------- Shop.html -------*/
 
