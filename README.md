@@ -167,6 +167,14 @@ Photo by [Roman Bozhko](https://unsplash.com/@romanbozhko?utm_source=unsplash&am
 Image credit: earlybird coffee ![early bird coffee beans package](https://images.unsplash.com/photo-1599639957043-f3aa5c986398?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1279&q=80) 
 Photo by [earlybird coffee](https://unsplash.com/@earlybird_coffee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
+<span>Photo by <a href="https://unsplash.com/@mensroom?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mike Marquez</a> on <a href="https://unsplash.com/s/photos/coffee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+<span>Photo by <a href="https://unsplash.com/@eaterscollective?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Eaters Collective</a> on <a href="https://unsplash.com/s/photos/sandwiches?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+<span>Photo by <a href="https://unsplash.com/@aidasolomon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Aida Solomon</a> on <a href="https://unsplash.com/s/photos/sandwiches?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+<span>Photo by <a href="https://unsplash.com/@moniqa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Monika Grabkowska</a> on <a href="https://unsplash.com/s/photos/croissant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
 ### Acknowledgements
 
 - I received inspiration for this project from Xj
