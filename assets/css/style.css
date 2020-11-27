@@ -199,7 +199,6 @@ blockquote hr{
 
 .footercustom{
     clear: both;
-    background-color: #222222;
     padding: 2%;
     margin-top: 5%;
 }
@@ -208,6 +207,13 @@ blockquote hr{
     color: #fff;
     list-style-type: none;
     line-height: 1.8;
+}
+
+@media (max-width: 768px){
+    .footerlist li{ 
+        line-height: 1.0;
+        }
+
 }
 
 .footerlist li::before{
