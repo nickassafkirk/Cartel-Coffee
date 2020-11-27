@@ -170,6 +170,16 @@ blockquote hr{
     color: #fff;
 }
 
+.contacts li{
+    list-style-type: none;
+}
+
+.contacts li::before{
+    content: none;
+}
+
+
+
 
 
 
