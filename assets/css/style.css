@@ -20,6 +20,11 @@ body{
     margin: 2% auto;
 }
 
+.clear{
+    clear: both;
+    position: relative;
+}
+
 /*------- Colors -------*/
 
 .bg-custom{
@@ -133,22 +138,37 @@ blockquote hr{
 }
 
 /*------- Shop Categories -------*/
+
+.col-sm-6, .col-md-3{
+    padding: 0;
+    margin: 0;
+}
+
 .catsec{
-    height: 25%;
+    padding: 0;
+    margin: 5% 0;
+}
+
+.catcol{
+    position: relative;
     width: 100%;
 }
 
 .catsec img{
-    height: 50%;
-    width: 50%;
-    margin-left: 25%;
+    width: 90%;
+    height: auto;
+    padding: 0;
+    margin-left: 1%;
 }
 
-.catcol{
-    height: 25vh;
-    background-color: azure;
-    margin: 3% auto;
-    padding: 0;
+.catover{
+     position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background-color: rgba(51, 51, 51, 0.7)
+
 }
 
 .cathead{
@@ -160,7 +180,10 @@ blockquote hr{
 }
 
 .ctablu{
-    background-color: var(--buttonblue);
+    background-color: transparent;
+    position: relative;
+    top: 40%;
+    left: 3%;
     border: 1px solid var(--buttonblue);
     border-radius: 5px;
     margin-left: 25%;
