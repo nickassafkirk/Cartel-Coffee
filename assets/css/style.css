@@ -71,7 +71,17 @@ blockquote hr{
     margin: 0 auto;
 }
 
+@media (max-width: 800px){
+    .welcome{
+        font-size: 100%;
+    }
+}
 
+@media (max-width: 450px){
+    .welcome{
+        display: none;
+    }
+}
 
 
 
