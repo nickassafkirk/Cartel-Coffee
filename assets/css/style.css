@@ -71,7 +71,7 @@ blockquote hr{
     margin: 0 auto;
 }
 
-@media (max-width: 800px){
+@media (max-width: 768px){
     .welcome{
         font-size: 100%;
     }
@@ -83,6 +83,29 @@ blockquote hr{
     }
 }
 
+/*------- Menu Categories -------*/
+.menutab{
+    Text-align: center;
+}
+
+.menutab img{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 768px){
+    .menutab img{
+        height: 33vh;
+        width: auto;
+        margin: 0 auto;
+    }
+}
+
+.col-md-4.menutab{
+    padding: 0;
+}
 
 
 /*------- Shop.html -------*/
