@@ -55,9 +55,9 @@ body{
 /*------- Welcome -------*/
 
 .welcome{
-
     text-align: center;
     padding: 10%;
+    font-size: 200%;  
 }
 
 /*------- Shop.html -------*/
