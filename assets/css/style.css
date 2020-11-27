@@ -158,6 +158,7 @@ blockquote hr{
 .footerlist li{
     color: #fff;
     list-style-type: none;
+    line-height: 1.8;
 }
 
 .footerlist li::before{
@@ -176,6 +177,15 @@ blockquote hr{
 
 .contacts li::before{
     content: none;
+}
+
+.contacts li a:hover{
+    color: var(--warmyellow)
+}
+
+
+.contacth{
+    font-weight: bold;
 }
 
 
