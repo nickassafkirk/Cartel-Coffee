@@ -42,13 +42,15 @@ body{
 /*------- Carousel -------*/
 
 .carousel-inner{
-    height: 80vh;
+    height: 70vh;
     width: 100vw;
 }
 
 .carousel-inner .carousel-item img{
-    width: 90vw;
-    height: auto;
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+    object-position: center center;
     margin: auto auto;
 }
 
@@ -98,8 +100,9 @@ blockquote hr{
 
 @media (max-width: 768px){
     .menutab img{
+        width: 100vw;
         height: 33vh;
-        width: auto;
+        object-fit: cover;
         margin: 5% auto;
     }
 }
@@ -193,6 +196,7 @@ blockquote hr{
     clear: both;
     background-color: #222222;
     padding: 2%;
+    margin-top: 5%;
 }
 
 .footerlist li{
