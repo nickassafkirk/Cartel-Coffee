@@ -307,7 +307,16 @@ blockquote hr{
 }
 
 .footercustom .row{
-    padding: 5% 1% 0% 1%;
+    padding: 0% 1% 0% 1%;
+}
+
+.footerlist{
+    padding-top: 5%;
+}
+
+.footerlist h4{
+    color: #fff;
+    text-indent: 7%;
 }
 
 .footerlist li{
