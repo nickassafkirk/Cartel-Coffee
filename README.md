@@ -137,9 +137,9 @@ Is used to add structure, layout and mobile first design to webpages.
 
 #### Remaining Bugs To Be Fixed
 
+* Bug: Button placement on shop category homepage tiles not scaling correctly on smaller screensizes
 
-
-* Buy: Margin left in shop category tiles appears to be offset to the left. 
+* Bug: Margin left in shop category tiles appears to be offset to the left. 
 
 ## Testing
 
