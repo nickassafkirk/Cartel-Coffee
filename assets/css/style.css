@@ -302,7 +302,7 @@ blockquote hr{
 .footercustom{
     width: 100vw;
     clear: both;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .footercustom .row{
@@ -318,7 +318,7 @@ blockquote hr{
 }
 
 .footerlist h4{
-    text-indent: 7%;
+    text-indent: 5%;
 }
 
 .footerlist li{
@@ -365,13 +365,13 @@ blockquote hr{
 
 .socialicons{
     width: 100%;
-    margin: 0 auto;
     text-align: center;
+    margin-bottom: 4%;
 }
 
 .socialicons a{
     margin: 0%;
-    padding: 10%;
+    padding: 5% 10%;
 }
 
 .socialicons i{
