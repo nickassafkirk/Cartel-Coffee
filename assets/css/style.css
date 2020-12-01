@@ -356,6 +356,10 @@ blockquote hr{
     padding: 2%;
 }
 
+.socialicons li i{
+    Font-size: 40px;
+    color: #fff;
+}
 
 
 
