@@ -123,15 +123,21 @@ Is used to add structure, layout and mobile first design to webpages.
 * Bug: Navbar toggle burger stack stacking vertically on XS screensizes. 
   Fix: Added media query to navbar-brand so font-size shrinks on XS devices this left ample room for the burger stack icon and contact icons and prevented vertical stacking of Header items on XS devices.
 
+* Bug: Margin or padding is creating indent in top right of Navbar and footer.
+  Fix: Used view port width value to ensure that the navbar occupies the full width of the screen across all screen sizes. 
+
 * Bug: Carousel images not scaling correctly when changing screensizes. 
   Fix: Added VH and VW values that matched those of the the images containing div. Added margins, object fit and position values to ensure images are cropped appropriately across various screensizes. 
 
 * Bug: Labels for Tiles not scaling correctly when changing screensizes. On smaller screensizes the label headings were moving off their desired position in the center of the image tiles.
   Fix: Used position: relative and top and bottom %'s to fix the headings to the image tiles regardless of screensize. 
 
+* Bug: Footer content overlapping on smaller screen sizes. Third column is hidden on small screensizes and other column items were not occupying the space left behind. 
+  Fix: Used bootstrap flex and justify-content properties to control how content is aligned across screensizes. 
+
 #### Remaining Bugs To Be Fixed
 
-* Bug: Margin or padding is creating indent in top right of Navbar
+
 
 * Buy: Margin left in shop category tiles appears to be offset to the left. 
 
