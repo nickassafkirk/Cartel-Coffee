@@ -33,6 +33,9 @@ body{
 
 /*------- Header -------*/
 
+.navbar{
+    width: 100vw;
+}
 .navbar-brand{
     font-family: 'Bebas Neue', cursive;
     font-weight: 600;
@@ -297,9 +300,14 @@ blockquote hr{
 /*------- Footer -------*/
 
 .footercustom{
+    width: 100vw;
     clear: both;
-    padding: 2%;
     margin-top: 5%;
+    border: 1px solid #22e5f3;
+}
+
+.footercustom .row{
+    padding: 5% 1% 0% 1%;
 }
 
 .footerlist li{
