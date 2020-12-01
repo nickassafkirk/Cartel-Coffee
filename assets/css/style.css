@@ -303,19 +303,21 @@ blockquote hr{
     width: 100vw;
     clear: both;
     margin-top: 5%;
-    border: 1px solid #22e5f3;
 }
 
 .footercustom .row{
     padding: 0% 1% 0% 1%;
 }
 
+.footercustom h4{
+    color: #fff;
+}
+
 .footerlist{
-    padding-top: 5%;
+    margin: 4% 0%;
 }
 
 .footerlist h4{
-    color: #fff;
     text-indent: 7%;
 }
 
@@ -362,23 +364,24 @@ blockquote hr{
 }
 
 .socialicons{
+    width: 100%;
     margin: 0 auto;
-}
-.socialicons li{
-    display: inline-block;
-    float: left;
     text-align: center;
-    list-style-type: none;
-    padding: 2%;
-    margin: 0 12.5%;
 }
 
-.socialicons li i{
-    Font-size: 40px;
+.socialicons a{
+    margin: 0%;
+    padding: 10%;
+}
+
+.socialicons i{
+    Font-size: 400%;
     color: #fff;
+    padding: 0;
+    margin: 0;
 }
 
-.socialicons li i:hover{
+.socialicons i:hover{
     color: #22e5f3;
 }
 
