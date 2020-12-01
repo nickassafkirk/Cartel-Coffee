@@ -223,6 +223,10 @@ blockquote hr{
     text-align: center;
 }
 
+.ctablu:visited{
+    border: 1px solid var(--warmyellow);
+}
+
 .ctablu a{
     color: var(--light);
     font-weight: 600;
@@ -318,9 +322,6 @@ blockquote hr{
     }
 }
 
-
-
-
 .footerlist a{
     text-decoration: none;
     color: #fff;
@@ -341,6 +342,18 @@ blockquote hr{
 
 .contacth{
     font-weight: bold;
+}
+
+.socialicons{
+    margin: 1% auto;
+    text-align: center;
+}
+.socialicons li{
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+    margin-left: 20%;
+    padding: 2%;
 }
 
 
