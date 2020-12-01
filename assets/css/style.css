@@ -345,20 +345,24 @@ blockquote hr{
 }
 
 .socialicons{
-    margin: 1% auto;
-    text-align: center;
+    margin: 0 auto;
 }
 .socialicons li{
     display: inline-block;
     float: left;
+    text-align: center;
     list-style-type: none;
-    margin-left: 20%;
     padding: 2%;
+    margin: 0 12.5%;
 }
 
 .socialicons li i{
     Font-size: 40px;
     color: #fff;
+}
+
+.socialicons li i:hover{
+    color: #22e5f3;
 }
 
 
