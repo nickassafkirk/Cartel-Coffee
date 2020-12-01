@@ -302,23 +302,26 @@ blockquote hr{
 .footercustom{
     width: 100vw;
     clear: both;
-    margin-top: 2%;
+    Flex: row;
+    justify-content: space-around;
 }
 
 .footercustom .row{
-    padding: 0% 1% 0% 1%;
-}
+    padding: 5% 5% 0% 5%;
+    }
 
 .footercustom h4{
     color: #fff;
 }
 
-.footerlist{
-    margin: 4% 0%;
-}
-
-.footerlist h4{
-    text-indent: 5%;
+@media (max-width: 768px){
+     .footercustom li{
+        font-size: 80%;
+    }
+      
+      .footercustom h4{
+        font-size: 90%;
+    }
 }
 
 .footerlist li{
@@ -327,17 +330,20 @@ blockquote hr{
     line-height: 1.8;
 }
 
+
 .footerlist li::before{
     content: "+ ";
 }
 
 @media (max-width: 768px){
     .footerlist li{ 
-        line-height: 1.2;
+        line-height: 1.5;
+        
     }
     
     .footerlist li::before{
     content: none;
+    padding-left: 0;
     }
 }
 
@@ -383,6 +389,13 @@ blockquote hr{
 
 .socialicons i:hover{
     color: #22e5f3;
+}
+
+@media (max-width: 768px){
+    .socialicons i{
+    Font-size: 300%;
+    margin-bottom: 10%;
+}
 }
 
 
