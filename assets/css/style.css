@@ -293,6 +293,18 @@ blockquote hr{
     margin: 0 auto;
 }
 
+#name,#email,#phone,#message{
+    width: 80%;
+    margin: 2% auto;
+}
+
+#message{
+    height: 200px;
+}
+
+
+
+
 
 /*------- Shop.html -------*/
 
