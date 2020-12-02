@@ -276,13 +276,6 @@ blockquote hr{
     font-weight: 600;
 }
 
-@media screen and (max-width: 568px){
-    .ctablu{
-        top: 50%;
-        left: 0;
-    }
-}
-
 /*------- contact.html -------*/
 
 .contactcenter{
