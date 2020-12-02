@@ -285,21 +285,27 @@ blockquote hr{
     width: 90%;
 }
 .contactbox{
-    border: 1px solid #555555;
+    border: 1px solid var(--light);
+    background-color: var(--light);
     border-radius: 5px;
     height: 100%;
     width: 90%;
-    padding: 5%;
+    padding: 2% 0% 10% 10%;
     margin: 0 auto;
+    line-height: 1.0;
 }
 
 #name,#email,#phone,#message{
     width: 80%;
     margin: 2% auto;
+    padding: 2% 2%;
+    background-color: #fff;
+    border: 1px solid var(--light);
+    border-radius: 5px;
 }
 
 #message{
-    height: 200px;
+    padding-bottom: 150px;
 }
 
 
