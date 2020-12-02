@@ -112,21 +112,26 @@ blockquote hr{
     Text-align: center;
     position: relative;
     width: 100vw;
-}
-
-.menutab img{
-    width: 100vw;
-    height: auto;
+    height: 100%;
     padding: 0;
     margin: 0;
 }
 
+.menutab img{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 2px solid var(--bg);
+}
+
 @media screen and (max-width: 768px){
+
+
     .menutab img{
-        width: 100vw;
+        width: 100%;
         height: 40vh;
         object-fit: cover;
-        margin: 5% auto;
     }
 }
 
@@ -152,7 +157,7 @@ blockquote hr{
         width: 100vw;
         height: 40vh;
         object-fit: cover;
-        margin: 5% auto;
+        border: 2px solid var(--bg);
     }
 }
 
@@ -180,7 +185,7 @@ blockquote hr{
 
 .catcol{
     position: relative;
-    width: 50vw;
+    width: 100%;
     border: 1px solid var(--light);
     padding: 0;
     margin: 0;
@@ -315,7 +320,7 @@ blockquote hr{
 .footercustom{
     width: 100vw;
     clear: both;
-    Flex: row;
+    flex: row;
     justify-content: center;
 }
 
@@ -334,10 +339,6 @@ blockquote hr{
 
 
 @media screen and (max-width: 768px){
-     .footercustom li{
-        font-size: 80%;
-    }
-      
       .footercustom h4{
         font-size: 90%;
       }
@@ -357,7 +358,7 @@ blockquote hr{
 @media screen and (max-width: 768px){
     .footerlist li{ 
         line-height: 1.5;
-        
+        font-size: 80%;  
     }
     
     .footerlist li::before{
