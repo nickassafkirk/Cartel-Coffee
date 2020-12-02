@@ -299,6 +299,12 @@ blockquote hr{
     padding-bottom: 20px;
 }
 
+@media screen and (max-width: 576px){
+    .contactbox .map{
+        height: 40%;
+    }
+}
+
 #name,#email,#phone,#message{
     width: 80%;
     margin: 2% auto;
