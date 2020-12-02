@@ -334,6 +334,7 @@ blockquote hr{
     clear: both;
     flex: row;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .footercustom .row{
