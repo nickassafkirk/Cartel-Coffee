@@ -132,17 +132,21 @@ Is used to add structure, layout and mobile first design to webpages.
 * Bug: Labels for Tiles not scaling correctly when changing screensizes. On smaller screensizes the label headings were moving off their desired position in the center of the image tiles.
   Fix: Used position: relative and top and bottom %'s to fix the headings to the image tiles regardless of screensize. 
 
-* Bug: Footer content overlapping on smaller screen sizes. Third column is hidden on small screensizes and other column items were not occupying the space left behind. 
-  Fix: Used bootstrap flex and justify-content properties to control how content is aligned across screensizes. 
+* Bug: Button placement on shop category homepage tiles not scaling correctly on mobile on IOS.
+  Fix: Use position absolute and top positon 50% to position button relative to containing parent
 
 * Bug: Footer Li items offset and displaying content out of screen.
   Fix: Removed default left padding on unordered lists to ensure desired content spacing for footer list items.
 
+* Bug: Reoccuring Right indent on body content causing alignment issues.
+  Fix: Remove right margin on container-fluid class that was causing alignment issues across site.
+
 #### Remaining Bugs To Be Fixed
 
-* Bug: Button placement on shop category homepage tiles not scaling correctly on mobile on IOS.
+* Bug: Footer content overlapping on smaller screen sizes. Third column is hidden on small screensizes and other column items were not occupying the space left behind. 
+  Fix: Used bootstrap flex and justify-content properties to control how content is aligned across screensizes. 
 
-* Bug: Margin left in shop category tiles appears to be offset to the left. 
+
 
 ## Testing
 
