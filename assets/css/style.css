@@ -237,9 +237,9 @@ blockquote hr{
 
 .ctablu{
     background-color: transparent;
-    position: relative;
-    top: 40%;
-    left: 3%;
+    position: absolute;
+    top: 50%;
+    left: 0;
     border: 1px solid var(--buttonblue);
     border-radius: 5px;
     margin-left: 25%;
@@ -260,10 +260,9 @@ blockquote hr{
 
 @media screen and (max-width: 568px){
     .ctablu{
-        top: 30vh;
+        top: 50%;
         left: 0;
     }
-
 }
 
 /*------- Shop.html -------*/
