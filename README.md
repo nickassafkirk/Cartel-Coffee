@@ -135,9 +135,12 @@ Is used to add structure, layout and mobile first design to webpages.
 * Bug: Footer content overlapping on smaller screen sizes. Third column is hidden on small screensizes and other column items were not occupying the space left behind. 
   Fix: Used bootstrap flex and justify-content properties to control how content is aligned across screensizes. 
 
+* Bug: Footer Li items offset and displaying content out of screen.
+  Fix: Removed default left padding on unordered lists to ensure desired content spacing for footer list items.
+
 #### Remaining Bugs To Be Fixed
 
-* Bug: Button placement on shop category homepage tiles not scaling correctly on smaller screensizes
+* Bug: Button placement on shop category homepage tiles not scaling correctly on mobile on IOS.
 
 * Bug: Margin left in shop category tiles appears to be offset to the left. 
 
