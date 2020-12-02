@@ -286,10 +286,11 @@ blockquote hr{
 }
 
 .contactcenter h2{
+    width: 100%;
     text-align: center;
     font-weight: 400;
-    margin-top: 3%;
-    padding: 2%;
+    margin: 3% 0 0 0;
+    padding: 2% 0;
     border: 1px solid var(--light);
     background-color: var(--light);
     border-radius: 5px;
@@ -333,6 +334,18 @@ blockquote hr{
 #message{
     padding-bottom: 150px;
 }
+
+#submit{
+    width: 80%;
+    color: #fff;
+    font-weight: 600;
+    background-color: var(--buttonblue);
+    border: 1px solid var(--buttonblue);
+    border-radius: 5px;
+    padding: 2%;
+}
+
+
 
 
 
