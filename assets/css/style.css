@@ -356,14 +356,44 @@ blockquote hr{
 }
 .menubody{
     width: 100%;
-    height: 800px;
+    height: 90%;
     background-color: var(--light);
 }
 
 .sidenav{
     width: 100%;
-    height: 800px;
-    background-color: red;
+    height: 90%;
+    background-color:var(--light);
+}
+
+.coffeemenu{
+    font-family: monospace, sans-serif;
+    background-color: rgb(24, 22, 22);
+    color: #fff;
+    padding: 5% 2%;
+}
+
+.coffeemenu h4{
+    text-indent: 30px;
+    margin-bottom: 5%;
+}
+
+.coffemenu,.milk p::before{
+    content: "+ ";
+}
+
+@media screen and (max-width: 568px){
+    .coffemenu,.milk p::before{
+    content: none;
+}
+}
+aside{
+    position: sticky;
+}
+aside li{
+    list-style-type: none;
+    padding: 10px 0;
+    text-indent: -30px;
 }
 
 
