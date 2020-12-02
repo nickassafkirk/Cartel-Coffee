@@ -16,8 +16,9 @@ body{
     padding: 0;
 }
 
-.section{
-    width: 100vw;
+blockquote{
+    padding: 0;
+    margin: 0;
 }
 
 .secheading{
@@ -63,6 +64,10 @@ body{
 
 /*------- Carousel -------*/
 
+.carousel-slide{
+    width: 100vw;
+
+}
 .carousel-inner{
     height: 70vh;
     width: 100vw;
@@ -73,7 +78,6 @@ body{
     height: 70vh;
     object-fit: cover;
     object-position: center center;
-    margin: auto auto;
 }
 
 /*------- Welcome -------*/
@@ -111,10 +115,9 @@ blockquote hr{
 .menutab{
     Text-align: center;
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 100%;
     padding: 0;
-    margin: 0;
 }
 
 .menutab img{
@@ -185,10 +188,12 @@ blockquote hr{
 
 .catcol{
     position: relative;
-    width: 100%;
+    width: 100vw;
     border: 1px solid var(--light);
     padding: 0;
     margin: 0;
+    top: 0;
+    left: 0;
 }
 
 .catsec img{
@@ -251,6 +256,14 @@ blockquote hr{
 .ctablu a{
     color: var(--light);
     font-weight: 600;
+}
+
+@media screen and (max-width: 568px){
+    .ctablu{
+        top: 30vh;
+        left: 0;
+    }
+
 }
 
 /*------- Shop.html -------*/
