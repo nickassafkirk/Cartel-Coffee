@@ -352,26 +352,55 @@ blockquote hr{
 
 .menus .container{
     width: 90%;
-    margin: 1% auto;
+    padding: 2%;
+    margin: 2% auto;
 }
 .menubody{
-    width: 100%;
-    height: 90%;
     background-color: var(--light);
 }
 
 .menusnav{
     width: 90%;
     background-color:var(--light);
-    padding: 2%;
-    margin: 2% auto;
+    margin: 0 auto;
     text-align: center;
+    border: 1px solid var(--light);
+    padding: 15px;
+}
+
+.menusnav.top{
+    margin-top: 5%;
+    border-bottom: 2px solid var(--bg);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.menusnav.bottom{
+    margin-bottom: 5%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .menusnav .bar{
     border-right: 2px solid var(--bg);
     border-left: 2px solid var(--bg);
 }
+
+.menusnav .col-4{
+    padding: 15px 0;
+}
+
+.menusnav a{
+    color: #555;
+}
+
+.menusnav a:hover{
+    text-decoration: none;
+    color: var(--warmyellow);
+    font-size: 150%;
+}    
+
+
 
 .coffeemenu{
     font-family: monospace, sans-serif;
