@@ -368,6 +368,11 @@ blockquote hr{
     text-align: center;
 }
 
+.menusnav .bar{
+    border-right: 2px solid var(--bg);
+    border-left: 2px solid var(--bg);
+}
+
 .coffeemenu{
     font-family: monospace, sans-serif;
     background-color: rgb(24, 22, 22);
@@ -375,7 +380,7 @@ blockquote hr{
     padding: 5% 2%;
 }
 
-.coffeemenu h4{
+.coffeemenu h3{
     text-indent: 30px;
     margin-bottom: 5%;
 }
