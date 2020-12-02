@@ -179,7 +179,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- To fix issues with footer content alignment I read documentation on flexbox at [This article](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
+  I confirmed how to implement flexbox utilities while using Bootstrap by reading the documentation on [this page](https://getbootstrap.com/docs/4.5/utilities/flex/)
 
 ### Media
 - The photos used in this site were obtained from ...
