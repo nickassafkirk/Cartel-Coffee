@@ -314,6 +314,11 @@ blockquote hr{
     color: #fff;
 }
 
+.footercustom ul{
+    padding: 0;
+    margin: 0;
+}
+
 @media (max-width: 768px){
      .footercustom li{
         font-size: 80%;
@@ -350,6 +355,10 @@ blockquote hr{
 .footerlist a{
     text-decoration: none;
     color: #fff;
+}
+
+.contacts{
+    padding: 0;
 }
 
 .contacts li{
