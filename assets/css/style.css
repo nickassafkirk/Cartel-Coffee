@@ -303,7 +303,7 @@ blockquote hr{
     width: 100vw;
     clear: both;
     Flex: row;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .footercustom .row{
@@ -319,6 +319,7 @@ blockquote hr{
     margin: 0;
 }
 
+
 @media (max-width: 768px){
      .footercustom li{
         font-size: 80%;
@@ -326,7 +327,7 @@ blockquote hr{
       
       .footercustom h4{
         font-size: 90%;
-    }
+      }
 }
 
 .footerlist li{
@@ -373,7 +374,6 @@ blockquote hr{
     color: var(--warmyellow)
 }
 
-
 .contacth{
     font-weight: bold;
 }
@@ -402,9 +402,9 @@ blockquote hr{
 
 @media (max-width: 768px){
     .socialicons i{
-    Font-size: 300%;
+    Font-size: 200%;
     margin-bottom: 10%;
-}
+    }
 }
 
 
