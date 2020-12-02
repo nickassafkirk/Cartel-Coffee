@@ -51,7 +51,7 @@ blockquote{
 /*------- Colors -------*/
 
 .bg-custom{
-    background-color: var(--bg);
+    background-color: #dddddd;
 }
 
 /*------- Header -------*/
@@ -89,7 +89,7 @@ blockquote{
 .carousel-inner .carousel-item img{
     width: 100vw;
     height: 70vh;
-    object-fit: cover;
+    object-fit: scale-down;
     object-position: center center;
 }
 
