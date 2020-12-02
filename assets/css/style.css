@@ -278,6 +278,22 @@ blockquote hr{
     }
 }
 
+/*------- contact.html -------*/
+
+.contactcenter{
+    margin: 35px auto;
+    width: 90%;
+}
+.contactbox{
+    border: 1px solid #555555;
+    border-radius: 5px;
+    height: 100%;
+    width: 90%;
+    padding: 5%;
+    margin: 0 auto;
+}
+
+
 /*------- Shop.html -------*/
 
 /*------- Product -------*/
