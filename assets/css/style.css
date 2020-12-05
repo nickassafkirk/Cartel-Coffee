@@ -517,11 +517,14 @@ blockquote hr{
     margin: 0;
 }
 
-
 @media screen and (max-width: 768px){
       .footercustom h4{
         font-size: 90%;
       }
+}
+.footeralign{
+    flex: row;
+    justify-content: space-evenly;
 }
 
 .footerlist li{
@@ -538,7 +541,7 @@ blockquote hr{
 @media screen and (max-width: 768px){
     .footerlist li{ 
         line-height: 1.5;
-        font-size: 80%;  
+        font-size: 80%; 
     }
     
     .footerlist li::before{
