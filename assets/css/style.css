@@ -35,6 +35,13 @@ body{
     border-bottom: 2px solid #aaaaaa;
     margin: 2% auto;
 }
+.hr30{
+    display: block;
+    width: 30%;
+    border-bottom: 2px solid #aaaaaa;
+    margin: 2% auto;
+}
+
 
 .clear{
     clear: both;
