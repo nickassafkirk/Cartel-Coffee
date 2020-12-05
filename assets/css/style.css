@@ -4,7 +4,7 @@
     --bg: rgb(238, 238, 238);
     --warmyellow: rgb(238, 210, 49);
     --buttonblue: rgb(34, 229, 243);
-    --submenu: #2222ee;
+    --submenu: #2222a6;
 }
 
 /*------- General -------*/
@@ -398,12 +398,16 @@ blockquote hr{
 .coffeemenu{
     font-family: monospace, sans-serif;
     background-image: url("../images/pegboardlandscape.png");
+    width: 100%;
     color: #fff;
     padding: 5% 2%;
+    margin: 0;
+    text-align: center;
+    flex: row;
+    justify-content: left;
 }
 
 .coffeemenu h3{
-    text-indent: 30px;
     margin-bottom: 5%;
 }
 
