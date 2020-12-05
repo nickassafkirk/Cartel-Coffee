@@ -400,8 +400,6 @@ blockquote hr{
     font-size: 150%;
 }    
 
-
-
 .coffeemenu{
     font-family: monospace, sans-serif;
     background-image: url("../images/pegboardlandscape.png");
@@ -424,7 +422,13 @@ blockquote hr{
 }
 }
 
+.foodmenu{
+    padding: 5% 2%;
+}
 
+.foodmenu h3{
+    padding-bottom: 2%;
+}
 
 
 
