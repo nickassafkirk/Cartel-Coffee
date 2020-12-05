@@ -404,7 +404,7 @@ blockquote hr{
 
 .coffeemenu{
     font-family: monospace, sans-serif;
-    background-color: rgb(24, 22, 22);
+    background-image: url("../images/pegboardlandscape.png");
     color: #fff;
     padding: 5% 2%;
 }
