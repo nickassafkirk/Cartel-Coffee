@@ -1,13 +1,21 @@
 # Cartel Coffee Website Build
 
+## Overview
+
 The purpose of this project is to build a mobile responsive website for a new coffee shop in Dublin called Cartel coffee. The Business wants to increase their online visibility, increase revenue and to attract new customers. They want to introduce the ability to receive takeaway orders and start selling online. They want to use the site as a platform to update customers on business changes and to continue trading if restaurants are forced to close during Covid-19 restrictions. 
 The goal is to build a mobile first site which meets the intial business needs while providing an excellent user experience for site users. I also aim to create a platform that can be built upon to meet the business's ongoing business needs.
- 
+
+**NB:** *This is a theoretical business created for educational purposes only*
+
 ## UX
  
 The intention of this site is to allow new and existing users to find the business, learn about the business and to convert into physical customers at the business's location or virtual customers via ordering online, over the phone and by email. 
+To provide a great user experience it is important that infomration is displayed clearly in a logical order of importance. As this website is designed to provide several distinct functions (contact, buy, order and inform), for a broad range of users, emphasis has been made to create many interlinking ways for customers to find and source the information that is relevant to them while ignoring information that may not be relevant at that moment. 
+To increase brand awareness and a consistent experience for online and offline customers, the website has been designed to mirror the styling and motif that customers experience while visiting the business's physical location. 
 
-### User goals
+### Strategy
+
+#### User goals
 * Users want to learn more about the business
 * Users want to view the business's menus
 * Users want to make orders for takeaway/collection
@@ -16,7 +24,7 @@ The intention of this site is to allow new and existing users to find the busine
 * Users want to contact the shop for more information
 * Users want to visit the business's social media profiles to learn more about them
 
-### Business Needs
+#### Business Needs
 * The business owner wants to increase their online awareness and to interact with new and existing customers online
 * The business owner wants to increase revenues by attracting new customers who are searching for local businesses online
 * The business owner wants to increase their brand awareness by providing background information about the business and it's staff
@@ -27,24 +35,53 @@ The intention of this site is to allow new and existing users to find the busine
 * The business wants to increase revenues by offering coffee, subscriptions, equipment and merchandise for sale online
 * The business owner wants to increase social media interaction with customers by linking their social media accounts on their websites
 
-### User Stories
+#### User Stories
+
+##### Basic user stories
+1. Daniel needs to see the menu and phone number so he can order for collection.
+2. Lisa needs to fill out a contact form so that she can make a reservation for lunch.
+3. Marius wants to view the stores's product range and contact details so he can order products remotely. 
+4. Paul wants to view a gallery of the Cafe and their social media, so he can decide if it is an appropriate environment to hold a business meeting.
+
+##### Detailed user stories
 1. Daniel is a 45 year old businessman who works in the area. He's looking for a coffee shop that's close to his work, where he can get his morning coffee, grab lunch or hold casual business meetings at short notice. He needs to find the business location, view their menu, see if they have wifi and view their social media to see if there's enough seating to hold a business meeting.
 2. Lisa is a 21 year old student who wants to find somewhere nice for a first date. She wants to view images of the cafe as she wants to impress her date with somewhere nice. She also want's to view the menu, prices (shes a student afterall) and to make a reservation so they don't have to wait akwardly when they arrive. 
 3. Marius is an elderly gentleman living abroad who wants to buy a christmas present for his coffee loving son who lives locally. He wants to view coffee and brewing equipment and to make an order over the phone for delivery to his sons address. 
 4. Melissa is a regular customer who wants to see if the shop is still open during the latest lockdown restrictions. She also wants to order some coffee beans as she's working from home and want's to have coffee for days when she can't make it to the shop. 
 5. Paul is working from home and is looking for somewhere to get lunch. He wants to view the menu and to make an order for collection in advance as he only has an hour for lunch. 
 
-### Wireframes
+### Scope 
 
-![index.html wireframe](assets/wireframes/wireframeindexdesktop1.png)
+#### Features to be included in initial iteration
+* Display prominent logo
+* Navbar for navigation amongst pages and sections
+* Display business contact information
+* Display Business location & map
+* Display Business menu
+* Display Products & Product information
+* Provide Business social media links
+* Provide terms and conditions
+* Provide privacy policy
+* Create a means to navigate between pages
 
-![index.html wireframe](assets/wireframes/wireframeindexmobile.png)
+#### Features/Functionality to be added
+* Add products to basket
+* Checkout and purchase products online
+* Order food online functionality
+* Detailed menu item information on hover - Allow a detailed description of the menu food item on click or hover.
+* Contact box in contact.html page to link to preffered email address.
+* Individual product pages - A specific detailed .html page with full product information for each product in the shop.
+* Build out privacy policy & Terms and conditions pages - These footer links are here as placeholders only to display that these are important links to dislay on a consumer facing site. As this is a "Mock business" these have been left blank but if this were to be used a detailed privacy policy would be created to build customer confidence and adhere to european regulations. 
 
-### Mockups
+### Structure 
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+* **index.html:** The Primary landing page for the site which includes the key information on the business and links to additional pages where more detailed information can be found.
+* **contact.html:** This is the primary contact page, where the business's contact information can be found so that potential customers can contact the business and convert into customers by making bookings, visiting the store, phoning, making email contact etc...
+* **menu.html:** This page describes the cafe's food and drink menu, as this is the business primary function it is imperative to clearly display their menu items so that customers can order remotely or make the decision to dine in-store
+* **shop.html:** This page displays the customers "take home" product range of coffee, equipments and merchandise. This enables the business to explore additional revenues from existing customers and to reach a new target audience who may not be able to visit their store to shop.
+* **about.html:** This page displays supporting information on the business. It's purpose is to build brand awareness, consumer confidence and trust in the business. 
 
-## Features
+#### Detailed Features
 
 * Homepage
  * Navigation - allows users to navigate between pages and sections of the site by linking relevant pages in the header of each page. Bootstraps navbar collapse is used to create a clean and condensed experiece on smaler screen sizes.
@@ -73,24 +110,54 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 * Menu page
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons
+ * Coffee menu section
+ * Food menu section
+ * Dessert menu section
+ * Order Button
  * footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
 
 
 * Shop page
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons
+ * Category headings - Group relevant products together by association to increase readability sense of purpose for first time users.
+ * Product tiles: Border, image thumbnail, tilte, price, buy button.
  * footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
 
+### Skeleton
+
+1. **Main Navigation:** A consistent top nav bar is present across all site pages to allow navigation through various pages.
+2. **Footer navigation:** A consistent bottom footer contains and reinforces importance of main navigation links present in main navbar. This aids navigation to next point of interest once a user has scrolled down the page.
+   links have been chosen specifically to aid conversion with call to action for contact, social media interaction, shop, make a reservation or order from menu. 
+   Additional links such as about, privacy polics anf T&Cs have been added to footer as they are important but do not merit inclusion in main navbar. 
+3. **Images:** Images and Image tiles are used to link strong visual images to relevant pages. Popular categories are represented as images and overlying text, hover functionality and highlighting are strategies used to reinforce that an image is a link. 
+4. **IDs:** Id's have been used to allow quick navigation to specific points on a single webpage. This is designed to aid conversion by bringing the user directly to their point of interest without the potential to get distracted. 
+   The use of Id based navigation also allows more distinct information to be condensed onto a fewer number of pages for a better user experience and a smaller site. 
+5. **Buttons:** Buttons are used for reinforce form submission or to create a strong emphasis that a link to anothere page or information is present. 
+
+#### Wireframes
+
+![index.html wireframe](assets/wireframes/wireframeindexdesktop1.png)
+
+![index.html wireframe](assets/wireframes/wireframeindexmobile.png)
+
+#### Mockups
+
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+
+### Surface
+
+Fonts
+
+Colors
+
+Icons
+
+Images
+
+
+
+
  
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
 
 ## Technologies Used
 
@@ -145,8 +212,6 @@ Is used to add structure, layout and mobile first design to webpages.
 
 * Bug: Footer content overlapping on smaller screen sizes. Third column is hidden on small screensizes and other column items were not occupying the space left behind. 
   Fix: Used bootstrap flex and justify-content properties to control how content is aligned across screensizes. 
-
-
 
 ## Testing
 
