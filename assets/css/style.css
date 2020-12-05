@@ -349,10 +349,14 @@ blockquote hr{
 
 .menubody{
     background-color: var(--light);
+    text-align: center;
+}
+.menubody p{
+    line-height: 1.4;
 }
 
-.menubody p{
-    text-indent: 5%;
+div.menubody.col-12{
+    padding: 0;
 }
 
 .menusnav{
@@ -431,6 +435,10 @@ blockquote hr{
 
 .foodmenu,.dessertmenu, h3{
     padding-bottom: 2%;
+}
+
+.call{
+    color: var(--buttonblue);
 }
 
 /*------- Shop.html -------*/
