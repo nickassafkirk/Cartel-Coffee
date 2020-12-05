@@ -4,6 +4,7 @@
     --bg: rgb(238, 238, 238);
     --warmyellow: rgb(238, 210, 49);
     --buttonblue: rgb(34, 229, 243);
+    --submenu: #2222ee;
 }
 
 /*------- General -------*/
@@ -346,26 +347,19 @@ blockquote hr{
 
 /*------- Menu.html -------*/
 
-.menus{
-    width:100vw;
-}
-
-.menus .container{
-    width: 90%;
-    padding: 2%;
-    margin: 2% auto;
-}
 .menubody{
     background-color: var(--light);
 }
 
 .menusnav{
-    width: 90%;
-    background-color:var(--light);
+    width: 95%;
+    background-color: var(--submenu);
+    border: 1px solid var(--submenu);
     margin: 0 auto;
+    padding: 1%;
+    color: white;
     text-align: center;
-    border: 1px solid var(--light);
-    padding: 15px;
+    font-size: 150%;
 }
 
 .menusnav.top{
@@ -377,6 +371,7 @@ blockquote hr{
 
 .menusnav.bottom{
     margin-bottom: 5%;
+    background: var(--submenu);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -387,17 +382,17 @@ blockquote hr{
 }
 
 .menusnav .col-4{
-    padding: 15px 0;
+    padding: 0.25% 0;
 }
 
 .menusnav a{
-    color: #555;
+    color: #fff;
 }
 
 .menusnav a:hover{
     text-decoration: none;
-    color: var(--warmyellow);
-    font-size: 150%;
+    color: var(--buttonblue);
+    font-weight: 800;
 }    
 
 .coffeemenu{
@@ -522,6 +517,7 @@ blockquote hr{
         font-size: 90%;
       }
 }
+
 .footeralign{
     flex: row;
     justify-content: space-evenly;
