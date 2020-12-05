@@ -465,7 +465,7 @@ div.menubody.col-12{
     height: 100%;
     z-index: 1;
     opacity: 0.3;
-    background-image: url("../images/eaters-collective-pLKgCsBOiw4-unsplash (1).jpg");
+    background-image: url("../images/eaters-collective-pLKgCsBOiw4-unsplash (1).jpg"); /* <span>Photo by <a href="https://unsplash.com/@eaterscollective?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Eaters Collective</a> on <a href="https://unsplash.com/s/photos/chicken-burger?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span> */
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
@@ -481,7 +481,7 @@ div.menubody.col-12{
     height: 100%;
     z-index: 1;
     opacity: 0.3;
-    background-image: url("../images/camille-chen-Se-FD6umITU-unsplash.jpg");
+    background-image: url("../images/camille-chen-Se-FD6umITU-unsplash.jpg"); /* <span>Photo by <a href="https://unsplash.com/@camille1030?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Camille Chen</a> on <a href="https://unsplash.com/s/photos/croissants?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span> */
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
