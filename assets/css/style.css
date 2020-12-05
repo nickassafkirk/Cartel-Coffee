@@ -360,11 +360,14 @@ blockquote hr{
 }
 .menubody p{
     line-height: 1.4;
-    Z-index: 3;
 }
 
 div.menubody.col-12{
     padding: 0;
+}
+
+.menuintro{
+    text-align: center;
 }
 
 .menusnav{
