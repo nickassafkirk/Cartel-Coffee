@@ -351,6 +351,10 @@ blockquote hr{
     background-color: var(--light);
 }
 
+.menubody p{
+    text-indent: 5%;
+}
+
 .menusnav{
     width: 95%;
     background-color: var(--submenu);
@@ -421,15 +425,13 @@ blockquote hr{
 }
 }
 
-.foodmenu{
+.foodmenu,.dessertmenu{
     padding: 5% 2%;
 }
 
-.foodmenu h3{
+.foodmenu,.dessertmenu, h3{
     padding-bottom: 2%;
 }
-
-
 
 /*------- Shop.html -------*/
 
