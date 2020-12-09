@@ -5,6 +5,7 @@
     --warmyellow: rgb(238, 210, 49);
     --buttonblue: rgb(34, 229, 243);
     --submenu: #0E5B33;
+    --lightpink: #DDBBDC;
 }
 
 /*------- General -------*/
@@ -61,7 +62,8 @@ body{
 /*------- Colors -------*/
 
 .bg-custom{
-    background-color: #dddddd;
+    background-color: #343A40;
+    
 }
 
 /*------- Header -------*/
@@ -355,8 +357,27 @@ blockquote hr{
 /*------- Menu.html -------*/
 
 .menuback{
-    background: url("../images/palms.jpg") center center; /* <span>Photo by <a href="https://unsplash.com/@daniel_dara?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Daniel Dara</a> on <a href="https://unsplash.com/s/photos/palm-tree-graphic?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span> */
+
+    padding: 2% 0%;
+    position: relative;
+    
 }
+
+/* Credit background-opacity https://css-tricks.com/snippets/css/transparent-background-images/ */
+
+.menuback::after {
+  content: "";
+  background: url("../images/palms2.jpg") center center;
+  background-size: cover;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
 
 .menubody{
     background-color: var(--light);
@@ -446,63 +467,28 @@ div.menubody.col-12{
 
 .foodmenu,.dessertmenu{
     padding: 5% 2%;
-    position: relative;
     text-align: center;
+    background-color: var(--light);
+    border: 1px solid var(--light);
+    border-radius: 5px;
+
 }
 
 .foodmenu,.dessertmenu, h3{
-    padding-bottom: 2%;
-    position: relative;
-    z-index: 2;
+    padding: 2% 0%;
+    border-radius: 5px;
 }
 
 .foodmenu,.dessert h4{
-    position: relative;
     line-height: 1.4;
-    Z-index: 2;
 }
 
 .foodmenu,.dessertmenu p{
-    position: relative;
     line-height: 1.4;
-    Z-index: 2;
-}
-
-/* Credit Andy Hattemer and Nicholas Cerminara https://www.digitalocean.com/community/tutorials/how-to-change-a-css-background-images-opacity */
-.foodmenu::before{
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0.3;
-    background-image: url("../images/eaters-collective-pLKgCsBOiw4-unsplash (1).jpg"); /* <span>Photo by <a href="https://unsplash.com/@eaterscollective?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Eaters Collective</a> on <a href="https://unsplash.com/s/photos/chicken-burger?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span> */
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: cover;
-}
-
-.dessertmenu::before{
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0.3;
-    background-image: url("../images/camille-chen-Se-FD6umITU-unsplash.jpg"); /* <span>Photo by <a href="https://unsplash.com/@camille1030?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Camille Chen</a> on <a href="https://unsplash.com/s/photos/croissants?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span> */
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: cover;
 }
 
 .call{
-    color: var(--buttonblue);
+    color: var(--submenu);
 }
 
 /*------- Shop.html -------*/
