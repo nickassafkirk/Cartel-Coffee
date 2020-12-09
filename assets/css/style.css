@@ -482,6 +482,8 @@ div.menubody.col-12{
 .coffeemenu{
     font-family: monospace, sans-serif;
     background-image: url("../images/pegboardlandscape.png");
+    border: 1px solid #212225;
+    border-radius: 5px;
     color: #fff;
     padding: 5% 2%;
     margin: 0;
