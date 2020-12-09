@@ -522,11 +522,12 @@ div.menubody.col-12{
     font-weight: 800;
 }    
 
-#rotate:hover{
+.rotate:hover{
     animation-name: rotate;
     animation-duration: 0.7s;
 }
 
+/* inspiration for animation from https://stackoverflow.com/questions/42745506/how-to-make-an-icon-spin-with-i-tag-in-html5-through-css3 */
 @keyframes rotate{
     0%{
         transform: rotate(0);
