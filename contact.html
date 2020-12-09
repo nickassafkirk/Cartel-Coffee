@@ -97,23 +97,28 @@
                             <br>
                             <input type="phone" id="phoneres" name="phoneres" placeholder="Phone Number" required>
                             <br>
-                            <label for="date">Date</label>
-                            <input type="date" id="date" name="date" required>
-                            <label for="guests">Number of Guests</label>
-                            <select id="guests" name="guests">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                                <option value="10">10</option>
-                                <option value="11">11</option>
-                                <option value="12">12</option>
-                            </select>
+                            <div class="date">
+                                <label class="res" for="date">Date</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <br>
+                            <div class="guests">
+                                <label class="res" for="guests">Guests</label>
+                                <select id="guests" name="guests" required>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+                            </div>
                             <br>
                             <input type="text-area" id="messageres" name="messageres" placeholder="Add a note">
                             <br>

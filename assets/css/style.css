@@ -390,6 +390,25 @@ blockquote hr{
     border-radius: 5px;
     padding: 2%;
 }
+.guests,.date{
+    width: 80%;
+}
+
+.res{
+    padding-left: 2%;
+    padding-bottom: 0;
+}
+
+#guests,#date{
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px; 
+    margin: 0 auto;
+    padding: 2% 2%;
+    width: 100%;
+}
+
+
 
 
 /*------- Menu.html -------*/
