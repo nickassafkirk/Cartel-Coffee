@@ -247,6 +247,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - To fix issues with footer content alignment I read documentation on flexbox at [This article](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
   I confirmed how to implement flexbox utilities while using Bootstrap by reading the documentation on [this page](https://getbootstrap.com/docs/4.5/utilities/flex/)
 
+- To create a more understandable submenu functionality for the submenu on the menu.html page I used a scroll functionality that I learnt about in [this post](https://stackoverflow.com/questions/24739126/scroll-to-a-specific-element-using-html)
 ### Code 
 - As an alternate method to add background opacity I used a method I found published by [Andy Hattemer and Nicholas Cerminara](https://www.digitalocean.com/community/tutorials/how-to-change-a-css-background-images-opacity)
 ### Media
@@ -280,7 +281,11 @@ Photo by [earlybird coffee](https://unsplash.com/@earlybird_coffee?utm_source=un
 
 <span>Photo by <a href="https://unsplash.com/@camille1030?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Camille Chen</a> on <a href="https://unsplash.com/s/photos/croissants?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
-<span>Photo by <a href="https://unsplash.com/@daniel_dara?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Daniel Dara</a> on <a href="https://unsplash.com/s/photos/palm-tree-graphic?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+Menu Background
+<span>Photo by <a href="https://unsplash.com/@abhaysanthosh007?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Abhay Santhosh</a> on <a href="https://unsplash.com/s/photos/palm-tree-graphic?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+Contact Background
+<span>Photo by <a href="https://unsplash.com/@cyzx?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Clifford</a> on <a href="https://unsplash.com/s/photos/old-chairs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 ### Acknowledgements
 
