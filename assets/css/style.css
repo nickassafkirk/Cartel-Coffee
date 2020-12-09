@@ -118,8 +118,8 @@ body{
 .carousel-inner .carousel-item img{
     width: 100vw;
     height: 70vh;
-    object-fit: scale-down;
-    object-position: center center;
+    object-fit: cover;
+    object-position: center center;  
 }
 
 /*------- Welcome -------*/
