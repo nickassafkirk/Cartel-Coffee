@@ -354,6 +354,10 @@ blockquote hr{
 
 /*------- Menu.html -------*/
 
+.menuback{
+    background: url("../images/palms.jpg") center center;
+}
+
 .menubody{
     background-color: var(--light);
     text-align: center;
