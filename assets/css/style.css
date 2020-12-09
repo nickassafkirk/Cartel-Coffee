@@ -337,8 +337,8 @@ blockquote hr{
     font-weight: 400;
     margin: 3% 0 0 0;
     padding: 2% 0;
-    border: 1px solid var(--light);
-    background-color: var(--light);
+    border: 1px solid rgba(221, 221, 221, 0.85);
+    background-color: rgba(221, 221, 221, 0.85);
     border-radius: 5px;
     text-transform: uppercase;
 }
@@ -348,8 +348,8 @@ blockquote hr{
 }
 
 .contactbox{
-    border: 1px solid var(--light);
-    background-color: var(--light);
+    border: 1px solid rgba(221, 221, 221, 0.85);
+    background-color: rgba(221, 221, 221, 0.85);
     border-radius: 5px;
     height: 90%;
     width: 90%;
@@ -357,6 +357,20 @@ blockquote hr{
     margin: 5% auto;
     line-height: 1.0;
 }
+.calls{
+    text-align: center;
+    padding: 5%;
+    color: #fff;
+}
+
+.calls .col-6 div{
+    margin: 0 2%;
+    padding: 2%;
+    background-color: var(--submenu);
+    border: 1px solid var(--submenu);
+    border-radius: 5px;
+}
+
 
 .contactbox .map{
     padding-bottom: 20px;
@@ -369,7 +383,7 @@ blockquote hr{
 }
 
 #name,#email,#phone,#message,#nameres,#emailres,#phoneres,#messageres{
-    width: 80%;
+    width: 85%;
     margin: 2% auto;
     padding: 2% 2%;
     background-color: #fff;
@@ -382,7 +396,7 @@ blockquote hr{
 }
 
 #submit,#submitres{
-    width: 80%;
+    width: 85%;
     color: #fff;
     font-weight: 600;
     background-color: var(--buttonblue);
@@ -391,7 +405,7 @@ blockquote hr{
     padding: 2%;
 }
 .guests,.date{
-    width: 80%;
+    width: 85%;
 }
 
 .res{
@@ -406,6 +420,11 @@ blockquote hr{
     margin: 0 auto;
     padding: 2% 2%;
     width: 100%;
+}
+
+form{
+    margin: 0 auto;
+    padding: 0;
 }
 
 
