@@ -280,6 +280,8 @@ Photo by [earlybird coffee](https://unsplash.com/@earlybird_coffee?utm_source=un
 
 <span>Photo by <a href="https://unsplash.com/@camille1030?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Camille Chen</a> on <a href="https://unsplash.com/s/photos/croissants?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
+<span>Photo by <a href="https://unsplash.com/@daniel_dara?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Daniel Dara</a> on <a href="https://unsplash.com/s/photos/palm-tree-graphic?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
 ### Acknowledgements
 
 - I received inspiration for this project from Xj

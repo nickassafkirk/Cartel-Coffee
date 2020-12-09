@@ -4,7 +4,7 @@
     --bg: rgb(238, 238, 238);
     --warmyellow: rgb(238, 210, 49);
     --buttonblue: rgb(34, 229, 243);
-    --submenu: #2222a6;
+    --submenu: #0E5B33;
 }
 
 /*------- General -------*/
@@ -355,7 +355,7 @@ blockquote hr{
 /*------- Menu.html -------*/
 
 .menuback{
-    background: url("../images/palms.jpg") center center;
+    background: url("../images/palms.jpg") center center; /* <span>Photo by <a href="https://unsplash.com/@daniel_dara?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Daniel Dara</a> on <a href="https://unsplash.com/s/photos/palm-tree-graphic?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span> */
 }
 
 .menubody{
