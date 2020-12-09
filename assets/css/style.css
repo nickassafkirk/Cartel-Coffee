@@ -363,7 +363,7 @@ blockquote hr{
     }
 }
 
-#name,#email,#phone,#message{
+#name,#email,#phone,#message,#nameres,#emailres,#phoneres,#messageres{
     width: 80%;
     margin: 2% auto;
     padding: 2% 2%;
@@ -376,7 +376,7 @@ blockquote hr{
     padding-bottom: 150px;
 }
 
-#submit{
+#submit,#submitres{
     width: 80%;
     color: #fff;
     font-weight: 600;
