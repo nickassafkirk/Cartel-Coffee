@@ -50,8 +50,6 @@ body{
     width: 30%;
 }
 
-
-
 .clear{
     clear: both;
     position: relative;
@@ -66,6 +64,18 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.rotate45{
+    transform: rotate(45deg);
+    display: inline-block;
+    font-size: 80%
+}
+
+.rotate270{
+    transform: rotate(225deg);
+    display: inline-block;
+}
+
 
 /*------- Colors -------*/
 
