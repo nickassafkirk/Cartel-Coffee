@@ -1,6 +1,7 @@
 :root{
     --logo: rgb(51, 51, 51);
-    --light: rgba(221, 221, 221, 0.85);
+    --light: rgb(221, 221, 221);
+    --lighttrans: rgba(221, 221, 221, 0.85);
     --bg: rgb(238, 238, 238);
     --warmyellow: rgb(238, 210, 49);
     --buttonblue: rgb(34, 229, 243);
@@ -337,8 +338,8 @@ blockquote hr{
     font-weight: 400;
     margin: 3% 0 0 0;
     padding: 2% 0;
-    border: 1px solid rgba(221, 221, 221, 0.85);
-    background-color: rgba(221, 221, 221, 0.85);
+    border: 1px solid var(--lighttrans);
+    background-color: var(--lighttrans);
     border-radius: 5px;
     text-transform: uppercase;
 }
@@ -348,8 +349,8 @@ blockquote hr{
 }
 
 .contactbox{
-    border: 1px solid rgba(221, 221, 221, 0.85);
-    background-color: rgba(221, 221, 221, 0.85);
+    border: 1px solid var(--lighttrans);
+    background-color: var(--lighttrans);
     border-radius: 5px;
     height: 90%;
     width: 90%;
@@ -456,7 +457,7 @@ form{
 .menubody{
     padding: 0;
     margin: 0;
-    background-color: var(--light);
+    background-color: var(--lighttrans);
     text-align: center;
 }
 
@@ -473,8 +474,8 @@ div.menubody.col-12{
     margin: 5% 0%;
     padding: 2% 2% 5% 2%;
     text-align: center;
-    background-color: var(--light);
-    border: 1px solid var(--light);
+    background-color: var(--lighttrans);
+    border: 1px solid var(--lighttrans);
     border-radius: 5px;
 }
 
