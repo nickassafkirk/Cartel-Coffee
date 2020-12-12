@@ -1,7 +1,7 @@
 :root{
     --logo: #333333;
     --light: #dddddd;
-    --lighttrans: rgba(221, 221, 221, 0.85);
+    --lighttrans: rgba(221, 221, 221, 0.9);
     --bg: #eeeeee;
     --warmyellow: #eed231;
     --buttonblue: #07c5ff;
@@ -505,7 +505,7 @@ form{
   content: "";
   background: url("../images/palms2.jpg") center center;
   background-size: cover;
-  opacity: 0.5;
+  opacity: 0.8;
   top: 0;
   left: 0;
   bottom: 0;
@@ -541,8 +541,8 @@ div.menubody.col-12{
 
 .menusnav{
     width: 95%;
-    background-color: var(--alertorange);
-    border: 1px solid var(--alertorange);
+    background-color: var(--submenu);
+    border: 1px solid var(--submenu);
     margin: 0 auto;
     padding: 1%;
     color: white;
@@ -559,7 +559,7 @@ div.menubody.col-12{
 
 .menusnav.bottom{
     margin-bottom: 5%;
-    background: var(--alertorange);
+    background: var(--submenu);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
