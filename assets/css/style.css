@@ -697,6 +697,9 @@ div.menubody.col-12{
     line-height: 1.8;
 }
 
+.col-6.col-sm-3.footerlist a{
+    font-size: 1em;
+}
 
 .footerlist li::before{
     content: "+ ";
@@ -711,6 +714,10 @@ div.menubody.col-12{
     .footerlist li::before{
     content: none;
     padding-left: 0;
+    }
+
+    .col-6.col-sm-3.footerlist a{
+        padding: 1%;
     }
 }
 
