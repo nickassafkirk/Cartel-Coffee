@@ -5,6 +5,9 @@
     --bg: rgb(238, 238, 238);
     --warmyellow: rgb(238, 210, 49);
     --buttonblue: rgb(34, 229, 243);
+    --buttonaqua: rgb(31, 211, 178);
+    --alertorange: rgb(249, 192, 67);
+
     --submenu: #0E4B33;
     --lightpink: #DDBBDC;
 }
@@ -367,8 +370,8 @@ blockquote hr{
 .calls .col-6 div{
     margin: 0 2%;
     padding: 2%;
-    background-color: var(--submenu);
-    border: 1px solid var(--submenu);
+    background-color: var(--alertorange);
+    border: 1px solid var(--alertorange);
     border-radius: 5px;
 }
 
@@ -481,8 +484,8 @@ div.menubody.col-12{
 
 .menusnav{
     width: 95%;
-    background-color: var(--submenu);
-    border: 1px solid var(--submenu);
+    background-color: var(--alertorange);
+    border: 1px solid var(--alertorange);
     margin: 0 auto;
     padding: 1%;
     color: white;
@@ -499,7 +502,7 @@ div.menubody.col-12{
 
 .menusnav.bottom{
     margin-bottom: 5%;
-    background: var(--submenu);
+    background: var(--alertorange);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
