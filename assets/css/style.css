@@ -210,7 +210,7 @@ blockquote hr{
 }
 
 .curtain:hover{
-    background-color: rgba(51, 51, 51, 0.1)
+    background-color: rgba(51, 51, 51, 0.5)
 }
 
 @media screen and (max-width: 768px){
@@ -228,7 +228,7 @@ blockquote hr{
     left: 0;
     text-align:center;
     font-weight: 600;
-    font-size: 150%;
+    font-size: 2em;
     text-shadow: var(--logo) 0 2px;
     text-transform: uppercase;
     margin: 0 auto;
@@ -692,6 +692,7 @@ div.menubody.col-12{
 
 .footerlist li{
     color: #fff;
+    font-size: 1em;
     list-style-type: none;
     line-height: 1.8;
 }
