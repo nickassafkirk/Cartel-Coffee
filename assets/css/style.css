@@ -90,7 +90,10 @@ body{
 /*------- Colors -------*/
 
 .bg-custom{
-    background-color: rgb(92, 80, 63);
+    background-color: #212121;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 /*------- Header -------*/
@@ -711,7 +714,7 @@ div.menubody.col-12{
     clear: both;
     flex: row;
     justify-content: center;
-    margin-top: 5%;
+    margin: 0;
 }
 
 .footercustom .row{
