@@ -4,7 +4,7 @@
     --lighttrans: rgba(221, 221, 221, 0.85);
     --bg: #eeeeee;
     --warmyellow: #eed231;
-    --buttonblue: #22e5f3;
+    --buttonblue: #07c5ff;
     --buttonaqua: #1fd3b2;
     --alertorange: #f9c043;
 
@@ -270,16 +270,16 @@ blockquote hr{
 }
 
 .catover:hover{
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .cathead{
     position: relative;
     top: 35%;
     left: 0;
-    text-align:center;
+    text-align: center;
     font-weight: 600;
-    font-size: 150%;
+    font-size: 2em;
     text-shadow: var(--logo) 0 2px;
     text-transform: uppercase;
     margin: 0 auto;
@@ -294,10 +294,10 @@ blockquote hr{
 }
 
 .ctablu{
-    background-color: transparent;
     position: absolute;
     top: 50%;
     left: 0;
+    background-color: var(--buttonblue);
     border: 1px solid var(--buttonblue);
     border-radius: 5px;
     margin-left: 25%;
@@ -314,6 +314,8 @@ blockquote hr{
 .ctablu a{
     color: var(--light);
     font-weight: 600;
+    color: var(--light);
+    font-size: 1.5em;
 }
 
 /*------- contact.html -------*/
