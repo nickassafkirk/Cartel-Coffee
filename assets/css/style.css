@@ -747,6 +747,9 @@ div.menubody.col-12{
     list-style-type: none;
     line-height: 1.8;
 }
+.col-6.footerlist{
+    margin-top: 4%;
+}
 
 .col-6.col-sm-3.footerlist a{
     font-size: 1em;
