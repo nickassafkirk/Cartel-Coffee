@@ -171,7 +171,17 @@ body{
 }
 
 .carousel-caption p{
+    font-size: 1em;
+}
+
+@media screen and (max-width: 576px){
+    .carousel-caption h5{
     font-size: 2em;
+}
+
+.carousel-caption p{
+    font-size: 1em;
+}
 }
 
 .carousel-caption button{
