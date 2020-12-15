@@ -8,7 +8,7 @@
     --buttonaqua: #1fd3b2;
     --alertorange: #f9c043;
     --bgdark: #343a40;
-
+    --custom: #212121;
     --submenu: #0E4B33;
     --lightpink: #DDBBDC;
 }
@@ -27,6 +27,10 @@ body{
     font-size: 16px;
     margin: 0;
     padding: 0;
+}
+
+.page{
+    margin: 3% auto;
 }
 
 .secheading{
@@ -666,12 +670,11 @@ div.menubody.col-12{
 /*------- Product -------*/
 .product{
     height: auto;
-    width: 30%;
-    padding: 2%;
-    margin: 1%;
     display: inline-block;
-    border: 1px solid #777777;
     position: relative; 
+    margin: 5% 0%;
+    padding: 0;
+    text-align: center;
 }
 
 .product img{
@@ -683,7 +686,6 @@ div.menubody.col-12{
     margin-right: auto;
     margin-bottom: 10px;
     padding: 0;
-
 }
 
 .product p:hover::before{
@@ -692,26 +694,25 @@ div.menubody.col-12{
 
 .prodtitle{
     text-align: center;
-    color: rgb(241, 220, 23);
+    font-size: 1.2em;
     margin: 5px,auto,10px,auto;
 }
 
 .product button{
-    color: white;
+    color: var(--light);
     text-align: center;
     width: 70%;
-    background-color: #22e5f3;
-    border: 1px solid #22e5f3;
+    background-color: var(--alertorange);
+    border: 1px solid var(--alertorange);
     border-radius: 5px;
-    padding: 2px;
-    margin-top: 2%;
-    margin-left: 12%; 
+    padding: 2%;
+    margin: 5% auto;
 }
 
 .stafffav{
     position: absolute;
-    top: 6%;
-    left: 7%;
+    top: 0%;
+    left: 0%;
     color: white;
     padding: 1%;
     background-color: rgba(7,7,7,0.5)
