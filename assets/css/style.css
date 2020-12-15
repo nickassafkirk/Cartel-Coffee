@@ -192,8 +192,12 @@ body{
     background-color: rgba(0,0,0,0.8);
     border: 2px solid var(--buttonblue);
     border-radius: 5px;
-    font-size: 1.5em;
-    
+    font-size: 1.5em; 
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 2em;
+    Height: 2em;
 }
 
 /*------- Welcome -------*/
