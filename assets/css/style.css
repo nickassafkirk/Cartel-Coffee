@@ -559,7 +559,7 @@ form{
 }
 
 .menusnav{
-    width: 82%;
+    width: 80%;
     background-color: var(--submenu);
     border: 1px solid var(--submenu);
     margin: 0 auto;
@@ -686,6 +686,10 @@ form{
     padding: 5% 2%;
 }
 
+ .coffeemenu h3{
+        margin-bottom: 2rem;
+    }
+
 .coffemenu,.milk p::before{
     content: "+ ";
 }
@@ -701,12 +705,25 @@ form{
 
 @media screen and (max-width: 576px){
     .menuback{
-        font-size: 0.65rem;
+        font-size: 0.8rem;
         font-weight: 500;
+    }
+
+    .menuback::after{
+        background-repeat: repeat-x;
     }
     
     .menusnav{
-        width: 97%;
+        width: 95%;
+        font-size: 0.9rem;
+    }
+
+    h2.submenu{
+        font-size: 150%;
+    }
+
+    h2.secheading{
+        font-size: 125%;
     }
 
     .menuintro,.foodmenu,.dessertmenu,.coffeemenu{
@@ -748,6 +765,16 @@ form{
         margin-bottom: 1rem;
     }
 
+}
+
+@media screen and (min-width: 1200px){
+    .menusnav{
+        width: 60%;
+    }
+
+    .menuintro,.foodmenu,.dessertmenu,.coffeemenu{
+        width: 60%;
+    }
 }
 
 /*------- Shop.html -------*/
