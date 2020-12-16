@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,15 +18,13 @@
 <!-- Header -->
 <!-- Navbar snippet taken from bootsrap documentation and customised for use on site header https://getbootstrap.com/docs/4.3/components/navbar/-->
 <nav class="navbar navbar-expand-md navbar-dark bg-custom pt-3 pb-3">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <a class="navbar-brand ml-md-4 ml-auto mr-auto" href="index.html">Cartel Coffee</a>
-  <div class="d-inline d-md-none text-white mr-2 mr-sm-4"><i class="fas fa-phone-alt"></i> <i class="fas fa-envelope"></i></div>
-  
-
+  <!-- <div class="d-none text-white mr-2 mr-sm-4"><i class="fas fa-phone-alt"></i> <i class="fas fa-envelope"></i></div> -->
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-    <ul class="navbar-nav ml-auto mt-2 mt-md-0 mr-5">
+    <ul class="navbar-nav ml-3 ml-md-auto mt-2 mt-md-0 mr-5">
       <li class="nav-item active">
         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
@@ -155,10 +153,9 @@
 
 
 <!-- Footer -->
-<div class="container-fluid bg-custom footercustom">
+<footer class="container-fluid bg-custom footercustom">
     <div class="row footeralign">
         <div class="col-6 col-sm-3 footerlist">
-            
             <ul>
                 <h4>Quicklinks</h4>
                 <li><a href="about.html">About</a></li>
@@ -167,8 +164,7 @@
                 <li><a href="#">Covid-19</a></li>
             </ul>
         </div>
-        <div class="col-6 col-sm-3 footerlist d-none d-md-inline">
-            
+        <div class="col-6 col-sm-3 footerlist"> 
             <ul>
                 <h4>Dine/Deliver</h4>
                 <li><a href="menu.html">Menus</a></li>
@@ -176,8 +172,7 @@
                 <li><a href="#">Subscribe</a></li>
             </ul>
         </div>
-        <div class="col-6 col-sm-3 footerlist d-none d-md-inline">
-            
+        <div class="col-6 col-sm-3 footerlist">
             <ul>
                 <h4>Shop</h4>
                 <li><a href="#">Coffee</a></li>
@@ -187,7 +182,6 @@
             </ul>
         </div>
         <div class="col-6 col-sm-3 footerlist">
-            
             <ul class="contacts">
             <!--
                 <li>
@@ -196,22 +190,22 @@
                 </li>
                 -->
                 <h4>Find Us</h4>
-                <li><a href="#"><i class="fas fa-map-marker-alt d-inline"></i> 123 Fake St, Dublin&nbsp2</a></li>
+                <li><a href="contact.html#find-us"><i class="fas fa-map-marker-alt d-inline"></i> 123 Fake St, Dublin&nbsp2</a></li>
                 <li><a href="#"><i class="fas fa-phone-alt d-inline"></i> +353 555 5555</a></li>
-                <li><a href="#"><i class="fas fa-envelope d-inline"></i>&nbspinfo@cartelcoffee.ie</a></li>
-                <li><a href="#contact-us"><i class="fas fa-paper-plane d-inline"></i> Make an enquiry</a></li>
+                <li><a href="mailto:info@cartelcoffee.ie"><i class="fas fa-envelope d-inline"></i>&nbspinfo@cartelcoffee.ie</a></li>
+                <li><a href="contact.html#contact-us"><i class="fas fa-paper-plane d-inline"></i> Make an enquiry</a></li>
             </ul>
         </div>
     </div>
     <div class="row">
         <div class="col-12 text-center mb-2 mb-lg-4"><h4>Follow Us</h4></div>
         <div class="col-12 socialicons">
-                    <a href="www.instagram.com"><i class="fab fa-instagram"></i></a>
-                    <a href="www.facebook.com"><i class="fab fa-facebook-square"></i></a>
-                    <a href="www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+            <a href="www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+            <a href="www.twitter.com"><i class="fab fa-twitter-square"></i></a>
         </div>
     </div>
-</div>
+</footer>
 
 <!-- Bootstrap scripts -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

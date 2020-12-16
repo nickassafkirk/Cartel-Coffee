@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,13 +18,11 @@
 <!-- Header -->
 <!-- Navbar snippet taken from bootsrap documentation and customised for use on site header https://getbootstrap.com/docs/4.3/components/navbar/-->
 <nav class="navbar navbar-expand-md navbar-dark bg-custom pt-3 pb-3">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <a class="navbar-brand ml-md-4 ml-auto mr-auto" href="index.html">Cartel Coffee</a>
-  <div class="d-none text-white mr-2 mr-sm-4"><i class="fas fa-phone-alt"></i> <i class="fas fa-envelope"></i></div>
-  
-
+  <!-- <div class="d-none text-white mr-2 mr-sm-4"><i class="fas fa-phone-alt"></i> <i class="fas fa-envelope"></i></div> -->
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav ml-3 ml-md-auto mt-2 mt-md-0 mr-5">
       <li class="nav-item active">
@@ -45,8 +43,6 @@
     </ul>
   </div>
 </nav>
-
-<!-- Hero Carousel -->
 
 <!-- Bootstrap Carousel with captions code snippet used as template but customised for use on site https://getbootstrap.com/docs/4.3/components/carousel/ -->
 <div class="bd-example bg-custom">
@@ -94,92 +90,85 @@
   </div>
 </div>
 
-
 <!-- Welcome section -->
-
-<blockquote>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <hr class="hr60">
-                <p class="welcome">We are a modern Cafe based in Dublin city center, serving the best coffees from around the world and food that celebrates our amazing local produce.</p>
-                <hr class="d-none d-sm-block hr60">
-            </div>
+<div class="container-fluid welcome">
+    <div class="row">
+        <div class="col-12">
+            <hr class="hr60">
+            <p class="welcome">We are a modern Cafe based in Dublin city center, serving the best coffees from around the world and food that celebrates our amazing local produce.</p>
+            <hr class="d-none d-sm-block hr60">
         </div>
     </div>
-</blockquote>
+</div>
+
 <!-- Menus section -->
-<section class="d-none">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="secheading">View Our Menus</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 menutab">
-                <a href="menu.html#coffeemenu">
-                    <img src="assets/images/espresso.png">
-                    <div class="curtain"><h3>Coffee</h3></div>
-                </a>
-            </div>
-            <div class="col-md-4 menutab">
-                <a href="menu.html#foodmenu">
-                    <img src="assets/images/sandwich.png">
-                    <div class="curtain"><h3>Food</h3></div>
-                </a>
-            </div>
-            <div class="col-md-4 menutab">
-                <a href="menu.html#dessert">
-                    <img src="assets/images/croissant.png">
-                    <div class="curtain"><h3>Sweets & Treats</h3></div>
-                </a>
-            </div>
+<div class="container-fluid menussec">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="secheading">View Our Menus</h2>
         </div>
     </div>
-</section>
+    <div class="row">
+        <div class="col-md-4 menutab">
+            <a href="menu.html#coffeemenu">
+                <img src="assets/images/espresso.png">
+                <div class="curtain"><h3>Coffee</h3></div>
+            </a>
+        </div>
+        <div class="col-md-4 menutab">
+            <a href="menu.html#foodmenu">
+                <img src="assets/images/sandwich.png">
+                <div class="curtain"><h3>Food</h3></div>
+            </a>
+        </div>
+        <div class="col-md-4 menutab">
+            <a href="menu.html#dessert">
+                <img src="assets/images/croissant.png">
+                <div class="curtain"><h3>Sweets & Treats</h3></div>
+            </a>
+        </div>
+    </div>
+</div>
 
-<!-- Categories section -->
-<section>
+<!-- Shop Categories section -->
+<div class="container-fluid catsec mb-4 mt-0 ml-0 mr-0">
     <hr class="hr60">
-    <div class="container-fluid catsec">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="secheading">Visit Our Shop</h2>
+    <div class="row">
+        <div class="col-12">
+            <h2 class="secheading">Visit Our Shop</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 col-md-3 catcol">
+            <img src="assets/images/beans 640x800.jpg">
+            <div class="catover">
+                <h5 class="cathead">Coffee</h5>
+                <button class="ctablu"><a href="#">Shop</a></button>
             </div>
         </div>
-        <div class="row">
-            <div class="col-6 col-md-3 catcol">
-                <img src="assets/images/beans 640x800.jpg">
-                <div class="catover">
-                    <h5 class="cathead">Coffee</h5>
-                    <button class="ctablu"><a href="#">Shop</a></button>
-                </div>
+        <div class="col-6 col-md-3 catcol">
+            <img src="assets/images/subscription 640x800.jpg">
+            <div class="catover">
+                <h5 class="cathead">Subscriptions</h5>
+                <button class="ctablu"><a href="#">Shop</a></button>
             </div>
-            <div class="col-6 col-md-3 catcol">
-                <img src="assets/images/subscription 640x800.jpg">
-                <div class="catover">
-                    <h5 class="cathead">Subscriptions</h5>
-                    <button class="ctablu"><a href="#">Shop</a></button>
-                </div>
+        </div>
+        <div class="col-6 col-md-3 catcol">
+            <img src="assets/images/pourover 640x800.jpg">
+            <div class="catover">
+                <h5 class="cathead">Equipment</h5>
+                <button class="ctablu"><a href="#">Shop</a></button>
             </div>
-            <div class="col-6 col-md-3 catcol">
-                <img src="assets/images/pourover 640x800.jpg">
-                <div class="catover">
-                    <h5 class="cathead">Equipment</h5>
-                    <button class="ctablu"><a href="#">Shop</a></button>
-                </div>
-            </div>
-            <div class="col-6 col-md-3 catcol">
-                <img src="assets/images/merchandisemug 640x800.jpg">
-                <div class="catover">
-                    <h5 class="cathead">Merchandise</h5>
-                    <button class="ctablu"><a href="#">Shop</a></button>
-                </div>
+        </div>
+        <div class="col-6 col-md-3 catcol">
+            <img src="assets/images/merchandisemug 640x800.jpg">
+            <div class="catover">
+                <h5 class="cathead">Merchandise</h5>
+                <button class="ctablu"><a href="#">Shop</a></button>
             </div>
         </div>
     </div>
-</section>
+</div>
 
 <!--
 <div class="container clear">
