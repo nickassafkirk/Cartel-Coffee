@@ -716,18 +716,21 @@ div.menubody.col-12{
 .footercustom{
     width: 100%;
     clear: both;
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 2% 0;
+    text-align: center;
 }
 
 .footercustom .row{
-    margin: 0;
+    margin: 2% 0;
     padding: 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .footercustom h4{
     color: #fff;
-    margin: 5% 0%;
+    margin: 1rem 0;
     padding: 0;
 }
 
@@ -736,30 +739,14 @@ div.menubody.col-12{
     margin: 0;
 }
 
-@media screen and (max-width: 768px){
-      .footercustom,.footercustom h4,.footercustom li{
-        font-size: 80%;
-      }
-}
-
-.footeralign{
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-}
-
 .footerlist li{
     color: #fff;
-    font-size: 5px;
+    font-size: 1rem;
     list-style-type: none;
-    line-height: 1.8;
+    line-height: 1.6;
 }
 .col-6.footerlist{
-    margin-top: 4%;
-}
-
-.col-6.col-sm-3.footerlist a{
-    font-size: 5px;
+    margin-top: 1%;
 }
 
 .footerlist li::before{
@@ -767,18 +754,22 @@ div.menubody.col-12{
 }
 
 @media screen and (max-width: 768px){
-    .footerlist li{ 
-        line-height: 1.5;
-        font-size: 80%; 
+    .footercustom{
+        padding-bottom: 10%;
     }
-    
+
+    .footercustom h4{
+    font-size: 1rem;
+    }
+
     .footerlist li::before{
     content: none;
     padding-left: 0;
     }
-
+    
     .col-6.col-sm-3.footerlist a{
-        padding: 1%;
+    font-size: 0.7rem;
+    line-height: 1;
     }
 }
 
@@ -787,8 +778,8 @@ div.menubody.col-12{
     color: #fff;
 }
 
-.contacts{
-    padding: 0;
+.footerlist a:hover{
+    color: var(--buttonblue);
 }
 
 .contacts li{
@@ -799,45 +790,29 @@ div.menubody.col-12{
     content: none;
 }
 
-.contacts li a:hover{
-    color: var(--warmyellow)
-}
-
 .contacth{
     font-weight: bold;
 }
 
 .socialicons{
     text-align: center;
-    margin: 2% 0% 4% 0%;
-}
-
-.socialicons a{
-    margin: 0%;
-    padding: 5% 2%;
 }
 
 .socialicons i{
     Font-size: 250%;
     color: #fff;
-    padding: 0;
-    margin: 0;
+    margin: 0% 2% 0% 2%;
 }
 
 .socialicons i:hover{
-    color: #22e5f3;
+    color: var(--buttonblue);
 }
 
 @media screen and (max-width: 768px){
     .socialicons i{
     Font-size: 200%;
-    margin: 0% 0% 10% 0%;
+    margin: 0% 5% 0% 5%;
     }
-
-    .socialicons a{
-    margin: 0%;
-    padding: 5% 5%;
-}
 }
 
 
