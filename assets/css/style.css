@@ -89,6 +89,21 @@ body{
 
 /*------- Header -------*/
 
+/*------- Alert -------*/
+.alert-custom{
+    background-color: var(--alertorange);
+    color: var(--logo);
+    width: 100%;
+    margin: 0;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.alert-dismissible .close {
+    padding: 1%!important;
+}
+
+/*------- Navbar -------*/
 .navbar-brand{
     font-family: 'Bebas Neue', cursive;
     font-weight: 600;
