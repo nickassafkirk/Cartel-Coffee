@@ -42,14 +42,15 @@ body{
 
 .secheading{
     text-align: center;
-    margin: 2% 0%;
+    margin: 0%;
     z-index: 2;
     font-weight: 500;
 }
 
 @media screen and (max-width: 568px){
     .secheading{
-    margin: 6% 0%;
+    font-size: 150%;
+    margin: 4% 0%;
 }
 }
 
@@ -225,6 +226,15 @@ blockquote hr{
 }
 
 /*------- Menu Categories -------*/
+
+.menussec{
+    padding: 0;
+}
+
+.menussec .row{
+    padding: 0;
+    margin: 5% 0;
+}
 .menutab{
     Text-align: center;
     position: relative;
