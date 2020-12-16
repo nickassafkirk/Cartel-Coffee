@@ -69,16 +69,6 @@ body{
     position: relative;
 }
 
-.row{
-    max-width: 100vw;
-    margin: 0;
-}
-
-.container-fluid{
-    margin: 0;
-    padding: 0;
-}
-
 .rotate45{
     transform: rotate(45deg);
     display: inline-block;
@@ -105,6 +95,7 @@ body{
 .navbar{
     width: 100vw;
 }
+
 .navbar-brand{
     font-family: 'Bebas Neue', cursive;
     font-weight: 600;
@@ -125,9 +116,9 @@ body{
     font-size: 1.5em;
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 850px){
     .nav-link{
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 }
 
@@ -348,18 +339,12 @@ blockquote hr{
     left: 0;
     text-align: center;
     font-weight: 600;
-    font-size: 2em;
+    font-size: 1rem;
     text-shadow: var(--logo) 0 2px;
     text-transform: uppercase;
     margin: 0 auto;
     padding: 0;
     color: var(--light);
-}
-
-@media screen and (max-width: 568px){
-    .cathead{
-        font-size: 90%;
-    }
 }
 
 .ctablu{
@@ -727,9 +712,7 @@ div.menubody.col-12{
 .footercustom{
     width: 100vw;
     clear: both;
-    flex: row;
-    justify-content: center;
-    margin: 0;
+    margin: 0%;
 }
 
 .footercustom .row{
@@ -752,7 +735,7 @@ div.menubody.col-12{
 }
 
 .footeralign{
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .footerlist li{
