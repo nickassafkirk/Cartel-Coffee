@@ -125,14 +125,16 @@ To increase brand awareness and a consistent experience for online and offline c
 
 ### Skeleton
 
-1. **Main Navigation:** A consistent top nav bar is present across all site pages to allow navigation through various pages.
+1. **Main Navigation:** A consistent top nav bar is present across all site pages to allow navigation through various pages. 
+    bootstrap navbar expand/collapse classes were used to improve user experience on mobile devices. 
+    I chose to align the navbar collapse icon and collapsed to the menu to the right as [research shows](https://www.livescience.com/what-causes-left-handedness.html) that 85% - 90% of users are right handed and right-alignment results in marginally easier use for right-handed users.
 2. **Footer navigation:** A consistent bottom footer contains and reinforces importance of main navigation links present in main navbar. This aids navigation to next point of interest once a user has scrolled down the page.
    links have been chosen specifically to aid conversion with call to action for contact, social media interaction, shop, make a reservation or order from menu. 
    Additional links such as about, privacy polics anf T&Cs have been added to footer as they are important but do not merit inclusion in main navbar. 
 3. **Images:** Images and Image tiles are used to link strong visual images to relevant pages. Popular categories are represented as images and overlying text, hover functionality and highlighting are strategies used to reinforce that an image is a link. 
 4. **IDs:** Id's have been used to allow quick navigation to specific points on a single webpage. This is designed to aid conversion by bringing the user directly to their point of interest without the potential to get distracted. 
-   The use of Id based navigation also allows more distinct information to be condensed onto a fewer number of pages for a better user experience and a smaller site. 
-5. **Buttons:** Buttons are used for reinforce form submission or to create a strong emphasis that a link to anothere page or information is present. 
+   The use of Id based navigation also allows more distinct information to be condensed onto a fewer number of pages for a better user experience, a more condensed site and faster page load times. 
+5. **Buttons:** Buttons are used for reinforce form submission or to create a strong emphasis that a link to another page or information is present. 
 
 #### Wireframes
 
@@ -253,6 +255,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 - Inspiration for animation used in menu.html subnav was from [this stack overflow discussion](https://stackoverflow.com/questions/42745506/how-to-make-an-icon-spin-with-i-tag-in-html5-through-css3) and general animation info was found at [this page](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)
 
+- To find a way to hide the homepage menu tile headings, I was inspired by a method described in [this stackoverflow article](https://stackoverflow.com/questions/9913293/change-text-on-hover-then-return-to-the-previous-text/9913526)
 ### Media
 - The photos used in this site were obtained from ...
 
