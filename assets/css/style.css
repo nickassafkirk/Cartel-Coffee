@@ -92,15 +92,11 @@ body{
     font-family: 'Bebas Neue', cursive;
     font-weight: 600;
     font-size: 400%;
-    color: var(--logo);
 }
 
 @media screen and (max-width: 576px){
     .navbar-brand{
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 600;
     font-size: 250%;
-    color: var(--logo);
     }
 }
 
@@ -269,8 +265,22 @@ blockquote hr{
     margin: 0;
 }
 
+.curtain span{
+    position: relative;
+    top: 50%;
+    color: var(--light);
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: var(--logo) 0 2px;
+}
+
 .curtain:hover{
-    background-color: rgba(51, 51, 51, 0.5)
+    background-color: rgba(51, 51, 51, 0.3);
+}
+
+.curtain:hover span{ 
+    display: none;
 }
 
 @media screen and (max-width: 768px){
