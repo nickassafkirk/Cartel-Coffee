@@ -532,16 +532,16 @@ form{
     padding: 0;
 }
 
-
-
-
 /*------- Menu.html -------*/
 
 .menuback{
     position: relative;
     padding: 2% 0%;
-    width: 100vw;
+    margin: 0;
+    width: 100%;
+    font-size: 1rem;
 }
+
 
 /* Credit background-opacity https://css-tricks.com/snippets/css/transparent-background-images/ */
 
@@ -558,33 +558,8 @@ form{
   z-index: -1;   
 }
 
-.menubody{
-    padding: 0;
-    margin: 0;
-    background-color: var(--lighttrans);
-    text-align: center;
-}
-
-.menubody p{
-    line-height: 1.4;
-}
-
-div.menubody.col-12{
-    padding: 0;
-    margin: 0;
-}
-
-.menuintro,.foodmenu,.dessertmenu{
-    margin: 5% 0%;
-    padding: 2% 2% 5% 2%;
-    text-align: center;
-    background-color: var(--lighttrans);
-    border: 1px solid var(--lighttrans);
-    border-radius: 5px;
-}
-
 .menusnav{
-    width: 95%;
+    width: 82%;
     background-color: var(--submenu);
     border: 1px solid var(--submenu);
     margin: 0 auto;
@@ -623,7 +598,7 @@ div.menubody.col-12{
 
 .menusnav a:hover{
     text-decoration: none;
-    color: var(--buttonblue);
+    color: var(--alertorange);
     font-weight: 800;
 }    
 
@@ -642,6 +617,66 @@ div.menubody.col-12{
         }
 }
 
+.menubody{
+    padding: 0;
+    margin: 0;
+    background-color: var(--lighttrans);
+    text-align: center;
+}
+
+.menuintro,.foodmenu,.dessertmenu,.coffeemenu{
+    width: 80%;
+    margin: 5% auto;
+    padding: 2% 2% 5% 2%;
+    text-align: center;
+    background-color: var(--lighttrans);
+    border: 1px solid var(--lighttrans);
+    border-radius: 5px;
+}
+
+.menuintro .secheading{
+        font-weight: 600;
+        padding: 0.8rem;
+        background-color: var(--submenu);
+        color: white;
+        border: 1px solid var(--submenu);
+        border-radius: 5px;
+    }
+
+.menuintro p{
+    margin-top: 3%;
+}
+
+ .foodmenu .secheading{
+        font-weight: 600;
+        padding: 0.8rem;
+        background-color: var(--submenu);
+        color: white;
+        border: 1px solid var(--submenu);
+        border-radius: 5px;
+    }
+
+.foodmenu>.col-12.col-sm-6{
+    padding: 3% 0%;
+}
+
+.foodmenu hr{
+    margin-bottom:5%;
+}
+
+ .dessertmenu .secheading{
+        font-weight: 600;
+        padding: 0.8rem 0;
+        background-color: var(--submenu);
+        color: white;
+        border: 1px solid var(--submenu);
+        border-radius: 5px;
+    }
+
+.dessertmenu>.col-12.col-sm-6{
+    padding: 3% 0%;
+}
+
 .coffeemenu{
     font-family: monospace, sans-serif;
     background-image: url("../images/pegboardlandscape.png");
@@ -649,46 +684,70 @@ div.menubody.col-12{
     border-radius: 5px;
     color: #fff;
     padding: 5% 2%;
-    margin: 0;
-    text-align: center;
-    flex: row;
-    justify-content: left;
-}
-
-.coffeemenu h3{
-    margin-bottom: 5%;
 }
 
 .coffemenu,.milk p::before{
     content: "+ ";
 }
 
-@media screen and (max-width: 568px){
-    .coffemenu,.milk p::before{
-    content: none;
-}
-}
-
-.foodmenu>.col-12.col-sm-6{
-    padding-top: 3%;
-}
-
-.foodmenu hr{
-    margin-bottom:5%;
-}
-
-.dessertmenu>.col-12.col-sm-6{
-    padding: 3% 0%;
-}
-
-@media screen and (max-width: 576px){
-    .dessertmenu>.col-12.col-sm-6{
-    padding: 0%;
-    }
+.coffeemenu .col-4{
+   padding: 0;
+   margin: 0;
 }
 
 .call{
     color: var(--submenu);
+}
+
+@media screen and (max-width: 576px){
+    .menuback{
+        font-size: 0.65rem;
+        font-weight: 500;
+    }
+    
+    .menusnav{
+        width: 97%;
+    }
+
+    .menuintro,.foodmenu,.dessertmenu,.coffeemenu{
+        width: 95%;
+    }
+
+   .foodmenu h4{
+        font-size: 1rem;
+    }
+
+   .dessertmenu h4{
+        font-size: 1rem;
+    }
+
+    .menuintro .secheading{
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .foodmenu .secheading{
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .dessertmenu .secheading{
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .dessertmenu>.col-12.col-sm-6{
+    padding: 0%;
+    }
+
+    .coffemenu,.milk p::before{
+    content: none;
+    }
+
+    .coffeemenu h3{
+        margin-bottom: 1rem;
+    }
+
 }
 
 /*------- Shop.html -------*/
