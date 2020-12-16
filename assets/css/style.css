@@ -752,7 +752,6 @@ div.menubody.col-12{
 }
 
 .footeralign{
-    flex: row;
     justify-content: space-evenly;
 }
 
@@ -823,7 +822,7 @@ div.menubody.col-12{
 
 .socialicons a{
     margin: 0%;
-    padding: 5% 10%;
+    padding: 5% 2%;
 }
 
 .socialicons i{
@@ -842,6 +841,11 @@ div.menubody.col-12{
     Font-size: 200%;
     margin-bottom: 10%;
     }
+
+    .socialicons a{
+    margin: 0%;
+    padding: 5% 5%;
+}
 }
 
 
