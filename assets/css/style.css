@@ -13,6 +13,15 @@
     --lightpink: #DDBBDC;
 }
 
+/*------- Colors -------*/
+
+.bg-custom{
+    background-color: #212121;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 /*------- General -------*/
 
 html{
@@ -22,26 +31,25 @@ html{
 }
 
 body{
-    max-width: 100vw;
     font-family: 'Montserrat', sans-serif;
     color: #333333;
     background-color: var(--bg);
     font-size: 16px;
     margin: 0;
     padding: 0;
-    overflow-x: hidden!important;
+    /*overflow-x: hidden!important;*/
 }
 
 .secheading{
     text-align: center;
-    margin: 3% auto;
+    margin: 2% 0%;
     z-index: 2;
     font-weight: 500;
 }
 
 @media screen and (max-width: 568px){
     .secheading{
-    margin: 6% auto;
+    margin: 6% 0%;
 }
 }
 
@@ -65,7 +73,6 @@ body{
 
 .clear{
     clear: both;
-    position: relative;
 }
 
 .rotate45{
@@ -79,22 +86,7 @@ body{
     display: inline-block;
 }
 
-
-/*------- Colors -------*/
-
-.bg-custom{
-    background-color: #212121;
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
 /*------- Header -------*/
-
-.navbar{
-    width: 100vw;
-    overflow: hidden;
-}
 
 .navbar-brand{
     font-family: 'Bebas Neue', cursive;
@@ -103,17 +95,17 @@ body{
     color: var(--logo);
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 576px){
     .navbar-brand{
     font-family: 'Bebas Neue', cursive;
     font-weight: 600;
-    font-size: 250%;
-    color: var(--logo)
+    font-size: 215%;
+    color: var(--logo);
     }
 }
 
 .nav-link{
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 
 @media screen and (max-width: 850px){
@@ -122,16 +114,17 @@ body{
 }
 }
 
-
 /*------- Carousel -------*/
 
 .carousel-slide{
-    width: 100vw;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 
 }
 .carousel-inner{
     height: 70vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
 }
 
@@ -143,11 +136,13 @@ body{
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: 1;   
+    z-index: 1;  
+    margin: 0;
+    padding: 0; 
 }
 
 .carousel-inner .carousel-item img{
-    width: 100vw;
+    width: 100%;
     height: 70vh;
     object-fit: cover;
     object-position: center center;  
@@ -213,7 +208,7 @@ blockquote hr{
 
 .welcome{
     text-align: center;
-    padding: 5% 5%;
+    padding: 0%;
     font-size: 1em;
     width: 60%;  
     margin: 0 auto;
@@ -225,7 +220,7 @@ blockquote hr{
     }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 576px){
     .welcome{
         display: none;
     }
@@ -238,27 +233,27 @@ blockquote hr{
     width: 100%;
     height: 100%;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+    
 }
 
 .menutab img{
     width: 100%;
-    height: 100%;
+    height: 100%;   
     padding: 0;
-    margin: 0;
-    border: 2px solid var(--bg);
+    margin: 0 auto;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 768px){
     .menutab img{
         width: 100%;
-        height: 40vh;
-        object-fit: cover;
     }
 }
 
 .col-md-4.menutab{
     padding: 0;
+    margin: 0;
 }
 
 .curtain{
@@ -267,7 +262,9 @@ blockquote hr{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(51, 51, 51, 0.7)
+    background-color: rgba(51, 51, 51, 0.7);
+    padding: 0;
+    margin: 0;
 }
 
 .curtain:hover{
@@ -276,16 +273,16 @@ blockquote hr{
 
 @media screen and (max-width: 768px){
     .curtain{
-        width: 100vw;
-        height: 40vh;
+        width: 100%;
+        height: 100%;
         object-fit: cover;
-        border: 2px solid var(--bg);
+        border-top: 3px solid var(--bg);
     }
 }
 
 .curtain h3{
     position: relative;
-    top: 40%;
+    top: 50%;
     left: 0;
     text-align:center;
     font-weight: 600;
@@ -300,41 +297,41 @@ blockquote hr{
 
 /*------- Shop Categories -------*/
 
-.col-sm-6, .col-md-3{
+.catsec{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.catsec .row{
+    padding: 0;
+    margin: 5% 0;
+}
+
+.catsec img{
+    width: 100%;
     padding: 0;
     margin: 0;
 }
 
 .catcol{
     position: relative;
-    width: 100vw;
-    border: 1px solid var(--light);
     padding: 0;
     margin: 0;
     top: 0;
-    left: 0;
-    
-}
-
-.catsec{
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-}
-
-.catsec img{
-    width: 100%;
-    height: auto;
-    padding: 0;
+    left: 0; 
 }
 
 .catover{
-     position: absolute;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    border: 1px solid var(--bg);
     background-color: rgba(51, 51, 51, 0.7);
+    padding: 0;
+    margin: 0;
 }
 
 .catover:hover{
@@ -347,7 +344,7 @@ blockquote hr{
     left: 0;
     text-align: center;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 16px;
     text-shadow: var(--logo) 0 2px;
     text-transform: uppercase;
     margin: 0 auto;
@@ -358,13 +355,12 @@ blockquote hr{
 .ctablu{
     position: absolute;
     top: 50%;
-    left: 0;
-    background-color: var(--buttonblue);
+    left: 25%;
+    background-color: rgba(0,0,0,0.6);
     border: 1px solid var(--buttonblue);
     border-radius: 5px;
-    margin-left: 25%;
     padding: 2%;
-    width: 50%;
+    width: 46%;
     height: 15%;
     text-align: center;
 }
@@ -377,7 +373,7 @@ blockquote hr{
     color: var(--light);
     font-weight: 600;
     color: var(--light);
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 /*------- contact.html -------*/
@@ -718,18 +714,21 @@ div.menubody.col-12{
 /*------- Footer -------*/
 
 .footercustom{
-    width: 100vw;
+    width: 100%;
     clear: both;
     margin: 0%;
-    overflow: hidden;
+    padding: 0%;
 }
 
 .footercustom .row{
-    padding: 5% 5% 0% 5%;
-    }
+    margin: 0;
+    padding: 0;
+}
 
 .footercustom h4{
     color: #fff;
+    margin: 5% 0%;
+    padding: 0;
 }
 
 .footercustom ul{
@@ -738,18 +737,20 @@ div.menubody.col-12{
 }
 
 @media screen and (max-width: 768px){
-      .footercustom h4{
-        font-size: 90%;
+      .footercustom,.footercustom h4,.footercustom li{
+        font-size: 80%;
       }
 }
 
 .footeralign{
     justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
 .footerlist li{
     color: #fff;
-    font-size: 1em;
+    font-size: 5px;
     list-style-type: none;
     line-height: 1.8;
 }
@@ -758,7 +759,7 @@ div.menubody.col-12{
 }
 
 .col-6.col-sm-3.footerlist a{
-    font-size: 1em;
+    font-size: 5px;
 }
 
 .footerlist li::before{
@@ -807,9 +808,8 @@ div.menubody.col-12{
 }
 
 .socialicons{
-    width: 100%;
     text-align: center;
-    margin-bottom: 4%;
+    margin: 2% 0% 4% 0%;
 }
 
 .socialicons a{
@@ -831,7 +831,7 @@ div.menubody.col-12{
 @media screen and (max-width: 768px){
     .socialicons i{
     Font-size: 200%;
-    margin-bottom: 10%;
+    margin: 0% 0% 10% 0%;
     }
 
     .socialicons a{
