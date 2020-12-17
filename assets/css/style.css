@@ -461,10 +461,6 @@ blockquote hr{
     padding-left: 10%;
     line-height: 2;
 }
-.address h5,p{
-    display: inline;
-    text-align: left;
-}
 
 #name,#email,#phone,#message,#nameres,#emailres,#phoneres,#messageres{
     width: 90%;
