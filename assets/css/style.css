@@ -397,7 +397,7 @@ blockquote hr{
     border: 1px solid var(--buttonblue);
     border-radius: 5px;
     padding: 2%;
-    width: 46%;
+    width: 50%;
     height: 15%;
     text-align: center;
 }
@@ -536,7 +536,7 @@ form{
 
 .menuback{
     position: relative;
-    padding: 2% 0%;
+    padding: 4% 0%;
     margin: 0;
     width: 100%;
     font-size: 1rem;
