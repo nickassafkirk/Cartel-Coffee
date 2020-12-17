@@ -25,7 +25,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ml-auto ml-md-auto mt-2 mt-md-0 mr-md-5">
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -34,10 +34,10 @@
             <li class="nav-item">
                 <a class="nav-link" href="shop.html" tabindex="-1">Shop</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="contact.html#make-a-booking">Book</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
             </li>
         </ul>
@@ -45,112 +45,109 @@
 </nav>
 
 <!--Details-->
-<section class="bgcontact">
-    <div class="container-fluid">
-        <div class="contactcenter">
-            <div class="row">
+<div class="bgcontact contactpage">
+    <section>
+        <div class="container-fluid w-90">
+            <div class="row contactbox">
                 <div class="col-12"><h2>Get in touch!</h2></div>
             </div>
+        </div>
+        <div class="container-fluid w-90">
             <div class="row">
-                <div class="col-sm-6">
-                    <div class="contactbox" id="find-us">
-                        <h3>Find Us</h3>
-                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.5771329553554!2d-6.251462183978369!3d53.350825482076495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e8eaff9da5d%3A0xe4a7bb0f484a35ae!2sInternational%20House%2C%20Harbourmaster%20Pl%2C%20International%20Financial%20Services%20Centre%2C%20Dublin%201!5e0!3m2!1sen!2sie!4v1606436449412!5m2!1sen!2sie"
-                         width="90%" height="50%" frameborder="0" style="border:0;" allowfullscreen="true" aria-hidden="false" tabindex="0"></iframe>
-                        <div class="row">
-                            <div class="col-12 col-md-6">
-                                <h5>Address:</h5><p>123 Fake st, Dublin 2, Ireland</p>
-                                <h5>Mon-Thurs</h5><p>07:00-16:00</p>
-                                <h5>Fri-Sun</h5><p>07:00-Late</p>
-                            </div>
-                        </div>
+                <div class="col-12 col-md-6">
+                    <div class="contactbox">
+                    <h3>Find Us</h3>
+                    <h5>Address:</h5><p>123 Fake st, Dublin 2, Ireland</p>
+                    <h5>Mon-Thurs</h5><p>07:00-16:00</p>
+                    <h5>Fri-Sun</h5><p>07:00-Late</p>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="contactbox" id="contact-us">
-                        <h3>Contact Us</h3>
-                        <form>
-                            <input type="text" id="name" name="name" placeholder="Name" required>
-                            <br>
-                            <input type="email" id="email" name="email" placeholder="Email Address" required>
-                            <br>
-                            <input type="phone" id="phone" name="phone" placeholder="Phone Number" required>
-                            <br>
-                            <input type="text-area" id="message" name="message" placeholder="Enter Your Message">
-                            <br>
-                            <button type="submit" id="submit" name="submit">Send <i class="fas fa-paper-plane d-inline"></i></button>
-                        </form>
+                <div class="col-12 col-md-6">
+                    <div class="contactbox">
+                    <h3>Contact Us</h3>
+                    <form>
+                        <input type="text" id="name" name="name" placeholder="Name" required>
+                        <br>
+                        <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        <br>
+                        <input type="phone" id="phone" name="phone" placeholder="Phone Number" required>
+                        <br>
+                        <input type="text-area" id="message" name="message" placeholder="Enter Your Message">
+                        <br>
+                        <button type="submit" id="submit" name="submit">Send <i class="fas fa-paper-plane d-inline"></i></button>
+                    </form>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="contactbox calls">
-            <div class="row">
-                <div class="col-6">
-                    <div>
-                        <h5><i class="fas fa-phone-alt d-inline"></i> Phone:</h5><p>+353 555 5555</p>
-                    </div>
+    </section>
+
+    <section>
+    <div class="container-fluid w-90">
+        <div class="row calls">
+            <div class="col-12 col-md-6">
+                <div class="callsinner">
+                    <h5><i class="fas fa-phone-alt d-inline"></i> Phone:</h5><p>+353 555 5555</p>
                 </div>
-                <div class="col-6">
-                    <div>
-                        <h5><i class="fas fa-envelope d-inline"></i> Email:</h5><p>info@cartelcoffee.ie</p>
-                    </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="callsinner">
+                    <h5><i class="fas fa-envelope d-inline"></i> Email:</h5><p>info@cartelcoffee.ie</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="contactcenter">
-            <div class="row">
-                <div class="col-12"><h2>Make A Reservation!</h2></div>
-            </div>
+    </section>
+
+    <section>
+    <div class="container-fluid w-90">
+        <div class="row">
+            <div class="col-12"><h2>Make A Reservation!</h2></div>
+        </div>
+        <div class="row">
             <div class="col-12 contactbox" id="make-a-booking">
-                        <h3>Make a Booking</h3>
-                        <form>
-                            <input type="text" id="nameres" name="nameres" placeholder="Name" required>
-                            <br>
-                            <input type="email" id="emailres" name="emailres" placeholder="Email Address" required>
-                            <br>
-                            <input type="phone" id="phoneres" name="phoneres" placeholder="Phone Number" required>
-                            <br>
-                            <div class="date">
-                                <label class="res" for="date">Date</label>
-                                <input type="date" id="date" name="date" required>
-                            </div>
-                            <br>
-                            <div class="guests">
-                                <label class="res" for="guests">Guests</label>
-                                <select id="guests" name="guests" required>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                    <option value="6">6</option>
-                                    <option value="7">7</option>
-                                    <option value="8">8</option>
-                                    <option value="9">9</option>
-                                    <option value="10">10</option>
-                                    <option value="11">11</option>
-                                    <option value="12">12</option>
-                                </select>
-                            </div>
-                            <br>
-                            <input type="text-area" id="messageres" name="messageres" placeholder="Add a note">
-                            <br>
-                            <button type="submit" id="submitres" name="submit">Send <i class="fas fa-paper-plane d-inline"></i></button>
-                        </form>
+                <h3>Make a Booking</h3>
+                <form>
+                    <input type="text" id="nameres" name="nameres" placeholder="Name" required>
+                    <br>
+                    <input type="email" id="emailres" name="emailres" placeholder="Email Address" required>
+                    <br>
+                    <input type="phone" id="phoneres" name="phoneres" placeholder="Phone Number" required>
+                    <br>
+                    <div class="date">
+                    <label class="res" for="date">Date</label>
+                    <input type="date" id="date" name="date" required>
                     </div>
+                    <br>
+                    <div class="guests">
+                            <label class="res" for="guests">Guests</label>
+                            <select id="guests" name="guests" required>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </div>
+                    <br>
+                    <input type="text-area" id="messageres" name="messageres" placeholder="Add a note">
+                    <br>
+                    <button type="submit" id="submitres" name="submit">Send <i class="fas fa-paper-plane d-inline"></i></button>
+                </form>
+            </div>
         </div>
     </div>
-</section>
+    </section>
+</div>
 
 <!--Contact Form-->
-<section>
-</section>
-
 
 <!-- Footer -->
 <footer class="container-fluid bg-custom footercustom">
@@ -168,7 +165,8 @@
             <ul>
                 <h4>Dine/Deliver</h4>
                 <li><a href="menu.html">Menus</a></li>
-                <li><a href="#">Make A Booking</a></li>
+                <li><a href="book.html">Make A Booking</a></li>
+                <li><a href="www.deliveroo.com">Order</a></li>
                 <li><a href="#">Subscribe</a></li>
             </ul>
         </div>
@@ -198,7 +196,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-12 text-center mb-2 mb-lg-4"><h4>Follow Us</h4></div>
+        <div class="col-12"><h4>Follow Us</h4></div>
         <div class="col-12 socialicons">
             <a href="www.instagram.com"><i class="fab fa-instagram"></i></a>
             <a href="www.facebook.com"><i class="fab fa-facebook-square"></i></a>

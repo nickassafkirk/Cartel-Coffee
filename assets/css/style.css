@@ -417,7 +417,9 @@ blockquote hr{
 
 .bgcontact{
     position: relative;
-    padding: 5%;
+    padding: 5% 0;
+    margin: 0 auto;
+    text-align: center;
 }
 .bgcontact::after {
   content: "";
@@ -429,68 +431,46 @@ blockquote hr{
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1;   
-}
-.contactcenter{
-    margin: 0 auto;
-    width: 90%;
-}
-
-.contactcenter h2{
-    width: 100%;
-    text-align: center;
-    font-weight: 400;
-    margin: 3% 0 0 0;
-    padding: 2% 0;
-    border: 1px solid var(--lighttrans);
-    background-color: var(--lighttrans);
-    border-radius: 5px;
-    text-transform: uppercase;
-}
-
-.contactcenter h3, h5{
-    font-weight: 400;
+  z-index: -1; 
+  padding: 5% 0;
+  margin: 0;  
 }
 
 .contactbox{
+    width: 100%;
+    padding: 2% 0%;
+    margin: 2% 0%;
+    background: var(--lighttrans);
     border: 1px solid var(--lighttrans);
-    background-color: var(--lighttrans);
     border-radius: 5px;
-    height: 90%;
-    width: 90%;
-    padding: 2% 0% 10% 10%;
-    margin: 5% auto;
-    line-height: 1.0;
 }
+
 .calls{
-    text-align: center;
-    padding: 5%;
+    width: 100%;
+    padding: 0%;
+    margin: 2% 0%;
     color: #fff;
 }
 
-.calls .col-6 div{
-    margin: 0 2%;
-    padding: 2%;
-    background-color: var(--alertorange);
-    border: 1px solid var(--alertorange);
-    border-radius: 5px;
-}
-
-
-.contactbox .map{
-    padding-bottom: 20px;
-}
-
 @media screen and (max-width: 576px){
-    .contactbox .map{
-        height: 40%;
+    .calls{
+        font-size: 1rem;
     }
 }
 
+.calls .callsinner{
+    width: 100%;
+    padding: 2% 0%;
+    margin: 2% 0%;
+    background-color: var(--buttonblue);
+    border: 1px solid var(--buttonblue);
+    border-radius: 5px;
+}
+
 #name,#email,#phone,#message,#nameres,#emailres,#phoneres,#messageres{
-    width: 85%;
-    margin: 2% auto;
-    padding: 2% 2%;
+    width: 60%;
+    margin: 0 auto;
+    padding: 0;
     background-color: #fff;
     border: 1px solid var(--light);
     border-radius: 5px;
@@ -501,7 +481,7 @@ blockquote hr{
 }
 
 #submit,#submitres{
-    width: 85%;
+    width: 60%;
     color: #fff;
     font-weight: 600;
     background-color: var(--buttonblue);
@@ -510,7 +490,8 @@ blockquote hr{
     padding: 2%;
 }
 .guests,.date{
-    width: 85%;
+    width: 60%;
+    margin: 0 auto;
 }
 
 .res{
@@ -532,6 +513,11 @@ form{
     padding: 0;
 }
 
+@media screen and (min-width: 1200px){
+    .contactpage .container-fluid{
+        width: 60%;
+    }
+}
 /*------- Menu.html -------*/
 
 .menuback{
