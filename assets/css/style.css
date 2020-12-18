@@ -957,6 +957,16 @@ form{
 }
 
 
+/*--- contact2.html ---*/
 
+
+.btcustom1{
+    padding: 1% 0;
+    background-color: var(--buttonblue);
+    border: 1px solid var(--buttonblue);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+}
 
 
