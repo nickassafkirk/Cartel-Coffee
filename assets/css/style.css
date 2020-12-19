@@ -51,13 +51,6 @@ body{
     font-weight: 500;
 }
 
-@media screen and (max-width: 568px){
-    .secheading{
-    font-size: 150%;
-    margin: 4% 0%;
-}
-}
-
 .hr90,.hr60,.hr30{
     display: block;
     border-bottom: 2px solid #aaaaaa;
@@ -114,34 +107,8 @@ body{
     font-size: 400%;
 }
 
-@media screen and (max-width: 576px){
-    .navbar-brand{
-    font-size: 250%;
-    }
-}
-
-
-@media screen and (max-width: 767px){
-    .nav-item{
-    margin-left: auto;
-    margin-right: 5%;
-    }
-
-    .navbar-nav{
-    border-top: 2px solid var(--bg);
-    }
-}
-
-
-
 .nav-link{
     font-size: 1.7em;
-}
-
-@media screen and (max-width: 850px){
-    .nav-link{
-    font-size: 1.2em;
-}
 }
 
 /*------- Carousel -------*/
@@ -192,16 +159,6 @@ body{
 
 .carousel-caption p{
     font-size: 1em;
-}
-
-@media screen and (max-width: 576px){
-    .carousel-caption h5{
-    font-size: 2em;
-}
-
-.carousel-caption p{
-    font-size: 1em;
-}
 }
 
 .carousel-caption button{
@@ -310,15 +267,6 @@ blockquote hr{
 
 .curtain:hover span{ 
     display: none;
-}
-
-@media screen and (max-width: 768px){
-    .curtain{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-top: 3px solid var(--bg);
-    }
 }
 
 .curtain h3{
@@ -611,80 +559,6 @@ blockquote hr{
     color: var(--submenu);
 }
 
-@media screen and (max-width: 576px){
-    .menuback{
-        font-size: 0.8rem;
-        font-weight: 500;
-    }
-
-    .menuback::after{
-        background-repeat: repeat-x;
-    }
-    
-    .menusnav{
-        width: 95%;
-        font-size: 0.9rem;
-    }
-
-    h2.submenu{
-        font-size: 150%;
-    }
-
-    h2.secheading{
-        font-size: 125%;
-    }
-
-    .menuintro,.foodmenu,.dessertmenu,.coffeemenu{
-        width: 95%;
-    }
-
-   .foodmenu h4{
-        font-size: 1rem;
-    }
-
-   .dessertmenu h4{
-        font-size: 1rem;
-    }
-
-    .menuintro .secheading{
-        font-size: 1.4rem;
-        margin-bottom: 1rem;
-    }
-
-    .foodmenu .secheading{
-        font-size: 1.4rem;
-        margin-bottom: 1rem;
-    }
-
-    .dessertmenu .secheading{
-        font-size: 1.4rem;
-        margin-bottom: 1rem;
-    }
-
-    .dessertmenu>.col-12.col-sm-6{
-    padding: 0%;
-    }
-
-    .coffemenu,.milk p::before{
-    content: none;
-    }
-
-    .coffeemenu h3{
-        margin-bottom: 1rem;
-    }
-
-}
-
-@media screen and (min-width: 1200px){
-    .menusnav{
-        width: 60%;
-    }
-
-    .menuintro,.foodmenu,.dessertmenu,.coffeemenu{
-        width: 60%;
-    }
-}
-
 /*------- Shop.html -------*/
 
 /*------- Product -------*/
@@ -784,26 +658,6 @@ blockquote hr{
     content: "+ ";
 }
 
-@media screen and (max-width: 768px){
-    .footercustom{
-        padding-bottom: 10%;
-    }
-
-    .footercustom h4{
-    font-size: 1rem;
-    }
-
-    .footerlist li::before{
-    content: none;
-    padding-left: 0;
-    }
-    
-    .col-6.col-sm-3.footerlist a{
-    font-size: 0.7rem;
-    line-height: 1;
-    }
-}
-
 .footerlist a{
     text-decoration: none;
     color: #fff;
@@ -838,14 +692,6 @@ blockquote hr{
 .socialicons i:hover{
     color: var(--buttonblue);
 }
-
-@media screen and (max-width: 768px){
-    .socialicons i{
-    Font-size: 200%;
-    margin: 0% 5% 0% 5%;
-    }
-}
-
 
 /*--- contact2.html ---*/
 
@@ -907,19 +753,161 @@ blockquote hr{
     text-decoration: none;
 }
 
+/* Media Queries */
+@media screen and (max-width: 568px){
+    .secheading{
+    font-size: 150%;
+    margin: 4% 0%;
+    }
+}
 
-@media screen and (max-width:576px){
-.contactback h3{
+@media screen and (max-width: 576px){
+    .navbar-brand{
+    font-size: 250%;
+    }
+
+    .contactback h3{
     font-size: 110%;
-}
+    }
 
-address,#hours{
+    address,#hours{
     font-size: 0.9rem;
+    }
+
+    .btcustom1{
+    padding: 5% 0;
+    }
+
+    .carousel-caption h5{
+    font-size: 2em;
+    }
+
+    .carousel-caption p{
+    font-size: 1em;
+    }
+
+    .menuback{
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    .menuback::after{
+        background-repeat: repeat-x;
+    }
+    
+    .menusnav{
+        width: 95%;
+        font-size: 0.9rem;
+    }
+
+    h2.submenu{
+        font-size: 150%;
+    }
+
+    h2.secheading{
+        font-size: 125%;
+    }
+
+    .menuintro,.foodmenu,.dessertmenu,.coffeemenu{
+        width: 95%;
+    }
+
+   .foodmenu h4{
+        font-size: 1rem;
+    }
+
+   .dessertmenu h4{
+        font-size: 1rem;
+    }
+
+    .menuintro .secheading{
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .foodmenu .secheading{
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .dessertmenu .secheading{
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .dessertmenu>.col-12.col-sm-6{
+    padding: 0%;
+    }
+
+    .coffemenu,.milk p::before{
+    content: none;
+    }
+
+    .coffeemenu h3{
+        margin-bottom: 1rem;
+    }
 }
 
-.btcustom1{
-    padding: 5% 0;
+
+@media screen and (max-width: 767px){
+    .nav-item{
+    margin-left: auto;
+    margin-right: 5%;
+    }
+
+    .navbar-nav{
+    border-top: 2px solid var(--bg);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .curtain{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-top: 3px solid var(--bg);
+    }
+
+    .footercustom{
+        padding-bottom: 10%;
+    }
+
+    .footercustom h4{
+    font-size: 1rem;
+    }
+
+    .footerlist li::before{
+    content: none;
+    padding-left: 0;
+    }
+    
+    .col-6.col-sm-3.footerlist a{
+    font-size: 0.7rem;
+    line-height: 1;
+    }
+
+    .socialicons i{
+    Font-size: 200%;
+    margin: 0% 5% 0% 5%;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .nav-link{
+    font-size: 1.2em;
 }
 }
+
+@media screen and (min-width: 1200px){
+    .menusnav{
+        width: 60%;
+    }
+
+    .menuintro,.foodmenu,.dessertmenu,.coffeemenu{
+        width: 60%;
+    }
+}
+
+
 
 
