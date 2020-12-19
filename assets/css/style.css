@@ -847,9 +847,9 @@ blockquote hr{
 
 
 .btcustom1{
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
-    padding: 5% 0;
+    padding: 2% 0;
     background-color: var(--buttonblue);
     border: 1px solid var(--buttonblue);
     border-radius: 5px;
@@ -866,9 +866,24 @@ blockquote hr{
     border-radius: 5px; 
 }
 
+.contactback textarea{
+    height: auto;
+}
+
+#hours strong{
+    font-weight: 600;
+}
+
 @media screen and (max-width:576px){
 .contactback h3{
     font-size: 110%;
+}
 
+address,#hours{
+    font-size: 0.9rem;
+}
+
+.btcustom1{
+    padding: 5% 0;
 }
 }
