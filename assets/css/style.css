@@ -101,9 +101,12 @@ body{
 }
 
 /*------- Navbar -------*/
-.navbar-brand{
+.navbar-brand,#home-brand{
     font-family: 'Bebas Neue', cursive;
     font-weight: 600;
+}
+
+.navbar-brand{
     font-size: 400%;
 }
 
@@ -158,7 +161,7 @@ body{
 }
 
 .carousel-caption p{
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .carousel-caption button{
@@ -178,6 +181,9 @@ body{
 }
 
 /*------- Welcome -------*/
+#home-brand{
+    font-size: 300%;
+}
 
 blockquote{
     padding: 0;
@@ -227,12 +233,6 @@ blockquote hr{
     padding: 0;
     margin: 0 auto;
     object-fit: cover;
-}
-
-@media screen and (max-width: 768px){
-    .menutab img{
-        width: 100%;
-    }
 }
 
 .col-md-4.menutab{
@@ -398,9 +398,7 @@ blockquote hr{
     font-size: 1rem;
 }
 
-
 /* Credit background-opacity https://css-tricks.com/snippets/css/transparent-background-images/ */
-
 .menuback::after {
   content: "";
   background: url("../images/palms2.jpg") center center;
@@ -754,16 +752,68 @@ blockquote hr{
 }
 
 /* Media Queries */
-@media screen and (max-width: 568px){
-    .secheading{
-    font-size: 150%;
-    margin: 4% 0%;
+
+@media screen and (max-width: 850px){
+    .nav-link{
+    font-size: 1.2em;
+}
+}
+
+@media screen and (max-width: 768px){
+
+    #home-brand{
+    font-size: 220%;
+    }
+
+    .curtain{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-top: 3px solid var(--bg);
+    }
+
+    .footercustom{
+        padding-bottom: 10%;
+    }
+
+    .footercustom h4{
+    font-size: 1rem;
+    }
+
+    .footerlist li::before{
+    content: none;
+    padding-left: 0;
+    }
+    
+    .col-6.col-sm-3.footerlist a{
+    font-size: 0.7rem;
+    line-height: 1;
+    }
+
+    .socialicons i{
+    Font-size: 200%;
+    margin: 0% 5% 0% 5%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .nav-item{
+    margin-left: auto;
+    margin-right: 5%;
+    }
+
+    .navbar-nav{
+    border-top: 2px solid var(--bg);
     }
 }
 
 @media screen and (max-width: 576px){
     .navbar-brand{
     font-size: 250%;
+    }
+
+    #home-brand{
+        font-size: 120%;
     }
 
     .contactback h3{
@@ -784,6 +834,10 @@ blockquote hr{
 
     .carousel-caption p{
     font-size: 1em;
+    }
+
+    .menutab img{
+        width: 100%;
     }
 
     .menuback{
@@ -848,54 +902,11 @@ blockquote hr{
     }
 }
 
-
-@media screen and (max-width: 767px){
-    .nav-item{
-    margin-left: auto;
-    margin-right: 5%;
+@media screen and (max-width: 568px){
+    .secheading{
+    font-size: 150%;
+    margin: 4% 0%;
     }
-
-    .navbar-nav{
-    border-top: 2px solid var(--bg);
-    }
-}
-
-@media screen and (max-width: 768px){
-    .curtain{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-top: 3px solid var(--bg);
-    }
-
-    .footercustom{
-        padding-bottom: 10%;
-    }
-
-    .footercustom h4{
-    font-size: 1rem;
-    }
-
-    .footerlist li::before{
-    content: none;
-    padding-left: 0;
-    }
-    
-    .col-6.col-sm-3.footerlist a{
-    font-size: 0.7rem;
-    line-height: 1;
-    }
-
-    .socialicons i{
-    Font-size: 200%;
-    margin: 0% 5% 0% 5%;
-    }
-}
-
-@media screen and (max-width: 850px){
-    .nav-link{
-    font-size: 1.2em;
-}
 }
 
 @media screen and (min-width: 1200px){
