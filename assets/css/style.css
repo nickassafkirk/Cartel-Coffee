@@ -874,6 +874,36 @@ blockquote hr{
     font-weight: 600;
 }
 
+.btn-link{
+    color: inherit;
+}
+
+.card{
+    Background-color: var(--light);
+    margin-bottom: 2%;
+}
+
+.card-header{
+    Background-color: #fff;
+    margin-bottom: 0%;
+}
+
+.card-header:hover{
+    background-color: var(--buttonblue);
+    color: white;
+}
+
+.btn-link:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none;
+    text-decoration: none;
+}
+
+
 @media screen and (max-width:576px){
 .contactback h3{
     font-size: 110%;
@@ -887,3 +917,5 @@ address,#hours{
     padding: 5% 0;
 }
 }
+
+
