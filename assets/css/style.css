@@ -969,4 +969,12 @@ form{
     font-size: 1rem;
 }
 
-
+.contactback{
+    width: 90%;
+    margin: 0 auto;
+    padding: 5%;
+    background-color: var(--lighttrans);
+    border: 1px solid var(--lighttrans);
+    border-radius: 5px;
+    
+}
