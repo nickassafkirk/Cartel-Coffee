@@ -5,7 +5,7 @@
     --bg: #eeeeee;
     --warmyellow: #eed231;
     --buttonblue: #07c5ff;
-    --buttonaqua: #1fd3b2;
+    --buttonaqua: #009277;
     --alertorange: #f9c043;
     --bgdark: #343a40;
     --custom: #212121;
@@ -16,7 +16,7 @@
 /*------- Colors -------*/
 
 .bg-custom{
-    background-color: #212121;
+    background-color: var(--custom);
     margin: 0;
     padding: 0;
     border: 0;
@@ -414,8 +414,8 @@ blockquote hr{
 
 .menusnav{
     width: 80%;
-    background-color: var(--submenu);
-    border: 1px solid var(--submenu);
+    background-color: var(--custom);
+    border: 1px solid var(--custom);
     margin: 0 auto;
     padding: 1%;
     color: white;
@@ -432,7 +432,7 @@ blockquote hr{
 
 .menusnav.bottom{
     margin-bottom: 5%;
-    background: var(--submenu);
+    background: var(--custom);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -485,16 +485,16 @@ blockquote hr{
     text-align: center;
     background-color: var(--lighttrans);
     border: 1px solid var(--lighttrans);
-    border-radius: 5px;
+    border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
 }
 
 .menuintro .secheading{
         font-weight: 600;
         padding: 0.8rem;
-        background-color: var(--submenu);
+        background-color: var(--custom);
         color: white;
-        border: 1px solid var(--submenu);
-        border-radius: 5px;
+        border: 1px solid var(--custom);
     }
 
 .menuintro p{
@@ -504,14 +504,10 @@ blockquote hr{
  .foodmenu .secheading{
         font-weight: 600;
         padding: 0.8rem;
-        background-color: var(--submenu);
-        color: white;
-        border: 1px solid var(--submenu);
-        border-radius: 5px;
     }
 
 .foodmenu>.col-12.col-sm-6{
-    padding: 3% 0%;
+    padding: 2% 0%;
 }
 
 .foodmenu hr{
@@ -521,14 +517,10 @@ blockquote hr{
  .dessertmenu .secheading{
         font-weight: 600;
         padding: 0.8rem 0;
-        background-color: var(--submenu);
-        color: white;
-        border: 1px solid var(--submenu);
-        border-radius: 5px;
     }
 
 .dessertmenu>.col-12.col-sm-6{
-    padding: 3% 0%;
+    padding: 2% 0%;
 }
 
 .coffeemenu{
@@ -537,7 +529,7 @@ blockquote hr{
     border: 1px solid #212225;
     border-radius: 5px;
     color: #fff;
-    padding: 5% 2%;
+    padding: 2% 2%;
 }
 
  .coffeemenu h3{
@@ -553,9 +545,21 @@ blockquote hr{
    margin: 0;
 }
 
-.call{
-    color: var(--submenu);
+.menuorder{
+    background-color: var(--lighttrans);
+    border: 1px solid var(--lighttrans);
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 5%;
+    width: 100%;
 }
+
+.call{
+    color: var(--buttonaqua);
+
+}
+a.call{color: var(--buttonaqua);
+    text-decoration: none;}
 
 /*------- Shop.html -------*/
 
