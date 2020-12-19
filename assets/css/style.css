@@ -743,7 +743,7 @@ a.call{color: var(--buttonaqua);
 }
 
 .card{
-    Background-color: var(--light);
+    Background-color: rgba(255, 255, 255, 0.863);
     margin-bottom: 2%;
 }
 
