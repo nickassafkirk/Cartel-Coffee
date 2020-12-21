@@ -333,12 +333,16 @@ blockquote hr{
     left: 0;
     text-align: center;
     font-weight: 600;
-    font-size: 16px;
     text-shadow: var(--logo) 0 2px;
     text-transform: uppercase;
     margin: 0 auto;
     padding: 0;
     color: var(--light);
+}
+
+h5.cathead{
+    font-weight: 600;
+    font-size: 1.8rem;
 }
 
 .ctablu{
@@ -362,7 +366,7 @@ blockquote hr{
     color: var(--light);
     font-weight: 600;
     color: var(--light);
-    font-size: 1em;
+    font-size: 1.6rem;
 }
 
 /*------- contact.html -------*/
@@ -773,6 +777,29 @@ a.call{color: var(--buttonaqua);
     .nav-link{
     font-size: 1.2em;
 }
+
+ .col-6.col-sm-3.footerlist li{
+    font-size: 0.7rem;
+    line-height: 1.8;
+    }
+
+    .footercustom{
+        padding-bottom: 5%;
+    }
+
+    .footercustom h4{
+    font-size: 1rem;
+    }
+
+    .footerlist li::before{
+    content: none;
+    padding-left: 0;
+    }
+    
+    .socialicons i{
+    Font-size: 200%;
+    margin: 0% 5% 0% 5%;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -788,28 +815,14 @@ a.call{color: var(--buttonaqua);
         border-top: 3px solid var(--bg);
     }
 
-    .footercustom{
-        padding-bottom: 10%;
-    }
+    h5.cathead{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
 
-    .footercustom h4{
-    font-size: 1rem;
-    }
-
-    .footerlist li::before{
-    content: none;
-    padding-left: 0;
-    }
-    
-    .col-6.col-sm-3.footerlist a{
-    font-size: 0.7rem;
-    line-height: 1;
-    }
-
-    .socialicons i{
-    Font-size: 200%;
-    margin: 0% 5% 0% 5%;
-    }
+button.ctablu a{
+    font-size: 1.2rem;
+}
 }
 
 @media screen and (max-width: 767px){
@@ -850,6 +863,14 @@ a.call{color: var(--buttonaqua);
 
     .carousel-caption p{
     font-size: 1em;
+    }
+
+    h5.cathead{
+    font-size: 1rem;
+    }
+
+    button.ctablu a{
+    font-size: 1rem;
     }
 
     .menutab img{
@@ -916,6 +937,7 @@ a.call{color: var(--buttonaqua);
     .coffeemenu h3{
         margin-bottom: 1rem;
     }
+
 }
 
 @media screen and (max-width: 568px){
@@ -932,6 +954,10 @@ a.call{color: var(--buttonaqua);
 
     .menuintro,.foodmenu,.dessertmenu,.coffeemenu{
         width: 60%;
+    }
+
+    .cathead{
+        font-size: 150%;
     }
 }
 
