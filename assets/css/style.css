@@ -213,10 +213,23 @@ blockquote hr{
     padding: 0;
 }
 
+.bg-homehead{
+    background-color: var(--custom);
+    color: var(--light);
+    padding: 25px 0;
+}
+
+.bg-homehead .col-12{
+    padding: 3% 0;
+}
+
 .menussec .row{
     padding: 0;
-    margin: 5% 0;
+    Margin: 0;
+    margin-top: 5%;
+
 }
+
 .menutab{
     Text-align: center;
     position: relative;
@@ -294,7 +307,7 @@ blockquote hr{
 
 .catsec .row{
     padding: 0;
-    margin: 5% 0;
+    margin: 5% 0 5% 0;
 }
 
 .catsec img{
