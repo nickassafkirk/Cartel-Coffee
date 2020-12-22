@@ -602,8 +602,8 @@ a.call{color: var(--buttonaqua);
     color: var(--light);
     text-align: center;
     width: 70%;
-    background-color: var(--alertorange);
-    border: 1px solid var(--alertorange);
+    background-color: var(--custom);
+    border: 1px solid var(--custom);
     border-radius: 5px;
     padding: 2%;
     margin: 5% auto;
@@ -621,6 +621,33 @@ a.call{color: var(--buttonaqua);
 .container2{
     clear: both;
 }
+
+.nextcat{
+    width: 80%;
+    height: 80%;
+    margin: 10% auto;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.nextcat a{
+    color: #333;
+}
+
+.nextcat a:hover{
+    color: var(--buttonblue);
+    text-decoration: none;
+}
+
+.nextcat i{
+    font-size: 200%;
+}
+
+div#shopjumbo{
+    background-color: #E6E8EA;
+}
+
+
 
 /*------- Footer -------*/
 
