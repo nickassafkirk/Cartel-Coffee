@@ -647,6 +647,14 @@ a.call{color: var(--buttonaqua);
     background-color: #E6E8EA;
 }
 
+/* Bug fix found at this article https://css-tricks.com/considerations-styling-modal/ */
+/* .modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
 #shopmodal{
     position: fixed;
     padding-top: 10%;
@@ -655,6 +663,8 @@ a.call{color: var(--buttonaqua);
     transform: translate(-50%, -50%);
     font-size: 1.5rem;
 }
+
+
 
 .modal-header{
     background-color: var(--custom);

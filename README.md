@@ -206,6 +206,11 @@ Is used to add structure, layout and mobile first design to webpages.
 * Bug: Reoccuring Right indent on body content causing alignment issues.
   Fix: Remove right margin on container-fluid class that was causing alignment issues across site.
 
+* Bug: Modal on Shop page was fixed to the top of the page. When using the footer navigation links to navigate to popular shop categories (coffee, subscriptions, equipment and merchandise), the user would be scrolled down the page.
+This meant that the modal was out of the viewport and customers could not interact with the shop page. 
+  Fix: Using position: fixed, percentage top and left values and a transform value, I was able to ensure that the modal is position in the center of the screen even when the screen is scrolled. 
+  The code used for this fix was taken from a CSS tricks article credited below. 
+
 #### Remaining Bugs To Be Fixed
 
 * Bug: Footer content overlapping on smaller screen sizes. Third column is hidden on small screensizes and other column items were not occupying the space left behind. 
@@ -257,9 +262,19 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 - To find a way to hide the homepage menu tile headings, I was inspired by a method described in [this stackoverflow article](https://stackoverflow.com/questions/9913293/change-text-on-hover-then-return-to-the-previous-text/9913526)
 
-- To enable modals to show by default I found a solution at [this article](https://www.tutorialrepublic.com/faq/how-to-launch-bootstrap-modal-on-page-load.php#:~:text=Answer%3A%20Use%20the%20Bootstrap%20.,modal('show')%20method&text=modal('show')%20method%20for%20launching%20the%20modal%20window,to%20subscribe%20the%20website%20newsletter.)
+- To enable modals to appear upon page load by default I found a solution at [this article](https://www.tutorialrepublic.com/faq/how-to-launch-bootstrap-modal-on-page-load.php#:~:text=Answer%3A%20Use%20the%20Bootstrap%20.,modal('show')%20method&text=modal('show')%20method%20for%20launching%20the%20modal%20window,to%20subscribe%20the%20website%20newsletter.)
  I edited this simple script 
  
+- To apply favourable modal positioning I used a technique described in [this article](https://css-tricks.com/considerations-styling-modal/) 
+
+from which I utilised this snippet of code 
+ .modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 ### Media
 - The photos used in this site were obtained from ...
 
