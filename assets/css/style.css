@@ -647,6 +647,21 @@ div#shopjumbo{
     background-color: #E6E8EA;
 }
 
+#shopmodal{
+    position: absolute;
+    padding-top: 15vh;
+    font-size: 1.5rem;
+}
+
+.modal-header{
+    background-color: var(--custom);
+    color: var(--light);
+    font-size: 3rem;
+    height: 15vh;
+}
+
+button.close{color: #fff;}
+
 
 
 /*------- Footer -------*/
