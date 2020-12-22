@@ -580,6 +580,21 @@ a.call{color: var(--buttonaqua);
 
 /*------- Shop.html -------*/
 
+#page .row{
+    margin-top: 5%
+}
+
+#page h2{
+    padding: 2% 0;
+    border: 2px solid var(--custom);
+}
+
+#page .jumbotron h2{
+    color: inherit;
+    background-color: transparent;
+    border: none;
+}
+
 /*------- Product -------*/
 .product{
     height: auto;
@@ -599,6 +614,7 @@ a.call{color: var(--buttonaqua);
     margin-right: auto;
     margin-bottom: 10px;
     padding: 0;
+    background-color: #E6E8EA;
 }
 
 .product p:hover::before{
@@ -612,11 +628,11 @@ a.call{color: var(--buttonaqua);
 }
 
 .product button{
-    color: var(--light);
+    color: #fff;
     text-align: center;
     width: 70%;
-    background-color: var(--custom);
-    border: 1px solid var(--custom);
+    background-color: var(--buttonblue);
+    border: 1px solid var(---buttonblue);
     border-radius: 5px;
     padding: 2%;
     margin: 5% auto;
@@ -685,7 +701,13 @@ a.call{color: var(--buttonaqua);
     font-size: 3rem;
 }
 
-button.close{color: #fff;}
+button.close{
+    color: #fff;
+}
+
+button.close:hover{
+    color: #fff;
+}
 
 
 
