@@ -643,7 +643,7 @@ a.call{color: var(--buttonaqua);
     font-size: 200%;
 }
 
-div#shopjumbo{
+#shopjumbo,#introshopjumbo{
     background-color: #E6E8EA;
 }
 
