@@ -3,14 +3,14 @@
 ## Overview
 
 The purpose of this project is to build a mobile responsive website for a new coffee shop in Dublin called Cartel coffee. The Business wants to increase their online visibility, increase revenue and to attract new customers. They want to introduce the ability to receive takeaway orders and start selling online. They want to use the site as a platform to update customers on business changes and to continue trading if restaurants are forced to close during Covid-19 restrictions. 
-The goal is to build a mobile first site which meets the intial business needs while providing an excellent user experience for site users. I also aim to create a platform that can be built upon to meet the business's ongoing business needs.
+The goal is to build a mobile first site which meets the intial business needs while providing an excellent user experience for site users. 
 
 **NB:** *This is a theoretical business created for educational purposes only*
 
 ## UX
  
 The intention of this site is to allow new and existing users to find the business, learn about the business and to convert into physical customers at the business's location or virtual customers via ordering online, over the phone and by email. 
-To provide a great user experience it is important that infomration is displayed clearly in a logical order of importance. As this website is designed to provide several distinct functions (contact, buy, order and inform), for a broad range of users, emphasis has been made to create many interlinking ways for customers to find and source the information that is relevant to them while ignoring information that may not be relevant at that moment. 
+To provide a great user experience it is important that information is displayed clearly in a logical order of importance. As this website is designed to provide several distinct functions (contact, buy, order and inform), for a broad range of users, emphasis has been made to create multiple interlinking navigation methods so that customers can find and source the information that is relevant to them while ignoring information that may not be relevant at that moment. 
 To increase brand awareness and a consistent experience for online and offline customers, the website has been designed to mirror the styling and motif that customers experience while visiting the business's physical location. 
 
 ### Strategy
@@ -38,7 +38,7 @@ To increase brand awareness and a consistent experience for online and offline c
 #### User Stories
 
 ##### Basic user stories
-1. Daniel needs to see the menu and phone number so he can order for collection.
+1. Daniel needs to see the menu and phone number so he can order foof for collection.
 2. Lisa needs to fill out a contact form so that she can make a reservation for lunch.
 3. Marius wants to view the stores's product range and contact details so he can order products remotely. 
 4. Paul wants to view a gallery of the Cafe and their social media, so he can decide if it is an appropriate environment to hold a business meeting.
@@ -53,25 +53,29 @@ To increase brand awareness and a consistent experience for online and offline c
 ### Scope 
 
 #### Features to be included in initial iteration
-* Display prominent logo
-* Navbar for navigation amongst pages and sections
-* Display business contact information
-* Display Business location & map
-* Display Business menu
-* Display Products & Product information
-* Provide Business social media links
-* Provide terms and conditions
-* Provide privacy policy
+* A prominent logo
+* A Navbar for navigation amongst pages and sections
+* The business contact information
+* The Business location & map
+* A contact form
+* A Booking form
+* The Food & Drinks menus menu
+* Products & Product information
+* Business social media links
 * Create a means to navigate between pages
+* A list of commonly asked questions/FAQs
+* A Covid-19 Alert
 
 #### Features/Functionality to be added
-* Add products to basket
-* Checkout and purchase products online
-* Order food online functionality
-* Detailed menu item information on hover - Allow a detailed description of the menu food item on click or hover.
-* Contact box in contact.html page to link to preffered email address.
+* Functionality to add products to basket
+* Functionality to checkout and purchase products online
+* Functionality to order food online 
+* Detailed food menu item information - Allow a detailed description of the menu food item on click or hover.
+* A functioning contact box in contact.html page to link to preffered email address using PHP.
+* Detailed  Product information - Allow a detailed description of each product on click or hover.
 * Individual product pages - A specific detailed .html page with full product information for each product in the shop.
-* Build out privacy policy & Terms and conditions pages - These footer links are here as placeholders only to display that these are important links to dislay on a consumer facing site. As this is a "Mock business" these have been left blank but if this were to be used a detailed privacy policy would be created to build customer confidence and adhere to european regulations. 
+* Build out privacy policy & Terms and conditions pages - These footer links are here as placeholders only to display that these are important links to dislay on a consumer facing site. 
+  As this is a "Mock business" these have been left blank but if this were to be used a detailed privacy policy and Terms & conditions page would be created to build customer confidence and adhere to european regulations. 
 
 ### Structure 
 
@@ -119,22 +123,29 @@ To increase brand awareness and a consistent experience for online and offline c
 
 * Shop page
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons
+ * Intro Jumbotron - A brief intro text box explaining the purpose of the page and encouraging first-time learning.
  * Category headings - Group relevant products together by association to increase readability sense of purpose for first time users.
- * Product tiles: Border, image thumbnail, tilte, price, buy button.
- * footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
+ * Product tiles: Border, image thumbnail, tilte, price, buy button. Clear, uniform product structure shows customers the key information needed to inform a purchase.
+ * Merchandise Jumbotron - A prominent text box to explain new products are coming soon, to encourage customers to return to the site at a later date.
+ * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
 
 ### Skeleton
 
 1. **Main Navigation:** A consistent top nav bar is present across all site pages to allow navigation through various pages. 
     bootstrap navbar expand/collapse classes were used to improve user experience on mobile devices. 
     I chose to align the navbar collapse icon and collapsed to the menu to the right as [research shows](https://www.livescience.com/what-causes-left-handedness.html) that 85% - 90% of users are right handed and right-alignment results in marginally easier use for right-handed users.
+    The Active class is used highlight the current page.
+    
 2. **Footer navigation:** A consistent bottom footer contains and reinforces importance of main navigation links present in main navbar. This aids navigation to next point of interest once a user has scrolled down the page.
    links have been chosen specifically to aid conversion with call to action for contact, social media interaction, shop, make a reservation or order from menu. 
    Additional links such as about, privacy polics anf T&Cs have been added to footer as they are important but do not merit inclusion in main navbar. 
+
 3. **Images:** Images and Image tiles are used to link strong visual images to relevant pages. Popular categories are represented as images and overlying text, hover functionality and highlighting are strategies used to reinforce that an image is a link. 
 4. **IDs:** Id's have been used to allow quick navigation to specific points on a single webpage. This is designed to aid conversion by bringing the user directly to their point of interest without the potential to get distracted. 
    The use of Id based navigation also allows more distinct information to be condensed onto a fewer number of pages for a better user experience, a more condensed site and faster page load times. 
-5. **Buttons:** Buttons are used for reinforce form submission or to create a strong emphasis that a link to another page or information is present. 
+
+5. **Buttons:** Buttons are used for reinforce form submission or to create a strong emphasis that a link to another page or information is present. Consistent button coloring is used across site to drive home the functionality of buttons on the site. Clear button labelling is used to 
+    encourage first-time learning and correct use of buttons on the site.
 
 #### Wireframes
 
@@ -146,45 +157,91 @@ To increase brand awareness and a consistent experience for online and offline c
 
 [Shop page](assets/wireframes/CC_Shop.html_Wireframes.pdf)
 
-
 #### Mockups
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ### Surface
 
 Fonts
 
+Sans-serif fonts have been chosen site-wide for a minimilistic style, consistent with the companies branding and interior decor and to improve legibility for site users.
+Font-size and line height are adjusted on different device sizes to ensure correct distribution of information and layout across all devices. Altering line height and text-padding on mobile devices 
+aids navigation and touch-interaction on touch-screen devices.
+
+Logo & Title Fonts
+The Bebas Neue font is used for the company logo and the carousel image titles. It was chosed because of it's bold appearance and clear readability. This font has been styled to be uppercase with a heavier font-weight than the body text
+to create recognisable branding and obvious visual impact for key site information.
+
+Body Font
+The Montserrat font was selected for the body text for it's slim, legible and professional appearance. A much lighter font-weight is used to reinforce an overall minimilistic style 
+and to create contrast between branding text and headings. 
+
+Headings
+Headings also utilise the Montserrat font but are style with a heavier font-weight to reinforce a greater sense of importance than accompanying body text.
+
+Additional Fonts
+The Sans-serif font has been chosen as a fallback font if chosen fonts cannot be loaded. 
+
 Colors
+Colors are used to increase contrast, visual impact, to indicate interactivity of elements and to improve readability across the site. 
+
+Navigation colors: Dark, muted header and footer colors are used to give a sense of space and contrast to the main and footer navigation. 
+
+Body colors: In contrast the body text utilises light, subtle background colors with dark text colors to clearly distinquish the page content from the navigation. 
+
+Call-to-action colors: Buttons, Links and alerts utilise really bright vibrant colors to encourage click behaviour and to act as eyecatching visual indicators of primary call-to-action elements.
+
+Heading colors: Bold colored headings clearly define where individual sections begin. Boldly colored section background colors contrasted with light fonts are chosen to clearly define the purpose of each section of information.
+
+Section Background colors: Coloured sections with muted grey backgrounds are used to clearly distinguish relevant areas of information. This is important as page sections are scaled to width on larger screen-widths to keep information condensed and easily readable.
 
 Icons
+Icons are used as metaphors to reinforce meaning of key navigation elements. The paper plane icon is used to reinforce meaning of send/submission buttons, food and drink icons are used on the menu page to 
+reinforce the sub-menu navigation buttons and Icons are used for the contact information and social media links to clearly apply meaning to text-heavy page sections like the footer.
 
 Images
+Images are used in several ways on the site. 
+
+Carousel Images: Eye catching images are used on the homepage carousel to clearly indicate the businesses key activities. These are chosen to encourage users to understand the purpose of the business as soon as they land on the homepage.
+
+Homepage Image Tiles: Appealing images are used as clickable tiles for the menus navigation links and shop navigation links on the homepage to quickly visually communicate the type of content a user will be brought to when clicking on each image tile. 
+
+Product images: Studio images are used to clearly display a products purpose and to encourage users to buy. Clear striking product images are contrasted with plain backgrounds to put the emphasis on the product and to keep user focus on the key information on the page.
+
+Background-images: Subtle background images with added opacity are used to give users a greater understanding of the business's style and appearance without drawing away from the key information on each page. These background images and colored divs are also used to break-up large areas of white-space
+for a more visually appealing appearance and a more defined flow of information through the page. 
 
 
 ## Technologies Used
 
 ![HTML5 Logo](assets/images/technologies/html5.png)
 ### HTML5 
+[https://www.w3.org/html/](https://www.w3.org/html/) 
+
 Is used to add content, structure and the ability to navigate to the website.
 
 ---
 
 ![CSS Logo](assets/images/technologies/css3.png)
 ### CSS3
+[https://www.w3.org/TR/CSS/](https://www.w3.org/TR/CSS/) 
+
 Is used to add styles, layout, design and interactivity to the page and to increase usability to users across various devices. 
 
 ---
 
 ![Boootstrap logo](assets/images/technologies/bootstrap.png)
 ### Bootstrap V4.5.3 
-[https://getbootstrap.com/](https://getbootstrap.com/) Is used to add structure, layout and mobile first responsive design to the webpages. 
+[https://getbootstrap.com/](https://getbootstrap.com/) 
+
+Is used to add structure, layout and mobile first responsive design to the webpages. 
 
 ---
 
 ![Gitpod Logo](assets/images/technologies/gitpod.png)
 ### Gitpod
-[https://www.gitpod.io/](https://www.gitpod.io/) Is used to write, edit and preview code.
+[https://www.gitpod.io/](https://www.gitpod.io/) 
+
+Is used to write, edit and preview code.
 
 ---
 
