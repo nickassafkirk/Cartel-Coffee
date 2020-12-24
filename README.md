@@ -164,25 +164,45 @@ Images
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
+![HTML5 Logo](assets/images/technologies/html5.png)
 ### HTML5 
+Is used to add content, structure and the ability to navigate to the website.
 
-![HTML5 Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png): 
+---
 
-Is used to provide content and structure to the website.
+![CSS Logo](assets/images/technologies/css3.png)
+### CSS3
+Is used to add styles, layout, design and interactivity to the page and to increase usability to users across various devices. 
 
-### CSS3 
+---
 
-![CSS Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/120px-CSS3_logo_and_wordmark.svg.png):
+![Boootstrap logo](assets/images/technologies/bootstrap.png)
+### Bootstrap V4.5.3 
+[https://getbootstrap.com/](https://getbootstrap.com/) Is used to add structure, layout and mobile first responsive design to the webpages. 
 
-Is used to add styling, structure, layout and design to the page and to increase accessibility to user across various devices. 
+---
 
-### Bootstrap V 4.5.3 
+![Gitpod Logo](assets/images/technologies/gitpod.png)
+### Gitpod
+[https://www.gitpod.io/](https://www.gitpod.io/) Is used to write, edit and preview code.
 
-![Boootstrap logo](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/220px-Bootstrap_logo.svg.png)
+---
 
-Is used to add structure, layout and mobile first design to webpages. 
+![Github](assets/images/technologies/github.png)
+### GitHub 
+[https://github.com/](https://github.com/)
+
+Is used to host, share and deploy the project.
+
+---
+
+![Balsamiq Logo](assets/images/technologies/balsamiq.png)
+### Balsamiq
+[https://balsamiq.com/](https://balsamiq.com/)
+
+Is used to create wireframes as visual mockups of the final site design
+
+---
 
 ## Code 
 
@@ -320,6 +340,25 @@ Menu Background
 
 Contact Background
 <span>Photo by <a href="https://unsplash.com/@cyzx?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Clifford</a> on <a href="https://unsplash.com/s/photos/old-chairs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+HTML5 Logo: 
+[W3.org](https://www.w3.org/html/logo/#downloads)
+
+CSS3 Logo:
+[wikipedia commons](https://commons.wikimedia.org/wiki/File:CSS3_logo_and_wordmark.svg)
+
+Bootstrap Logo:
+[Wikipedia](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
+
+Gitpod Logo:
+[Gitpod](https://www.gitpod.io/media-kit/)
+
+
+Github Logo:
+[Github](https://github.com/logos)
+
+Balsamiq Logo:
+[Balsamiq](https://balsamiq.com/company/brandassets/)
 
 ### Acknowledgements
 
