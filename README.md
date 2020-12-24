@@ -138,13 +138,13 @@ To increase brand awareness and a consistent experience for online and offline c
 
 #### Wireframes
 
-[Homepage](assets/wireframes/CC Index.html Wireframes.pdf)
+[Home page](assets/wireframes/CC_Index.html_Wireframes.pdf)
 
-[Menu page](assets/wireframes/CC Menu.html Wireframes.pdf)
+[Menu page](assets/wireframes/CC_Menu.html_Wireframes.pdf)
 
-[Contact page](assets/wireframes/CC Contact.html Wireframes.pdf)
+[Contact page](assets/wireframes/CC_Contact.html_Wireframes.pdf)
 
-[Shop page](assets/wireframes/CC Shop.html Wireframes.pdf)
+[Shop page](assets/wireframes/CC_Shop.html_Wireframes.pdf)
 
 
 #### Mockups
