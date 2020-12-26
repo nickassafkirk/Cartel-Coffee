@@ -11,6 +11,7 @@
     --custom: #212121;
     --submenu: #0E4B33;
     --lightpink: #DDBBDC;
+    --powderpink: #274135;
 }
 
 /*------- Colors -------*/
@@ -431,8 +432,8 @@ h5.cathead{
 
 .menusnav{
     width: 80%;
-    background-color: var(--custom);
-    border: 1px solid var(--custom);
+    background-color: var(--powderpink);
+    border: 1px solid var(--powderpink);
     margin: 0 auto;
     padding: 1%;
     color: white;
@@ -449,7 +450,7 @@ h5.cathead{
 
 .menusnav.bottom{
     margin-bottom: 5%;
-    background: var(--custom);
+    background: var(--powderpink);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -539,11 +540,14 @@ h5.cathead{
 .dessertmenu>.col-12.col-sm-6{
     padding: 2% 0%;
 }
+.menusnav.top#coffeemenu{
+    background-color: #151516;
+}
 
 .coffeemenu{
     font-family: monospace, sans-serif;
-    background-image: url("../images/pegboardlandscape.png");
-    border: 1px solid #212225;
+    background: #151516;
+    border: 1px solid #151516;
     border-radius: 5px;
     color: #fff;
     padding: 2% 2%;
