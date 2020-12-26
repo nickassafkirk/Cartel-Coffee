@@ -126,9 +126,24 @@ body{
 .carousel-inner{
     width: 100%;
     position: relative;
+    z-index: 0;
 }
 
-.carousel-inner::after{
+
+.carousel-inner .carousel-item img{
+    width: 100%;
+}
+
+.carousel-item{
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    color: #fff;
+    z-index: 0;
+    position: relative;
+}
+
+.carousel-item::after{
     content: "";
     background: rgba(0,0,0,0.35);
     top: 0;
@@ -141,14 +156,13 @@ body{
     padding: 0; 
 }
 
-.carousel-inner .carousel-item img{
-    width: 100%;
-}
-
 .carousel-caption{
-    bottom: 25%;
     color: #fff;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    z-index: 2;
 }
 
 .carousel-caption h5{
@@ -967,11 +981,11 @@ button.close:hover{
     }
 
     .carousel-caption h5{
-    font-size: 2em;
+    font-size: 1.2em;
     }
 
     .carousel-caption p{
-    font-size: 1em;
+    font-size: 0.8em;
     }
 
     h5.cathead{
