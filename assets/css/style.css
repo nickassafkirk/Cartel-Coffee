@@ -913,6 +913,9 @@ button.close:hover{
 }
 
 @media screen and (max-width: 768px){
+    .navbar-brand{
+        font-size: 300%;
+    }
 
     #home-brand{
     font-size: 220%;
@@ -928,11 +931,11 @@ button.close:hover{
     h5.cathead{
     font-weight: 600;
     font-size: 1.2rem;
-}
+    }
 
-button.ctablu a{
+    button.ctablu a{
     font-size: 1.2rem;
-}
+    }
 }
 
 @media screen and (max-width: 767px){
