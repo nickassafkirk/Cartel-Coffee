@@ -156,6 +156,7 @@ body{
     padding: 0; 
 }
 
+/*Centering carousel caption text technique from this forum https://stackoverflow.com/questions/27279865/how-to-vertically-center-a-bootstrap-carousel-caption*/
 .carousel-caption{
     color: #fff;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
