@@ -14,16 +14,93 @@
     <title>Cartel Coffee</title>
 </head>
 <body>
-<div class="bgcontact"> 
-<section class="jumbotron w-75 text-center d-flex align-items-center" id="formsubmitpage">
-    <div class="mx-auto">
-        <h2>Thanks For Getting In Touch</h2>
-        <p>We have received your email and will get back to you as soon as possible</p>
-        <p>In case you missed it. Check out our <a href="contact.html#faq">FAQ section</a> for some commonly asked questions</p>
-        <a href="index.html" class="btn btn-success">Return to home</a>
+<!-- Header -->
+<!-- Navbar snippet taken from bootsrap documentation and customised for use on site header https://getbootstrap.com/docs/4.3/components/navbar/-->
+<nav class="navbar navbar-expand-md navbar-dark bg-custom pt-3 pb-3">
+    <a class="navbar-brand ml-auto mr-auto ml-md-5" href="index.html">Cartel Coffee</a>
+    <!-- <div class="d-none text-white mr-2 mr-sm-4"><i class="fas fa-phone-alt"></i> <i class="fas fa-envelope"></i></div> -->
+    <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto ml-md-auto mt-2 mt-md-0 mr-md-5">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="shop.html" tabindex="-1">Shop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html#make-a-booking">Book</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
     </div>
-</section>
-</div>  
+</nav>
+<div class="bgcontact"> 
+    <section class="jumbotron w-75 text-center d-flex align-items-center" id="formsubmitpage">
+        <div class="mx-auto">
+            <h2>Thanks For Getting In Touch</h2>
+            <p>We have received your email and will get back to you as soon as possible</p>
+            <p>In case you missed it. Check out our <a href="contact.html#faq">FAQ section</a> for some commonly asked questions</p>
+            <a href="index.html" class="btn a-custom1">Return to home</a>
+        </div>
+    </section>
+</div> 
+<!-- Footer -->
+<footer class="container-fluid bg-custom footercustom">
+    <div class="row footeralign">
+        <div class="col-6 col-sm-3 footerlist">
+            <ul>
+                <h4>Quicklinks</h4>
+                <li><a href="about.html">About</a></li>
+                <li><a href="about.html">Terms & Conditions</a></li>
+                <li><a href="about.html">Privacy Policy</a></li>
+                <li><a href="about.html">Covid-19</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-sm-3 footerlist"> 
+            <ul>
+                <h4>Dine/Deliver</h4>
+                <li><a href="menu.html">Menus</a></li>
+                <li><a href="contact.html#make-a-booking">Make A Booking</a></li>
+                <li><a href="https://deliveroo.ie/" target="_blank">Order</a></li>
+                <li><a href="contact.html#faq">FAQS</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-sm-3 footerlist">
+            <ul>
+                <h4>Shop</h4>
+                <li><a href="shop.html#coffeeshop">Coffee</a></li>
+                <li><a href="shop.html#subscriptshop">Subscriptions</a></li>
+                <li><a href="shop.html#brewshop">Brew Equipment</a></li>
+                <li><a href="shop.html#merchshop">Merchandise</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-sm-3 footerlist">
+            <ul class="contacts">
+                <h4>Find Us</h4>
+                <li><a href="contact.html#find-us"><i class="fas fa-map-marker-alt d-inline"></i> 123 Fake St, Dublin&nbsp2</a></li>
+                <li><i class="fas fa-phone-alt d-inline"></i> +353 555 5555</li>
+                <li><a href="mailto:info@cartelcoffee.ie" target="_blank"><i class="fas fa-envelope d-inline"></i>&nbspinfo@cartelcoffee.ie</a></li>
+                <li><a href="contact.html#contact-us"><i class="fas fa-paper-plane d-inline"></i> Make an enquiry</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12"><h4>Follow Us</h4></div>
+        <div class="col-12 socialicons">
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+        </div>
+    </div>
+</footer> 
 <!-- Bootstrap scripts -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">

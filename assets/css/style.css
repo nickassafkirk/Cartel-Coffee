@@ -478,9 +478,27 @@ h5.cathead{
 /*------- Submit.html -------*/
 #formsubmitpage{
     background-color: var(--lighttrans);
-    height: 80vh;
+    height: auto;
+    padding: 5%;
     margin: 0 auto;
 }
+
+#formsubmitpage h2{
+    margin: 5% 0;
+}
+
+.a-custom1{
+    width: auto;
+    height: auto;
+    margin: 2% auto;
+    background-color: var(--buttonblue);
+    border: 1px solid var(--buttonblue);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+
 
 /*------- Menu.html -------*/
 
