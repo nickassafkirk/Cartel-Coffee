@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 :root{
     --logo: #333333;
     --light: #dddddd;
@@ -82,17 +75,13 @@ body{
 }
 
 .rotate45{
-    -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
     display: inline-block;
     font-size: 80%
 }
 
 .rotate270{
-    -webkit-transform: rotate(225deg);
-        -ms-transform: rotate(225deg);
-            transform: rotate(225deg);
+    transform: rotate(225deg);
     display: inline-block;
 }
 
@@ -147,6 +136,7 @@ body{
 
 .carousel-item{
     -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
     color: #fff;
     z-index: 0;
@@ -171,9 +161,7 @@ body{
     color: #fff;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     top: 50%;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     bottom: initial;
     z-index: 2;
 }
@@ -269,8 +257,7 @@ blockquote hr{
     height: 100%;   
     padding: 0;
     margin: 0 auto;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
 }
 
 .col-md-4.menutab{
@@ -417,7 +404,7 @@ h5.cathead{
 }
 .bgcontact::after {
   content: "";
-  background: url("../images/chairs.jpg") center center; /* <span>Photo by <a href="https://unsplash.com/@cyzx?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clifford</a> on <a href="https://unsplash.com/s/photos/old-chairs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span> */
+  background: url("../images/chairs.jpg") center center; /* <span>Photo by <a href="https://unsplash.com/@cyzx?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Clifford</a> on <a href="https://unsplash.com/s/photos/old-chairs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span> */
   background-size: cover;
   opacity: 0.7;
   top: 0;
@@ -495,8 +482,7 @@ h5.cathead{
 }
 
 .btn.focus, .btn:focus {
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
     text-decoration: none;
 }
 
@@ -594,31 +580,17 @@ h5.cathead{
 }    
 
 .rotate:hover{
-    -webkit-animation-name: rotate;
-            animation-name: rotate;
-    -webkit-animation-duration: 0.7s;
-            animation-duration: 0.7s;
+    animation-name: rotate;
+    animation-duration: 0.7s;
 }
 
 /* inspiration for animation from https://stackoverflow.com/questions/42745506/how-to-make-an-icon-spin-with-i-tag-in-html5-through-css3 */
-@-webkit-keyframes rotate{
-    0%{
-        -webkit-transform: rotate(0);
-                transform: rotate(0);
-    }
-    100%{
-        -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
-        }
-}
 @keyframes rotate{
     0%{
-        -webkit-transform: rotate(0);
-                transform: rotate(0);
+        transform: rotate(0);
     }
     100%{
-        -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
+        transform: rotate(360deg);
         }
 }
 
@@ -825,9 +797,7 @@ a.call{color: var(--buttonaqua);
     padding-top: 10%;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     font-size: 1.5rem;
 }
 
@@ -858,12 +828,8 @@ button.close:hover{
 .footercustom .row{
     margin: 2% 0;
     padding: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    justify-content: space-evenly;
 }
 
 .footercustom h4{
@@ -975,8 +941,7 @@ button.close:hover{
     .curtain{
         width: 100%;
         height: 100%;
-        -o-object-fit: cover;
-           object-fit: cover;
+        object-fit: cover;
         border-top: 3px solid var(--bg);
     }
 
@@ -1125,6 +1090,7 @@ button.close:hover{
         font-size: 150%;
     }
 }
+
 
 
 
