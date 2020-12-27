@@ -893,6 +893,12 @@ button.close:hover{
 }
 
 /* Media Queries */
+@media screen and (max-width: 1000px){
+    h5.cathead{
+    font-weight: 600;
+    font-size: 1.4rem;
+    }
+}
 
 @media screen and (max-width: 850px){
     .nav-link{

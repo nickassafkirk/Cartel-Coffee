@@ -279,6 +279,8 @@ Is used to create wireframes as visual mockups of the final site design
 * Bug: Labels for Tiles not scaling correctly when changing screensizes. On smaller screensizes the label headings were moving off their desired position in the center of the image tiles.
   Fix: Used position: relative and top and bottom %'s to fix the headings to the image tiles regardless of screensize. 
 
+* Bug: Category heading overflow on tablet. ![cathead overflow bug](assets/images/bugs/h5 cathead overflow bug.png)
+  fix: Add additional media query for max-width: 1000px 
 * Bug: Button placement on shop category homepage tiles not scaling correctly on mobile on IOS.
   Fix: Use position absolute and top positon 50% to position button relative to containing parent
 
