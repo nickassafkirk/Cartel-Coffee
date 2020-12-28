@@ -132,20 +132,35 @@ To increase brand awareness and a consistent experience for online and offline c
 ### Skeleton
 
 1. **Main Navigation:** A consistent top nav bar is present across all site pages to allow navigation through various pages. 
-    bootstrap navbar expand/collapse classes were used to improve user experience on mobile devices. 
+    ![main nav screenshot](assets/images/readmeimgs/main_nav.png)
+     Bootstrap navbar expand/collapse classes were used to improve user experience on mobile devices. 
+    
+    ![main nav collapse screenshot](assets/images/readmeimgs/navbar_collapse.png)
+    
     I chose to align the navbar collapse icon and collapsed to the menu to the right as [research shows](https://www.livescience.com/what-causes-left-handedness.html) that 85% - 90% of users are right handed and right-alignment results in marginally easier use for right-handed users.
     The Active class is used highlight the current page.
     
 2. **Footer navigation:** A consistent bottom footer contains and reinforces importance of main navigation links present in main navbar. This aids navigation to next point of interest once a user has scrolled down the page.
-   links have been chosen specifically to aid conversion with call to action for contact, social media interaction, shop, make a reservation or order from menu. 
-   Additional links such as about, privacy polics anf T&Cs have been added to footer as they are important but do not merit inclusion in main navbar. 
+   The footer links listed have been chosen specifically to allow easy navigation to the key pages and page sections.
+   Additional links such as the about page, privacy policies and T&Cs have been added to footer as they are important pages to include on the site but do not merit inclusion in main navbar. 
 
-3. **Images:** Images and Image tiles are used to link strong visual images to relevant pages. Popular categories are represented as images and overlying text, hover functionality and highlighting are strategies used to reinforce that an image is a link. 
-4. **IDs:** Id's have been used to allow quick navigation to specific points on a single webpage. This is designed to aid conversion by bringing the user directly to their point of interest without the potential to get distracted. 
-   The use of Id based navigation also allows more distinct information to be condensed onto a fewer number of pages for a better user experience, a more condensed site and faster page load times. 
+    ![footer nav screenshot](assets/images/readmeimgs/footer_nav.png) 
 
-5. **Buttons:** Buttons are used for reinforce form submission or to create a strong emphasis that a link to another page or information is present. Consistent button coloring is used across site to drive home the functionality of buttons on the site. Clear button labelling is used to 
+3. **Images as links:** Images and Image tiles are used throughout the site to link strong, descriptive visual images to relevant pages. Popular categories and shop categories are represented as image tiles and overlying text, hover functionality and highlighting are strategies used to reinforce that an image is a link. 
+    ![navigation tile screenshot1](assets/images/readmeimgs/Menu_Buttons.png)
+    ![navigation tile screenshot2](assets/images/readmeimgs/Shop_Buttons.png)
+
+4. **Buttons:** Buttons are used for reinforce form submission or to create a strong emphasis that a link to another page or information is present. Consistent button coloring is used across site to drive home the functionality of buttons on the site. Clear button labelling is used to 
     encourage first-time learning and correct use of buttons on the site.
+    ![Buttons navigation screenshot](assets/images/readmeimgs/Button_Styles.png)
+
+5. **IDs as links:** Id's have been used to allow quick navigation to specific points on a single webpage. This is designed to aid conversion by bringing the user directly to their point of interest without the potential to get distracted. 
+   The use of Id based navigation also allows more distinct information to be condensed onto a fewer number of pages for a better user experience, a more condensed site and faster page load times. The footer utilises several id's as links to specific sections
+   on the menu, shop and contact pages.
+
+6. **Secondary Navigation Bar:** A secondary navigation menu is utilised on the menu page to allow swift navigation to a user's desired menu section. 
+    The secondary navigation menu uses a page specific color palette to reinforce it's specific association to the menu page. The submenu
+    links to specific page section id's as outlined the the section above. 
 
 #### Wireframes
 
@@ -161,55 +176,56 @@ To increase brand awareness and a consistent experience for online and offline c
 
 ### Surface
 
-Fonts
-
-Sans-serif fonts have been chosen site-wide for a minimilistic style, consistent with the companies branding and interior decor and to improve legibility for site users.
+#### Fonts ####
+**General**
+Sans-serif fonts have been chosen site-wide for a minimilistic style, consistent with the companies interior decor and to improve legibility for site users.
 Font-size and line height are adjusted on different device sizes to ensure correct distribution of information and layout across all devices. Altering line height and text-padding on mobile devices 
 aids navigation and touch-interaction on touch-screen devices.
 
-Logo & Title Fonts
+**Logo & Title Fonts**
 The Bebas Neue font is used for the company logo and the carousel image titles. It was chosed because of it's bold appearance and clear readability. This font has been styled to be uppercase with a heavier font-weight than the body text
 to create recognisable branding and obvious visual impact for key site information.
 
-Body Font
+**Body Fonts**
 The Montserrat font was selected for the body text for it's slim, legible and professional appearance. A much lighter font-weight is used to reinforce an overall minimilistic style 
 and to create contrast between branding text and headings. 
 
-Headings
-Headings also utilise the Montserrat font but are style with a heavier font-weight to reinforce a greater sense of importance than accompanying body text.
+**Headings**
+Headings also utilise the Montserrat font but are styled with a heavier font-weight to reinforce a higher priority of importance than accompanying body text.
 
-Additional Fonts
+**Additional Fonts**
 The Sans-serif font has been chosen as a fallback font if chosen fonts cannot be loaded. 
 
-Colors
+#### Colors ####
 Colors are used to increase contrast, visual impact, to indicate interactivity of elements and to improve readability across the site. 
 
-Navigation colors: Dark, muted header and footer colors are used to give a sense of space and contrast to the main and footer navigation. 
+**Navigation colors:** Dark, muted header and footer colors are used to give a sense of space and contrast to the main and footer navigation. 
 
-Body colors: In contrast the body text utilises light, subtle background colors with dark text colors to clearly distinquish the page content from the navigation. 
+**Body colors:** In contrast the body text utilises light, subtle background colors with dark text colors to clearly distinquish the page content from the navigation. 
 
-Call-to-action colors: Buttons, Links and alerts utilise really bright vibrant colors to encourage click behaviour and to act as eyecatching visual indicators of primary call-to-action elements.
+**Call-to-action colors:** Buttons, Links and alerts utilise really bright vibrant colors to encourage click behaviour and to act as eyecatching visual indicators of primary call-to-action elements.
 
-Heading colors: Bold colored headings clearly define where individual sections begin. Boldly colored section background colors contrasted with light fonts are chosen to clearly define the purpose of each section of information.
+**Heading colors:** Bold colored headings clearly define where individual sections begin. Boldly colored section background colors contrasted with light fonts are chosen to clearly define the purpose of each section of information.
 
-Section Background colors: Coloured sections with muted grey backgrounds are used to clearly distinguish relevant areas of information. This is important as page sections are scaled to width on larger screen-widths to keep information condensed and easily readable.
+**Section Background colors:** Coloured sections with muted grey backgrounds are used to clearly distinguish relevant areas of information. This is important as page sections are scaled to width on larger screen-widths to keep information condensed and easily readable.
 
-Icons
+#### Icons ####
 Icons are used as metaphors to reinforce meaning of key navigation elements. The paper plane icon is used to reinforce meaning of send/submission buttons, food and drink icons are used on the menu page to 
 reinforce the sub-menu navigation buttons and Icons are used for the contact information and social media links to clearly apply meaning to text-heavy page sections like the footer.
 
-Images
+#### Images ####
 Images are used in several ways on the site. 
 
-Carousel Images: Eye catching images are used on the homepage carousel to clearly indicate the businesses key activities. These are chosen to encourage users to understand the purpose of the business as soon as they land on the homepage.
+**Carousel Images:** Eye catching images are used on the homepage carousel to clearly indicate the businesses key activities. These are chosen to encourage users to understand the purpose of the business as soon as they land on the homepage.
 
-Homepage Image Tiles: Appealing images are used as clickable tiles for the menus navigation links and shop navigation links on the homepage to quickly visually communicate the type of content a user will be brought to when clicking on each image tile. 
+**Homepage Image Tiles:** Appealing images are used as clickable tiles for the menus navigation links and shop navigation links on the homepage to quickly visually communicate the type of content a user will be brought to when clicking on each image tile. 
 
-Product images: Studio images are used to clearly display a products purpose and to encourage users to buy. Clear striking product images are contrasted with plain backgrounds to put the emphasis on the product and to keep user focus on the key information on the page.
+**Product images:** Studio images are used to clearly display a products purpose and to encourage users to buy. Clear striking product images are contrasted with plain backgrounds to put the emphasis on the product and to keep user focus on the key information on the page.
 
-Background-images: Subtle background images with added opacity are used to give users a greater understanding of the business's style and appearance without drawing away from the key information on each page. These background images and colored divs are also used to break-up large areas of white-space
+**Background-images:** Subtle background images with added opacity are used to give users a greater understanding of the business's style and appearance without drawing away from the key information on each page. These background images and colored divs are also used to break-up large areas of white-space
 for a more visually appealing appearance and a more defined flow of information through the page. 
 
+---
 
 ## Technologies Used
 
@@ -219,7 +235,6 @@ for a more visually appealing appearance and a more defined flow of information 
 
 Is used to add content, structure and the ability to navigate to the website.
 
----
 
 ![CSS Logo](assets/images/technologies/css3.png)
 ### CSS3
@@ -227,7 +242,6 @@ Is used to add content, structure and the ability to navigate to the website.
 
 Is used to add styles, layout, design and interactivity to the page and to increase usability to users across various devices. 
 
----
 
 ![Boootstrap logo](assets/images/technologies/bootstrap.png)
 ### Bootstrap V4.5.3 
@@ -235,7 +249,6 @@ Is used to add styles, layout, design and interactivity to the page and to incre
 
 Is used to add structure, layout and mobile first responsive design to the webpages. 
 
----
 
 ![Gitpod Logo](assets/images/technologies/gitpod.png)
 ### Gitpod
@@ -243,7 +256,6 @@ Is used to add structure, layout and mobile first responsive design to the webpa
 
 Is used to write, edit and preview code.
 
----
 
 ![Github](assets/images/technologies/github.png)
 ### GitHub 
@@ -251,7 +263,6 @@ Is used to write, edit and preview code.
 
 Is used to host, share and deploy the project.
 
----
 
 ![Balsamiq Logo](assets/images/technologies/balsamiq.png)
 ### Balsamiq
@@ -343,17 +354,19 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 - To vertically center the carousel caption text on the index.html page. I used the transform technique as described in [this forum](https://stackoverflow.com/questions/27279865/how-to-vertically-center-a-bootstrap-carousel-caption)
  from which I utilised this snippet of css:
-.carousel-caption{
- top: 50%;
- transform: translateY(-50%);
- bottom: initial;
- }
 
- .carousel-item{
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    transform-style: preserve-3d;
- }
+
+        .carousel-caption{
+        top: 50%;
+        transform: translateY(-50%);
+        bottom: initial;
+        }
+
+        .carousel-item{
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        }
 
 - As an alternate method to add background opacity I used a method I found published by [Andy Hattemer and Nicholas Cerminara](https://www.digitalocean.com/community/tutorials/how-to-change-a-css-background-images-opacity)
 
@@ -364,18 +377,18 @@ In addition, if it is not obvious, you should also describe how to run your code
 - To enable modals to appear upon page load by default I found a solution at [this article](https://www.tutorialrepublic.com/faq/how-to-launch-bootstrap-modal-on-page-load.php#:~:text=Answer%3A%20Use%20the%20Bootstrap%20.,modal('show')%20method&text=modal('show')%20method%20for%20launching%20the%20modal%20window,to%20subscribe%20the%20website%20newsletter.)
  I edited this simple script 
  
-- To apply favourable modal positioning I used a technique described in [this article](https://css-tricks.com/considerations-styling-modal/) 
-
-from which I utilised this snippet of code 
- .modal {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+- To apply favourable modal positioning I used a technique described in [this article](https://css-tricks.com/considerations-styling-modal/)
+    from which I utilised this snippet of code 
+    
+        .modal {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from 
 
 [Carousel 1 Image](https://images.unsplash.com/photo-1493857671505-72967e2e2760?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
 [Photo by Roman Bozhko](https://unsplash.com/@romanbozhko?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [ on unsplash](https://unsplash.com/s/photos/coffee-shop?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
