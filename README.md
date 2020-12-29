@@ -162,6 +162,7 @@ To increase brand awareness and a consistent experience for online and offline c
     The secondary navigation menu uses a page specific color palette to reinforce it's specific association to the menu page. The submenu
     links to specific page section id's as outlined the the section above. 
 
+    ![Buttons navigation screenshot](assets/images/readmeimgs/sub_nav.png)
 #### Wireframes
 
 [Home page](assets/wireframes/CC_Index.html_Wireframes.pdf)
@@ -224,6 +225,10 @@ Images are used in several ways on the site.
 
 **Background-images:** Subtle background images with added opacity are used to give users a greater understanding of the business's style and appearance without drawing away from the key information on each page. These background images and colored divs are also used to break-up large areas of white-space
 for a more visually appealing appearance and a more defined flow of information through the page. 
+
+#### Animations ####
+Animations and Hover functionality are used to highlight the interactivity of links and buttons encouraging users to use navigation elements. 
+Pseudo classes and active classes also validate when an action has been performed. 
 
 ---
 
@@ -399,40 +404,25 @@ In addition, if it is not obvious, you should also describe how to run your code
 The photos used in this site were obtained for education purposes only. 
 
 [Carousel 1 Image](https://images.unsplash.com/photo-1493857671505-72967e2e2760?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
-[Photo by Roman Bozhko](https://unsplash.com/@romanbozhko?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee-shop?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+Photo by [Roman Bozhko](https://unsplash.com/@romanbozhko?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee-shop?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Carousel Image 2](https://unsplash.com/photos/qE1jxYXiwOA)
-[Photo by Petr Sevcovic](https://unsplash.com/@sevcovic23?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+Photo by [Petr Sevcovic](https://unsplash.com/@sevcovic23?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
-[Carousel 3 image: unused](https://unsplash.com/photos/kQIaF3iPLS4)
-[Photo by Goran Ivos](https://unsplash.com/@goran_ivos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-
-[carousel 4 image](https://unsplash.com/photos/pf70wY3llLg)
-[Photo by Kadir Celep](https://unsplash.com/@kadircelep?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee-grinder?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[carousel 3 image](https://unsplash.com/photos/pf70wY3llLg)
+Photo by [Kadir Celep](https://unsplash.com/@kadircelep?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee-grinder?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Espresso Tile](https://unsplash.com/photos/LnG_bBDHLYo)
-[Photo by Lodewijk Hertog](https://unsplash.com/@lue101?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/espresso?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+Photo by [Lodewijk Hertog](https://unsplash.com/@lue101?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/espresso?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Porridge tile](https://unsplash.com/photos/ZgfMmFGGf-E)
-[Photo by Chris Ralston](https://unsplash.com/@thisisralston?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText0) on [unsplash](https://unsplash.com/s/photos/avocado-toast?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+Photo by [Chris Ralston](https://unsplash.com/@thisisralston?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText0) on [unsplash](https://unsplash.com/s/photos/avocado-toast?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Sandwich homepage tile](https://unsplash.com/photos/pLKgCsBOiw4)
 [Photo by Eaters Collective](https://unsplash.com/@eaterscollective?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/sandwiches?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Croissant homepage tile](https://unsplash.com/photos/eAsck4oAguM)
 [Photo by Monika Grabkowska](https://unsplash.com/@moniqa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText") on [unsplash](https://unsplash.com/s/photos/croissant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-
-[Croissant 2](https://unsplash.com/photos/wkBbTvRm9K0)
-[Photo by Fiona Smallwood](https://unsplash.com/@thepeoplesdigital?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/croissant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-
-[Croissant 3](https://unsplash.com/photos/CsmbYXwHJus)
-Photo by [SarahCreates](https://unsplash.com/@sarahcreates?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/croissant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-
-[Coffee on stool](https://unsplash.com/photos/tA90pRfL2gM) not used
-Photo by [Nathan Dumlao](https://unsplash.com/@nate_dumlao?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-
-[La marzocco](https://unsplash.com/photos/Jfqv2YJZ0y0) not used
-Photo by [Tyler Nix](https://unsplash.com/@jtylernix?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Pourover](https://unsplash.com/photos/WWzDPKot6nQ)
 Photo by [John Forson](https://unsplash.com/@jonforson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
@@ -443,11 +433,11 @@ Photo by [Silviu Beniamin Tofan](https://unsplash.com/@tofansilviuben?utm_source
 [Merchandise mug](https://unsplash.com/photos/kBJEJqWNtNY)
 Photo by [Ryan Riggins](https://unsplash.com/@ryan_riggins?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/enamel-mug?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
-[Menu page Background](https://unsplash.com/photos/PG5G-h9rThU)
-Photo by [Abhay Santhosh](https://unsplash.com/@abhaysanthosh007?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/palm-tree-graphic?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[menuback](https://unsplash.com/photos/ray0RihLnuc)
+Photo by [Matze Bob](https://unsplash.com/@matzebob?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
-[Contact page Background](https://unsplash.com/photos/VobvKmG-StA)
-Photo by [Clifford](9https://unsplash.com/@cyzx?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/old-chairs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Contactback](https://unsplash.com/photos/d5SZqLkpIrY)
+Photo by [Tomas Jasovsky](https://unsplash.com/@tomasjasovsky?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/cafe?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Coffee beans product source image](https://images.unsplash.com/photo-1599639957043-f3aa5c986398?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1279&q=80) 
 Photo by [earlybird coffee](https://unsplash.com/@earlybird_coffee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) On [unsplash](https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)

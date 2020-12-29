@@ -18,7 +18,8 @@
     --custom: #212121;
     --submenu: #0E4B33;
     --lightpink: #DDBBDC;
-    --powderpink: #274135;
+    --powderpink: #343a40;
+    /*#274135;*/
 }
 
 /*------- Colors -------*/
@@ -417,7 +418,7 @@ h5.cathead{
 }
 .bgcontact::after {
   content: "";
-  background: url("../images/chairs.jpg") center center; /* <span>Photo by <a href="https://unsplash.com/@cyzx?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clifford</a> on <a href="https://unsplash.com/s/photos/old-chairs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span> */
+  background: url("../images/contactback.jpg") center center; /* <span>Photo by <a href="https://unsplash.com/@cyzx?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clifford</a> on <a href="https://unsplash.com/s/photos/old-chairs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span> */
   background-size: cover;
   opacity: 0.7;
   top: 0;
@@ -538,7 +539,7 @@ h5.cathead{
 /* Credit background-opacity https://css-tricks.com/snippets/css/transparent-background-images/ */
 .menuback::after {
   content: "";
-  background: url("../images/palms2.jpg") center center;
+  background: url("../images/menuback.jpg") center center;
   background-size: cover;
   opacity: 0.8;
   top: 0;
@@ -629,7 +630,7 @@ h5.cathead{
     text-align: center;
 }
 
-.menuintro,.foodmenu,.dessertmenu,.coffeemenu{
+.menuintro,.foodmenu,.dessertmenu,.coffeemenu,.menuorder{
     width: 80%;
     margin: 5% auto;
     padding: 2% 2% 5% 2%;
@@ -637,7 +638,7 @@ h5.cathead{
     background-color: var(--lighttrans);
     border: 1px solid var(--lighttrans);
     border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .menuintro .secheading{
@@ -700,20 +701,23 @@ h5.cathead{
 }
 
 .menuorder{
-    background-color: var(--lighttrans);
-    border: 1px solid var(--lighttrans);
     border-radius: 5px;
-    margin: 0 auto;
     padding: 5%;
-    width: 100%;
 }
 
 .call{
-    color: var(--buttonaqua);
-
+    text-shadow: none;
+    color: #37474f;
 }
-a.call{color: var(--buttonaqua);
-    text-decoration: none;}
+
+a.call{
+    text-decoration: none;
+    color: #37474f;
+}
+
+.call:hover,.call a:hover{
+    color: var(--buttonblue);
+}
 
 /*------- Shop.html -------*/
 
