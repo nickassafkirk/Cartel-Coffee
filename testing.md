@@ -1,4 +1,12 @@
-## Testing
+# Cartel Coffee Website - Testing
+
+[Link to README.md file](README.md)
+
+[Link to Deployed site](https://nickassafkirk.github.io/Cartel-Coffee/index.html)
+
+## Manual Testing
+Manual testing involved going through the site thoroughly and ensuring formating and functinality was rendering as intended. This involved going
+through the site in Chrome, 
 
 Index.html
 
@@ -70,4 +78,6 @@ image alts for all images
 
 Menu page background image is too grey on mobile. It looks like the page hasn't loaded correctly. 
 
+## User stories testing: 
 
+## Additional Testing

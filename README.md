@@ -546,9 +546,6 @@ Sourced from[hario.co.uk](https://www.hario.co.uk/collections/hario-v60-coffee-d
 [Aeropress Product Picture](https://aeropress.com/wp-content/uploads/2020/01/AeroPress-Original-red.jpg)
 Sourced from[aeropress.com](https://aeropress.com/product/aeropress-coffee-maker/)
 
-[Rancillio Coffee Maker](https://www.ranciliogroup.com/app/uploads/2019/09/ranciliogroup-silviapro-equipment-1080x1080-1.jpg)
-Sourced from[ranciliogroup.com](https://www.ranciliogroup.com/rancilio/silvia-pro/)
-
 HTML5 Logo: 
 [W3.org](https://www.w3.org/html/logo/#downloads)
 
