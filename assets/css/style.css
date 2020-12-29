@@ -643,6 +643,7 @@ h5.cathead{
     border: 1px solid var(--lighttrans);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    font-size: 1rem;
 }
 
 .menuintro .secheading{
@@ -658,7 +659,6 @@ h5.cathead{
 }
 
  .foodmenu .secheading{
-        font-weight: 600;
         padding: 0.8rem;
     }
 
@@ -671,7 +671,6 @@ h5.cathead{
 }
 
  .dessertmenu .secheading{
-        font-weight: 600;
         padding: 0.8rem 0;
     }
 
@@ -684,20 +683,17 @@ h5.cathead{
 
 .coffeemenu{
     font-family: monospace, sans-serif;
-    background: #151516;
+    background: rgb(27, 27, 27);
     border: 1px solid #151516;
     border-radius: 5px;
     color: #fff;
     padding: 2% 2%;
 }
 
- .coffeemenu h3{
-        margin-bottom: 2rem;
-    }
-
 .coffeemenu p{
-    background-color: rgb(27, 26, 26);
+    background-color:#151516;;
     margin: 2%;
+    padding: 2% 0;
 }
 
 .coffemenu,.milk p::before{
@@ -1074,7 +1070,7 @@ button.close:hover{
         font-size: 2rem;
     }
 
-    .menuintro,.foodmenu,.dessertmenu,.coffeemenu{
+    .menuintro,.foodmenu,.dessertmenu,.coffeemenu,.menuorder{
         width: 95%;
     }
 
@@ -1131,12 +1127,16 @@ button.close:hover{
         font-size: 2.4rem;
     }
 
-    .menuintro,.foodmenu,.dessertmenu,.coffeemenu{
+    .menuintro,.foodmenu,.dessertmenu,.coffeemenu,.menuorder{
         width: 60%;
     }
 
     .cathead{
         font-size: 150%;
+    }
+
+    .menuback{
+        padding-top: 1%;
     }
 }
 
