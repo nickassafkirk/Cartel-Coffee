@@ -60,3 +60,14 @@ navbar functions as intended.
  To Test: I tested that the modal opens upon loading of the shop page. I tested that it scrolls to center on page by clicking the shop section links via the footer navigation. 
  I tested that the modal closes by cicking the close I con or outside of the modal box.
  Outcome: Modal is operating as intended.
+
+ Bugs
+footer: brew equipment not linking correctly
+
+homepage: dessert tile not linking correctly
+
+image alts for all images
+
+Menu page background image is too grey on mobile. It looks like the page hasn't loaded correctly. 
+
+

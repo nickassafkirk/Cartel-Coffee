@@ -8,7 +8,8 @@
 :root{
     --logo: #333333;
     --light: #dddddd;
-    --lighttrans: rgba(190, 190, 190, 0.95);
+    --lighttrans: rgba(228, 228, 227, 0.95);
+    --lighttrans1: rgba(190, 190, 190, 0.95);
     --bg: #eeeeee;
     --warmyellow: #eed231;
     --buttonblue: #07c5ff;
@@ -543,7 +544,7 @@ h5.cathead{
 /* Credit background-opacity https://css-tricks.com/snippets/css/transparent-background-images/ */
 .menuback::after {
   content: "";
-  background: url("../images/menuback.jpg") center center;
+  background: url("../images/menubackfinal.jpg") center center;
   background-size: cover;
   opacity: 0.8;
   top: 0;
@@ -678,12 +679,20 @@ h5.cathead{
     padding: 2% 0%;
 }
 .menusnav.top#coffeemenu{
-    background-color: #151516;
+    background-color: rgb(29, 29, 29);
+}
+
+#coffeemenu h2.submenu{
+    background-color:#151516;
+    border: 1px inset #151516;
+    border-radius: 2px;
+    margin: 2%;
+    padding: 2% 0;
 }
 
 .coffeemenu{
     font-family: monospace, sans-serif;
-    background: rgb(27, 27, 27);
+    background: rgb(29, 29, 29);
     border: 1px solid #151516;
     border-radius: 5px;
     color: #fff;
@@ -691,8 +700,10 @@ h5.cathead{
 }
 
 .coffeemenu p{
-    background-color:#151516;;
-    margin: 2%;
+    background-color:#151516;
+    border: 1px inset #151516;
+    border-radius: 2px;
+    margin: 5%;
     padding: 2% 0;
 }
 
@@ -700,11 +711,16 @@ h5.cathead{
     content: "+ ";
 }
 
-.coffeemenu .col-4{
+.coffeemenu .col-6.col-md-4{
    padding: 0;
    margin: 0;
 }
 
+#altmilk p{
+   width: 100%;
+   margin: 0 auto;
+   padding: 1% 5%;
+}
 .menuorder{
     border-radius: 5px;
     padding: 5%;
@@ -1075,11 +1091,11 @@ button.close:hover{
     }
 
    .foodmenu h4{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
    .dessertmenu h4{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .menuintro .secheading{
