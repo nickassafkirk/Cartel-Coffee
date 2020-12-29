@@ -638,7 +638,7 @@ h5.cathead{
 .menuintro,.foodmenu,.dessertmenu,.coffeemenu,.menuorder{
     width: 80%;
     margin: 5% auto;
-    padding: 2% 2% 5% 2%;
+    padding: 2%;
     text-align: center;
     background-color: var(--lighttrans);
     border: 1px solid var(--lighttrans);
