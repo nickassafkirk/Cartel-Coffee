@@ -4,13 +4,31 @@
 
 [Link to Deployed site](https://nickassafkirk.github.io/Cartel-Coffee/index.html)
 
+---
+
 ## Manual Testing
-Manual testing involved going through the site thoroughly and ensuring formating and functinality was rendering as intended. This involved going
-through the site in Chrome, 
 
-Index.html
+Manual testing involved going through the site thoroughly to ensure that the format, layout, styles and functionality were perfomrong as intended. 
+Testing involved: 
+1. Testing the site in Chrome, Safari, Firefox, Opera and Microsoft Edge to ensure cross-browser compatibility.
+2. Testing the site across a range of devices to ensure a responsive site that provides a great user experience on all devices.
+   The site was tested on: 
+   Macbook 13"
+   Iphone 5s
+   Iphone 6s Plus
+   Iphone SE
+   Iphone XS
+   Ipad Mini
 
-Navbar 
+   Hp Pavillion 22" monitor
+
+
+
+---
+
+### Common Elements:
+
+#### Navbar 
 Aim: Navbar is expected to be located fullwidth at the top of all pages. Navbar logo and links should scale to fit larger/smaller screenwidth and 
 avoid overflow. Navbar should expand/collapse at set breakpoint.
 Outcome: ensured that navbar expands and collapses at the correct breakpoints. Ensured that fonts scale to avoid overflow on different screensizes. 
@@ -78,6 +96,10 @@ image alts for all images
 
 Menu page background image is too grey on mobile. It looks like the page hasn't loaded correctly. 
 
+--- 
+
 ## User stories testing: 
+
+---
 
 ## Additional Testing
