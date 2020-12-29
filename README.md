@@ -276,22 +276,25 @@ Is used to create wireframes as visual mockups of the final site design
 
 ### Bugs 
 
-#### Bugs Fixed
+#### Fixed
 
 * Bug: Navbar toggle burger stack stacking vertically on XS screensizes. 
-  Fix: Added media query to navbar-brand so font-size shrinks on XS devices this left ample room for the burger stack icon and contact icons and prevented vertical stacking of Header items on XS devices.
+  Fix: Added media query to navbar-brand so font-size shrinks on XS devices this left ample room for the burger stack icon and prevents vertical stacking of header items on XS devices.
 
 * Bug: Margin or padding is creating indent in top right of Navbar and footer.
   Fix: Used view port width value to ensure that the navbar occupies the full width of the screen across all screen sizes. 
 
 * Bug: Carousel images not scaling correctly when changing screensizes. 
-  Fix: Added VH and VW values that matched those of the the images containing div. Added margins, object fit and position values to ensure images are cropped appropriately across various screensizes. 
+  Fix: Added Alternative image with landscape aspect-ratio for larger screen-widths. I decided this was a better tactic than using the object-fit property because it ensures
+  Images are not cropped on responsive viewports.
 
 * Bug: Labels for Tiles not scaling correctly when changing screensizes. On smaller screensizes the label headings were moving off their desired position in the center of the image tiles.
-  Fix: Used position: relative and top and bottom %'s to fix the headings to the image tiles regardless of screensize. 
+  Fix: I used position: relative and top and bottom percentage values to fix the headings to the image tiles regardless of screensize. media queries are used to edit the font-size to ensure, overflow does not cause 
+  undesireable rendering on smaller viewports and devices.
 
 * Bug: Category heading overflow on tablet. ![cathead overflow bug](assets/images/bugs/h5 cathead overflow bug.png)
   fix: Add additional media query for max-width: 1000px 
+
 * Bug: Button placement on shop category homepage tiles not scaling correctly on mobile on IOS.
   Fix: Use position absolute and top positon 50% to position button relative to containing parent
 
@@ -306,10 +309,16 @@ This meant that the modal was out of the viewport and customers could not intera
   Fix: Using position: fixed, percentage top and left values and a transform value, I was able to ensure that the modal is position in the center of the screen even when the screen is scrolled. 
   The code used for this fix was taken from a CSS tricks article credited below. 
 
-#### Remaining Bugs To Be Fixed
-
 * Bug: Footer content overlapping on smaller screen sizes. Third column is hidden on small screensizes and other column items were not occupying the space left behind. 
   Fix: Used bootstrap flex and justify-content properties to control how content is aligned across screensizes. 
+
+#### Remaining Bugs To Be Fixed
+
+**Overflow occuring when semantic html elements are used instead of divs:**
+I attempted to use sections instead of div's on many of the page elements for better accessibility and best-practise. However in doing so I experience many undesireable bugs caused by content overflowing it's housing containers. 
+On doing some research it would appear this is due to some conflict between bootstrap and the use of semantic html elements. It would seem that some of bootstrap
+styling specifically references divs and thus replacing div elements with semantic elements results in unpredictable styling. Unfortunately it was not within the scope of this project 
+to go through and create specific rules to allow the use of semantic html elements for some sections. 
 
 ## Testing
 
@@ -345,7 +354,6 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 
-### Content
 ### Code 
 - To fix issues with footer content alignment I read documentation on flexbox at [This article](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
   I confirmed how to implement flexbox utilities while using Bootstrap by reading the documentation on [this page](https://getbootstrap.com/docs/4.5/utilities/flex/)
@@ -388,73 +396,82 @@ In addition, if it is not obvious, you should also describe how to run your code
         }
 
 ### Media
-- The photos used in this site were obtained from 
+The photos used in this site were obtained for education purposes only. 
 
 [Carousel 1 Image](https://images.unsplash.com/photo-1493857671505-72967e2e2760?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
-[Photo by Roman Bozhko](https://unsplash.com/@romanbozhko?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [ on unsplash](https://unsplash.com/s/photos/coffee-shop?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Photo by Roman Bozhko](https://unsplash.com/@romanbozhko?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee-shop?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Carousel Image 2](https://unsplash.com/photos/qE1jxYXiwOA)
-[Photo by Petr Sevcovic](https://unsplash.com/@sevcovic23?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [on unsplash](https://unsplash.com/s/photos/coffee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Photo by Petr Sevcovic](https://unsplash.com/@sevcovic23?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
-[carousel 3 image: unused](https://unsplash.com/photos/kQIaF3iPLS4)
-[Photo by Goran Ivos](https://unsplash.com/@goran_ivos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [On unsplash](https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Carousel 3 image: unused](https://unsplash.com/photos/kQIaF3iPLS4)
+[Photo by Goran Ivos](https://unsplash.com/@goran_ivos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [carousel 4 image](https://unsplash.com/photos/pf70wY3llLg)
-[Photo by Kadir Celep](https://unsplash.com/@kadircelep?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)[ on unsplash](https://unsplash.com/s/photos/coffee-grinder?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Photo by Kadir Celep](https://unsplash.com/@kadircelep?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee-grinder?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Espresso Tile](https://unsplash.com/photos/LnG_bBDHLYo)
-[Photo by Lodewijk Hertog](https://unsplash.com/@lue101?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [On unsplash](https://unsplash.com/s/photos/espresso?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Photo by Lodewijk Hertog](https://unsplash.com/@lue101?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/espresso?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Porridge tile](https://unsplash.com/photos/ZgfMmFGGf-E)
-[Photo by Chris Ralston](https://unsplash.com/@thisisralston?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText0) [On Unsplash](https://unsplash.com/s/photos/avocado-toast?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Photo by Chris Ralston](https://unsplash.com/@thisisralston?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText0) on [unsplash](https://unsplash.com/s/photos/avocado-toast?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Sandwich homepage tile](https://unsplash.com/photos/pLKgCsBOiw4)
-[Photo by Eaters Collective](https://unsplash.com/@eaterscollective?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [on unsplash](https://unsplash.com/s/photos/sandwiches?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Photo by Eaters Collective](https://unsplash.com/@eaterscollective?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/sandwiches?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Croissant homepage tile](https://unsplash.com/photos/eAsck4oAguM)
-[Photo by Monika Grabkowska](https://unsplash.com/@moniqa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText") [on unsplash](https://unsplash.com/s/photos/croissant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Photo by Monika Grabkowska](https://unsplash.com/@moniqa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText") on [unsplash](https://unsplash.com/s/photos/croissant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
-[croissant 2](https://unsplash.com/photos/wkBbTvRm9K0)
-[Photo by Fiona Smallwood](https://unsplash.com/@thepeoplesdigital?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)[On unsplash](https://unsplash.com/s/photos/croissant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Croissant 2](https://unsplash.com/photos/wkBbTvRm9K0)
+[Photo by Fiona Smallwood](https://unsplash.com/@thepeoplesdigital?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/croissant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Croissant 3](https://unsplash.com/photos/CsmbYXwHJus)
-<span>Photo by <a href="https://unsplash.com/@sarahcreates?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">SarahCreates</a> on <a href="https://unsplash.com/s/photos/croissant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+Photo by [SarahCreates](https://unsplash.com/@sarahcreates?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/croissant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
-[coffee on stool](https://unsplash.com/photos/tA90pRfL2gM) not used
-[Photo by Nathan Dumlao](https://unsplash.com/@nate_dumlao?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [on unsplash](https://unsplash.com/s/photos/coffee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Coffee on stool](https://unsplash.com/photos/tA90pRfL2gM) not used
+Photo by [Nathan Dumlao](https://unsplash.com/@nate_dumlao?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
-[la marzocco](https://unsplash.com/photos/Jfqv2YJZ0y0) not used
-[Photo by Tyler Nix](https://unsplash.com/@jtylernix?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [on unsplash](https://unsplash.com/s/photos/coffee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[La marzocco](https://unsplash.com/photos/Jfqv2YJZ0y0) not used
+Photo by [Tyler Nix](https://unsplash.com/@jtylernix?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Pourover](https://unsplash.com/photos/WWzDPKot6nQ)
-[Photo by John Forson](https://unsplash.com/@jonforson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [on unsplash](https://unsplash.com/s/photos/coffee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+Photo by [John Forson](https://unsplash.com/@jonforson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Coffee Tile](https://unsplash.com/photos/aQlSRcKHIfA)
-[Photo by Silviu Beniamin Tofan](https://unsplash.com/@tofansilviuben?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [on unsplash](https://unsplash.com/s/photos/coffee-package?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+Photo by [Silviu Beniamin Tofan](https://unsplash.com/@tofansilviuben?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee-package?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Merchandise mug](https://unsplash.com/photos/kBJEJqWNtNY)
-[Photo by Ryan Riggins](https://unsplash.com/@ryan_riggins?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [On unsplash](https://unsplash.com/s/photos/enamel-mug?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+Photo by [Ryan Riggins](https://unsplash.com/@ryan_riggins?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/enamel-mug?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
-[Menu Background](https://unsplash.com/photos/PG5G-h9rThU)
-[Photo by Abhay Santhosh](https://unsplash.com/@abhaysanthosh007?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [on unsplash](https://unsplash.com/s/photos/palm-tree-graphic?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Menu page Background](https://unsplash.com/photos/PG5G-h9rThU)
+Photo by [Abhay Santhosh](https://unsplash.com/@abhaysanthosh007?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/palm-tree-graphic?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
-[Contact Background](https://unsplash.com/photos/VobvKmG-StA)
-[Photo by Clifford](9https://unsplash.com/@cyzx?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [on unsplash](https://unsplash.com/s/photos/old-chairs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Contact page Background](https://unsplash.com/photos/VobvKmG-StA)
+Photo by [Clifford](9https://unsplash.com/@cyzx?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/old-chairs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
-[Coffee beans product Image](https://images.unsplash.com/photo-1599639957043-f3aa5c986398?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1279&q=80) 
-[Photo by earlybird coffee](https://unsplash.com/@earlybird_coffee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) [On unsplash](https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[Coffee beans product source image](https://images.unsplash.com/photo-1599639957043-f3aa5c986398?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1279&q=80) 
+Photo by [earlybird coffee](https://unsplash.com/@earlybird_coffee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) On [unsplash](https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
+[Subscription coffee](https://unsplash.com/photos/_5TmD4zSXS8)
+Photo by [Battlecreek Coffee Roasters](https://unsplash.com/@battlecreekcoffeeroasters?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee-bag?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
+[Subscription coffee](https://unsplash.com/photos/_1wDmr4dtuk)
+Photo by [Battlecreek Coffee Roasters](https://unsplash.com/@battlecreekcoffeeroasters?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee-bag?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
+[Subscription coffee](https://unsplash.com/photos/MvOb1hRy_0M)
+Photo by [Battlecreek Coffee Roasters](https://unsplash.com/@battlecreekcoffeeroasters?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/@battlecreekcoffeeroasters?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Chemex product Picture](https://store.chemexcoffeemaker.com/media/catalog/product/c/h/chemex-classic-6cup-detail_1.png)
-[Sourced from](https://www.chemexcoffeemaker.com/six-cup-classic-series-coffeemaker.html)
+Sourced from[Chemexcoffeemaker.com](https://www.chemexcoffeemaker.com/six-cup-classic-series-coffeemaker.html)
 
 [Hario V60 Dripper Product Picture](https://cdn.shopify.com/s/files/1/0065/2718/9028/products/VDG-01B_8fca3194-807a-4835-8619-c1ffeda11367_900x.jpg?v=1570060789)
-[Sourced from](https://www.hario.co.uk/collections/hario-v60-coffee-drippers/products/hario-v60-glass-coffee-dripper-black-01)
+Sourced from[hario.co.uk](https://www.hario.co.uk/collections/hario-v60-coffee-drippers/products/hario-v60-glass-coffee-dripper-black-01)
 
 [Aeropress Product Picture](https://aeropress.com/wp-content/uploads/2020/01/AeroPress-Original-red.jpg)
-[Sourced from](https://aeropress.com/product/aeropress-coffee-maker/)
+Sourced from[aeropress.com](https://aeropress.com/product/aeropress-coffee-maker/)
 
 [Rancillio Coffee Maker](https://www.ranciliogroup.com/app/uploads/2019/09/ranciliogroup-silviapro-equipment-1080x1080-1.jpg)
-[Sourced from](https://www.ranciliogroup.com/rancilio/silvia-pro/)
+Sourced from[ranciliogroup.com](https://www.ranciliogroup.com/rancilio/silvia-pro/)
 
 HTML5 Logo: 
 [W3.org](https://www.w3.org/html/logo/#downloads)
@@ -476,6 +493,7 @@ Balsamiq Logo:
 
 ### Acknowledgements
 
-- I'd like to thank my mentor Nisam Kumar for his help and advice throughout this project. His encouragement and feedback we're invaluable in the completion of this project.
-- I would also like to thank Jim Morel, Tim Nelson, Stefan and Simen Daehlin from the code-institute for all their help and advice during our tutor sessions and masterclasses.
+I'd like to thank my mentor Nisam Kumar for his help and advice throughout this project. His encouragement and feedback we're invaluable in the completion of this project.
+
+I would also like to thank Jim Morel, Tim Nelson, Stefan and Simen Daehlin from the code-institute for all their help and advice during our tutor sessions and masterclasses.
 
