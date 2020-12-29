@@ -1093,6 +1093,8 @@ li.footh4::before{
 
     .menuintro,.foodmenu,.dessertmenu,.coffeemenu,.menuorder{
         width: 95%;
+        padding-bottom: 5%;
+        margin: 10% auto;
     }
 
    .foodmenu h4{
@@ -1124,10 +1126,6 @@ li.footh4::before{
 
     .coffemenu,.milk p::before{
     content: none;
-    }
-
-    .coffeemenu h3{
-        margin-bottom: 1rem;
     }
 
     .footercustom h4{
