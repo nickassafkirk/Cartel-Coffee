@@ -916,6 +916,10 @@ button.close:hover{
     content: "+ ";
 }
 
+li.footh4::before{
+    content: none;
+}
+
 .footerlist a{
     text-decoration: none;
     color: #fff;
