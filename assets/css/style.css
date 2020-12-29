@@ -925,6 +925,14 @@ button.close:hover{
     color: var(--buttonblue);
 }
 
+.footerlist p{
+    margin-bottom: 0;
+}
+
+.footerlist p:hover{
+    color: var(--buttonblue);
+}
+
 .contacts li{
     list-style-type: none;
 }
@@ -1007,7 +1015,7 @@ button.close:hover{
 
     h5.cathead{
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     }
 
 }
@@ -1123,6 +1131,19 @@ button.close:hover{
 
     .coffeemenu h3{
         margin-bottom: 1rem;
+    }
+
+    .footercustom h4{
+        margin-bottom: 3%;
+    }
+
+    .footercustom li a{
+        line-height: 2rem;
+    }
+
+    .footercustom li p{
+        line-height: 2rem;
+        margin-bottom: 0;
     }
 
 }
