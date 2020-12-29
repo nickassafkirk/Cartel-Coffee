@@ -16,13 +16,14 @@ To increase brand awareness and a consistent experience for online and offline c
 ### Strategy
 
 #### User goals
-* Users want to learn more about the business
-* Users want to view the business's menus
-* Users want to make orders for takeaway/collection
-* Users want to view the reservations policy and make a booking/reservation
-* Users want to shop for coffee, equipment and merchandise online
-* Users want to contact the shop for more information
-* Users want to visit the business's social media profiles to learn more about them
+* Users want to know the purpose of the site immediately.
+* Users want to learn more about the business.
+* Users want to view the business's menus.
+* Users want to make orders for takeaway/collection.
+* Users want to view the reservations policy and have the ability to make reservations.
+* Users want to shop for coffee, equipment and merchandise online.
+* Users want to contact the shop for more information.
+* Users want to visit the business's social media profiles to learn more about them.
 
 #### Business Needs
 * The business owner wants to increase their online awareness and to interact with new and existing customers online
@@ -38,17 +39,13 @@ To increase brand awareness and a consistent experience for online and offline c
 #### User Stories
 
 ##### Basic user stories
-1. Daniel needs to see the menu and phone number so he can order foof for collection.
-2. Lisa needs to fill out a contact form so that she can make a reservation for lunch.
-3. Marius wants to view the stores's product range and contact details so he can order products remotely. 
-4. Paul wants to view a gallery of the Cafe and their social media, so he can decide if it is an appropriate environment to hold a business meeting.
-
-##### Detailed user stories
-1. Daniel is a 45 year old businessman who works in the area. He's looking for a coffee shop that's close to his work, where he can get his morning coffee, grab lunch or hold casual business meetings at short notice. He needs to find the business location, view their menu, see if they have wifi and view their social media to see if there's enough seating to hold a business meeting.
-2. Lisa is a 21 year old student who wants to find somewhere nice for a first date. She wants to view images of the cafe as she wants to impress her date with somewhere nice. She also want's to view the menu, prices (shes a student afterall) and to make a reservation so they don't have to wait akwardly when they arrive. 
-3. Marius is an elderly gentleman living abroad who wants to buy a christmas present for his coffee loving son who lives locally. He wants to view coffee and brewing equipment and to make an order over the phone for delivery to his sons address. 
-4. Melissa is a regular customer who wants to see if the shop is still open during the latest lockdown restrictions. She also wants to order some coffee beans as she's working from home and want's to have coffee for days when she can't make it to the shop. 
-5. Paul is working from home and is looking for somewhere to get lunch. He wants to view the menu and to make an order for collection in advance as he only has an hour for lunch. 
+1. As a new user I want to see the menu and phone number so I can order food for collection.
+2. As a new user I want to fill out a contact form so that I can make a reservation for dinner.
+3. As a new user I want to view the business's product range and contact details so I can order products remotely. 
+4. As a new user I want to view a gallery of the Cafe and their social media, so I can decide if it is an appropriate environment to hold a business meeting.
+5. As a new user I want to see the Cafe's location on a map, so I can visit the premises.
+6. As a new user I need to be able to navigate between site pages.
+7. As a new user I want to trust the business and value their products.
 
 ### Scope 
 
@@ -59,10 +56,9 @@ To increase brand awareness and a consistent experience for online and offline c
 * The Business location & map
 * A contact form
 * A Booking form
-* The Food & Drinks menus menu
+* The Food & Drinks menus
 * Products & Product information
 * Business social media links
-* Create a means to navigate between pages
 * A list of commonly asked questions/FAQs
 * A Covid-19 Alert
 
@@ -293,7 +289,7 @@ Is used to create wireframes as visual mockups of the final site design
   Fix: Added Alternative image with landscape aspect-ratio for larger screen-widths. I decided this was a better tactic than using the object-fit property because it ensures
   Images are not cropped on responsive viewports.
 
-* Bug: Labels for Tiles not scaling correctly when changing screensizes. On smaller screensizes the label headings were moving off their desired position in the center of the image tiles.
+* Bug: Labels for tiles not scaling correctly when changing screensizes. On smaller screensizes the label headings were moving off their desired position in the center of the image tiles.
   Fix: I used position: relative and top and bottom percentage values to fix the headings to the image tiles regardless of screensize. media queries are used to edit the font-size to ensure, overflow does not cause 
   undesireable rendering on smaller viewports and devices.
 
@@ -347,19 +343,71 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This project was developed using the Gitpod IDE, committed to git and pushed to GitHub using the terminal within Gitpod nad the gitpod extension for chrome. 
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+To deploy this page to GitHub Pages from its GitHub repository, the process is as follows:
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+1. First log into GitHub.
+2. From the list of repositories on the screen, select Cartel-Coffee
+3. From the menu items which includes *Code, Issues, Pull request, Actions, Projects, Wiki, Security, Insights* 
+select the settings tab
+4. Within the settings section, scroll down to the **GitHub Pages** section.
+5. Under Source click the drop-down menu labelled "None" and select "Master Branch"
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+8. (Optional) Add the website link to the repository info box for ease of use. In the sidebar to the right click the cog icon to the right of the about subheading
+and paste the website url into the box labelled "website"
 
+To clone this project using Gitpod you will need:
 
-## Credits
+A Github account. [Create a Github account here](https://github.com/join)
+Use the Chrome browser
+Then follow these steps:
+
+1. Install the [Gitpod Browser Extentions for Chrome](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki?hl=en)
+2. After installation, restart your browser
+3. Log into Gitpod with your github account.
+4. Navigate to the Project GitHub repository
+5. Click the green "Gitpod" button in the top right corner of the repository
+6. This will open a new gitpod workspace with a clone of the repository
+
+To work on the project code within a local IDE such as VSCode, Pycharm, brackets etc:
+
+1. Go to the Github repository at [this link](https://github.com/nickassafkirk/Cartel-Coffee)
+2. Under the repository name, click the code tab from the menu items
+3. In the submenu to the right which has the options: go to file, add file and code, select the code option. 
+4. In the Clone with HTTPs section, copy the clone URL for the repository.
+5. In your local IDE open the terminal.
+6. Change the current working directory to the location where you want the cloned directory to be made.
+7. In the terminal type git clone, and then paste the URL you copied in Step 3.
+   This should follow the format git clone https://github.com/github-username/repository-name.git
+8. Press Enter to successfully clone the repository to your local IDE
+
+To Fork this repository:
+
+Enter "Github" into browser and arrive at main Github page.
+Sign into Github or sign up.
+Find the repository you wish to fork.
+On the right hand side of the repository page you will see options to watch, star or fork. Click Fork.
+This will create a copy in your new repository which can be edited. After changes have been made you can select a new pull request located in the original repository just above the file listing.
+
+To clone this repository
+Enter "Github" into browser and arrive at main Github page.
+Sign into Github or sign up.
+Find the repository you wish to clone or download.
+Find the "clone or download" button just under the repository name.
+To clone the repository using HTTPS click the link under "Clone with HTTPS".
+Open a terminal and change the current working directory to the location where you want the cloned version of the directory to be copied to.
+Type "git clone" and paste the HTTPS code you copied.
+Press "enter" to finish creating your clone.
+
 
 ### Code 
+
+**Bootstrap** CDN was used to create a responsive site design. Several bootstrap components were utilised including navbar, jumbotrons, alerts, modals, forms and the collapse functionality. 
+custom CSS was used to apply unique styling to bootstrap components.
+
+#### Credits
 - To fix issues with footer content alignment I read documentation on flexbox at [This article](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
   I confirmed how to implement flexbox utilities while using Bootstrap by reading the documentation on [this page](https://getbootstrap.com/docs/4.5/utilities/flex/)
 
@@ -400,8 +448,15 @@ In addition, if it is not obvious, you should also describe how to run your code
         transform: translate(-50%, -50%);
         }
 
+All other code was written by me the project owner.
+
 ### Media
-The photos used in this site were obtained for education purposes only. 
+
+#### Icons:
+All icons used on this project were sourced from [Fontawesome](https://fontawesome.com/)
+
+#### Images:
+The photos used in this site were primarily sourced from [Unsplash.com](https://www.unsplash.com)
 
 [Carousel 1 Image](https://images.unsplash.com/photo-1493857671505-72967e2e2760?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
 Photo by [Roman Bozhko](https://unsplash.com/@romanbozhko?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee-shop?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
