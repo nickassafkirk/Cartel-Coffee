@@ -1175,6 +1175,10 @@ button.close:hover{
     .menuback{
         padding-top: 1%;
     }
+
+    .footercustom li{
+        font-size: 1.3rem;
+    }
 }
 
 
