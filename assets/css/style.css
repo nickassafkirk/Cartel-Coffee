@@ -232,6 +232,14 @@ blockquote hr{
     margin: 0 auto;
 }
 
+#introx{
+    color: #333333;
+}
+
+#introx:hover{
+    color: var(--buttonblue);
+}
+
 /*------- Menu Categories -------*/
 
 .menussec{
