@@ -1,5 +1,6 @@
 # Cartel Coffee Website Build
-
+![Homepage screenshot](assets/images/Homepage.png)
+[Link to Deployed Site](https://nickassafkirk.github.io/Cartel-Coffee/index.html)
 ## Overview
 
 The purpose of this project is to build a mobile responsive website for a new coffee shop in Dublin called Cartel coffee. The Business wants to increase their online visibility, increase revenue and to attract new customers. They want to introduce the ability to receive takeaway orders and start selling online. They want to use the site as a platform to update customers on business changes and to continue trading if restaurants are forced to close during Covid-19 restrictions. 
@@ -7,11 +8,14 @@ The goal is to build a mobile first site which meets the intial business needs w
 
 **NB:** *This is a theoretical business created for educational purposes only*
 
+---
+
 ## UX
  
 The intention of this site is to allow new and existing users to find the business, learn about the business and to convert into physical customers at the business's location or virtual customers via ordering online, over the phone and by email. 
 To provide a great user experience it is important that information is displayed clearly in a logical order of importance. As this website is designed to provide several distinct functions (contact, buy, order and inform), for a broad range of users, emphasis has been made to create multiple interlinking navigation methods so that customers can find and source the information that is relevant to them while ignoring information that may not be relevant at that moment. 
 To increase brand awareness and a consistent experience for online and offline customers, the website has been designed to mirror the styling and motif that customers experience while visiting the business's physical location. 
+As this is an imagined business the images used in the homepage carousel have been chosen to reflect the business's physical location. 
 
 ### Strategy
 
@@ -38,7 +42,7 @@ To increase brand awareness and a consistent experience for online and offline c
 
 #### User Stories
 
-##### Basic user stories
+##### User stories
 1. As a new user I want to see the menu and phone number so I can order food for collection.
 2. As a new user I want to fill out a contact form so that I can make a reservation for dinner.
 3. As a new user I want to view the business's product range and contact details so I can order products remotely. 
