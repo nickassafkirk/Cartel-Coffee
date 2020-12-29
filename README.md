@@ -345,6 +345,32 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+Validation: 
+
+**HTML**
+All html files were validated using the [W3C markup validation service](https://validator.w3.org/)
+
+There were no errors or warning messages for the deployed version of this project for any of the pages.
+
+**CSS3**
+
+All css files were validating using the [W3C CSS validation service](https://jigsaw.w3.org/css-validator/)
+
+![W3C Css validation badge](assets/images/vcss-blue.gif)
+
+No errors were returned, however 29 warning messages were returned due to some specific css features not being supported by the Jigsaw validation service. 
+
+21 warning messages are due to the use of vendor prefixes. This is because the vendor prefixes are browser specific properties and are not in the official CSS specification and therefore 
+return warnings during validation despite being considered good practice to ensure cross-browser compatibility. 
+This issue is outlined in the [following article](https://www.456bereastreet.com/archive/201101/css_validator_to_report_vendor-specific_extensions_as_warnings_not_errors/) 
+and in [this stackexchange forum](https://stackoverflow.com/questions/1889724/how-to-validate-vendor-prefixes-in-css-like-webkit-and-moz)
+Therefore these warning messages can be ignored. 
+
+8 warning messages are due to the use of root variables used for colors on the site. These are returning warning messages upon validation 
+because root variables are currently not supported by the validation service despite being widely supported across popular browsers. 
+This issue has been outlined at [this link](https://github.com/w3c/css-validator/issues/111) and therefore the warnings can be ignored.
+
+
 ## Deployment
 
 This project was developed using the Gitpod IDE, committed to git and pushed to GitHub using the terminal within Gitpod nad the gitpod extension for chrome. 
@@ -386,6 +412,7 @@ To work on the project code within a local IDE such as VSCode, Pycharm, brackets
 7. In the terminal type git clone, and then paste the URL you copied in Step 3.
    This should follow the format git clone https://github.com/github-username/repository-name.git
 8. Press Enter to successfully clone the repository to your local IDE
+9. For more information on cloning from github [see this page](https://docs.github.com/en/free-pro-team@latest/github/using-git/which-remote-url-should-i-use)
 
 To Fork this repository:
 
@@ -492,8 +519,8 @@ Photo by [Silviu Beniamin Tofan](https://unsplash.com/@tofansilviuben?utm_source
 [Merchandise mug](https://unsplash.com/photos/kBJEJqWNtNY)
 Photo by [Ryan Riggins](https://unsplash.com/@ryan_riggins?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/enamel-mug?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
-[menuback](https://unsplash.com/photos/ray0RihLnuc)
-Photo by [Matze Bob](https://unsplash.com/@matzebob?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+[menuback](https://unsplash.com/photos/sQopSb2K0CU)
+Photo by [Andrew Seaman](https://unsplash.com/@amseaman?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/dark-kitchen?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Contactback](https://unsplash.com/photos/d5SZqLkpIrY)
 Photo by [Tomas Jasovsky](https://unsplash.com/@tomasjasovsky?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/cafe?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)

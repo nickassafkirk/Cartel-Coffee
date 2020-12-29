@@ -9,18 +9,11 @@
     --logo: #333333;
     --light: #dddddd;
     --lighttrans: rgba(228, 228, 227, 0.95);
-    --lighttrans1: rgba(190, 190, 190, 0.95);
     --bg: #eeeeee;
-    --warmyellow: #eed231;
     --buttonblue: #07c5ff;
-    --buttonaqua: #009277;
     --alertorange: #f9c043;
-    --bgdark: #343a40;
     --custom: #212121;
-    --submenu: #0E4B33;
-    --lightpink: #DDBBDC;
-    --powderpink: #343a40;
-    /*#274135;*/
+    --tealgrey: #343a40;
 }
 
 /*------- Colors -------*/
@@ -557,8 +550,8 @@ h5.cathead{
 
 .menusnav{
     width: 80%;
-    background-color: var(--powderpink);
-    border: 1px solid var(--powderpink);
+    background-color: var(--tealgrey);
+    border: 1px solid var(--tealgrey);
     margin: 0 auto;
     padding: 1%;
     color: white;
@@ -575,7 +568,7 @@ h5.cathead{
 
 .menusnav.bottom{
     margin-bottom: 5%;
-    background: var(--powderpink);
+    background: var(--tealgrey);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -684,7 +677,7 @@ h5.cathead{
 
 #coffeemenu h2.submenu{
     background-color:#151516;
-    border: 1px inset #151516;
+    border: 1px inset #18181a;
     border-radius: 2px;
     margin: 2%;
     padding: 2% 0;
@@ -701,7 +694,7 @@ h5.cathead{
 
 .coffeemenu p{
     background-color:#151516;
-    border: 1px inset #151516;
+    border: 1px inset #18181a;
     border-radius: 2px;
     margin: 5%;
     padding: 2% 0;
@@ -785,7 +778,7 @@ a.call{
 .prodtitle{
     text-align: center;
     font-size: 1.2em;
-    margin: 5px,auto,10px,auto;
+    margin: 5px auto 10px auto;
 }
 
 .product button{
@@ -793,7 +786,7 @@ a.call{
     text-align: center;
     width: 70%;
     background-color: var(--buttonblue);
-    border: 1px solid var(---buttonblue);
+    border: 1px solid #07c5ff;
     border-radius: 5px;
     padding: 2%;
     margin: 5% auto;
