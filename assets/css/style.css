@@ -695,6 +695,11 @@ h5.cathead{
         margin-bottom: 2rem;
     }
 
+.coffeemenu p{
+    background-color: rgb(27, 26, 26);
+    margin: 2%;
+}
+
 .coffemenu,.milk p::before{
     content: "+ ";
 }
