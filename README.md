@@ -177,6 +177,8 @@ As this is an imagined business the images used in the homepage carousel have be
 
 #### Mockups
 
+![responsive screenshot](assets/images/ResponsiveScreenshot.png)
+
 ### Surface
 
 #### Fonts ####
