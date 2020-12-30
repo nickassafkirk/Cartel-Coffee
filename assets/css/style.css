@@ -721,12 +721,17 @@ h5.cathead{
 
 .call{
     text-shadow: none;
-    color: #37474f;
+    background-color: #37474f;
+    color: #fff;
+    border: 1px solid #37474f;
+    border-radius: 5px;
+    padding: 2%;
+
 }
 
-a.call{
+.call a{
     text-decoration: none;
-    color: #37474f;
+    color: #fff;
 }
 
 .call:hover,.call a:hover{
