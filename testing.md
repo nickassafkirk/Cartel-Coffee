@@ -106,7 +106,7 @@ I tested the link for both alert types on each page and confirmed that the links
 
 ---
 
-## index.html
+## [Homepage](index.html)
 
 ### Image Carousel: 
 * **Aim:** The Image carousel should appear directly below the navbar at the top of the index.html page. The carousel should span the full screenwidth. The carousel should display centered
@@ -117,18 +117,18 @@ I observed the captions to ensure their position remains centered on the slide a
 * **Result:** I confirmed that the carousel is has desired styles and behaviour, is positioned correctly, scales to fit multiple viewport sizes and has working slide control buttons. 
 
  ### Welcome section: 
- **Aim:** On desktop it is intended that the full welcome paragraph is revealed. On mobile the paragraph becomes a + icon which reveals a collapsed paragraph on click. 
- **Test:** To test this I verified the + icon and collapse paragraph are not displayed on screenwidths greater than 576px. I also verified that the welcome text is 
+ * **Aim:** On desktop it is intended that the full welcome paragraph is revealed. On mobile the paragraph becomes a + icon which reveals a collapsed paragraph on click. 
+ * **Test:** To test this I verified the + icon and collapse paragraph are not displayed on screenwidths greater than 576px. I also verified that the welcome text is 
  displayed as intended across browsers. To test mobile functinality I ensured that clicking the + icon expands and collapses the welcome paragraph card. I tested that the + icon is higlighted on hover 
  to hint interactivity.
- **Result:** The welcome section is styled and functioning as intended.  
+ * **Result:** The welcome section is styled and functioning as intended.  
 
  ### Menu category tile section:
- **Aim:** Menu image tiles should be clickable links to a corresponding menu.html section. Image tiles should display responsive design to reorder at the correct breakpoint. Alternative images with landscape or portrait aspect-ratio should be displayed 
+ * **Aim:** Menu image tiles should be clickable links to a corresponding menu.html section. Image tiles should display responsive design to reorder at the correct breakpoint. Alternative images with landscape or portrait aspect-ratio should be displayed 
  at the correct breakpoint. The tile's overlaying text should not overflow it's container. Upon hover each tile should be highlighted and it's overlaying text should be hidden to incourage click behaviour.   
- **Test:** To test that the Menu category tiles were operating as intended I viewed this section on multiple devices and with a responsive browser window and ensured there was no overflow or alignment issues on any screenwidths. 
+ * **Test:** To test that the Menu category tiles were operating as intended I viewed this section on multiple devices and with a responsive browser window and ensured there was no overflow or alignment issues on any screenwidths. 
  I also tested that the image tiles are working and each link directs to the correct section IDs on the menu page. I tested hover functionality by hovering the cursor over each tile and ensured that the hover behaviour functions as intended across browsers.   
- **Result:** The homepage menu category tiles function and format as intended.
+ * **Result:** The homepage menu category tiles function and format as intended.
 
 ### Shop popular category tile section:
 * **Aim:** The entire shop image tiles should be clickable links to a corresponding shop.html section. Image tiles should display responsive design to reorder at the correct breakpoint. Overlaying text and imitation-button should scale correctly on all screenwidths. 
@@ -138,43 +138,64 @@ Tiles be highlighted upon hover and the imitation button should change it's back
  I used a responsive browser window to confirm that the tiles re-align at the correct breakpoint.   
 * **Result:** Shop category tiles display and function as intended.
 
-## menu.html
+## [Menu page](menu.html)
 
 ### Body
 * **Aim:** A large background image will occupy the body of the menu.html with no whitespace between the
 navbar and footer. The background image should be relevant to the page content to reinforce the page subject to new users. The background image should contrast the section containers for appealing visual impact and improved readability. 
 * **Test:** To test I viewed the menu.html page and confirmed that the background image occupies the full background between the navbar and footer on all devices and window sizes. I confirmed that the background image shows a relevant image subject and
-helps to provide page context to first time users. I confrimed that the background image provides adequate contrast to section containers and is coherent with the color palette choen for this page. 
+helps to provide page context to first time users. I confirmed that the background image provides adequate contrast to section containers and is coherent with the color palette choen for this page. 
 * **Result:** The body background functions as intended.
 
 ### Intro Section
-* **Aim:**
-* **Test:**
-* **Result:**
+* **Aim:** Intro text is added to provide page context and encourage users to learn what the page is about. 
+It needs to scale to fit the viewport size for optimum readbaility and too have adequate contrast between text and background colors to aid readability. 
+* **Test:** To test the menu page was viewed on multiple devices and in responsive mode to verify that the container scales to fit the viewport size and that text is easily legible 
+and has sufficient contrast to easily read the intro text. 
+* **Result:** The intro text box is clear, responsive and easy to read an all devices.
 
 ### Sub navigation Menu
-* **Aim:**
-* **Test:**
-* **Result:**
+* **Aim:** The Menu page subnavigation bar is included to allow quick navigation to specific menu sections. It is expected to have a heading and 3 button-styled links that link to specific page section IDs.
+It is expected to occupy the same page width as the other page sections. The links should be highlighted upon hover to hint that they are clickable elements. The associated icons should be metaphors to reiforce the links function. On desktop the icons should perform a rotation 
+animation when a user hovers over each icon with their cursor. 
+* **Test:** To test the menu page was viewed on multiple devices and browsers to verify that the sub navigation bar has equal width to other page sections and is responsive to fit most screen widths. Each link was clicked to ensure that links navigate to the correct page section. The cursor was hovered over each link to ensure 
+links are highlighted upon hover. The cursor was hovered over the icons to verify that icons rotate 360degrees when they are hovered over.
+* **Result:** The menu page subnavbar formats responsively andi it's associated links navigate correctly to the specified page sections.
 
 ### Food Menu
-* **Aim:**
-* **Test:**
-* **Result:**
+* **Aim:** The food menu should have 5 sections: Breakfast, Lunch, Dinner, sides and specials. The first 4 columns should be displayed as a 2x2 grid on larger screen widths and as 4 vertically stacked columns on smaller screen widths.
+The specials section should display as a thin full width column below on all sreen sizes. This section should display responsive design to keep adequate spacing between each distinct section so as to show the relationship 
+between associated blocks of text. 
+* **Test:** The menu page was viewed on multiple devices and screen widths to confirm that the text content is displayed clearly and legibly across all screen sizes.
+I confirmed that the media queries applied ensure that text scales to fit the available space to prevent overflow.  
+* **Result:** The food menu section performs as intended. 
 
 ### Dessert Menu
-* **Aim:**
-* **Test:**
-* **Result:**
+* **Aim:** The Dessert menu should have 3 sections: Pastries, Favourites, and specials notice. The first 2 columns should be displayed as a 2x1 grid on larger screen widths and as 2 vertically stacked columns on smaller screen widths. The favourites `<h4>` heading has styled
+to disappear when the bootstrap collumns stack vertically to give the impression that it's a single dessert section. 
+The specials section should display as a thin full width column below on all sreen sizes.
+* **Test:** The menu page was viewed on multiple devices and screen widths to confirm that the text content is displayed clearly and legibly across all screen sizes.
+I confirmed that the media queries applied ensure that text scales to fit the available space to prevent overflow. The page section was viewed on small tablets, mobile and responsive browser windows to ensure that the favourites `<h4>` heading, padding and margins
+disappear on small screen widths to give the appearance of a single pastries section.
+* **Result:** The dessert menu section performs as intended. 
+
+### Coffee Menu
+* **Aim:** The coffee menu should have 4 sections: a Coffee title column , a coffee size column ,a coffee price column and specials notice. The first 3 columns should be displayed as a 3x1 grid on larger screen widths. On smaller screen widths the coffee size column is removed to create a 2x1 grid.
+The coffee menu has been styled to emulate a coffee peg board menu. Like the one shown in the carousel 1 image.
+* **Test:** The menu page was viewed on multiple devices and screen widths to confirm that the text content is displayed clearly and legibly across all screen sizes.
+I confirmed that the media queries applied ensure that text scales to fit the available space to prevent overflow. The page section was viewed on small tablets, mobile and responsive browser windows to ensure that the coffee size column is removed on small screen widths. 
+* **Result:** After initial testing additional styles were added to the coffee menu `<p>` elements to ensure each menu paragraph has a consistent height, width and alignment to produce the pegboard effect.
+The coffee menu now operates as intended.  
 
 ### Call Menu
-* **Aim:**
-* **Test:**
-* **Result:**
+* **Aim:** The call menu should display two call to action elements to allow customers to phone te store to order or visit their deliveroo account to order for delivery. 
+The button should styled to look like a link as the phone number should automatically open the number as a call on mobile devices. 
+The deliveroo link should link to deliveroos homepage as an actual account does not exist for this imagined business. 
+* **Test:** To test the phone number button was clicked on a mobile device to ensure it opens a new call link.
+The deliveroo button was clicked to confimr that it links to the deliveroo.ie homepage in a new window. 
+* **Result:** Button texts are clearly legible. The Phone number opens a new call on mobile devices and the deliveroo button links to the deliveroo homepage as intended.
 
-
-
-## shop.html
+## [Shop Page](shop.html)
 
 ### Shop Modal
 * **Aim:** Shop modal should appear upon loading of shop.html page. Modal should scroll to center on page if a section ID is referenced from footer links.
@@ -213,7 +234,53 @@ By viewing the shop page on a responsive browser window, tablet and mobile devic
 * **Result:** The shop merchandise jumbotron works as intended.
 
 
-## Contact.html
+## [Contact Page](Contact.html)
+
+### Body
+* **Aim:** A large background image will occupy the body of the contact.html page with no whitespace between the
+navbar and footer. The background image should be relevant to the page content to reinforce the page subject to new users. The background image should contrast the section containers for appealing visual impact and improved readability.
+The page contains 4 distinct sections; find us, contact us, make a booking and FAQs. This should display as a 2 x 2 grid layout on larger screen sizes and as 4 vertically stacked sections on smaller screen widths.
+* **Test:** To test I viewed the menu.html page and confirmed that the background image occupies the full background between the navbar and footer on all devices and window sizes. I confirmed that the background image shows a relevant image subject and
+helps to provide page context to first time users. I confirmed that the background image provides adequate contrast to section containers and is coherent with the color palette chosen for this page. By viewing the page on a responsive browser window, tablet and mobile devices I confirmed that 
+the page sections perform the desired responsive behaviour.
+* **Result:** Upon initial testing section background containers were of differing heights on larger screen sizes.
+This produced an unbalanced visual layout. the bootsrap flex `align-self` property was used to ensure section containers are of equal heights. 
+The body background now functions as intended.
+
+### Find Us
+* **Aim:** `<iframe>` element should show map of the companies location. Opening hours section and address should display as 2x1 grid on wider screen widths and 2 full section vertically stacked columns on smaller screenwidths. 
+* **Test:** Viewed contact page on large screen widths and observed the find us section behaviour. The Iframe displays correctly and is responsive for different viewport sizes.
+The address and hours sections are clearly legible and reorder at the correct breakpoint when the screen size is adjusted. 
+* **Result:** The Find us section displays as intended.
+
+### Contact Us
+* **Aim:** This section contains a form and social media links. The form has a first name input, last name input, email input, phone input, a textarea for a user message 
+and a submission button. The form should provide validation advice if required fields are left blank and should prevent form submission
+if required inputs are not filled out. Upon successful validation and submission, the page should reload on the ["submit.html" page](submit.html).
+Social media links should open the facebook, twitter and instagram homepage in a new tab.
+* **Test:** To test I first clicked the form submission button without filling out any fields. The validation error messages were displayed for each required field as intended. The form was not submitted as intended.
+I then added a first name value and tried to submit the form again. Invalid submission messages were shown for other required inputs. The same process was carried out for each form input with the desired outcome. For the email input the from returned an invalid submission message when text was entered without an "@" symbol.
+The form only allowed submission when all required fields were entered in the correct format. Upon succesful submission the page reloaded on the submit.html page as intended. 
+
+To test the social media links each social media icon was clicked. Initially this resulted in 404 messages. Once this bug was fixed as described n the bugs section the social media links operated as intended. To test the responsive behaviour the contact us section was viewed on mobile, tablet
+and in a responsive browser window. The social media icons are hidden on small screen widths as intended. 
+* **Result:** The contact us section works as intended. After initial bugs were corrected. 
+
+### Make A Booking
+* **Aim:** This section contains a dedicated booking form. The form has a first name input, last name input, email input, phone input, a textarea for a user message, as well as a date field and a "number of guests" `<select>`.
+and a submission button. The form should provide validation advice if required fields are left blank and should prevent form submission
+If required inputs are not filled out. Upon successful validation and submission, the page should reload on the ["submit.html" page](submit.html).
+* **Test:** To test I first clicked the form submission button without filling out any fields. The validation error messages were displayed for each required field as intended. The form was not submitted as intended.
+I then added a first name value and tried to submit the form again. A valid message was displayed for valid fields and invalid submission messages were shown for missing required inputs. The same process was carried out for each form input with the desired outcome. For the email input the form returned an invalid submission message when text was entered without an "@" symbol.
+The form only allowed submission when all required fields were entered in the correct format. Upon succesful submission the page reloaded on the submit.html page as intended. 
+* **Result:** On initial testing the form allowed submission with the 1 guest option as the default value. I found this to be a poor user experience as it would be easy for a customer to submit the form without selecting the correct number of guests.
+Additional functionality was added to ensure users have to select the number of attendees which provides a better user experience.
+The make a booking section now works as intended. 
+
+### FAQs
+* **Aim:**
+* **Test:**
+* **Result:**
 
 Forms:
  Inputs should provide validation hints if required fields are not filled out. If validation does not occur, form submission should be prohibitted. 
@@ -233,7 +300,7 @@ Forms:
 * **Result:**
 
 
- Bugs
+Bugs
 footer: brew equipment not linking correctly
 
 homepage: dessert tile not linking correctly
@@ -290,6 +357,13 @@ Menu page background image is too grey on mobile. It looks like the page hasn't 
   **Fix:** Using position: fixed, percentage top and left values and a transform value, I was able to ensure that the modal is position in the center of the screen even when the screen is scrolled. 
   The code used for this fix was taken from a CSS tricks article credited in the credits section of the accompanying [README.md](README.md) file
 
+* **Bug:** Contact us social media icons were 404ing: On initial testing the socail media icons below the contact us form on the contact.html page were 404ing. 
+**Fix:** https:// values were added to the link urls. `target=_blank` and `rel=_noopener` were also added to `<a>` tags to ensure correct functionality.
+
+* **Bug:** The make a booking form initially assigned the first `<select>` option as the default value entered. This provided a poor user experience as users culd easily submit the form without 
+selecting the number attendees for their booking. 
+  **Fix:** Using the `selected`, `disabled` and `hidden` attributes I created a placeholder style option which does not pass form validation and prevented form submission.
+This ensures that users select a valid select option and that the form is not submitted incorrectly and provides a better overall user experience.
 ---
 
 ### Remaining Bugs To Be Fixed

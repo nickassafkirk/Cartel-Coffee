@@ -105,19 +105,20 @@ As this is an imagined business the images used in the homepage carousel have be
 
 * Contact page/Reservation page
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons
- * Google maps embedded map - allows users to see stores physical location and click link to open in preferred map application so they can navigate easily to the cafe
- * Phone number - displays phone number with supporting icon so users can quickly call the cafe to make an order, reservation or other enquiry
- * Email address - displays the cafe's email address for users who wish to make an enquiry by email
- * contact form - allows customers to make an email enquiry without the need to open another tab or their email application. By entering their name, email address, phone number (optional) and their message users can contact the business with their enquiry. From validation ensures customers that ther enquiry has been submitted and notifies and prevents submission if a required field has been missed. 
+ * Google maps embedded map - allows users to see stores physical location and click link to open in map application so they can navigate easily to the cafe. 
+ * Contact form - allows customers to make general email enquiries without the need to open another tab or their email application. By entering their name, email address, phone number (optional) and their message users can contact the business with their enquiry. From validation ensures customers that ther enquiry has been submitted and notifies and prevents submission if a required field has been missed. 
+ * Booking form - allows users to book a table at the location to convert users into customers. 
+ * FAQS section - coomonly asked questions builds trust with users by allowing users to instantly get answers to commonly asked questions without having to wait for a response by call or email. This increases the chance that users will convert into customers upon first visit
+ and means staff don't have to reply to commonly asked questions. Bootstrap expand/collapse functionality is used for this section to condense large sections of text into a smaller space for better display on mobile devices. 
  * footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
 
 
 * Menu page
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons
- * Coffee menu section
- * Food menu section
- * Dessert menu section
- * Order Button
+ * Coffee menu section: Shows users the business regular dessert options to encourage customers to dine at the cafe or order for takeaway/collection.
+ * Food menu section: shows users the company's primary food options to encourage customers to dine at the cafe or order for takeaway/collection.
+ * Dessert menu section: Shows users the business regular dessert options to encourage customers to dine at the cafe or order for takeaway/collection.
+ * Order Button: The contact section is added to implement a call-to-action and means to convert users into customers at the end of the menu page. 
  * footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
 
 
@@ -154,13 +155,14 @@ As this is an imagined business the images used in the homepage carousel have be
     encourage first-time learning and correct use of buttons on the site.
     ![Buttons navigation screenshot](assets/images/readmeimgs/Button_Styles.png)
 
-5. **IDs as links:** Id's have been used to allow quick navigation to specific points on a single webpage. This is designed to aid conversion by bringing the user directly to their point of interest without the potential to get distracted. 
+5. **IDs as links:** IDs have been used to allow quick navigation to specific points on a single webpage. This is designed to aid conversion by bringing the user directly to their point of interest without the potential to get distracted. 
    The use of Id based navigation also allows more distinct information to be condensed onto a fewer number of pages for a better user experience, a more condensed site and faster page load times. The footer utilises several id's as links to specific sections
    on the menu, shop and contact pages.
 
 6. **Secondary Navigation Bar:** A secondary navigation menu is utilised on the menu page to allow swift navigation to a user's desired menu section. 
+    This is particularly useful on mobile devices where a lot content stacks vertically making it necessary for users to have to scroll down throught page content to get to the bottom of the page. 
     The secondary navigation menu uses a page specific color palette to reinforce it's specific association to the menu page. The submenu
-    links to specific page section id's as outlined the the section above. 
+    links to specific page section IDs as outlined the the section above. 
 
     ![Buttons navigation screenshot](assets/images/readmeimgs/sub_nav.png)
 #### Wireframes
@@ -199,6 +201,20 @@ The Sans-serif font has been chosen as a fallback font if chosen fonts cannot be
 
 #### Colors ####
 Colors are used to increase contrast, visual impact, to indicate interactivity of elements and to improve readability across the site. 
+Root variables were used to allow quick design changes to be made. The main colors used on this project are as follows:
+
+    logo: #333333; used for body text 
+    light: #dddddd; used for light text where dark backgrounds are used
+    lighttrans: rgba(228, 228, 227, 0.95); used as div/container background colors for menu and contact pages
+    bg: #eeeeee; used for body background, borders and outlines
+    buttonblue: #07c5ff; used as primary button background color, link hover color and cta indicator
+    alertorange: #f9c043; used as secondary call to action color when button blue clashes with background colors or images.
+    custom: #212121; used for navbar and footer background
+    tealgrey: #343a40; used for menu.html section headings and buttons. 
+
+    The rgba value of rgba(0,0,0, 0.(x)) was used throughout the site to create text-shadows and image masks promoting better contrast between text and background items
+    and to create a highlight effect on hover.
+
 
 **Navigation colors:** Dark, muted header and footer colors are used to give a sense of space and contrast to the main and footer navigation. 
 
@@ -214,7 +230,7 @@ Colors are used to increase contrast, visual impact, to indicate interactivity o
 Icons are used as metaphors to reinforce meaning of key navigation elements. The paper plane icon is used to reinforce meaning of send/submission buttons, food and drink icons are used on the menu page to 
 reinforce the sub-menu navigation buttons and Icons are used for the contact information and social media links to clearly apply meaning to text-heavy page sections like the footer.
 
-#### Images ####
+#### Images 
 Images are used in several ways on the site. 
 
 **Carousel Images:** Eye catching images are used on the homepage carousel to clearly indicate the businesses key activities. These are chosen to encourage users to understand the purpose of the business as soon as they land on the homepage.
@@ -279,71 +295,12 @@ Is used to create wireframes as visual mockups of the final site design
 
 ## Code 
 
-### Bugs 
-
-#### Fixed
-
-* Bug: Navbar toggle burger stack stacking vertically on XS screensizes. 
-  Fix: Added media query to navbar-brand so font-size shrinks on XS devices this left ample room for the burger stack icon and prevents vertical stacking of header items on XS devices.
-
-* Bug: Margin or padding is creating indent in top right of Navbar and footer.
-  Fix: Used view port width value to ensure that the navbar occupies the full width of the screen across all screen sizes. 
-
-* Bug: Carousel images not scaling correctly when changing screensizes. 
-  Fix: Added Alternative image with landscape aspect-ratio for larger screen-widths. I decided this was a better tactic than using the object-fit property because it ensures
-  Images are not cropped on responsive viewports.
-
-* Bug: Labels for tiles not scaling correctly when changing screensizes. On smaller screensizes the label headings were moving off their desired position in the center of the image tiles.
-  Fix: I used position: relative and top and bottom percentage values to fix the headings to the image tiles regardless of screensize. media queries are used to edit the font-size to ensure, overflow does not cause 
-  undesireable rendering on smaller viewports and devices.
-
-* Bug: Category heading overflow on tablet. ![cathead overflow bug](assets/images/bugs/h5 cathead overflow bug.png)
-  fix: Add additional media query for max-width: 1000px 
-
-* Bug: Button placement on shop category homepage tiles not scaling correctly on mobile on IOS.
-  Fix: Use position absolute and top positon 50% to position button relative to containing parent
-
-* Bug: Footer Li items offset and displaying content out of screen.
-  Fix: Removed default left padding on unordered lists to ensure desired content spacing for footer list items.
-
-* Bug: Reoccuring Right indent on body content causing alignment issues.
-  Fix: Remove right margin on container-fluid class that was causing alignment issues across site.
-
-* Bug: Modal on Shop page was fixed to the top of the page. When using the footer navigation links to navigate to popular shop categories (coffee, subscriptions, equipment and merchandise), the user would be scrolled down the page.
-This meant that the modal was out of the viewport and customers could not interact with the shop page. 
-  Fix: Using position: fixed, percentage top and left values and a transform value, I was able to ensure that the modal is position in the center of the screen even when the screen is scrolled. 
-  The code used for this fix was taken from a CSS tricks article credited below. 
-
-* Bug: Footer content overlapping on smaller screen sizes. Third column is hidden on small screensizes and other column items were not occupying the space left behind. 
-  Fix: Used bootstrap flex and justify-content properties to control how content is aligned across screensizes. 
-
-#### Remaining Bugs To Be Fixed
-
-**Overflow occuring when semantic html elements are used instead of divs:**
-I attempted to use sections instead of div's on many of the page elements for better accessibility and best-practise. However in doing so I experience many undesireable bugs caused by content overflowing it's housing containers. 
-On doing some research it would appear this is due to some conflict between bootstrap and the use of semantic html elements. It would seem that some of bootstrap
-styling specifically references divs and thus replacing div elements with semantic elements results in unpredictable styling. Unfortunately it was not within the scope of this project 
-to go through and create specific rules to allow the use of semantic html elements for some sections. 
-
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The current deployed version of this project has been thoroughly tested to ensure a great user experience on most common device types 
+and to ensure cross-browser compatibility to ensure easy of use for as many users as possible. 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+The full testing can be found in [the sepparate testing.md file](testing.md)
 
 Validation: 
 
