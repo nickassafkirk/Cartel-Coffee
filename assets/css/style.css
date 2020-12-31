@@ -258,43 +258,15 @@ blockquote hr{
     width: 25%;
     border: 1px solid var(--buttonblue);
     border-radius: 5px;
-    top: -2rem;
-    right: 2rem;
 }
 
 /* Technique credited to this page https://stackoverflow.com/questions/5210033/using-only-css-show-div-on-hover-over-a*/
-a[aria-expanded=false] .fa-compress {
+a[aria-expanded=false] .fa-minus {
    display: none;
 }
 
 a[aria-expanded=true] .fa-plus {
    display: none;
-}
-
-#introx i:nth-of-type(1){
-    position: relative;
-}
-
-#show,#hide{
-    font-size: 0.7rem;
-    display: none;
-    color: var(--buttonblue);
-    text-decoration: none; 
-    z-index: 5;
-}
-
-i.fa-plus:hover + #show{
-    display: block;
-    position: relative;
-    top: -2rem;
-    right: -4rem;
-}
-
-i.fa-compress:hover + #hide{
-    display: block;
-    position: relative;
-    top: -2rem;
-    right: -4rem;
 }
 
 /*------- Menu Categories -------*/
@@ -1128,6 +1100,10 @@ li.footh4::before{
  .col-6.col-sm-3.footerlist li{
     font-size: 0.7rem;
     line-height: 1.8;
+    }
+
+    .welcome,.about{
+        width: 75%;
     }
 
     .footercustom{
