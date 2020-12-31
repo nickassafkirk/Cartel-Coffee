@@ -236,6 +236,13 @@ blockquote hr{
     margin: 0 auto;
 }
 
+.welcome .card-body{
+    background-color: var(--bg);
+    border: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
 #introx{
     color: #333333;
     text-decoration: none;
@@ -245,42 +252,49 @@ blockquote hr{
     color: var(--buttonblue);
 }
 
+#introx span{
+    padding: 0;
+    margin: 0 auto;
+    width: 25%;
+    border: 1px solid var(--buttonblue);
+    border-radius: 5px;
+    top: -2rem;
+    right: 2rem;
+}
+
 /* Technique credited to this page https://stackoverflow.com/questions/5210033/using-only-css-show-div-on-hover-over-a*/
 a[aria-expanded=false] .fa-compress {
    display: none;
 }
 
-a[aria-expanded=true] .fa-expand {
+a[aria-expanded=true] .fa-plus {
    display: none;
 }
 
-a[aria-expanded=false] #less {
-   display: none;
-}
-
-a[aria-expanded=true] #more {
-   display: none;
+#introx i:nth-of-type(1){
+    position: relative;
 }
 
 #show,#hide{
+    font-size: 0.7rem;
     display: none;
-    color: var(--logo);
+    color: var(--buttonblue);
     text-decoration: none; 
+    z-index: 5;
 }
 
-i.fa-expand:hover + #show{
+i.fa-plus:hover + #show{
     display: block;
+    position: relative;
+    top: -2rem;
+    right: -4rem;
 }
 
 i.fa-compress:hover + #hide{
     display: block;
-}
-
-.welcome .card-body{
-    background-color: var(--bg);
-    border: none;
-    margin: 0 auto;
-    padding: 0;
+    position: relative;
+    top: -2rem;
+    right: -4rem;
 }
 
 /*------- Menu Categories -------*/
@@ -454,11 +468,32 @@ h5.cathead{
     background-color: var(--buttonblue);
 }
 /*------- About Section -------*/
+
+.about a{
+    color: var(--logo);
+}
+
+.about a:hover{
+    color: var(--buttonblue);
+}
+
+#less{
+    color: var(--buttonblue);
+}
+
 #collapseabout .card-body{
     background-color: var(--bg);
     border: none;
     margin: 0 auto;
     padding: 0;
+}
+
+a[aria-expanded=false] #less {
+   display: none;
+}
+
+a[aria-expanded=true] #more {
+   display: none;
 }
 
 /*------- contact.html -------*/
