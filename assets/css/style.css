@@ -54,7 +54,7 @@ body{
     font-weight: 500;
 }
 
-.hr90,.hr60,.hr30{
+.hr90,.hr80,.hr60,.hr30{
     display: block;
     border-bottom: 2px solid #aaaaaa;
     margin: 2% auto;
@@ -62,6 +62,10 @@ body{
 
 .hr90{
     width: 90%;
+}
+
+.hr80{
+    width: 82%;
 }
 
 .hr60{
@@ -550,13 +554,14 @@ h5.cathead{
 
 .menusnav{
     width: 80%;
+    font-family: 'Bebas Neue', sans-serif;
+    Font-size: 2em;
+    padding: 2% 1%;
     background-color: var(--tealgrey);
     border: 1px solid var(--tealgrey);
     margin: 0 auto;
-    padding: 1%;
     color: white;
     text-align: center;
-    font-size: 150%;
 }
 
 .menusnav.top{
@@ -637,24 +642,14 @@ h5.cathead{
     border: 1px solid var(--lighttrans);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
     font-size: 1rem;
 }
-
-.menuintro .secheading{
-        font-weight: 600;
-        padding: 0.8rem;
-        background-color: var(--custom);
-        color: white;
-        border: 1px solid var(--custom);
-    }
 
 .menuintro p{
     margin-top: 3%;
 }
-
- .foodmenu .secheading{
-        padding: 0.8rem;
-    }
 
 .foodmenu>.col-12.col-sm-6{
     padding: 2% 0%;
@@ -663,10 +658,6 @@ h5.cathead{
 .foodmenu hr{
     margin-bottom:5%;
 }
-
- .dessertmenu .secheading{
-        padding: 0.8rem 0;
-    }
 
 .dessertmenu>.col-12.col-sm-6{
     padding: 2% 0%;
@@ -690,14 +681,7 @@ h5.cathead{
 
 .menusnav.top#coffeemenu{
     background-color: rgb(29, 29, 29);
-}
-
-#coffeemenu h2.submenu{
-    background-color:#151516;
-    border: 1px inset #18181a;
-    border-radius: 2px;
-    margin: 2%;
-    padding: 2% 0;
+    margin-top: 0;
 }
 
 .coffeemenu{
@@ -709,8 +693,12 @@ h5.cathead{
     padding: 2% 2%;
 }
 
+.submenu{
+    margin: 0;
+}
+
 .coffeemenu p{
-    background-color:#151516;
+    background-color:rgb(29, 29, 29);
     border: 1px inset #18181a;
     border-radius: 2px;
     margin: 5%;
@@ -729,21 +717,30 @@ h5.cathead{
 #altmilk p{
    width: 100%;
    margin: 0 auto;
-   padding: 1% 5%;
+   padding: 1% 4%;
 }
+
 .menuorder{
-    border-radius: 5px;
-    padding: 5%;
+    padding: 3%;
+    color: #333;
+    margin: 0 auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.menuorder .col-12{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .call{
     text-shadow: none;
-    background-color: #37474f;
+    background-color: var(--tealgrey);
     color: #fff;
-    border: 1px solid #37474f;
+    border: 1px solid var(--tealgrey);
     border-radius: 5px;
     padding: 2%;
-
+    margin: 1% 0;
 }
 
 .call a{
@@ -751,8 +748,8 @@ h5.cathead{
     color: #fff;
 }
 
-.call:hover,.call a:hover{
-    color: var(--buttonblue);
+.call a:hover{
+    color: #00CABB;
 }
 
 /*------- Shop.html -------*/
