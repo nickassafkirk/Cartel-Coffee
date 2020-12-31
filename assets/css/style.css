@@ -677,14 +677,14 @@ h2.submenu{
     font-weight: 800;
 }    
 
-.rotate:hover{
+/* inspiration for animation from https://stackoverflow.com/questions/42745506/how-to-make-an-icon-spin-with-i-tag-in-html5-through-css3 */
+.rotate:hover,.rotate:active{
     -webkit-animation-name: rotate;
             animation-name: rotate;
     -webkit-animation-duration: 0.7s;
             animation-duration: 0.7s;
 }
 
-/* inspiration for animation from https://stackoverflow.com/questions/42745506/how-to-make-an-icon-spin-with-i-tag-in-html5-through-css3 */
 @-webkit-keyframes rotate{
     0%{
         -webkit-transform: rotate(0);
@@ -700,6 +700,7 @@ h2.submenu{
         -webkit-transform: rotate(0);
                 transform: rotate(0);
     }
+
     100%{
         -webkit-transform: rotate(360deg);
                 transform: rotate(360deg);
@@ -1238,13 +1239,13 @@ li.footh4::before{
         font-size: 0.8rem;
     }
 
-    .menuback::after{
-        background-repeat: repeat-x;
-    }
-    
     .menusnav{
         width: 95%;
         font-size: 1.2rem;
+    }
+
+    .menusnav.bottom{
+        margin-bottom: 10%;
     }
 
     h2.submenu{
