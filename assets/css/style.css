@@ -443,11 +443,16 @@ h5.cathead{
     width: 100%;
     margin: 0 auto;
     padding: 2% 0;
-    background-color: var(--buttonblue);
-    border: 1px solid var(--buttonblue);
+    background-color: var(--tealgrey);
+    border: 1px solid var(--tealgrey);
     border-radius: 5px;
     color: #fff;
     font-size: 1rem;
+}
+
+.btcustom1:hover{
+    background-color: var(--buttonblue);
+    border-color: var(--buttonblue);
 }
 
 .contactback{
@@ -460,15 +465,27 @@ h5.cathead{
 }
 
 .contactback h2,h3{
-    color: white;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    color:var(--tealgrey);
 }
+
+.contactback h2{
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.863);
+}
+
+.contactback h3{
+    font-weight: 500;
+}
+
 .contactback .secheading{
     margin-bottom: 5%;
 }
 
 #iconsblack i{
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.5)
+    color: var(--tealgrey);
+}
+
+#iconsblack i:hover{
+    color: var(--buttonblue);
 }
 
 .contactback textarea{
@@ -494,7 +511,7 @@ h5.cathead{
 }
 
 .card-header:hover{
-    background-color: var(--buttonblue);
+    background-color: var(--tealgrey);
     color: white;
 }
 
