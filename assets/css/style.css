@@ -564,6 +564,11 @@ h5.cathead{
     text-align: center;
 }
 
+h2.submenu{
+    font-size: 3rem;
+    margin: 0;
+}
+
 .menusnav.top{
     margin-top: 5%;
     border-bottom: 2px solid var(--bg);
@@ -593,7 +598,7 @@ h5.cathead{
 
 .menusnav a:hover{
     text-decoration: none;
-    color: var(--alertorange);
+    color: var(--buttonblue);
     font-weight: 800;
 }    
 
@@ -691,10 +696,6 @@ h5.cathead{
     border-radius: 5px;
     color: #fff;
     padding: 2% 2%;
-}
-
-.submenu{
-    margin: 0;
 }
 
 .coffeemenu p{
@@ -1034,6 +1035,11 @@ li.footh4::before{
     font-size: 1.3rem;
     }
 
+    h2.submenu{
+    font-size: 2.4rem;
+    margin: 0;
+}
+
 }
 
 @media screen and (max-width: 767px){
@@ -1054,6 +1060,10 @@ li.footh4::before{
 
     #home-brand{
         font-size: 120%;
+    }
+
+     h2.secheading{
+        font-size: 2rem;
     }
 
     .contactback h3{
@@ -1090,7 +1100,6 @@ li.footh4::before{
 
     .menuback{
         font-size: 0.8rem;
-        font-weight: 500;
     }
 
     .menuback::after{
@@ -1099,14 +1108,10 @@ li.footh4::before{
     
     .menusnav{
         width: 95%;
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
 
     h2.submenu{
-        font-size: 150%;
-    }
-
-    h2.secheading{
         font-size: 2rem;
     }
 
@@ -1147,6 +1152,18 @@ li.footh4::before{
     content: none;
     }
 
+    .call h3{
+        font-size: 1rem;
+        margin: 2% 0;
+    }
+
+    .call span{
+        margin-bottom: 2%;
+    }
+
+    .call img{
+        margin-bottom: 2%;
+    }
     .footercustom h4{
         margin-bottom: 3%;
     }
