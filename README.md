@@ -406,7 +406,7 @@ custom CSS was used to apply unique styling to bootstrap components.
 - To vertically center the carousel caption text on the index.html page. I used the transform technique as described in [this forum](https://stackoverflow.com/questions/27279865/how-to-vertically-center-a-bootstrap-carousel-caption)
  from which I utilised this snippet of css:
 
-
+    ```
         .carousel-caption{
         top: 50%;
         transform: translateY(-50%);
@@ -418,6 +418,7 @@ custom CSS was used to apply unique styling to bootstrap components.
         -moz-transform-style: preserve-3d;
         transform-style: preserve-3d;
         }
+    ```
 
 - As an alternate method to add background opacity I used a method I found published by [Andy Hattemer and Nicholas Cerminara](https://www.digitalocean.com/community/tutorials/how-to-change-a-css-background-images-opacity)
 
@@ -430,13 +431,33 @@ custom CSS was used to apply unique styling to bootstrap components.
  
 - To apply favourable modal positioning I used a technique described in [this article](https://css-tricks.com/considerations-styling-modal/)
     from which I utilised this snippet of code 
-    
+    ```
         .modal {
         position: fixed;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         }
+    ```
+
+- To change the icon displayed when showing/hiding a bootstrap collapse component I used a technique found in [this article stackexchange forum](https://stackoverflow.com/questions/19024218/bootstrap-3-collapse-change-chevron-icon-on-click)
+    
+    ```
+    HTML:
+         <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            Open/Close collapse
+            <i class="fa fa-chevron-right pull-right"></i>
+            <i class="fa fa-chevron-down pull-right"></i>
+        </a>
+        
+    CSS:
+        a[aria-expanded=true] .fa-chevron-right {
+        display: none;
+        }
+        a[aria-expanded=false] .fa-chevron-down {
+        display: none;
+        }
+    ```
 
 All other code was written by me the project owner.
 

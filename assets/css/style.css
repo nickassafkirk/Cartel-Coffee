@@ -238,10 +238,37 @@ blockquote hr{
 
 #introx{
     color: #333333;
+    text-decoration: none;
 }
 
 #introx:hover{
     color: var(--buttonblue);
+}
+ 
+/* Technique credited to this page https://stackoverflow.com/questions/5210033/using-only-css-show-div-on-hover-over-a*/
+a[aria-expanded=false] .fa-compress {
+   display: none;
+}
+
+a[aria-expanded=true] .fa-expand {
+   display: none;
+}
+
+#show,#hide{
+    display: none;
+    color: var(--logo);  
+}
+
+#show,#hide{
+    text-decoration: none;
+}
+
+i.fa-expand:hover + #show{
+    display: block;
+}
+
+i.fa-compress:hover + #hide{
+    display: block;
 }
 
 /*------- Menu Categories -------*/
