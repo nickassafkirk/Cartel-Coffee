@@ -449,7 +449,7 @@ custom CSS was used to apply unique styling to bootstrap components.
             <i class="fa fa-chevron-right pull-right"></i>
             <i class="fa fa-chevron-down pull-right"></i>
         </a>
-        
+
     CSS:
         a[aria-expanded=true] .fa-chevron-right {
         display: none;
@@ -459,6 +459,45 @@ custom CSS was used to apply unique styling to bootstrap components.
         }
     ```
 
+To add a wiggle functionality to the menu pages call Icons/Images, I customised code found at this codepen demo(https://codepen.io/theDeanH/pen/zBZXLN)
+The original is as seen below:
+
+    ```
+    p:hover {
+    -webkit-animation-name: wiggle;
+    -ms-animation-name: wiggle;
+    -ms-animation-duration: 1000ms;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+    -ms-animation-timing-function: ease-in-out;
+    }
+
+    @-webkit-keyframes wiggle {
+    0% {-webkit-transform: rotate(10deg);}
+    25% {-webkit-transform: rotate(-10deg);}
+    50% {-webkit-transform: rotate(20deg);}
+    75% {-webkit-transform: rotate(-5deg);}
+    100% {-webkit-transform: rotate(0deg);}
+    }
+
+    @-ms-keyframes wiggle {
+    0% {-ms-transform: rotate(1deg);}
+    25% {-ms-transform: rotate(-1deg);}
+    50% {-ms-transform: rotate(1.5deg);}
+    75% {-ms-transform: rotate(-5deg);}
+    100% {-ms-transform: rotate(0deg);}
+    }
+
+    @keyframes wiggle {
+    0% {transform: rotate(10deg);}
+    25% {transform: rotate(-10deg);}
+    50% {transform: rotate(20deg);}
+    75% {transform: rotate(-5deg);}
+    100% {transform: rotate(0deg);}
+    }
+    ```
 All other code was written by me the project owner.
 
 ### Media
