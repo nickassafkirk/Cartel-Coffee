@@ -60,7 +60,7 @@ h2.secheading{
     margin: 0 auto;
 }
 
-.hr90,.hr80,.hr60,.hr30{
+.hr100,.hr90,.hr80,.hr60,.hr30{
     display: block;
     border-bottom: 2px solid #aaaaaa;
     margin: 2% auto;
@@ -228,11 +228,11 @@ blockquote hr{
     padding: 0;
 }
 
-.welcome{
+.welcome,.about{
     text-align: center;
     padding: 1rem;
     font-size: 1.4rem;
-    width: 80%;  
+    width: 60%;  
     margin: 0 auto;
 }
 
@@ -244,7 +244,7 @@ blockquote hr{
 #introx:hover{
     color: var(--buttonblue);
 }
- 
+
 /* Technique credited to this page https://stackoverflow.com/questions/5210033/using-only-css-show-div-on-hover-over-a*/
 a[aria-expanded=false] .fa-compress {
    display: none;
@@ -254,13 +254,18 @@ a[aria-expanded=true] .fa-expand {
    display: none;
 }
 
-#show,#hide{
-    display: none;
-    color: var(--logo);  
+a[aria-expanded=false] #less {
+   display: none;
+}
+
+a[aria-expanded=true] #more {
+   display: none;
 }
 
 #show,#hide{
-    text-decoration: none;
+    display: none;
+    color: var(--logo);
+    text-decoration: none; 
 }
 
 i.fa-expand:hover + #show{
@@ -269,6 +274,13 @@ i.fa-expand:hover + #show{
 
 i.fa-compress:hover + #hide{
     display: block;
+}
+
+.welcome .card-body{
+    background-color: var(--bg);
+    border: none;
+    margin: 0 auto;
+    padding: 0;
 }
 
 /*------- Menu Categories -------*/
@@ -441,7 +453,13 @@ h5.cathead{
 .ctablu:hover{
     background-color: var(--buttonblue);
 }
-
+/*------- About Section -------*/
+#collapseabout .card-body{
+    background-color: var(--bg);
+    border: none;
+    margin: 0 auto;
+    padding: 0;
+}
 
 /*------- contact.html -------*/
 
@@ -1145,6 +1163,11 @@ li.footh4::before{
     font-size: 1.2em;
     }
 
+    .welcome,.about{
+        width: 90%;
+        font-size: 1rem;
+    }
+
     h5.cathead{
     font-size: 1.1rem;
     }
@@ -1260,6 +1283,10 @@ li.footh4::before{
 
     h2.secheading{
         font-size: 4rem;
+    }
+
+    .welcome,.about{
+        width: 50%;
     }
 
     .menuintro,.foodmenu,.dessertmenu,.coffeemenu,.menuorder{
