@@ -860,6 +860,10 @@ h2.submenu{
   100% {transform: rotate(0deg);}
 }
 
+.fas.fa-phone-alt.wiggle{
+    font-size: 25px;
+    padding: 0.5rem;
+}
 /*------- Shop.html -------*/
 
 #page .row{
@@ -1084,6 +1088,13 @@ li.footh4::before{
 }
 
 /* Media Queries */
+
+@media screen and (max-width: 1200px){
+    .call h3{
+        font-size: 1.6rem;
+    }
+}
+
 @media screen and (max-width: 1000px){
     h5.cathead{
     font-weight: 600;
