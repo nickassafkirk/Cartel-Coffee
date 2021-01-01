@@ -14,6 +14,8 @@
     --alertorange: #f9c043;
     --custom: #212121;
     --tealgrey: #343a40;
+    --body: 'Montserrat', sans-serif;
+    --cartel: 'Bebas Neue', sans-serif;
 }
 
 /*------- Colors -------*/
@@ -601,8 +603,6 @@ a[aria-expanded=true] #more {
     font-size: 1rem;
 }
 
-
-
 /*------- Menu.html -------*/
 
 .menuback{
@@ -867,32 +867,88 @@ h2.submenu{
 }
 /*------- Shop.html -------*/
 
-#page .row{
-    margin-top: 5%
+#page{
+    Padding: 5% 0;
+}
+
+#page .jumbotron{
+    padding: 5%;
+    background-color: var(--lighttrans);
+    border: 1px solid inherit;
+    border-radius: 5px;
 }
 
 #page h2{
-    padding: 2% 0;
-    border: 2px solid var(--custom);
+    color: #fff;
+    z-index: 1000;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4rem;
 }
 
 #page .jumbotron h2{
+    font-family: var(--body);
+    font-size: 2.5rem;
     color: inherit;
     background-color: transparent;
     border: none;
+}
+
+.coffeeplant,.subscription,.equipment{
+    position: relative;
+    padding: 1%;
+    margin: 0;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.coffeeplant::before,.subscription::before,.equipment::before{
+  content: "";
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+}
+
+.coffeeplant::before{
+  background: url("../images/coffeeplantbg.jpg") center center;
+  background-size: cover;  
+}
+
+.subscription::before{
+    background: url("../images/subscriptionbg.jpg"), bottom center; 
+    background-size: cover;
+    background-position-y: center;
+}
+
+.equipment::before{
+    background: url("../images/equipmentbg.jpg"), center left;
+    background-size: cover; 
+}
+
+.heading-border{
+    padding: 5%;
+    margin: 5%;
+    background-color: rgba(0,0,0,0.1);
+    border: 3px solid #fff;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 .product{
     height: auto;
     display: inline-block;
     position: relative; 
-    margin: 5% 0%;
+    margin: 3rem 0;
     padding: 0;
     text-align: center;
 }
 
 .product img{
-    Max-width: 100%;
+    Width: 100%;
     height: auto;
     position: relative;
     margin-top: 0;
@@ -916,12 +972,17 @@ h2.submenu{
 .product button{
     color: #fff;
     text-align: center;
-    width: 70%;
-    background-color: var(--buttonblue);
-    border: 1px solid #07c5ff;
+    width: 100%;
+    background-color: var(--tealgrey);
+    border: 1px solid var(--tealgrey);
     border-radius: 5px;
-    padding: 2%;
+    padding: 5% 2%;
     margin: 5% auto;
+}
+
+.product button:hover{
+    background-color: var(--buttonblue);
+    border-color: var(--buttonblue);
 }
 
 .stafffav{
@@ -929,8 +990,11 @@ h2.submenu{
     top: 0%;
     left: 0%;
     color: white;
-    padding: 1%;
-    background-color: rgba(7,7,7,0.5)
+    padding: 1% 3%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid inherit;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .container2{
@@ -969,7 +1033,6 @@ h2.submenu{
   left: 50%;
   transform: translate(-50%, -50%);
 } */
-
 #shopmodal{
     position: fixed;
     padding-top: 10%;
