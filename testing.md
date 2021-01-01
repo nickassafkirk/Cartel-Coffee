@@ -4,6 +4,16 @@
 
 [Link to Deployed site](https://nickassafkirk.github.io/Cartel-Coffee/index.html)
 
+## User Story Testing
+
+##### User stories
+1. As a new user I want to see the menu and phone number so I can order food for collection.
+2. As a new user I want to fill out a contact form so that I can make a reservation for dinner.
+3. As a new user I want to view the business's product range and contact details so I can order products remotely. 
+4. As a new user I want to view a gallery of the Cafe and their social media, so I can decide if it is an appropriate environment to hold a business meeting.
+5. As a new user I want to see the Cafe's location on a map, so I can visit the premises.
+6. As a new user I need to be able to navigate between site pages.
+7. As a new user I want to trust the business and value their products.
 
 ## Manual Testing
 ---
