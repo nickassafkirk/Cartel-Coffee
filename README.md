@@ -1,5 +1,5 @@
 # Cartel Coffee Website Build
-![Homepage screenshot](assets/images/Homepage.png)
+![Homepage screenshot](assets/images/Responsivescreenshotnew.png)
 [Link to Deployed Site](https://nickassafkirk.github.io/Cartel-Coffee/index.html)
 ## Overview
 
@@ -153,7 +153,11 @@ As this is an imagined business the images used in the homepage carousel have be
 
 4. **Buttons:** Buttons are used for reinforce form submission or to create a strong emphasis that a link to another page or information is present. Consistent button coloring is used across site to drive home the functionality of buttons on the site. Clear button labelling is used to 
     encourage first-time learning and correct use of buttons on the site.
-    ![Buttons navigation screenshot](assets/images/readmeimgs/Button_Styles.png)
+    ![Buttons navigation screenshot](assets/images/contact_form_new.png)
+
+    Button Hover
+
+    ![](assets/images/Hover.png)
 
 5. **IDs as links:** IDs have been used to allow quick navigation to specific points on a single webpage. This is designed to aid conversion by bringing the user directly to their point of interest without the potential to get distracted. 
    The use of Id based navigation also allows more distinct information to be condensed onto a fewer number of pages for a better user experience, a more condensed site and faster page load times. The footer utilises several id's as links to specific sections
@@ -164,7 +168,7 @@ As this is an imagined business the images used in the homepage carousel have be
     The secondary navigation menu uses a page specific color palette to reinforce it's specific association to the menu page. The submenu
     links to specific page section IDs as outlined the the section above. 
 
-    ![Buttons navigation screenshot](assets/images/readmeimgs/sub_nav.png)
+    ![Buttons navigation screenshot](assets/images/sub_menu_new.png)
 #### Wireframes
 
 [Home page](assets/wireframes/CC_Index.html_Wireframes.pdf)
@@ -176,8 +180,7 @@ As this is an imagined business the images used in the homepage carousel have be
 [Shop page](assets/wireframes/CC_Shop.html_Wireframes.pdf)
 
 #### Mockups
-
-![responsive screenshot](assets/images/ResponsiveScreenshot.png)
+![Homepage screenshot](assets/images/Responsivescreenshotnew.png)
 
 ### Surface
 
