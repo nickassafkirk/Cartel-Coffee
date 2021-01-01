@@ -553,7 +553,7 @@ Photo by [Battlecreek Coffee Roasters](https://unsplash.com/@battlecreekcoffeero
 [Subscription coffee](https://unsplash.com/photos/_1wDmr4dtuk)
 Photo by [Battlecreek Coffee Roasters](https://unsplash.com/@battlecreekcoffeeroasters?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee-bag?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
-[Subscription coffee](https://unsplash.com/photos/MvOb1hRy_0M)
+[Subscription coffee](https://unsplash.com/photos/rsnzc-8dVs0)
 Photo by [Battlecreek Coffee Roasters](https://unsplash.com/@battlecreekcoffeeroasters?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/@battlecreekcoffeeroasters?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Chemex product Picture](https://store.chemexcoffeemaker.com/media/catalog/product/c/h/chemex-classic-6cup-detail_1.png)
@@ -564,6 +564,18 @@ Sourced from[hario.co.uk](https://www.hario.co.uk/collections/hario-v60-coffee-d
 
 [Aeropress Product Picture](https://aeropress.com/wp-content/uploads/2020/01/AeroPress-Original-red.jpg)
 Sourced from[aeropress.com](https://aeropress.com/product/aeropress-coffee-maker/)
+
+[Coffee section heading image](https://unsplash.com/photos/KuGAgQm_Rvs)
+[Photo by Max Letek](https://unsplash.com/@blackprojection?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee-plant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
+[Subscription section heading image](https://unsplash.com/photos/1Yje-NZrrME)
+[Photo by William Moreland](https://unsplash.com/@relentlessjpg?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) On [unsplash](https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
+[Equipment section heading image](https://unsplash.com/photos/SPhGPOROS4M)
+[Photo by Deborah Diem](https://unsplash.com/@debidiemski?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee-filter?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
+[Merchandise section heading image](https://unsplash.com/photos/wCojY8dZwXU)
+[Photo by 五玄土 ORIENTO](https://unsplash.com/@oriento?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) On [unsplash](https://unsplash.com/collections/9736560/ceramics?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 HTML5 Logo: 
 [W3.org](https://www.w3.org/html/logo/#downloads)

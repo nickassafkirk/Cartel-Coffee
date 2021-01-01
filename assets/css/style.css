@@ -922,6 +922,7 @@ h2.submenu{
     margin: 4rem auto 0 auto;
     width: 100%;
     font-size: 1rem;
+    
 }
 
 .coffeeplant::before,.subscription::before,.equipment::before,.merchandise::before{
@@ -933,30 +934,36 @@ h2.submenu{
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1; 
+  z-index: -1;
+  border-radius: 5px;
 }
 
 .coffeeplant::before{
-  background: url("../images/coffeeplantbg.jpg") center center;
-  background-size: cover;  
+  background: url("../images/coffeeplantbgclr.jpg");
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;   
 }
 
 .subscription::before{
-    background: url("../images/subscriptionbg.jpg"), bottom center; 
+    background: url("../images/subscriptionbgclr.jpg"); 
     background-size: cover;
     background-position-y: center;
+    background-position-x: center;
 }
 
 .equipment::before{
-    background: url("../images/equipmentbg.jpg"), center left;
-    background-size: cover; 
+    background: url("../images/equipmentbgclr.jpg");
+    background-size: cover;
+    background-position-y: top;
+    background-position-x: center; 
 }
 
 .merchandise::before{
-    background: url("../images/merchandisebg2.jpg");
+    background: url("../images/merchandisebgclr.jpg");
     background-size: cover; 
-    background-position-y: center;
-    background-position-x: right;
+    background-position-y: top;
+    background-position-x: center;
 }
 
 .heading-border{
@@ -965,7 +972,7 @@ h2.submenu{
     background-color: rgba(0,0,0,0.1);
     border: 3px solid #fff;
     border-bottom-left-radius: 50px;
-    border-top-right-radius: 50px;
+    border-top-right-radius: 50px; 
 }
 
 .product{
