@@ -879,9 +879,9 @@ h2.submenu{
     background-color: var(--lighttrans);
     border: 3px solid var(--lighttrans);
     color: var(--body);
-    border-radius: 5px;
-    
+    border-radius: 5px;   
 }
+
 
 #introshop.jumbotron{
     margin-top: 0;
@@ -1036,6 +1036,25 @@ h2.submenu{
     padding: 2% 10%;
     
 }
+
+.product_info_box{
+    background-color: var(--lighttrans);
+    border: 1px solid var(--lighttrans);
+    color: var(--body);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;  
+}
+
+.product_info_box_heading{
+    width: 100;
+    padding: 3% 0%;
+    margin-bottom: 3%;
+    background-color: var(--tealgrey);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;  
+    color: white;
+}
+
 
 .container2{
     clear: both;
