@@ -893,7 +893,7 @@ h2.submenu{
     border: none;
 }
 
-.coffeeplant,.subscription,.equipment{
+.coffeeplant,.subscription,.equipment,.merchandise{
     position: relative;
     padding: 1%;
     margin: 0;
@@ -901,7 +901,7 @@ h2.submenu{
     font-size: 1rem;
 }
 
-.coffeeplant::before,.subscription::before,.equipment::before{
+.coffeeplant::before,.subscription::before,.equipment::before,.merchandise::before{
   content: "";
   background-repeat: no-repeat;
   opacity: 0.9;
@@ -927,6 +927,12 @@ h2.submenu{
 .equipment::before{
     background: url("../images/equipmentbg.jpg"), center left;
     background-size: cover; 
+}
+
+.merchandise::before{
+    background: url("../images/merchandisebg.jpg");
+    background-position-y: center;
+    background-position-x: center;
 }
 
 .heading-border{
@@ -1022,8 +1028,9 @@ h2.submenu{
     font-size: 200%;
 }
 
-#shopjumbo,#introshopjumbo{
-    background-color: #E6E8EA;
+.jumbotron#shopjumbo{
+    margin: 5% 0;
+    background-color: var(--lighttrans);
 }
 
 /* Bug fix found at this article https://css-tricks.com/considerations-styling-modal/ */
