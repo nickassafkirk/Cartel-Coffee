@@ -874,6 +874,7 @@ h2.submenu{
 }
 
 #page .jumbotron{
+    margin: 0 auto;
     padding: 3%;
     background-color: var(--lighttrans);
     border: 3px solid var(--lighttrans);
@@ -882,8 +883,13 @@ h2.submenu{
     
 }
 
+#introshop.jumbotron{
+    margin-top: 0;
+}
+
 #page .jumbotron.main{
     padding: 5%;
+    margin: 2rem auto 0 auto;
     background-color: var(--lighttrans);
     border: 3px solid var(--lighttrans);
     border-radius: 5px;
@@ -913,7 +919,7 @@ h2.submenu{
 .coffeeplant,.subscription,.equipment,.merchandise{
     position: relative;
     padding: 1%;
-    margin: 0;
+    margin: 4rem auto 0 auto;
     width: 100%;
     font-size: 1rem;
 }
@@ -963,10 +969,11 @@ h2.submenu{
 }
 
 .product{
+    width: 92%;
     height: auto;
     display: inline-block;
     position: relative; 
-    margin: 1rem 0;
+    margin: 4rem 0 2rem 0;
     padding: 0;
     text-align: center;
 }
@@ -1261,6 +1268,13 @@ li.footh4::before{
     margin: 0;
     }
 
+    #page{
+        padding: 4rem 0;
+    }
+
+    #page #introshopjumbo.jumbotron.main{
+    margin-top: 0;
+}
 }
 
 @media screen and (max-width: 767px){
@@ -1272,6 +1286,7 @@ li.footh4::before{
     .navbar-nav{
     border-top: 2px solid var(--bg);
     }
+
 }
 
 @media screen and (max-width: 576px){
@@ -1392,6 +1407,10 @@ li.footh4::before{
         margin-bottom: 2%;
     }
 
+    #page{
+        padding: 3rem 0;
+    }
+
     #page p{
         font-size: 1rem;
     }
@@ -1400,16 +1419,28 @@ li.footh4::before{
         font-size: 2rem;
     }
 
+    .coffeeplant,.subscription,.equipment,.merchandise{
+        margin-top: 2rem;
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+
     #page .jumbotron.main h2{
         font-size: 2.4rem;
     }
 
     .product{
         width: 80%;
+        margin-top: 2rem;
+        margin-bottom: 0rem;
     }
 
     h4.prodtitle{
         font-size: 1.2rem;
+    }
+
+    #page .jumbotron.prod{
+        margin-top: 2rem;
     }
 
     .footercustom h4{
@@ -1465,6 +1496,10 @@ li.footh4::before{
 
     .menuback{
         padding-top: 1%;
+    }
+
+    #page{
+        padding: 2rem 0;
     }
 
     .footercustom li{
