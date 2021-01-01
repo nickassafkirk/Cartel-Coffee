@@ -1045,6 +1045,10 @@ h2.submenu{
     border-bottom-right-radius: 5px;  
 }
 
+.product_info_box p.lead{
+    padding-bottom: 3%;
+}
+
 .product_info_box_heading{
     width: 100;
     padding: 3% 0%;
@@ -1054,6 +1058,21 @@ h2.submenu{
     border-top-right-radius: 5px;  
     color: white;
 }
+
+.product_info_box_heading h5{
+    font-family: var(--cartel);
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+
+.product_info_box p.lead:hover{
+    border-bottom: 1px solid var(--tealgrey);
+}
+
+
+
 
 
 .container2{
@@ -1465,8 +1484,8 @@ li.footh4::before{
         font-size: 1.2rem;
     }
 
-    #page .jumbotron.prod{
-        margin-top: 2rem;
+    .product_info_box_heading h5{
+        font-size: 1.6rem;
     }
 
     .footercustom h4{
