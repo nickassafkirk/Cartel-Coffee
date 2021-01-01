@@ -868,14 +868,31 @@ h2.submenu{
 /*------- Shop.html -------*/
 
 #page{
+    margin: 0;
     Padding: 5% 0;
+    position: relative;
 }
 
 #page .jumbotron{
+    padding: 3%;
+    background-color: var(--lighttrans);
+    border: 3px solid var(--lighttrans);
+    color: var(--body);
+    border-radius: 5px;
+    
+}
+
+#page .jumbotron.main{
     padding: 5%;
     background-color: var(--lighttrans);
-    border: 1px solid inherit;
+    border: 3px solid var(--lighttrans);
     border-radius: 5px;
+    color: var(--body);
+}
+
+#page .jumbotron.main h2{
+    font-family: var(--cartel);
+    font-size: 4em
 }
 
 #page h2{
@@ -930,9 +947,10 @@ h2.submenu{
 }
 
 .merchandise::before{
-    background: url("../images/merchandisebg.jpg");
+    background: url("../images/merchandisebg2.jpg");
+    background-size: cover; 
     background-position-y: center;
-    background-position-x: center;
+    background-position-x: right;
 }
 
 .heading-border{
@@ -948,7 +966,7 @@ h2.submenu{
     height: auto;
     display: inline-block;
     position: relative; 
-    margin: 3rem 0;
+    margin: 1rem 0;
     padding: 0;
     text-align: center;
 }
@@ -1371,6 +1389,23 @@ li.footh4::before{
     .call img{
         margin-bottom: 2%;
     }
+
+    #page p{
+        font-size: 1rem;
+    }
+
+    #page h2{
+        font-size: 2rem;
+    }
+
+    #page .jumbotron.main h2{
+        font-size: 2.4rem;
+    }
+
+    #page h4,h5{
+        font-size: 1.2rem;
+    }
+
     .footercustom h4{
         margin-bottom: 3%;
     }
