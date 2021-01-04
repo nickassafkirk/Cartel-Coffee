@@ -6,14 +6,42 @@
 
 ## User Story Testing
 
-##### User stories
-1. As a new user I want to see the menu and phone number so I can order food for collection.
-2. As a new user I want to fill out a contact form so that I can make a reservation for dinner.
-3. As a new user I want to view the business's product range and contact details so I can order products remotely. 
-4. As a new user I want to view a gallery of the Cafe and their social media, so I can decide if it is an appropriate environment to hold a business meeting.
-5. As a new user I want to see the Cafe's location on a map, so I can visit the premises.
-6. As a new user I need to be able to navigate between site pages.
-7. As a new user I want to trust the business and value their products.
+### User stories
+1. As a new user I want to see the menu and phone number so I can order food for collection.    
+   **To Test:**      
+   **Result:** 
+
+1. As a new user I want to fill out a contact form so that I can make a reservation for dinner. 
+    **To Test:**      
+    **Result:**
+
+1. As a new user I want to view the business's product range and contact details so I can order products remotely.   
+    **To Test:**      
+    **Result:**
+
+1. As a new user I want to view a gallery of the Cafe and their social media, so I can decide if it is an appropriate environment to hold a business meeting.   
+   **To Test:**      
+   **Result:**
+
+1. As a potential customer I want to see the Cafe's location on a map, so I know where to find the business.    
+    **To Test:**      
+    **Result:**
+
+1. As a potential customer I want to know when the business is open so I can visit the business.    
+    **To Test:**      
+    **Result:** 
+
+1. As a new user I need to be able to navigate between site pages so I can view multiple site pages.    
+    **To Test:**      
+    **Result:**
+
+1. As a new user I want to trust the business and value their products so I can ensure I am spending my money wisely.   
+    **To Test:**      
+    **Result:**
+    
+1. As a potential customer I need to know if the business is wheelchair accessible so I can decide if the business is suitable for people with disabilities.    
+    **To Test:**      
+    **Result:**
 
 ## Manual Testing
 ---

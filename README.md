@@ -1,7 +1,10 @@
 # Cartel Coffee Website Build
 ![Homepage screenshot](assets/images/Responsivescreenshotnew.png)
-[Link to Deployed Site](https://nickassafkirk.github.io/Cartel-Coffee/index.html)
+[Visit the Deployed Site on github pages](https://nickassafkirk.github.io/Cartel-Coffee/index.html)
+
+---
 ## Overview
+---
 
 The purpose of this project is to build a mobile responsive website for a new coffee shop in Dublin called Cartel coffee. The Business wants to increase their online visibility, increase revenue and to attract new customers. They want to introduce the ability to receive takeaway orders and start selling online. They want to use the site as a platform to update customers on business changes and to continue trading if restaurants are forced to close during Covid-19 restrictions. 
 The goal is to build a mobile first site which meets the intial business needs while providing an excellent user experience for site users. 
@@ -9,16 +12,17 @@ The goal is to build a mobile first site which meets the intial business needs w
 **NB:** *This is a theoretical business created for educational purposes only*
 
 ---
-
 ## UX
+---
  
 The intention of this site is to allow new and existing users to find the business, learn about the business and to convert into physical customers at the business's location or virtual customers via ordering online, over the phone and by email. 
 To provide a great user experience it is important that information is displayed clearly in a logical order of importance. As this website is designed to provide several distinct functions (contact, buy, order and inform), for a broad range of users, emphasis has been made to create multiple interlinking navigation methods so that customers can find and source the information that is relevant to them while ignoring information that may not be relevant at that moment. 
 To increase brand awareness and a consistent experience for online and offline customers, the website has been designed to mirror the styling and motif that customers experience while visiting the business's physical location. 
 As this is an imagined business the images used in the homepage carousel have been chosen to reflect the business's physical location. 
 
+---
 ## Strategy
-
+---
 ### User goals
 * Users want to know the purpose of the site immediately.
 * Users want to learn more about the business.
@@ -44,7 +48,6 @@ As this is an imagined business the images used in the homepage carousel have be
 
 ### User Stories
 
-#### User stories
 1. As a new user I want to see the menu and phone number so I can order food for collection.
 1. As a new user I want to fill out a contact form so that I can make a reservation for dinner.
 1. As a new user I want to view the business's product range and contact details so I can order products remotely. 
@@ -55,8 +58,9 @@ As this is an imagined business the images used in the homepage carousel have be
 1. As a new user I want to trust the business and value their products so I can ensure I am spending my money wisely.
 1. As a potential customer I need to know if the business is wheelchair accessible so I can decide if the business is suitable for people with disabilities.
 
+---
 ## Scope 
-
+---
 ### Features to be included in initial iteration
 * A prominent logo
 * A Navbar for navigation amongst pages and sections
@@ -82,18 +86,32 @@ As this is an imagined business the images used in the homepage carousel have be
   As this is a "Mock business" these have been left blank but if this were to be used a detailed privacy policy and Terms & conditions page would be created to build customer confidence and adhere to european regulations. 
 * Add Scroll functionality with wider browser and device support.
 
+---
 ## Structure 
-
+---
 ### Pages
-* **index.html:** The Primary landing page for the site which includes the key information on the business and links to additional pages where more detailed information on specific topis can be found.
-* **contact.html:** This is the primary contact page, where the business's contact information can be found so that potential customers can contact the business and convert into customers by making bookings, visiting the store, phoning, making email contact etc...
-* **menu.html:** This page describes the cafe's food and drink menu, as this is the business primary function it is imperative to clearly display their menu items so that customers can order remotely or make the decision to dine in-store after seeing and liking the menus. 
-* **shop.html:** This page displays the customers "take home" product range of coffee, equipment and merchandise. This enables the business to explore additional revenues from existing customers and to reach a new target audience who may not be able to visit their store to buy products or food and drink.
-* **about.html:** This page displays supporting information on the business. It's purpose is to build brand awareness, consumer confidence and trust in the business. As this is a mock business this has been used as a placeholder to state that this project was built for education purposes only.  
+#### 1. [Homepage](https://nickassafkirk.github.io/Cartel-Coffee/index.html) 
+The Primary landing page for the site which includes the key information on the business and links to additional pages where more detailed information on specific topis can be found.
 
+#### 2. [Menu Page](https://nickassafkirk.github.io/Cartel-Coffee/menu.html)
+This page describes the cafe's food and drink menu, as this is the business primary function it is imperative to clearly display their menu items so that customers can order remotely or make the decision to dine in-store after seeing and liking the menus. 
+
+#### 3. [Shop Page](https://nickassafkirk.github.io/Cartel-Coffee/shop.html) 
+This page displays the customers "take home" product range of coffee, equipment and merchandise. This enables the business to explore additional revenues from existing customers and to reach a new target audience who may not be able to visit their store to buy products or food and drink.
+
+#### 4. [Contact/Book Page](https://nickassafkirk.github.io/Cartel-Coffee/contact.html)
+This is the primary contact page, where the business's contact information can be found so that potential customers can contact the business and convert into customers by making bookings, visiting the store, phoning, making email contact etc...
+
+#### 5. [About page](https://nickassafkirk.github.io/Cartel-Coffee/about.html)
+This page displays supporting information on the business. It's purpose is to build brand awareness, consumer confidence and trust in the business. As this is a mock business this has been used as a placeholder to state that this project was built for education purposes only.  
+
+#### 6. [Form submission page](https://nickassafkirk.github.io/Cartel-Coffee/submit.html)
+A success page loaded upon successful form submission to reassure users their message or booking has been received.
+
+---
 ### Detailed Features
 
-#### Homepage
+#### [Homepage](https://nickassafkirk.github.io/Cartel-Coffee/index.html) 
  * Navigation - allows users to navigate between pages and sections of the site by linking relevant pages in the header of each page. Bootstraps navbar collapse is used to create a clean and condensed experiece on smaller screen sizes.
  * hero image slider - allows users to quickly learn the sites purpose by displaying a preview of the business location and decor and outlines the business's key functions (it's a cafe, they open 7 days and they also sell products) with the use of bold overlying captions. The Carousel slider is used to display multiple images clearly across all device sizes.
  * Welcome text - allows users to quickly learn the sites purpose about to build trust in the business and to encourage them to explore more on the site.
@@ -102,7 +120,7 @@ As this is an imagined business the images used in the homepage carousel have be
  * About section -  this section provides more information about the business's background to build trust and rapport with new users.
  * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
 
-#### Menu page
+#### [Menu Page](https://nickassafkirk.github.io/Cartel-Coffee/menu.html)
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons
  * Intro section - this section qualifies this page's purpose and encourages first time learning. It provides tantalizing information about the cafe's menus and encourages users to explore more. 
  * "Choose Menu" Sub navigation bar - Allows quick navigation to specific page sections to allow swift user navigation to their particular area of interest.
@@ -113,7 +131,7 @@ As this is an imagined business the images used in the homepage carousel have be
  to allow customers to order via their preferred method. 
  * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
 
-#### Shop page
+#### [Shop Page](https://nickassafkirk.github.io/Cartel-Coffee/shop.html) 
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons
  * Intro Jumbotron - A brief intro text box explaining the purpose of the page and encouraging first-time learning.
  * Category headings - Group relevant products together by association to increase readability sense of purpose for first time users.
@@ -122,7 +140,7 @@ As this is an imagined business the images used in the homepage carousel have be
  * Merchandise Jumbotron - A prominent text box to explain new products are coming soon. This is added to inform customers that the shop is regularly updated with new products and to entice customers to return to the site at a later date to make additional purchases.
  * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
 
-#### Contact/Book page
+#### [Contact/Book Page](https://nickassafkirk.github.io/Cartel-Coffee/contact.html)
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons
  * Google maps embedded map - allows users to see store's physical location and clicking the map opens directions to the store in google maps so new users can navigate easily to the cafe. 
  * Contact form - allows customers to make general email enquiries without the need to open another tab or their email application. By entering their name, email address, phone number (optional) and their message users can contact the business with their enquiry. Form validation ensures customers that ther enquiry has been submitted and notifies and prevents submission if a required field has been missed. 
@@ -131,14 +149,22 @@ As this is an imagined business the images used in the homepage carousel have be
  and means staff don't have to reply to commonly asked questions, thus reducing the business's workload.. Bootstrap expand/collapse functionality is used for this section to condense large sections of text into a smaller space for better display on mobile devices. 
  * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
 
-#### About page
+#### [About page](https://nickassafkirk.github.io/Cartel-Coffee/about.html)
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons.
  * Info section - The about page on this site is used as a placeholder to state that the intention of this site is purely as an educational project. This page has been used as a link location for these footer items; about, terms & conditions, privacy policy, covid-19 and the covid-a9 alert where the creation of specific pages for these links was outside the scope of this project. 
  * Return home button - This button allows users to quickly return to the site hompeage after reading the information section.
  * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
 
-## Skeleton
+#### [Form submission page](https://nickassafkirk.github.io/Cartel-Coffee/submit.html)
+ * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons.
+ * Success message jumbotron - A bold heading states that the users message has been received. This finalizes form validation and ensures user confidence by communciating clearly that they have used the form correctly. 
+ * Faq Link - A link to the FAQs section points to some commonly asked questions that may be relevant to the user's message, in case they previously missed it. 
+ * Return home button - This button allows users to quickly return to the site hompeage so they can explore more site content.
+ * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
 
+---
+## Skeleton
+---
 ### Navigation
 
 1. **Main Navigation:** A consistent top nav bar is present across all site pages to allow navigation through various pages. 
@@ -167,7 +193,7 @@ As this is an imagined business the images used in the homepage carousel have be
     encourage first-time learning and correct use of buttons on the site.
     ![Buttons navigation screenshot](assets/images/contact_form_new.png)
 
-    **Button Hover** Hover functionality has been used to highlight clickable links with bright contrasting colors, in order to reinforce interactivity of animation elements and encourage first time learning. 
+    **Button Hover:** Hover functionality has been used to highlight clickable links with bright contrasting colors, in order to reinforce interactivity of animation elements and encourage first time learning. 
     On touch devices clickable elements are highlighted to display that a button or link is in use. 
 
     ![](assets/images/Hover.png)
@@ -196,8 +222,11 @@ As this is an imagined business the images used in the homepage carousel have be
 ### Mockups
 ![Homepage screenshot](assets/images/Responsivescreenshotnew.png)
 
-## Surface
+A responsive view of the site can be found at [this link](http://ami.responsivedesign.is/?url=https%3A%2F%2Fnickassafkirk.github.io%2FCartel-Coffee%2Findex.html#)
 
+---
+## Surface
+---
 ### Fonts
 **General**
 Sans-serif fonts have been chosen site-wide for a minimilistic style, consistent with the companies interior decor and to improve legibility for site users.
@@ -218,27 +247,29 @@ Headings also utilise the Bebas Neue font to reinforce that section headings den
 **Additional Fonts**
 The Sans-serif font has been chosen as a fallback font if chosen fonts cannot be loaded from external resources.
 
+---
+
 ### Colors
 Colors are used to increase contrast, visual impact and to improve readability across the site. A grey, blue and white color palette has
 been chosen to add a neutral professional and minimalistic site design and to appeal to a broad range of users. Specific section areas are styled with consisted coloring to reinforce the correlation between different areas of relevant content. 
 Root variables were used to allow quick design changes to be made. The main colors used on this project are as follows:
 
-**custom: #212121;** This is the primary brand color a dark grey pantone used for the navbar, footer background and homepage section headings. 
-**tealgrey: #343a40;** This is the secondary brand color used for page section headings and buttons.  
-**logo: #333333;** This is a dark grey color used for the site's body text.
-**bg: #eeeeee;** used for body background, borders and outlines.
-**light: #dddddd;** used for light text where dark backgrounds are used and contrast is needed to aid readability.
-**lighttrans: rgba(228, 228, 227, 0.95);** used as div/container background colors to highlight areas of specific information and to contrast background images and improve readability.
-**buttonblue: #07c5ff;** used as primary button background color upon hover or click to encourage click interaction and to indicate link interactivity and successful button submission.
-**alertorange: #f9c043;** used as secondary call to action color specifically for alerts. A bright call to action color was used to draw the user's eye to key information. The orange color does not
+**`--custom: #212121;`** This is the primary brand color a dark grey pantone used for the navbar, footer background and homepage section headings.  
+**`--tealgrey: #343a40;`** This is the secondary brand color used for page section headings and buttons.  
+**`--logo: #333333;`** This is a dark grey color used for the site's body text.  
+**`--bg: #eeeeee;`** used for body background, borders and outlines.    
+**`--light: #dddddd;`** used for light text where dark backgrounds are used and contrast is needed to aid readability.  
+**`--lighttrans: rgba(228, 228, 227, 0.95);`** used as div/container background colors to highlight areas of specific information and to contrast background images and improve readability.    
+**`buttonblue: #07c5ff;`** used as primary button background color upon hover or click to encourage click interaction and to indicate link interactivity and successful button submission.  
+**`alertorange: #f9c043;`** used as secondary call to action color specifically for alerts. A bright call to action color was used to draw the user's eye to key information. The orange color does not
 adhere to the grey, blue, white color motif chosen for the project in order to communicate that the alert information is general information not specifically linked to the current page subject.
     
-**rgba values** of rgba(0,0,0, 0.(x)) were used throughout the site to create text-shadows and image masks promoting better contrast between text and background items
+**rgba values** of `rgba(0,0,0, 0.(n))` were used throughout the site to create text-shadows and image masks promoting better contrast between text and background items
 and to create a highlight effect on hover for clickable image tiles to show new users that these are clickable objects.
 
-**#fff:** White text has been used for titles and blocks of text where masks and overlays have been utilised where the "--light" color listed above did not provide adequate text and background contrast.
+**`#fff:`** White text has been used for titles and blocks of text where masks and overlays have been utilised where the `--light` color listed above did not provide adequate text and background contrast.
 
-**#1d1d1d:** This very dark grey color is used for the coffee menu section background. It was chosen to emulate a coffee pegboard that is popular in many contemporary cafes and specifically the menu
+**`#1d1d1d`:** This very dark grey color is used for the coffee menu section background. It was chosen to emulate a coffee pegboard that is popular in many contemporary cafes and specifically the menu
 that is depicted in the homepage carousel 1 image. A darker indent style border is used to create a sense of negative relief to further emmulate this pegboard style menu.
 
 ### Use of colors:
@@ -253,11 +284,15 @@ that is depicted in the homepage carousel 1 image. A darker indent style border 
 
 **Section Background colors:** Colored sections with muted grey backgrounds are used to clearly distinguish relevant areas of information. This is important as page sections are scaled to width on larger screen-widths to keep information condensed and easily readable.
 
+---
+
 ### Icons
 Icons are used as metaphors to reinforce meaning of key navigation elements. The paper plane icon is used to reinforce meaning of send/submission buttons, food and drink icons are used on the menu page to 
 reinforce the sub-menu navigation buttons and Icons are used for the contact information and social media links to clearly apply meaning to text-heavy page sections like the footer. Icons are also used to reinforce the meaning of short snippets of text in the shop trust mark sections. 
 
 All icons utilised for this project were sourced from [fontawesome.com](https://fontawesome.com/).
+
+---
 
 ### Images 
 Images are used in several ways on the site. 
@@ -271,14 +306,15 @@ Images are used in several ways on the site.
 **Background-images:** Subtle background images with added opacity are used to give users a greater understanding of the business's style and appearance without drawing away from the key information on each page. These background images and colored divs are also used to break-up large areas of white-space
 for a more visually appealing appearance and a more defined flow of information through the page. Background images utilise a relevant subject matter to the page subject to again reinforce the meaning of each page to first time users. 
 
+---
+
 ### Animations
 Animations and Hover functionality are used to highlight the interactivity of links and buttons encouraging users to use navigation elements. 
 Pseudo classes such as hocer, focus and active also provide user feedback by highlighting when an element is clickable and by validating when an action has been performed. 
 
 ---
-
 ## Technologies Used
-
+---
 ![HTML5 Logo](assets/images/technologies/html5.png)
 ### HTML5 
 [https://www.w3.org/html/](https://www.w3.org/html/) 
@@ -329,7 +365,9 @@ and to ensure cross-browser compatibility to ensure easy of use for as many user
 
 The full testing can be found in [the sepparate testing.md file](testing.md)
 
-### Validation: 
+---
+
+## Validation: 
 
 **HTML**
 All html files were validated using the [W3C markup validation service](https://validator.w3.org/)
@@ -359,6 +397,8 @@ This issue has been outlined at [this link](https://github.com/w3c/css-validator
 
 This project was developed using the Gitpod IDE, committed to git and pushed to GitHub using the terminal within Gitpod and the gitpod extension for chrome. 
 
+---
+
 ### Deployment Instructions 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
@@ -374,6 +414,7 @@ select the **settings** tab.
 1. (Optional) Add the website link to the repository info box for ease of use. In the sidebar to the right click the cog icon to the right of the about subheading
 and paste the website url into the box labelled "website"
 
+---
 ### Cloning instructions with Gitpod
 To clone this project using Gitpod you will need:
 
@@ -388,6 +429,7 @@ Then follow these steps:
 5. Click the green "Gitpod" button in the top right corner of the repository
 6. This will open a new gitpod workspace with a clone of the repository
 
+---
 ### Cloning instructions to a local editor
 To work on the project code within a local IDE such as VSCode, Pycharm, brackets etc:
 
@@ -402,6 +444,7 @@ To work on the project code within a local IDE such as VSCode, Pycharm, brackets
 8. Press Enter to successfully clone the repository to your local IDE
 9. For more information on cloning from github [see this page](https://docs.github.com/en/free-pro-team@latest/github/using-git/which-remote-url-should-i-use)
 
+---
 ### Forking instructions
 To Fork this repository:
 
@@ -414,8 +457,9 @@ To Fork this repository:
 1. Once the fork has been created in your github account, it can then be cloned to your prefered editor using one of the methods outlined above.
 1. After changes have been made locally they can be submitted via pull request for aprroval and inclusion in the original project.
 
+---
 ## Code 
-
+---
 The code in this project was written by me ([Nick Kirk](https://github.com/nickassafkirk)) the project owner. Any code snippets written by other developers or found from online resources have been credited
 in the credits section below.
 
@@ -423,9 +467,15 @@ in the credits section below.
 **Bootstrap** CDN was used to create a responsive site design. Several bootstrap components were utilised including navbar, jumbotrons, alerts, modals, forms and the collapse functionality. 
 custom CSS was used to apply unique styling to bootstrap components.
 
+---
 ## Credits
+---
 
-### Code
+### Content Credits
+All text is unique content written by me ([Nick Kirk](https://github.com/nickassafkirk)) the project owner for the purpose of this project. The business described by this project is of fictitious nature and has been fabricated purely for educational purposes.
+
+---
+### Code Credits
 - To fix issues with footer content alignment I read documentation on flexbox at [This article](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
   I confirmed how to implement flexbox utilities while using Bootstrap by reading the documentation on [this page](https://getbootstrap.com/docs/4.5/utilities/flex/)
 
@@ -586,14 +636,15 @@ The original is as seen below:
     }
     ```
 
+---
 ### README Credits
 
 I'd like to thank A Greaves who's excellent [README example](https://github.com/AJGreaves/portrait-artist/blob/master/TESTING.md) was used as guide in the creation of this README.
 
-### Media Credits
-
-#### Images:
-The photos used in this site were primarily sourced from [Unsplash.com](https://www.unsplash.com)
+---
+### Image Credits:
+The photos used in this site were primarily sourced from [Unsplash.com](https://www.unsplash.com) and have been utilised for educational purposes only. 
+A full list of images used in this project can be seen below:
 
 [Carousel 1 Image](https://images.unsplash.com/photo-1493857671505-72967e2e2760?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
 Photo by [Roman Bozhko](https://unsplash.com/@romanbozhko?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee-shop?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
@@ -611,10 +662,10 @@ Photo by [Lodewijk Hertog](https://unsplash.com/@lue101?utm_source=unsplash&amp;
 Photo by [Chris Ralston](https://unsplash.com/@thisisralston?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText0) on [unsplash](https://unsplash.com/s/photos/avocado-toast?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Sandwich homepage tile](https://unsplash.com/photos/pLKgCsBOiw4)
-[Photo by Eaters Collective](https://unsplash.com/@eaterscollective?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/sandwiches?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+Photo by [Eaters Collective](https://unsplash.com/@eaterscollective?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/sandwiches?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Croissant homepage tile](https://unsplash.com/photos/eAsck4oAguM)
-[Photo by Monika Grabkowska](https://unsplash.com/@moniqa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText") on [unsplash](https://unsplash.com/s/photos/croissant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+Photo by [Monika Grabkowska](https://unsplash.com/@moniqa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText") on [unsplash](https://unsplash.com/s/photos/croissant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Pourover](https://unsplash.com/photos/WWzDPKot6nQ)
 Photo by [John Forson](https://unsplash.com/@jonforson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
@@ -653,37 +704,37 @@ Sourced from[hario.co.uk](https://www.hario.co.uk/collections/hario-v60-coffee-d
 Sourced from[aeropress.com](https://aeropress.com/product/aeropress-coffee-maker/)
 
 [Coffee section heading image](https://unsplash.com/photos/KuGAgQm_Rvs)
-[Photo by Max Letek](https://unsplash.com/@blackprojection?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee-plant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+Photo by [Max Letek](https://unsplash.com/@blackprojection?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee-plant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Subscription section heading image](https://unsplash.com/photos/1Yje-NZrrME)
-[Photo by William Moreland](https://unsplash.com/@relentlessjpg?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) On [unsplash](https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+Photo by [William Moreland](https://unsplash.com/@relentlessjpg?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) On [unsplash](https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Equipment section heading image](https://unsplash.com/photos/SPhGPOROS4M)
-[Photo by Deborah Diem](https://unsplash.com/@debidiemski?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee-filter?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+Photo by [Deborah Diem](https://unsplash.com/@debidiemski?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [unsplash](https://unsplash.com/s/photos/coffee-filter?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [Merchandise section heading image](https://unsplash.com/photos/wCojY8dZwXU)
-[Photo by 五玄土 ORIENTO](https://unsplash.com/@oriento?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) On [unsplash](https://unsplash.com/collections/9736560/ceramics?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+Photo by [五玄土 ORIENTO](https://unsplash.com/@oriento?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) On [unsplash](https://unsplash.com/collections/9736560/ceramics?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 HTML5 Logo: 
-[W3.org](https://www.w3.org/html/logo/#downloads)
+Sourced from [W3.org](https://www.w3.org/html/logo/#downloads)
 
 CSS3 Logo:
-[wikipedia commons](https://commons.wikimedia.org/wiki/File:CSS3_logo_and_wordmark.svg)
+Sourced from [wikipedia commons](https://commons.wikimedia.org/wiki/File:CSS3_logo_and_wordmark.svg)
 
 Bootstrap Logo:
-[Wikipedia](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
+Sourced from [Wikipedia](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
 
 Gitpod Logo:
-[Gitpod](https://www.gitpod.io/media-kit/)
+Sourced from [Gitpod](https://www.gitpod.io/media-kit/)
 
 Github Logo:
-[Github](https://github.com/logos)
+Sourced from [Github](https://github.com/logos)
 
 Balsamiq Logo:
-[Balsamiq](https://balsamiq.com/company/brandassets/)
+Sourced from [Balsamiq](https://balsamiq.com/company/brandassets/)
 
 #### Icons:
-All icons used on this project were sourced from [Fontawesome](https://fontawesome.com/)
+All icons used on this project were sourced from [Fontawesome](https://fontawesome.com/).
 
 ## Acknowledgements
 
