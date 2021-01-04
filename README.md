@@ -17,43 +17,47 @@ To provide a great user experience it is important that information is displayed
 To increase brand awareness and a consistent experience for online and offline customers, the website has been designed to mirror the styling and motif that customers experience while visiting the business's physical location. 
 As this is an imagined business the images used in the homepage carousel have been chosen to reflect the business's physical location. 
 
-### Strategy
+## Strategy
 
-#### User goals
+### User goals
 * Users want to know the purpose of the site immediately.
 * Users want to learn more about the business.
 * Users want to view the business's menus.
 * Users want to make orders for takeaway/collection.
-* Users want to view the reservations policy and have the ability to make reservations.
-* Users want to shop for coffee, equipment and merchandise online.
+* Users want to make reservations.
+* User want to view the business's policies.
+* Users want to view and buy coffee, equipment and merchandise online.
 * Users want to contact the shop for more information.
 * Users want to visit the business's social media profiles to learn more about them.
 
-#### Business Needs
-* The business owner wants to increase their online awareness and to interact with new and existing customers online
-* The business owner wants to increase revenues by attracting new customers who are searching for local businesses online
-* The business owner wants to increase their brand awareness by providing background information about the business and it's staff
-* The business owner wants to prequalify customers and speed up how customers order in store by displaying their menus online
-* The business owner wants to allow takeaway orders by displaying their menu and contact information online
-* The business owner wants to receive more reservations by providing customers with their booking policy and contact information online
-* The business owner wants to engage existing customers by displaying their "specials board"
-* The business wants to increase revenues by offering coffee, subscriptions, equipment and merchandise for sale online
-* The business owner wants to increase social media interaction with customers by linking their social media accounts on their websites
+### Business Needs
+* The business owner wants to increase their online awareness.
+* The business owner wants to interact with new and existing customers online.
+* The business owner wants to increase revenues by attracting new customers who are searching for local businesses online.
+* The business owner wants to increase their brand awareness by providing background information about the business.
+* The business owner wants to prequalify customers and speed up how customers order in store by displaying their menus online.
+* The business owner wants to allow takeaway orders by displaying their menu and contact information online.
+* The business owner wants to receive more reservations by providing customers with their booking policy and contact information online.
+* The business owner wants to engage existing customers by displaying new products and menu items.
+* The business wants to increase revenues by offering coffee, subscriptions, equipment and merchandise for sale online.
+* The business owner wants to increase social media interaction with customers by linking their social media accounts on their website.
 
-#### User Stories
+### User Stories
 
-##### User stories
+#### User stories
 1. As a new user I want to see the menu and phone number so I can order food for collection.
-2. As a new user I want to fill out a contact form so that I can make a reservation for dinner.
-3. As a new user I want to view the business's product range and contact details so I can order products remotely. 
-4. As a new user I want to view a gallery of the Cafe and their social media, so I can decide if it is an appropriate environment to hold a business meeting.
-5. As a new user I want to see the Cafe's location on a map, so I can visit the premises.
-6. As a new user I need to be able to navigate between site pages.
-7. As a new user I want to trust the business and value their products.
+1. As a new user I want to fill out a contact form so that I can make a reservation for dinner.
+1. As a new user I want to view the business's product range and contact details so I can order products remotely. 
+1. As a new user I want to view a gallery of the Cafe and their social media, so I can decide if it is an appropriate environment to hold a business meeting.
+1. As a potential customer I want to see the Cafe's location on a map, so I know where to find the business. 
+1. As a potential customer I want to know when the business is open so I can visit the business.
+1. As a new user I need to be able to navigate between site pages so I can view multiple site pages.
+1. As a new user I want to trust the business and value their products so I can ensure I am spending my money wisely.
+1. As a potential customer I need to know if the business is wheelchair accessible so I can decide if the business is suitable for people with disabilities.
 
-### Scope 
+## Scope 
 
-#### Features to be included in initial iteration
+### Features to be included in initial iteration
 * A prominent logo
 * A Navbar for navigation amongst pages and sections
 * The business contact information
@@ -61,12 +65,12 @@ As this is an imagined business the images used in the homepage carousel have be
 * A contact form
 * A Booking form
 * The Food & Drinks menus
-* Products & Product information
+* Products & Product information and instructions for purchase.
 * Business social media links
 * A list of commonly asked questions/FAQs
 * A Covid-19 Alert
 
-#### Features/Functionality to be added
+### Features/Functionality to be added
 * Functionality to add products to basket
 * Functionality to checkout and purchase products online
 * Functionality to order food online 
@@ -76,73 +80,81 @@ As this is an imagined business the images used in the homepage carousel have be
 * Individual product pages - A specific detailed .html page with full product information for each product in the shop.
 * Build out privacy policy & Terms and conditions pages - These footer links are here as placeholders only to display that these are important links to dislay on a consumer facing site. 
   As this is a "Mock business" these have been left blank but if this were to be used a detailed privacy policy and Terms & conditions page would be created to build customer confidence and adhere to european regulations. 
+* Add Scroll functionality with wider browser and device support.
 
-### Structure 
+## Structure 
 
-* **index.html:** The Primary landing page for the site which includes the key information on the business and links to additional pages where more detailed information can be found.
+### Pages
+* **index.html:** The Primary landing page for the site which includes the key information on the business and links to additional pages where more detailed information on specific topis can be found.
 * **contact.html:** This is the primary contact page, where the business's contact information can be found so that potential customers can contact the business and convert into customers by making bookings, visiting the store, phoning, making email contact etc...
-* **menu.html:** This page describes the cafe's food and drink menu, as this is the business primary function it is imperative to clearly display their menu items so that customers can order remotely or make the decision to dine in-store
-* **shop.html:** This page displays the customers "take home" product range of coffee, equipments and merchandise. This enables the business to explore additional revenues from existing customers and to reach a new target audience who may not be able to visit their store to shop.
-* **about.html:** This page displays supporting information on the business. It's purpose is to build brand awareness, consumer confidence and trust in the business. 
+* **menu.html:** This page describes the cafe's food and drink menu, as this is the business primary function it is imperative to clearly display their menu items so that customers can order remotely or make the decision to dine in-store after seeing and liking the menus. 
+* **shop.html:** This page displays the customers "take home" product range of coffee, equipment and merchandise. This enables the business to explore additional revenues from existing customers and to reach a new target audience who may not be able to visit their store to buy products or food and drink.
+* **about.html:** This page displays supporting information on the business. It's purpose is to build brand awareness, consumer confidence and trust in the business. As this is a mock business this has been used as a placeholder to state that this project was built for education purposes only.  
 
-#### Detailed Features
+### Detailed Features
 
-* Homepage
- * Navigation - allows users to navigate between pages and sections of the site by linking relevant pages in the header of each page. Bootstraps navbar collapse is used to create a clean and condensed experiece on smaler screen sizes.
- * hero image slider - allows users to see and access important information at the top of the page. Carousel slider is used to display multiple images clearly accross all device sizes.
- * Welcome text - allows users to quickly learn about the business background to build trust in the business and to encourage them to explore more on the site
- * Menu section - allows users quick access to the restaurants food and beverage menus so they can order food to collect 
- * Shop categories section - allow users to quickly access the primary shop categories in the online shop so they can purchase coffee beans and other items
- * Shop button - gives users a quick way to access the entire shop page in case they do not wish to shop by one of the categories above. By clicking each button they are linked to their elected category on the shop.html page.
+#### Homepage
+ * Navigation - allows users to navigate between pages and sections of the site by linking relevant pages in the header of each page. Bootstraps navbar collapse is used to create a clean and condensed experiece on smaller screen sizes.
+ * hero image slider - allows users to quickly learn the sites purpose by displaying a preview of the business location and decor and outlines the business's key functions (it's a cafe, they open 7 days and they also sell products) with the use of bold overlying captions. The Carousel slider is used to display multiple images clearly across all device sizes.
+ * Welcome text - allows users to quickly learn the sites purpose about to build trust in the business and to encourage them to explore more on the site.
+ * Menu section - allows users quick access to the restaurants food and beverage menus so they can order food to collect or decide wether to visit the cafe to dine.
+ * Shop categories section - allow users to quickly access the primary shop categories in the online shop so they can shop coffee beans and other populare shop categories.
+ * About section -  this section provides more information about the business's background to build trust and rapport with new users.
  * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
 
-* About page
- * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons.
- * About intro section - provides background information on the business to build rapport and trust with new users in order to encourage them to make a purchase or to visit the cafe. 
- * meet the team section - introduces the team members to users to build trust and a sense of personality to encourage users to make a booking or purchase.
- * footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
-
-
-* Contact page/Reservation page
+#### Menu page
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons
- * Google maps embedded map - allows users to see stores physical location and click link to open in map application so they can navigate easily to the cafe. 
- * Contact form - allows customers to make general email enquiries without the need to open another tab or their email application. By entering their name, email address, phone number (optional) and their message users can contact the business with their enquiry. From validation ensures customers that ther enquiry has been submitted and notifies and prevents submission if a required field has been missed. 
- * Booking form - allows users to book a table at the location to convert users into customers. 
- * FAQS section - coomonly asked questions builds trust with users by allowing users to instantly get answers to commonly asked questions without having to wait for a response by call or email. This increases the chance that users will convert into customers upon first visit
- and means staff don't have to reply to commonly asked questions. Bootstrap expand/collapse functionality is used for this section to condense large sections of text into a smaller space for better display on mobile devices. 
- * footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
-
-
-* Menu page
- * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons
- * Coffee menu section: Shows users the business regular dessert options to encourage customers to dine at the cafe or order for takeaway/collection.
+ * Intro section - this section qualifies this page's purpose and encourages first time learning. It provides tantalizing information about the cafe's menus and encourages users to explore more. 
+ * "Choose Menu" Sub navigation bar - Allows quick navigation to specific page sections to allow swift user navigation to their particular area of interest.
  * Food menu section: shows users the company's primary food options to encourage customers to dine at the cafe or order for takeaway/collection.
  * Dessert menu section: Shows users the business regular dessert options to encourage customers to dine at the cafe or order for takeaway/collection.
- * Order Button: The contact section is added to implement a call-to-action and means to convert users into customers at the end of the menu page. 
- * footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
+ * Coffee menu section: Shows users the business's coffee menu to encourage customers to visit the premises for coffee. 
+ * Order Section: The order section is added to implement a means to convert users into takeaway customers at the end of the menu page. Call and deliveroo buttons are utilised
+ to allow customers to order via their preferred method. 
+ * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
 
-
-* Shop page
+#### Shop page
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons
  * Intro Jumbotron - A brief intro text box explaining the purpose of the page and encouraging first-time learning.
  * Category headings - Group relevant products together by association to increase readability sense of purpose for first time users.
- * Product tiles: Border, image thumbnail, tilte, price, buy button. Clear, uniform product structure shows customers the key information needed to inform a purchase.
- * Merchandise Jumbotron - A prominent text box to explain new products are coming soon, to encourage customers to return to the site at a later date.
+ * Product tiles - Each product is composed of an Image thumbnail, Product tile, price and buy button. Clear, uniform product structure shows customers the key information needed to inform a purchase.
+ * Category cection trust marks - These sections summarise additional information relevant to each product category. They are added to provide additional information to build user trust and to show additional value in order to encourage a purchase.
+ * Merchandise Jumbotron - A prominent text box to explain new products are coming soon. This is added to inform customers that the shop is regularly updated with new products and to entice customers to return to the site at a later date to make additional purchases.
  * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
 
-### Skeleton
+#### Contact/Book page
+ * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons
+ * Google maps embedded map - allows users to see store's physical location and clicking the map opens directions to the store in google maps so new users can navigate easily to the cafe. 
+ * Contact form - allows customers to make general email enquiries without the need to open another tab or their email application. By entering their name, email address, phone number (optional) and their message users can contact the business with their enquiry. Form validation ensures customers that ther enquiry has been submitted and notifies and prevents submission if a required field has been missed. 
+ * Booking form - allows users to book a table at the location to convert users into customers. Form validation ensures bookings are submitted with required information for a quick and easy process for the user and the business.
+ * FAQS section - A list of commonly asked questions builds trust with users by allowing users to instantly get answers to commonly asked questions without having to wait for a response by call or email. This increases the chance that users will convert into customers upon their first site visit
+ and means staff don't have to reply to commonly asked questions, thus reducing the business's workload.. Bootstrap expand/collapse functionality is used for this section to condense large sections of text into a smaller space for better display on mobile devices. 
+ * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
+
+#### About page
+ * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons.
+ * Info section - The about page on this site is used as a placeholder to state that the intention of this site is purely as an educational project. This page has been used as a link location for these footer items; about, terms & conditions, privacy policy, covid-19 and the covid-a9 alert where the creation of specific pages for these links was outside the scope of this project. 
+ * Return home button - This button allows users to quickly return to the site hompeage after reading the information section.
+ * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
+
+## Skeleton
+
+### Navigation
 
 1. **Main Navigation:** A consistent top nav bar is present across all site pages to allow navigation through various pages. 
     ![main nav screenshot](assets/images/readmeimgs/main_nav.png)
-     Bootstrap navbar expand/collapse classes were used to improve user experience on mobile devices. 
+     Bootstrap navbar expand/collapse classes were used to improve user experience on mobile devices.
+
+     The navbar menu items are listed in order of importance. With the business's primary services listed in order of priority from left to right or top to bottom on mobile.
     
     ![main nav collapse screenshot](assets/images/readmeimgs/navbar_collapse.png)
     
     I chose to align the navbar collapse icon and collapsed to the menu to the right as [research shows](https://www.livescience.com/what-causes-left-handedness.html) that 85% - 90% of users are right handed and right-alignment results in marginally easier use for right-handed users.
     The Active class is used highlight the current page.
     
-2. **Footer navigation:** A consistent bottom footer contains and reinforces importance of main navigation links present in main navbar. This aids navigation to next point of interest once a user has scrolled down the page.
-   The footer links listed have been chosen specifically to allow easy navigation to the key pages and page sections.
+2. **Footer navigation:** A consistent bottom footer allows users to navigate between additonal site pages and sections to those included in the main navbar located in the page header. This aids navigation to next point of interest once a user has scrolled down the page.
+   Many of the footer items link to specific page section IDs, allowing more targetted navigation to specific sections of information on the site. The footer links essentially list the company's key products and services to teach users the scope of the businesses products and services and encourage 
+   conversion from user to customer by allowing users to quickly navigate to their area of interest while ignoring information that may be irrelevant or distract.
    Additional links such as the about page, privacy policies and T&Cs have been added to footer as they are important pages to include on the site but do not merit inclusion in main navbar. 
 
     ![footer nav screenshot](assets/images/readmeimgs/footer_nav.png) 
@@ -151,11 +163,12 @@ As this is an imagined business the images used in the homepage carousel have be
     ![navigation tile screenshot1](assets/images/readmeimgs/Menu_Buttons.png)
     ![navigation tile screenshot2](assets/images/readmeimgs/Shop_Buttons.png)
 
-4. **Buttons:** Buttons are used for reinforce form submission or to create a strong emphasis that a link to another page or information is present. Consistent button coloring is used across site to drive home the functionality of buttons on the site. Clear button labelling is used to 
+4. **Buttons:** Buttons are used to reinforce form submission or to create a strong emphasis that a link to another page, page section or external site is present. Consistent button coloring is used across site to drive home the functionality of buttons on the site. Clear button labelling is used to 
     encourage first-time learning and correct use of buttons on the site.
     ![Buttons navigation screenshot](assets/images/contact_form_new.png)
 
-    Button Hover
+    **Button Hover** Hover functionality has been used to highlight clickable links with bright contrasting colors, in order to reinforce interactivity of animation elements and encourage first time learning. 
+    On touch devices clickable elements are highlighted to display that a button or link is in use. 
 
     ![](assets/images/Hover.png)
 
@@ -169,7 +182,8 @@ As this is an imagined business the images used in the homepage carousel have be
     links to specific page section IDs as outlined the the section above. 
 
     ![Buttons navigation screenshot](assets/images/sub_menu_new.png)
-#### Wireframes
+
+### Wireframes
 
 [Home page](assets/wireframes/CC_Index.html_Wireframes.pdf)
 
@@ -179,47 +193,55 @@ As this is an imagined business the images used in the homepage carousel have be
 
 [Shop page](assets/wireframes/CC_Shop.html_Wireframes.pdf)
 
-#### Mockups
+### Mockups
 ![Homepage screenshot](assets/images/Responsivescreenshotnew.png)
 
-### Surface
+## Surface
 
-#### Fonts ####
+### Fonts
 **General**
 Sans-serif fonts have been chosen site-wide for a minimilistic style, consistent with the companies interior decor and to improve legibility for site users.
-Font-size and line height are adjusted on different device sizes to ensure correct distribution of information and layout across all devices. Altering line height and text-padding on mobile devices 
-aids navigation and touch-interaction on touch-screen devices.
+Font-size and line height are adjusted on different device sizes to ensure correct distribution of information and layout across all devices. Adding additional line height and text-padding to clickable links on smaller screenwidths adds additional space between links to 
+aid navigation and touch-interaction on touch-screen devices.
 
 **Logo & Title Fonts**
-The Bebas Neue font is used for the company logo and the carousel image titles. It was chosed because of it's bold appearance and clear readability. This font has been styled to be uppercase with a heavier font-weight than the body text
-to create recognisable branding and obvious visual impact for key site information.
+The Bebas Neue font is used for the company logo, carousel image titles and section headings. It was chosed because of it's bold appearance and clear readability. This font has been styled to be uppercase with a heavier font-weight than the body text
+to create recognisable branding and obvious visual impact for key site information. 
 
 **Body Fonts**
 The Montserrat font was selected for the body text for it's slim, legible and professional appearance. A much lighter font-weight is used to reinforce an overall minimilistic style 
 and to create contrast between branding text and headings. 
 
 **Headings**
-Headings also utilise the Montserrat font but are styled with a heavier font-weight to reinforce a higher priority of importance than accompanying body text.
+Headings also utilise the Bebas Neue font to reinforce that section headings denote the start of key sections of information with a higher priority of importance than accompanying body text.
 
 **Additional Fonts**
-The Sans-serif font has been chosen as a fallback font if chosen fonts cannot be loaded. 
+The Sans-serif font has been chosen as a fallback font if chosen fonts cannot be loaded from external resources.
 
-#### Colors ####
-Colors are used to increase contrast, visual impact, to indicate interactivity of elements and to improve readability across the site. 
+### Colors
+Colors are used to increase contrast, visual impact and to improve readability across the site. A grey, blue and white color palette has
+been chosen to add a neutral professional and minimalistic site design and to appeal to a broad range of users. Specific section areas are styled with consisted coloring to reinforce the correlation between different areas of relevant content. 
 Root variables were used to allow quick design changes to be made. The main colors used on this project are as follows:
 
-    logo: #333333; used for body text 
-    light: #dddddd; used for light text where dark backgrounds are used
-    lighttrans: rgba(228, 228, 227, 0.95); used as div/container background colors for menu and contact pages
-    bg: #eeeeee; used for body background, borders and outlines
-    buttonblue: #07c5ff; used as primary button background color, link hover color and cta indicator
-    alertorange: #f9c043; used as secondary call to action color when button blue clashes with background colors or images.
-    custom: #212121; used for navbar and footer background
-    tealgrey: #343a40; used for menu.html section headings and buttons. 
+**custom: #212121;** This is the primary brand color a dark grey pantone used for the navbar, footer background and homepage section headings. 
+**tealgrey: #343a40;** This is the secondary brand color used for page section headings and buttons.  
+**logo: #333333;** This is a dark grey color used for the site's body text.
+**bg: #eeeeee;** used for body background, borders and outlines.
+**light: #dddddd;** used for light text where dark backgrounds are used and contrast is needed to aid readability.
+**lighttrans: rgba(228, 228, 227, 0.95);** used as div/container background colors to highlight areas of specific information and to contrast background images and improve readability.
+**buttonblue: #07c5ff;** used as primary button background color upon hover or click to encourage click interaction and to indicate link interactivity and successful button submission.
+**alertorange: #f9c043;** used as secondary call to action color specifically for alerts. A bright call to action color was used to draw the user's eye to key information. The orange color does not
+adhere to the grey, blue, white color motif chosen for the project in order to communicate that the alert information is general information not specifically linked to the current page subject.
+    
+**rgba values** of rgba(0,0,0, 0.(x)) were used throughout the site to create text-shadows and image masks promoting better contrast between text and background items
+and to create a highlight effect on hover for clickable image tiles to show new users that these are clickable objects.
 
-    The rgba value of rgba(0,0,0, 0.(x)) was used throughout the site to create text-shadows and image masks promoting better contrast between text and background items
-    and to create a highlight effect on hover.
+**#fff:** White text has been used for titles and blocks of text where masks and overlays have been utilised where the "--light" color listed above did not provide adequate text and background contrast.
 
+**#1d1d1d:** This very dark grey color is used for the coffee menu section background. It was chosen to emulate a coffee pegboard that is popular in many contemporary cafes and specifically the menu
+that is depicted in the homepage carousel 1 image. A darker indent style border is used to create a sense of negative relief to further emmulate this pegboard style menu.
+
+### Use of colors:
 
 **Navigation colors:** Dark, muted header and footer colors are used to give a sense of space and contrast to the main and footer navigation. 
 
@@ -227,29 +249,31 @@ Root variables were used to allow quick design changes to be made. The main colo
 
 **Call-to-action colors:** Buttons, Links and alerts utilise really bright vibrant colors to encourage click behaviour and to act as eyecatching visual indicators of primary call-to-action elements.
 
-**Heading colors:** Bold colored headings clearly define where individual sections begin. Boldly colored section background colors contrasted with light fonts are chosen to clearly define the purpose of each section of information.
+**Heading colors:** Bold colored headings clearly define where individual sections begin. Boldly colored section background contrasted with light fonts are chosen to clearly define the purpose of each section of information.
 
-**Section Background colors:** Coloured sections with muted grey backgrounds are used to clearly distinguish relevant areas of information. This is important as page sections are scaled to width on larger screen-widths to keep information condensed and easily readable.
+**Section Background colors:** Colored sections with muted grey backgrounds are used to clearly distinguish relevant areas of information. This is important as page sections are scaled to width on larger screen-widths to keep information condensed and easily readable.
 
-#### Icons ####
+### Icons
 Icons are used as metaphors to reinforce meaning of key navigation elements. The paper plane icon is used to reinforce meaning of send/submission buttons, food and drink icons are used on the menu page to 
-reinforce the sub-menu navigation buttons and Icons are used for the contact information and social media links to clearly apply meaning to text-heavy page sections like the footer.
+reinforce the sub-menu navigation buttons and Icons are used for the contact information and social media links to clearly apply meaning to text-heavy page sections like the footer. Icons are also used to reinforce the meaning of short snippets of text in the shop trust mark sections. 
 
-#### Images 
+All icons utilised for this project were sourced from [fontawesome.com](https://fontawesome.com/).
+
+### Images 
 Images are used in several ways on the site. 
 
-**Carousel Images:** Eye catching images are used on the homepage carousel to clearly indicate the businesses key activities. These are chosen to encourage users to understand the purpose of the business as soon as they land on the homepage.
+**Carousel Images:** Eye catching images are used on the homepage carousel to clearly indicate the businesses key activities. These are chosen to encourage users to understand the purpose of the business as soon as they land on the homepage. The carousel images are also chosen to display the business's physical location to show new users what to expect when they visit the store. 
 
-**Homepage Image Tiles:** Appealing images are used as clickable tiles for the menus navigation links and shop navigation links on the homepage to quickly visually communicate the type of content a user will be brought to when clicking on each image tile. 
+**Homepage Image Tiles:** Appealing images are used as clickable tiles for the menu category navigation links and shop caetgory navigation links on the homepage. These images are included to quickly visually communicate the type of content a user will be brought to when clicking on each image tile. 
 
 **Product images:** Studio images are used to clearly display a products purpose and to encourage users to buy. Clear striking product images are contrasted with plain backgrounds to put the emphasis on the product and to keep user focus on the key information on the page.
 
 **Background-images:** Subtle background images with added opacity are used to give users a greater understanding of the business's style and appearance without drawing away from the key information on each page. These background images and colored divs are also used to break-up large areas of white-space
-for a more visually appealing appearance and a more defined flow of information through the page. 
+for a more visually appealing appearance and a more defined flow of information through the page. Background images utilise a relevant subject matter to the page subject to again reinforce the meaning of each page to first time users. 
 
-#### Animations ####
+### Animations
 Animations and Hover functionality are used to highlight the interactivity of links and buttons encouraging users to use navigation elements. 
-Pseudo classes and active classes also validate when an action has been performed. 
+Pseudo classes such as hocer, focus and active also provide user feedback by highlighting when an element is clickable and by validating when an action has been performed. 
 
 ---
 
@@ -298,8 +322,6 @@ Is used to create wireframes as visual mockups of the final site design
 
 ---
 
-## Code 
-
 ## Testing
 
 The current deployed version of this project has been thoroughly tested to ensure a great user experience on most common device types 
@@ -307,7 +329,7 @@ and to ensure cross-browser compatibility to ensure easy of use for as many user
 
 The full testing can be found in [the sepparate testing.md file](testing.md)
 
-Validation: 
+### Validation: 
 
 **HTML**
 All html files were validated using the [W3C markup validation service](https://validator.w3.org/)
@@ -320,36 +342,39 @@ All css files were validating using the [W3C CSS validation service](https://jig
 
 ![W3C Css validation badge](assets/images/vcss-blue.gif)
 
-No errors were returned, however 29 warning messages were returned due to some specific css features not being supported by the Jigsaw validation service. 
+No errors were returned, however 33 warning messages were returned due to some specific css features not being supported by the Jigsaw validation service. 
 
-21 warning messages are due to the use of vendor prefixes. This is because the vendor prefixes are browser specific properties and are not in the official CSS specification and therefore 
+23 warning messages are due to the use of vendor prefixes. This is because the vendor prefixes are browser specific properties and are not in the official CSS specification and therefore 
 return warnings during validation despite being considered good practice to ensure cross-browser compatibility. 
 This issue is outlined in the [following article](https://www.456bereastreet.com/archive/201101/css_validator_to_report_vendor-specific_extensions_as_warnings_not_errors/) 
 and in [this stackexchange forum](https://stackoverflow.com/questions/1889724/how-to-validate-vendor-prefixes-in-css-like-webkit-and-moz)
 Therefore these warning messages can be ignored. 
 
-8 warning messages are due to the use of root variables used for colors on the site. These are returning warning messages upon validation 
+10 warning messages are due to the use of root variables used for colors and fonts on the site. These are returning warning messages upon validation 
 because root variables are currently not supported by the validation service despite being widely supported across popular browsers. 
 This issue has been outlined at [this link](https://github.com/w3c/css-validator/issues/111) and therefore the warnings can be ignored.
 
 
 ## Deployment
 
-This project was developed using the Gitpod IDE, committed to git and pushed to GitHub using the terminal within Gitpod nad the gitpod extension for chrome. 
+This project was developed using the Gitpod IDE, committed to git and pushed to GitHub using the terminal within Gitpod and the gitpod extension for chrome. 
 
-To deploy this page to GitHub Pages from its GitHub repository, the process is as follows:
+### Deployment Instructions 
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
-1. First log into GitHub.
-2. From the list of repositories on the screen, select Cartel-Coffee
-3. From the menu items which includes *Code, Issues, Pull request, Actions, Projects, Wiki, Security, Insights* 
-select the settings tab
-4. Within the settings section, scroll down to the **GitHub Pages** section.
-5. Under Source click the drop-down menu labelled "None" and select "Master Branch"
-6. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
-7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
-8. (Optional) Add the website link to the repository info box for ease of use. In the sidebar to the right click the cog icon to the right of the about subheading
+1. First log into [GitHub account](https://github.com/nickassafkirk).
+1. From the list of oinned repositories on the home screen, select "Cartel-Coffee".
+1. From the menu items which includes *Code, Issues, Pull request, Actions, Projects, Wiki, Security, Insights and settings* 
+select the **settings** tab.
+1. Within the settings section, scroll down to the **GitHub Pages** section.
+1. Under **Source** subheading click the drop-down menu labelled "None" and select "Master Branch"
+1. Leave the default /Root folder selected and click save.
+1. On selecting Master Branch and saving the page is automatically refreshed, the website is now deployed.
+1. Return to the settings section and scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+1. (Optional) Add the website link to the repository info box for ease of use. In the sidebar to the right click the cog icon to the right of the about subheading
 and paste the website url into the box labelled "website"
 
+### Cloning instructions with Gitpod
 To clone this project using Gitpod you will need:
 
 A Github account. [Create a Github account here](https://github.com/join)
@@ -359,10 +384,11 @@ Then follow these steps:
 1. Install the [Gitpod Browser Extentions for Chrome](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki?hl=en)
 2. After installation, restart your browser
 3. Log into Gitpod with your github account.
-4. Navigate to the Project GitHub repository
+4. Navigate to the [Project GitHub repository](https://github.com/nickassafkirk/Caffeine-Cartel-Coffee-Shop)
 5. Click the green "Gitpod" button in the top right corner of the repository
 6. This will open a new gitpod workspace with a clone of the repository
 
+### Cloning instructions to a local editor
 To work on the project code within a local IDE such as VSCode, Pycharm, brackets etc:
 
 1. Go to the Github repository at [this link](https://github.com/nickassafkirk/Cartel-Coffee)
@@ -376,35 +402,41 @@ To work on the project code within a local IDE such as VSCode, Pycharm, brackets
 8. Press Enter to successfully clone the repository to your local IDE
 9. For more information on cloning from github [see this page](https://docs.github.com/en/free-pro-team@latest/github/using-git/which-remote-url-should-i-use)
 
+### Forking instructions
 To Fork this repository:
 
-Enter "Github" into browser and arrive at main Github page.
-Sign into Github or sign up.
-Find the repository you wish to fork.
-On the right hand side of the repository page you will see options to watch, star or fork. Click Fork.
-This will create a copy in your new repository which can be edited. After changes have been made you can select a new pull request located in the original repository just above the file listing.
+1. Go to the [github homepage](https://github.com/).
+1. Sign into Github or sign up for a new account.
+1. Find the repository you wish to fork. 
+(*([For example this project](https://github.com/nickassafkirk/Cartel-Coffee))*
+1. On the right hand side of the repository page you will see options to watch, star or fork. Click Fork.
+1. This will create a copy of the project in a new repository within your github account.
+1. Once the fork has been created in your github account, it can then be cloned to your prefered editor using one of the methods outlined above.
+1. After changes have been made locally they can be submitted via pull request for aprroval and inclusion in the original project.
 
-To clone this repository
-Enter "Github" into browser and arrive at main Github page.
-Sign into Github or sign up.
-Find the repository you wish to clone or download.
-Find the "clone or download" button just under the repository name.
-To clone the repository using HTTPS click the link under "Clone with HTTPS".
-Open a terminal and change the current working directory to the location where you want the cloned version of the directory to be copied to.
-Type "git clone" and paste the HTTPS code you copied.
-Press "enter" to finish creating your clone.
+## Code 
 
+The code in this project was written by me ([Nick Kirk](https://github.com/nickassafkirk)) the project owner. Any code snippets written by other developers or found from online resources have been credited
+in the credits section below.
 
-### Code 
-
+### Frameworks
 **Bootstrap** CDN was used to create a responsive site design. Several bootstrap components were utilised including navbar, jumbotrons, alerts, modals, forms and the collapse functionality. 
 custom CSS was used to apply unique styling to bootstrap components.
 
-#### Credits
+## Credits
+
+### Code
 - To fix issues with footer content alignment I read documentation on flexbox at [This article](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
   I confirmed how to implement flexbox utilities while using Bootstrap by reading the documentation on [this page](https://getbootstrap.com/docs/4.5/utilities/flex/)
 
 - To create a more understandable submenu functionality for the submenu on the menu.html page I used a scroll functionality that I learnt about in [this post](https://stackoverflow.com/questions/24739126/scroll-to-a-specific-element-using-html)
+    ```
+    html{
+        scroll-behavior: smooth;
+    }
+    ```
+ Unfortunately this scroll functionality is not supported by all browsers and devices but as it is supported by most modern browsers it's use was deemed appropriate for this project. It was not within the scope of this project to produce a scroll behaviour by alternative 
+ means that is supported by all browsers and devices.
 
 - To vertically center the carousel caption text on the index.html page. I used the transform technique as described in [this forum](https://stackoverflow.com/questions/27279865/how-to-vertically-center-a-bootstrap-carousel-caption)
  from which I utilised this snippet of css:
@@ -423,14 +455,66 @@ custom CSS was used to apply unique styling to bootstrap components.
         }
     ```
 
-- As an alternate method to add background opacity I used a method I found published by [Andy Hattemer and Nicholas Cerminara](https://www.digitalocean.com/community/tutorials/how-to-change-a-css-background-images-opacity)
+- As an alternate method to add background opacity to page sections I used a method which utilises pseudo elements that I found published by [Andy Hattemer and Nicholas Cerminara in this article](https://www.digitalocean.com/community/tutorials/how-to-change-a-css-background-images-opacity)
+    ```
+    /* You could use :after - it doesn't really matter */
+    .demo_wrap:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        opacity: 0.6;
+        background-image: url('https://assets.digitalocean.com/labs/images/community_bg.png');
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+    }
+    ```
 
 - Inspiration for animation used in menu.html subnav was from [this stack overflow discussion](https://stackoverflow.com/questions/42745506/how-to-make-an-icon-spin-with-i-tag-in-html5-through-css3) and general animation info was found at [this page](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)
+    ```
+        $(document).ready(function() {
+            $('.js-spin').click(function() {
+            $(this).addClass('icn-spinner') //remove class to stop animation
+            });
+        });
 
-- To find a way to hide the homepage menu tile headings, I was inspired by a method described in [this stackoverflow article](https://stackoverflow.com/questions/9913293/change-text-on-hover-then-return-to-the-previous-text/9913526)
+    i {
+    font-size: 40px;
+    }
 
+    .icn-spinner {
+        animation: spin-animation 0.5s infinite;
+        display: inline-block;
+    }
+
+    @keyframes spin-animation {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(359deg);
+        }
+    }
+    ```
+
+- To find a way to hide the homepage menu tile headings upon hover, I was inspired by a method described in [this stackoverflow article](https://stackoverflow.com/questions/9913293/change-text-on-hover-then-return-to-the-previous-text/9913526)
+    ```
+    a:hover span {
+    display:none;
+    }
+    ```
 - To enable modals to appear upon page load by default I found a solution at [this article](https://www.tutorialrepublic.com/faq/how-to-launch-bootstrap-modal-on-page-load.php#:~:text=Answer%3A%20Use%20the%20Bootstrap%20.,modal('show')%20method&text=modal('show')%20method%20for%20launching%20the%20modal%20window,to%20subscribe%20the%20website%20newsletter.)
  I edited this simple script 
+    ```
+    $(document).ready(function(){
+        $("#shopmodal").modal('show');
+    });
+    ```
  
 - To apply favourable modal positioning I used a technique described in [this article](https://css-tricks.com/considerations-styling-modal/)
     from which I utilised this snippet of code 
@@ -462,7 +546,7 @@ custom CSS was used to apply unique styling to bootstrap components.
         }
     ```
 
-To add a wiggle functionality to the menu pages call Icons/Images, I customised code found at this codepen demo(https://codepen.io/theDeanH/pen/zBZXLN)
+To add a wiggle functionality to the menu pages call Icons/Images, I customised code found at [this codepen demo](https://codepen.io/theDeanH/pen/zBZXLN)
 The original is as seen below:
 
     ```
@@ -501,12 +585,12 @@ The original is as seen below:
     100% {transform: rotate(0deg);}
     }
     ```
-All other code was written by me the project owner.
 
-### Media
+### README Credits
 
-#### Icons:
-All icons used on this project were sourced from [Fontawesome](https://fontawesome.com/)
+I'd like to thank A Greaves who's excellent [README example](https://github.com/AJGreaves/portrait-artist/blob/master/TESTING.md) was used as guide in the creation of this README.
+
+### Media Credits
 
 #### Images:
 The photos used in this site were primarily sourced from [Unsplash.com](https://www.unsplash.com)
@@ -598,9 +682,12 @@ Github Logo:
 Balsamiq Logo:
 [Balsamiq](https://balsamiq.com/company/brandassets/)
 
-### Acknowledgements
+#### Icons:
+All icons used on this project were sourced from [Fontawesome](https://fontawesome.com/)
+
+## Acknowledgements
 
 I'd like to thank my mentor Nishant Kumar for his help and advice throughout this project. His encouragement and feedback we're invaluable in the completion of this project.
 
-I would also like to thank Jim Morel, Tim Nelson, Stefan and Simen Daehlin from the code-institute for all their help and advice during our tutor sessions and masterclasses.
+I would also like to thank Jim Morel, Tim Nelson, Stefan, Simen Daehlin and all our other tutors from the code-institute for all their help and advice during our tutor sessions and masterclasses.
 
