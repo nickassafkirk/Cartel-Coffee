@@ -637,7 +637,6 @@ h3 {
 	font-size: 1rem;
 }
 
-
 /* Credit background-opacity https://css-tricks.com/snippets/css/transparent-background-images/ */
 
 .menuback::after {
@@ -702,7 +701,6 @@ h2.submenu {
 	color: var(--buttonblue);
 	font-weight: 800;
 }
-
 
 /* inspiration for animation from https://stackoverflow.com/questions/42745506/how-to-make-an-icon-spin-with-i-tag-in-html5-through-css3 */
 
@@ -794,13 +792,13 @@ h2.submenu {
 }
 
 .menusnav.top#coffeemenu {
-	background-color: rgb(29, 29, 29);
+	background-color: #1d1d1d;
 	margin-top: 0;
 }
 
 .coffeemenu {
 	font-family: monospace, sans-serif;
-	background: rgb(29, 29, 29);
+	background: #1d1d1d;
 	border: 1px solid #151516;
 	border-radius: 5px;
 	color: #fff;
@@ -808,7 +806,7 @@ h2.submenu {
 }
 
 .coffeemenu p {
-	background-color: rgb(29, 29, 29);
+	background-color: #1d1d1d;
 	border: 1px inset #18181a;
 	border-radius: 2px;
 	margin: 5%;
