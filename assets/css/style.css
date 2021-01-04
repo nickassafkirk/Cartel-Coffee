@@ -512,6 +512,16 @@ a[aria-expanded=true] #more {
 	margin: 0;
 }
 
+a.contact{
+    color: var(--body);
+    text-decoration: none;
+}
+
+a.contact:hover{
+    color: var(--buttonblue);
+    text-decoration: none;
+}
+
 .btcustom1 {
 	width: 100%;
 	margin: 0 auto;
