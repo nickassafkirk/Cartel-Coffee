@@ -367,30 +367,40 @@ The full testing can be found in [the sepparate testing.md file](testing.md)
 
 ## Validation: 
 
-**HTML**
+### HTML   
 All html files were validated using the [W3C markup validation service](https://validator.w3.org/)
 
-There were no errors or warning messages for the deployed version of this project for any of the pages.
+**Errors:** 
+There were no errors for the deployed version of this project.
 
-**CSS3**
+**Warnings**
+There were no errors for the deployed version of this project.
+
+### CSS
 
 All css files were validating using the [W3C CSS validation service](https://jigsaw.w3.org/css-validator/)
 
 ![W3C Css validation badge](assets/images/vcss-blue.gif)
 
-No errors were returned, however 33 warning messages were returned due to some specific css features not being supported by the Jigsaw validation service. 
+**Errors:** 
+No errors were returned for the deployed version of this project.
 
+**Warnings**
+33 warning messages were returned during validation of the deployed version of this site. These warnings are due to some specific css features not being supported by the Jigsaw validation service and can therefore be **ignored**.
+
+*Vendor Prefixes*   
 23 warning messages are due to the use of vendor prefixes. This is because the vendor prefixes are browser specific properties and are not in the official CSS specification and therefore 
 return warnings during validation despite being considered good practice to ensure cross-browser compatibility. 
 This issue is outlined in the [following article](https://www.456bereastreet.com/archive/201101/css_validator_to_report_vendor-specific_extensions_as_warnings_not_errors/) 
 and in [this stackexchange forum](https://stackoverflow.com/questions/1889724/how-to-validate-vendor-prefixes-in-css-like-webkit-and-moz)
 Therefore these warning messages can be ignored. 
 
+*Root Variables*    
 10 warning messages are due to the use of root variables used for colors and fonts on the site. These are returning warning messages upon validation 
 because root variables are currently not supported by the validation service despite being widely supported across popular browsers. 
 This issue has been outlined at [this link](https://github.com/w3c/css-validator/issues/111) and therefore the warnings can be ignored.
 
-
+---
 ## Deployment
 
 This project was developed using the Gitpod IDE, committed to git and pushed to GitHub using the terminal within Gitpod and the gitpod extension for chrome. 
@@ -463,7 +473,7 @@ in the credits section below.
 
 ### Frameworks
 **Bootstrap** CDN was used to create a responsive site design. Several bootstrap components were utilised including navbar, jumbotrons, alerts, modals, forms and the collapse functionality. 
-custom CSS was used to apply unique styling to bootstrap components.
+Custom CSS was used to apply unique styling to bootstrap components.
 
 ---
 ## Credits
