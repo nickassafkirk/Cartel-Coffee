@@ -482,8 +482,8 @@ All text is unique content written by me ([Nick Kirk](https://github.com/nickass
         scroll-behavior: smooth;
     }
     ```
- Unfortunately this scroll functionality is not supported by all browsers and devices but as it is supported by most modern browsers it's use was deemed appropriate for this project. It was not within the scope of this project to produce a scroll behaviour by alternative 
- means that is supported by all browsers and devices.
+    Unfortunately this scroll functionality is not supported by all browsers and devices but as it is supported by most modern browsers it's use was deemed appropriate for this project. It was not within the scope of this project to produce a scroll behaviour by alternative 
+    means that is supported by all browsers and devices.
 
 - To vertically center the carousel caption text on the index.html page. I used the transform technique as described in [this forum](https://stackoverflow.com/questions/27279865/how-to-vertically-center-a-bootstrap-carousel-caption)
  from which I utilised this snippet of css:
@@ -593,7 +593,7 @@ All text is unique content written by me ([Nick Kirk](https://github.com/nickass
         }
     ```
 
-To add a wiggle functionality to the menu pages call Icons/Images, I customised code found at [this codepen demo](https://codepen.io/theDeanH/pen/zBZXLN)
+- To add a wiggle functionality to the menu pages call Icons/Images, I customised code found at [this codepen demo](https://codepen.io/theDeanH/pen/zBZXLN)
 The original is as seen below:
 
     ```
