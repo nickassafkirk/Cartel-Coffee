@@ -83,6 +83,8 @@ As this is an imagined business the images used in the homepage carousel have be
 * Build out privacy policy & Terms and conditions pages - These footer links are here as placeholders only to display that these are important links to dislay on a consumer facing site. 
   As this is a "Mock business" these have been left blank but if this were to be used a detailed privacy policy and Terms & conditions page would be created to build customer confidence and adhere to european regulations. 
 * Add Scroll functionality with wider browser and device support.
+* Add functionality to allow animations associated with links to take place before users are redirected to the link destination to provide a better 
+user experience on touch screen devices where hover is not possible.
 
 ---
 ## Structure
@@ -317,7 +319,9 @@ for a more visually appealing appearance and a more defined flow of information 
 
 ### Animations
 Animations and Hover functionality are used to highlight the interactivity of links and buttons encouraging users to use navigation elements. 
-Pseudo classes such as hocer, focus and active also provide user feedback by highlighting when an element is clickable and by validating when an action has been performed. 
+Pseudo classes such as hover, focus and active also provide user feedback by highlighting when an element is clickable and by validating when an action has been performed.
+In future iterations of this project, I hope to allow animations associated with links to take place before users are redirected to the link destination to provide a better 
+user experience on touch screen devices where hover is not possible.
 
 ---
 ## Technologies Used
@@ -367,10 +371,13 @@ Is used to create wireframes as visual mockups of the final site design
 
 ## Testing
 
-The current deployed version of this project has been thoroughly tested to ensure a great user experience on most common device types 
-and to ensure cross-browser compatibility to ensure easy of use for as many users as possible. 
+The current deployed version of this project has been thoroughly tested to ensure a great user experience on most common device types.
+Testing has also confirmed compatibility with all common browsers to accommodate a great user experience and predictable functionality 
+for easy as many users as possible. 
 
-The full testing can be found in [the sepparate testing.md file](testing.md)
+The responsive functionality of the site has been tested to work on most common devices with a 320px screen-width and larger. 
+
+The full testing can be found in [the separate testing.md file](testing.md)
 
 ---
 
