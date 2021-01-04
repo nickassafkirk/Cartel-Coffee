@@ -252,13 +252,20 @@ Colors are used to increase contrast, visual impact and to improve readability a
 been chosen to add a neutral professional and minimalistic site design and to appeal to a broad range of users. Specific section areas are styled with consisted coloring to reinforce the correlation between different areas of relevant content. 
 Root variables were used to allow quick design changes to be made. The main colors used on this project are as follows:
 
-**`--custom: #212121;`** This is the primary brand color a dark grey pantone used for the navbar, footer background and homepage section headings.  
+**`--custom: #212121;`** This is the primary brand color a dark grey pantone used for the navbar, footer background and homepage section headings. 
+
 **`--tealgrey: #343a40;`** This is the secondary brand color used for page section headings and buttons.  
+
 **`--logo: #333333;`** This is a dark grey color used for the site's body text.  
-**`--bg: #eeeeee;`** used for body background, borders and outlines.    
+
+**`--bg: #eeeeee;`** used for body background, borders and outlines.   
+
 **`--light: #dddddd;`** used for light text where dark backgrounds are used and contrast is needed to aid readability.  
-**`--lighttrans: rgba(228, 228, 227, 0.95);`** used as div/container background colors to highlight areas of specific information and to contrast background images and improve readability.    
+
+**`--lighttrans: rgba(228, 228, 227, 0.95);`** used as div/container background colors to highlight areas of specific information and to contrast background images and improve readability.   
+
 **`buttonblue: #07c5ff;`** used as primary button background color upon hover or click to encourage click interaction and to indicate link interactivity and successful button submission.  
+
 **`alertorange: #f9c043;`** used as secondary call to action color specifically for alerts. A bright call to action color was used to draw the user's eye to key information. The orange color does not
 adhere to the grey, blue, white color motif chosen for the project in order to communicate that the alert information is general information not specifically linked to the current page subject.
     
@@ -269,6 +276,8 @@ and to create a highlight effect on hover for clickable image tiles to show new 
 
 **`#1d1d1d`:** This very dark grey color is used for the coffee menu section background. It was chosen to emulate a coffee pegboard that is popular in many contemporary cafes and specifically the menu
 that is depicted in the homepage carousel 1 image. A darker indent style border is used to create a sense of negative relief to further emmulate this pegboard style menu.
+
+**`#007bff`:** A darker browser default blue color has been used for links on the submit.html and about.html pages and the covid-19 alert where the preferred link color `--buttonblue` did not provide adequate contrast against lighter backgrounds. 
 
 ### Use of colors:
 
@@ -293,7 +302,7 @@ All icons utilised for this project were sourced from [fontawesome.com](https://
 ---
 
 ### Images 
-Images are used in several ways on the site. 
+Images are used in several instances on the site to act as strong visual cues and to break-up and add additional context to sections text. 
 
 **Carousel Images:** Eye catching images are used on the homepage carousel to clearly indicate the businesses key activities. These are chosen to encourage users to understand the purpose of the business as soon as they land on the homepage. The carousel images are also chosen to display the business's physical location to show new users what to expect when they visit the store. 
 
