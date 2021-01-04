@@ -5,8 +5,6 @@
 ---
 ## Overview
 
----
-
 The purpose of this project is to build a mobile responsive website for a new coffee shop in Dublin called Cartel coffee. The Business wants to increase their online visibility, increase revenue and to attract new customers. They want to introduce the ability to receive takeaway orders and start selling online. They want to use the site as a platform to update customers on business changes and to continue trading if restaurants are forced to close during Covid-19 restrictions. 
 The goal is to build a mobile first site which meets the intial business needs while providing an excellent user experience for site users. 
 
@@ -15,8 +13,6 @@ The goal is to build a mobile first site which meets the intial business needs w
 ---
 ## UX
 
----
- 
 The intention of this site is to allow new and existing users to find the business, learn about the business and to convert into physical customers at the business's location or virtual customers via ordering online, over the phone and by email. 
 To provide a great user experience it is important that information is displayed clearly in a logical order of importance. As this website is designed to provide several distinct functions (contact, buy, order and inform), for a broad range of users, emphasis has been made to create multiple interlinking navigation methods so that customers can find and source the information that is relevant to them while ignoring information that may not be relevant at that moment. 
 To increase brand awareness and a consistent experience for online and offline customers, the website has been designed to mirror the styling and motif that customers experience while visiting the business's physical location. 
@@ -25,7 +21,6 @@ As this is an imagined business the images used in the homepage carousel have be
 ---
 ## Strategy
 
----
 ### User goals
 * Users want to know the purpose of the site immediately.
 * Users want to learn more about the business.
@@ -64,7 +59,6 @@ As this is an imagined business the images used in the homepage carousel have be
 ---
 ## Scope 
 
----
 ### Features to be included in initial iteration
 * A prominent logo
 * A Navbar for navigation amongst pages and sections
@@ -93,7 +87,6 @@ As this is an imagined business the images used in the homepage carousel have be
 ---
 ## Structure
 
----
 ### Pages
 #### 1. [Homepage](https://nickassafkirk.github.io/Cartel-Coffee/index.html) 
 The Primary landing page for the site which includes the key information on the business and links to additional pages where more detailed information on specific topis can be found.
@@ -170,7 +163,6 @@ A success page loaded upon successful form submission to reassure users their me
 ---
 ## Skeleton
 
----
 ### Navigation
 
 1. **Main Navigation:** A consistent top nav bar is present across all site pages to allow navigation through various pages. 
@@ -233,7 +225,6 @@ A responsive view of the site can be found at [this link](http://ami.responsived
 ---
 ## Surface
 
----
 ### Fonts
 **General**
 Sans-serif fonts have been chosen site-wide for a minimilistic style, consistent with the companies interior decor and to improve legibility for site users.
@@ -322,7 +313,6 @@ Pseudo classes such as hocer, focus and active also provide user feedback by hig
 ---
 ## Technologies Used
 
----
 ![HTML5 Logo](assets/images/technologies/html5.png)
 ### HTML5 
 [https://www.w3.org/html/](https://www.w3.org/html/) 
@@ -468,7 +458,6 @@ To Fork this repository:
 ---
 ## Code 
 
----
 The code in this project was written by me ([Nick Kirk](https://github.com/nickassafkirk)) the project owner. Any code snippets written by other developers or found from online resources have been credited
 in the credits section below.
 
@@ -478,8 +467,6 @@ custom CSS was used to apply unique styling to bootstrap components.
 
 ---
 ## Credits
-
----
 
 ### Content Credits
 All text is unique content written by me ([Nick Kirk](https://github.com/nickassafkirk)) the project owner for the purpose of this project. The business described by this project is of fictitious nature and has been fabricated purely for educational purposes.
@@ -748,8 +735,6 @@ All icons used on this project were sourced from [Fontawesome](https://fontaweso
 
 ---
 ## Acknowledgements
-
----
 
 I'd like to thank my mentor Nishant Kumar for his help and advice throughout this project. His encouragement and feedback we're invaluable in the completion of this project.
 
