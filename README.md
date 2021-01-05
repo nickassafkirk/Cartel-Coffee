@@ -148,9 +148,9 @@ A success page loaded upon successful form submission to reassure users their me
 
 #### [Homepage](https://nickassafkirk.github.io/Cartel-Coffee/index.html) 
  * Main navigation menu - allows users to navigate between pages and sections of the site by linking relevant pages in the header of each page. Bootstraps navbar collapse is used to create a clean and condensed experiece on smaller screen sizes.
- * Hero image slider - allows users to quickly learn the sites purpose by displaying a preview of the business location and decor and outlines the business's key functions (it's a cafe, they open 7 days and they also sell products) with the use of bold overlying captions. The Carousel slider is used to display multiple images clearly across all device sizes.
+ * Hero image slider - allows users to quickly learn the sites purpose by displaying a preview of the business location and decor and outlining the business's key functions (it's a cafe, they open 7 days and they also sell a range of products) with the use of bold overlying captions. The Carousel slider is used to display multiple images clearly across all device sizes.
  * Welcome text - allows users to quickly learn the sites purpose, in order to build trust in the business and to encourage users to explore more of the site.
- * Menu section - allows users quick access to the restaurants food and beverage menus so they can order food to collect or decide wether to visit the cafe to dine.
+ * Menu section - allows users quick access to the restaurant's food and beverage menus so they can order food to collect or decide wether to visit the cafe to dine.
  * Shop categories section - allows users to quickly access each individual product category in the online shop so they can access products by their particualr interest.
  * About section -  this section provides more information about the business's background to build trust and rapport with new users.
  * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when located at the bottom of the webpage.
@@ -172,12 +172,12 @@ A success page loaded upon successful form submission to reassure users their me
  * Category headings - Relevant products are grouped together by association. Bold headings are utilised to delineate where each section starts and ends and to provide context for each grouping of products.
  * Product tiles - Each product is composed of an Image thumbnail, Product tile, price and buy button. Clear, uniform product structure shows customers the key information needed to inform a purchase. Buy now buttons are currently utilised for display only.
  * Category trust marks - These sections summarise additional information relevant to each product category. They are added to provide additional information to build user trust and to show additional value in order to encourage a purchase.
- * Merchandise Jumbotron - A prominent text box to explain new products are coming soon. This is added to inform customers that the shop is regularly updated with new products to entice customers to return to the site at a later date to make additional purchases.
+ * Merchandise Jumbotron - A prominent text box to explain new products are coming soon. This is added to inform customers that the shop is regularly updated with new products. This aims to entice customers to return to the site at a later date to see new products and to make additional purchases.
  * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolled to the bottom of the page 
 
 #### [Contact/Book Page](https://nickassafkirk.github.io/Cartel-Coffee/contact.html)
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons
- * Google maps embedded map - allows users to see store's physical location and clicking the map opens directions to the store in google maps so new users can navigate easily to the cafe. 
+ * Embedded map iframe - allows users to see the store's physical location. Clicking the map on mobile opens directions to the store in google maps. This allows new users to navigate easily to the cafe. 
  * Contact form - allows customers to make general email enquiries without the need to open another tab or their email application. By entering their name, email address, phone number (optional) and their message users can contact the business with their enquiry. Form validation ensures customers that ther enquiry has been submitted and notifies and prevents submission if a required field has been missed. 
  * Booking form - allows users to book a table at the location to convert users into customers. Form validation ensures bookings are submitted with required information for a quick and easy process for the user and the business.
  * FAQS section - A list of commonly asked questions builds trust with users by allowing users to instantly get answers to commonly asked questions without having to wait for a response by call or email. This increases the chance that users will convert into customers upon their first site visit
