@@ -9,7 +9,7 @@ The purpose of this project is to build a mobile responsive website for a new co
 They want to use the site as a platform to update customers on business changes and news and as a means to continue trading if restaurant is forced to close during Covid-19 lockdown restrictions.     
 The goal of this project is to build a mobile first site which meets the intial business needs while providing an excellent user experience for site users. 
 
-**NB:** *This is a theoretical business created for educational purposes only*
+**NB:** *This is a fictional business created for educational purposes only*
 
 ---
 ## UX
@@ -17,15 +17,23 @@ The goal of this project is to build a mobile first site which meets the intial 
 The intention of this site is to enable new and existing users, who are searching online, to find cartel coffee and to learn about the business's background, products and services. 
 
 The primary business goal is to convert customers who are landing on the site into physical customers at the business's location. 
-To achieve this goal the site's key focus is to provide the means to enable customers to make bookings to dine at the store, to order food for collection at the business's physical location and to generate general enquiries from potential customers landing on the site.
+To achieve this goal the site's key focus is to provide the functionality to allow customers to make bookings to dine at the café, to order food for collection and to generate general enquiries from potential customers landing on the site.
 
 The secondary goal of this site is to generate new revenue streams by offering coffee and associated products for sale online, by phone or email and to provide takeaway options by linking to 3rd party takeaway apps such as deliveroo, just eat, uber eats etc... 
 
-As this website is designed to provide several distinct functions (contact, order, buy and inform), for a broad range of users, emphasis has been made to create multiple inter-linking navigation methods so that customers can find and source the information that is relevant to them while ignoring information that may not be relevant at that moment. 
+This website is designed to provide 4 distinct functions:
+  1. Contact: The site must enable customers to contact the business.
+  1. Order: The site must enable customers to order food remotely.
+  1. Buy: The site must enable customers to buy products remotely.
+  1. Inform: The site must inform customers of key information about the business.
+
+The site must cater to broad range of users who may be interested in one or more of the 4 site functions listed above. Emphasis has been made to create multiple inter-linking navigation methods across the site so that customers access the information that is relevant to them, 
+while ignoring information that may not be relevant at that moment. 
+
 To provide a great user experience every effort has been made to ensure that information is displayed clearly in a logical order of importance. 
 
 To increase brand awareness and provide a consistent user experience for online and offline customers, the website has been designed to mirror the styling and motif that customers experience while visiting the business's physical location. 
-As this is an imagined business the images depicted in the homepage carousel have been chosen to reflect the business's physical location. 
+As this is an imagined business, the images depicted in the homepage carousel have been chosen to reflect the business's theoretical in-store appearance. 
 
 ---
 ## Strategy
