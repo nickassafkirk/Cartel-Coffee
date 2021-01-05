@@ -6,7 +6,7 @@
 ## Overview
 
 The purpose of this project is to build a mobile responsive website for a new coffee shop in Dublin called Cartel coffee. By creating this site the business wants to increase their online visibility, increase revenue and to attract new customers to their business. They wish to introduce the ability to receive takeaway orders and start selling coffee and associated products online.     
-They want to use the site as a platform to update customers on business changes and news and as a means to continue trading if restaurant is forced to close during Covid-19 lockdown restrictions.     
+They want to use the site as a platform to update customers on business updates and as a means to continue trading if their restaurant is forced to close during Covid-19 lockdown restrictions.     
 The goal of this project is to build a mobile first site which meets the intial business needs while providing an excellent user experience for site users. 
 
 **NB:** *This is a fictional business created for educational purposes only*
@@ -33,17 +33,18 @@ while ignoring information that may not be relevant at that moment.
 To provide a great user experience every effort has been made to ensure that information is displayed clearly in a logical order of importance. 
 
 To increase brand awareness and provide a consistent user experience for online and offline customers, the website has been designed to mirror the styling of the business's physical location. 
-As this is a fictional business fabricated for demonstration only, the images depicted in the homepage carousel have been chosen to reflect the business's theoretical in-store appearance. 
+As this is a fictional business, the images depicted in the homepage carousel have been chosen to reflect the business's theoretical in-store appearance. 
 
 ---
 ## Strategy
 
 ### Ideal User
-The ideal customer for this site is: 
+The ideal user for this site is: 
 * Age 21-55 with mid to high income.
+* Is tech savvy and owns a smart phone, tablet and or computer.
 * Has disposable income.
-* Living within a 5km radius of the business.
-* Working within a 2km radius of the business.
+* Lives within a 5km radius of the business.
+* Works within a 2km radius of the business.
 * A regular coffee drinker.
 * A person who enjoys dining out regularly.
 * A person who enjoys meeting friends for lunch, dinner, coffee etc...
@@ -148,31 +149,31 @@ A success page loaded upon successful form submission to reassure users their me
 #### [Homepage](https://nickassafkirk.github.io/Cartel-Coffee/index.html) 
  * Main navigation menu - allows users to navigate between pages and sections of the site by linking relevant pages in the header of each page. Bootstraps navbar collapse is used to create a clean and condensed experiece on smaller screen sizes.
  * Hero image slider - allows users to quickly learn the sites purpose by displaying a preview of the business location and decor and outlines the business's key functions (it's a cafe, they open 7 days and they also sell products) with the use of bold overlying captions. The Carousel slider is used to display multiple images clearly across all device sizes.
- * Welcome text - allows users to quickly learn the sites purpose about to build trust in the business and to encourage them to explore more on the site.
+ * Welcome text - allows users to quickly learn the sites purpose, in order to build trust in the business and to encourage users to explore more of the site.
  * Menu section - allows users quick access to the restaurants food and beverage menus so they can order food to collect or decide wether to visit the cafe to dine.
- * Shop categories section - allow users to quickly access the primary shop categories in the online shop so they can shop coffee beans and other populare shop categories.
+ * Shop categories section - allows users to quickly access each individual product category in the online shop so they can access products by their particualr interest.
  * About section -  this section provides more information about the business's background to build trust and rapport with new users.
- * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
+ * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when located at the bottom of the webpage.
 
 #### [Menu Page](https://nickassafkirk.github.io/Cartel-Coffee/menu.html)
- * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons
+ * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons.
  * Intro section - this section qualifies this page's purpose and encourages first time learning. It provides tantalizing information about the cafe's menus and encourages users to explore more. 
  * "Choose Menu" Sub navigation bar - Allows quick navigation to specific page sections to allow swift user navigation to their particular area of interest.
  * Food menu section: shows users the company's primary food options to encourage customers to dine at the cafe or order for takeaway/collection.
- * Dessert menu section: Shows users the business regular dessert options to encourage customers to dine at the cafe or order for takeaway/collection.
+ * Dessert menu section: Shows users the business's regular dessert options to encourage customers to dine at the cafe or order for takeaway/collection.
  * Coffee menu section: Shows users the business's coffee menu to encourage customers to visit the premises for coffee. 
  * Order Section: The order section is added to implement a means to convert users into takeaway customers at the end of the menu page. Call and deliveroo buttons are utilised
  to allow customers to order via their preferred method. 
- * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
+ * Footer - provides links to popular pages and the business's contact information. This allows users to navigate to additional site pages when scrolled to the bottom of the page.
 
 #### [Shop Page](https://nickassafkirk.github.io/Cartel-Coffee/shop.html) 
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons
  * Intro Jumbotron - A brief intro text box explaining the purpose of the page and encouraging first-time learning.
- * Category headings - Group relevant products together by association to increase readability sense of purpose for first time users.
- * Product tiles - Each product is composed of an Image thumbnail, Product tile, price and buy button. Clear, uniform product structure shows customers the key information needed to inform a purchase.
- * Category cection trust marks - These sections summarise additional information relevant to each product category. They are added to provide additional information to build user trust and to show additional value in order to encourage a purchase.
- * Merchandise Jumbotron - A prominent text box to explain new products are coming soon. This is added to inform customers that the shop is regularly updated with new products and to entice customers to return to the site at a later date to make additional purchases.
- * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
+ * Category headings - Relevant products are grouped together by association. Bold headings are utilised to delineate where each section starts and ends and to provide context for each grouping of products.
+ * Product tiles - Each product is composed of an Image thumbnail, Product tile, price and buy button. Clear, uniform product structure shows customers the key information needed to inform a purchase. Buy now buttons are currently utilised for display only.
+ * Category trust marks - These sections summarise additional information relevant to each product category. They are added to provide additional information to build user trust and to show additional value in order to encourage a purchase.
+ * Merchandise Jumbotron - A prominent text box to explain new products are coming soon. This is added to inform customers that the shop is regularly updated with new products to entice customers to return to the site at a later date to make additional purchases.
+ * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolled to the bottom of the page 
 
 #### [Contact/Book Page](https://nickassafkirk.github.io/Cartel-Coffee/contact.html)
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons
@@ -181,20 +182,20 @@ A success page loaded upon successful form submission to reassure users their me
  * Booking form - allows users to book a table at the location to convert users into customers. Form validation ensures bookings are submitted with required information for a quick and easy process for the user and the business.
  * FAQS section - A list of commonly asked questions builds trust with users by allowing users to instantly get answers to commonly asked questions without having to wait for a response by call or email. This increases the chance that users will convert into customers upon their first site visit
  and means staff don't have to reply to commonly asked questions, thus reducing the business's workload.. Bootstrap expand/collapse functionality is used for this section to condense large sections of text into a smaller space for better display on mobile devices. 
- * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
+ * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolled to the bottom of the page 
 
 #### [About page](https://nickassafkirk.github.io/Cartel-Coffee/about.html)
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons.
  * Info section - The about page on this site is used as a placeholder to state that the intention of this site is purely as an educational project. This page has been used as a link location for these footer items; about, terms & conditions, privacy policy, covid-19 and the covid-a9 alert where the creation of specific pages for these links was outside the scope of this project. 
  * Return home button - This button allows users to quickly return to the site hompeage after reading the information section.
- * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
+ * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolled to the bottom of the page 
 
 #### [Form submission page](https://nickassafkirk.github.io/Cartel-Coffee/submit.html)
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons.
  * Success message jumbotron - A bold heading states that the users message has been received. This finalizes form validation and ensures user confidence by communciating clearly that they have used the form correctly. 
  * Faq Link - A link to the FAQs section points to some commonly asked questions that may be relevant to the user's message, in case they previously missed it. 
  * Return home button - This button allows users to quickly return to the site hompeage so they can explore more site content.
- * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolling down the page without having to scroll back to the main nav at the top of the page.
+ * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolled to the bottom of the page 
 
 ---
 ## Skeleton
