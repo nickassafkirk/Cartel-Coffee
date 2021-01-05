@@ -406,12 +406,13 @@ Is used to add content, structure and the ability to navigate to the website.
 Is used to add styles, layout, design and interactivity to the page and to increase usability to users across various devices. 
 
 
-![Boootstrap logo](assets/images/technologies/bootstrap.png)
+![Bootstrap logo](assets/images/technologies/bootstrap.png)
 ### Bootstrap V4.5.3 
 [https://getbootstrap.com/](https://getbootstrap.com/) 
 
 Is used to add structure, layout and a mobile-first responsive design to the website. 
 
+Javascript, jQuery and Popper.js are also referenced by bootstrap for responsive components like the navbar, modals, collapse and accordian.
 
 ![Gitpod Logo](assets/images/technologies/gitpod.png)
 ### Gitpod
