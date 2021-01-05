@@ -162,8 +162,6 @@ Testing involved:
 Manual testing involved going through the site thoroughly to ensure that the format, layout, styles and functionality of the site perform as intended. 
 Testing involved performing testing measures for each page, section and element using mobile, tablet and desktop devices. Chrome dev tools was used to test responsive behaviour between breakpoints. Testing was replicated on most popular browsers, as noted in the compatibility section above, to ensure cross-browser compatibility. 
 
----
-
 ## Common Elements:
 
 ### 1: Navbar 
