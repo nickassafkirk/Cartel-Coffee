@@ -14,8 +14,11 @@ The goal is to build a mobile first site which meets the intial business needs w
 ## UX
 
 The intention of this site is to allow new and existing users to find the business, learn about the business and to convert into physical customers at the business's location or virtual customers via ordering online, over the phone and by email. 
-To provide a great user experience it is important that information is displayed clearly in a logical order of importance. As this website is designed to provide several distinct functions (contact, buy, order and inform), for a broad range of users, emphasis has been made to create multiple interlinking navigation methods so that customers can find and source the information that is relevant to them while ignoring information that may not be relevant at that moment. 
-To increase brand awareness and a consistent experience for online and offline customers, the website has been designed to mirror the styling and motif that customers experience while visiting the business's physical location. 
+To provide a great user experience it is important that information is displayed clearly in a logical order of importance. 
+
+As this website is designed to provide several distinct functions (contact, buy, order and inform), for a broad range of users, emphasis has been made to create multiple interlinking navigation methods so that customers can find and source the information that is relevant to them while ignoring information that may not be relevant at that moment. 
+
+To increase brand awareness and provide a consistent experience for online and offline customers, the website has been designed to mirror the styling and motif that customers experience while visiting the business's physical location. 
 As this is an imagined business the images used in the homepage carousel have been chosen to reflect the business's physical location. 
 
 ---
@@ -61,29 +64,30 @@ As this is an imagined business the images used in the homepage carousel have be
 
 ### Features to be included in initial iteration
 * A prominent logo
-* A Navbar for navigation amongst pages and sections
+* A naviagtion menu for navigation between pages and distinct page sections
 * The business contact information
-* The Business location & map
+* The business location & map
 * A contact form
-* A Booking form
-* The Food & Drinks menus
-* Products & Product information and instructions for purchase.
-* Business social media links
+* A booking form
+* The food & drinks menus
+* Products & product information and instructions on how to make a purchase.
+* The business's social media links
 * A list of commonly asked questions/FAQs
-* A Covid-19 Alert
+* A Covid-19 alert
 
 ### Features/Functionality to be added
 * Functionality to add products to basket
 * Functionality to checkout and purchase products online
 * Functionality to order food online 
 * Detailed food menu item information - Allow a detailed description of the menu food item on click or hover.
-* A functioning contact box in contact.html page to link to preffered email address using PHP.
-* Detailed  Product information - Allow a detailed description of each product on click or hover.
+* A functioning contact box in contact.html page to link to preferred email address using PHP.
+* Detailed  product information - Allow a detailed description of each product on click or hover.
 * Individual product pages - A specific detailed .html page with full product information for each product in the shop.
 * Build out privacy policy & Terms and conditions pages - These footer links are here as placeholders only to display that these are important links to dislay on a consumer facing site. 
-  As this is a "Mock business" these have been left blank but if this were to be used a detailed privacy policy and Terms & conditions page would be created to build customer confidence and adhere to european regulations. 
+  As this is a "fictional business" these have been left blank but if this were to be used a detailed privacy policy and Terms & conditions page would be created to build customer confidence and adhere to european regulations. 
+* A GDPR compliant cookies policy pop up.
 * Add Scroll functionality with wider browser and device support.
-* Add functionality to allow animations associated with links to take place before users are redirected to the link destination to provide a better 
+* Add functionality to allow animations to take place before users are redirected to the link destination, in order provide a better 
 user experience on touch screen devices where hover is not possible.
 
 ---
@@ -91,19 +95,19 @@ user experience on touch screen devices where hover is not possible.
 
 ### Pages
 #### 1. [Homepage](https://nickassafkirk.github.io/Cartel-Coffee/index.html) 
-The Primary landing page for the site which includes the key information on the business and links to additional pages where more detailed information on specific topis can be found.
+The Primary landing page for the site which includes the key information on the business and links to additional pages where more detailed information relating to specific business services can be found.
 
 #### 2. [Menu Page](https://nickassafkirk.github.io/Cartel-Coffee/menu.html)
 This page describes the cafe's food and drink menu, as this is the business primary function it is imperative to clearly display their menu items so that customers can order remotely or make the decision to dine in-store after seeing and liking the menus. 
 
 #### 3. [Shop Page](https://nickassafkirk.github.io/Cartel-Coffee/shop.html) 
-This page displays the customers "take home" product range of coffee, equipment and merchandise. This enables the business to explore additional revenues from existing customers and to reach a new target audience who may not be able to visit their store to buy products or food and drink.
+This page displays the customers "take home" product range of coffee, equipment and merchandise. This enables the business to explore additional revenues from existing customers and to reach a new target audience who may not be able to visit their store to buy products, food or drink in-person.
 
 #### 4. [Contact/Book Page](https://nickassafkirk.github.io/Cartel-Coffee/contact.html)
 This is the primary contact page, where the business's contact information can be found so that potential customers can contact the business and convert into customers by making bookings, visiting the store, phoning, making email contact etc...
 
 #### 5. [About page](https://nickassafkirk.github.io/Cartel-Coffee/about.html)
-This page displays supporting information on the business. It's purpose is to build brand awareness, consumer confidence and trust in the business. As this is a mock business this has been used as a placeholder to state that this project was built for education purposes only.  
+This page displays supporting information on the business. It's purpose is to build brand awareness, consumer confidence and trust in the business. As this is a mock business this has been used as a placeholder to state that this project was built for education purposes only. A basic about us section has been included on the homepage for a similar purpose.
 
 #### 6. [Form submission page](https://nickassafkirk.github.io/Cartel-Coffee/submit.html)
 A success page loaded upon successful form submission to reassure users their message or booking has been received.
@@ -112,8 +116,8 @@ A success page loaded upon successful form submission to reassure users their me
 ### Detailed Features
 
 #### [Homepage](https://nickassafkirk.github.io/Cartel-Coffee/index.html) 
- * Navigation - allows users to navigate between pages and sections of the site by linking relevant pages in the header of each page. Bootstraps navbar collapse is used to create a clean and condensed experiece on smaller screen sizes.
- * hero image slider - allows users to quickly learn the sites purpose by displaying a preview of the business location and decor and outlines the business's key functions (it's a cafe, they open 7 days and they also sell products) with the use of bold overlying captions. The Carousel slider is used to display multiple images clearly across all device sizes.
+ * Main navigation menu - allows users to navigate between pages and sections of the site by linking relevant pages in the header of each page. Bootstraps navbar collapse is used to create a clean and condensed experiece on smaller screen sizes.
+ * Hero image slider - allows users to quickly learn the sites purpose by displaying a preview of the business location and decor and outlines the business's key functions (it's a cafe, they open 7 days and they also sell products) with the use of bold overlying captions. The Carousel slider is used to display multiple images clearly across all device sizes.
  * Welcome text - allows users to quickly learn the sites purpose about to build trust in the business and to encourage them to explore more on the site.
  * Menu section - allows users quick access to the restaurants food and beverage menus so they can order food to collect or decide wether to visit the cafe to dine.
  * Shop categories section - allow users to quickly access the primary shop categories in the online shop so they can shop coffee beans and other populare shop categories.
