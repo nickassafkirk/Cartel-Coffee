@@ -710,7 +710,7 @@ All icons used on this project were sourced from [Fontawesome](https://fontaweso
 
 ## Deployment
 
-This project was developed using the Gitpod IDE, committed to git and pushed to GitHub using the terminal within Gitpod and the gitpod extension for chrome. 
+This project was developed using the Gitpod IDE, committed to Git and pushed to GitHub using the terminal within Gitpod and the Gitpod extension for Chrome. 
 
 ---
 
@@ -718,7 +718,7 @@ This project was developed using the Gitpod IDE, committed to git and pushed to 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
 1. First log into [GitHub account](https://github.com/nickassafkirk).
-1. From the list of oinned repositories on the home screen, select "Cartel-Coffee".
+1. From the list of pinned repositories on the home screen, select "Cartel-Coffee".
 1. From the menu items which includes *Code, Issues, Pull request, Actions, Projects, Wiki, Security, Insights and settings* 
 select the **settings** tab.
 1. Within the settings section, scroll down to the **GitHub Pages** section.
@@ -771,7 +771,7 @@ To Fork this repository:
 1. On the right hand side of the repository page you will see options to watch, star or fork. Click Fork.
 1. This will create a copy of the project in a new repository within your github account.
 1. Once the fork has been created in your github account, it can then be cloned to your prefered editor using one of the methods outlined above.
-1. After changes have been made locally they can be submitted via pull request for aprroval and inclusion in the original project.
+1. After changes have been made locally they can be submitted via pull request for approval and inclusion in the original project.
 
 ---
 
