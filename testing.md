@@ -4,6 +4,46 @@
 
 [Link to Deployed site](https://nickassafkirk.github.io/Cartel-Coffee/index.html)
 
+---
+
+## Validation: 
+
+### HTML   
+All html files were validated using the [W3C markup validation service](https://validator.w3.org/). 
+All html files passed validation.
+
+**Errors:** 
+There were no errors for the deployed version of this project.
+
+**Warnings**
+There were no warnings for the deployed version of this project.
+
+### CSS
+
+All css files were validating using the [W3C CSS validation service](https://jigsaw.w3.org/css-validator/)
+
+![W3C Css validation badge](assets/images/vcss-blue.gif)
+
+**Errors:** 
+No errors were returned for the deployed version of this project.
+
+**Warnings**
+33 warning messages were returned during validation of the deployed version of this site. These warnings are due to some specific css features not being supported by the Jigsaw validation service and can therefore be **ignored**.
+
+*Vendor Prefixes*   
+23 warning messages are due to the use of vendor prefixes. This is because the vendor prefixes are browser specific properties and are not in the official CSS specification and therefore 
+return warnings during validation despite being considered good practice to ensure cross-browser compatibility. 
+This issue is outlined in the [following article](https://www.456bereastreet.com/archive/201101/css_validator_to_report_vendor-specific_extensions_as_warnings_not_errors/) 
+and in [this stackexchange forum](https://stackoverflow.com/questions/1889724/how-to-validate-vendor-prefixes-in-css-like-webkit-and-moz)
+Therefore these warning messages can be ignored. 
+
+*Root Variables*    
+10 warning messages are due to the use of root variables used for colors and fonts on the site. These are returning warning messages upon validation 
+because root variables are currently not supported by the validation service despite being widely supported across popular browsers. 
+This issue has been outlined at [this link](https://github.com/w3c/css-validator/issues/111) and therefore the warnings can be ignored.
+
+---
+
 ## User Story Testing
 
 ### User stories
@@ -61,8 +101,10 @@
     where the first FAQ heading is clearly regarding accessibility for customer with additional needs. Finally a user may access the FAQs section via the link in the footer which is accessible from every page. 
     **Result:** The site features satisfy the needs outlined in the user story.
 
-## Manual Testing
 ---
+
+## Manual Testing
+
 Manual testing involved going through the site thoroughly to ensure that the format, layout, styles and functionality of the site perform as intended. 
 Testing involved: 
 1. Testing the site using multiple browsers to ensure cross-browser compatibility.
@@ -92,6 +134,7 @@ Testing involved:
 
 1. Additional testing was carried out by asking friends and family to test the site and to provide feedback on a range of devices. 
     From which a number of spelling areas were corrected and stylistic changes were made.
+
 ---
   
 ## Common Elements:
@@ -129,7 +172,7 @@ avoid overflow. The Navbar should expand/collapse at set breakpoint.
  * **Test:** Clicked the burger stack icon on all pages and touch and cursor devices. Expanded and minimized the viewport to test the collapse functionality.       
  * **Result:** Verified that burger stack functions as anticipated on click, that the navbar expands/collapses at the correct breakpoint and that navbar items are aligned to right as desired.     
  
-## Footer
+### Footer
 
 * **Aim:** Footer should occupy 100% screenwidth across all screensizes and be present at the bottom of the page at all times.
  The footer columns should re-shuffle at 768px breakpoint to ensure proper display on smaller screenwidths. 
@@ -384,27 +427,21 @@ I clicked each other FAQ header while each individual card was open and observed
 * **Test:** To test I clicked the return home button and observed it's behaviour. 
 * **Result:** The return home button links to the site homepage as intended.
 
-
-Bugs
-footer: brew equipment not linking correctly
-
-homepage: dessert tile not linking correctly
-
-image alts for all images
-
-Menu page background image is too grey on mobile. It looks like the page hasn't loaded correctly. 
-
 --- 
 
-## User stories testing: 
-
----
-
 ## Additional Testing
+
+Additional testing was carried out by asking friends and family to test the site and to provide feedback on a range of devices. 
+From this additional testing a number of spelling areas were corrected and minor stylistic changes were made to ensure consistent styling across as many devices and browsers as possible.
+In general the feedback was positive and no major issues were reported.
 
 ---
 
 ## Bugs
+
+During the development and testing phases of this project a number of bugs were indentified. A detailed 
+description of the main bugs experienced can be seen below. Where code used to fix bufs was found in forums or from other developers, additional information has
+been documented in the credits section of the main [README.md](README.md) file.
 
 ### Bugs Fixed
 

@@ -362,6 +362,34 @@ In future iterations of this project, I hope to allow animations associated with
 user experience on touch screen devices where hover is not possible.
 
 ---
+
+## Testing
+
+The current deployed version of this project has been thoroughly tested to ensure a great user experience on most common device types.
+Testing has also confirmed compatibility with all common browsers to accommodate a great user experience and predictable functionality 
+for as many users as possible. 
+
+The responsive functionality of the site has been tested to work on most common devices with a 320px screen-width and larger. 
+
+The full testing can be found in [the separate testing.md file](testing.md)
+
+---
+
+## Code 
+
+The code in this project was written by me ([Nick Kirk](https://github.com/nickassafkirk)) the project owner. Any code snippets written by other developers or found from online resources have been credited
+in the credits section below.
+
+### Frameworks
+**Bootstrap** CDN was used to create a responsive site design. Several bootstrap components were utilised including navbar, jumbotrons, alerts, modals, forms and the collapse functionality. 
+Custom CSS was used to apply unique styling to bootstrap components.
+
+### Vendor Prefixes
+Vendor prefixes were added to the main stylesheet using [autoprefixer](https://autoprefixer.github.io/) to ensure styles are applied as consistently 
+as possible across different browsers.
+
+---
+
 ## Technologies Used
 
 ![HTML5 Logo](assets/images/technologies/html5.png)
@@ -407,74 +435,10 @@ Is used to create wireframes as visual mockups of the final site design
 
 ---
 
-## Testing
-
-The current deployed version of this project has been thoroughly tested to ensure a great user experience on most common device types.
-Testing has also confirmed compatibility with all common browsers to accommodate a great user experience and predictable functionality 
-for as many users as possible. 
-
-The responsive functionality of the site has been tested to work on most common devices with a 320px screen-width and larger. 
-
-The full testing can be found in [the separate testing.md file](testing.md)
-
----
-
-## Validation: 
-
-### HTML   
-All html files were validated using the [W3C markup validation service](https://validator.w3.org/)
-All html files passed validation.
-
-**Errors:** 
-There were no errors for the deployed version of this project.
-
-**Warnings**
-There were no warnings for the deployed version of this project.
-
-### CSS
-
-All css files were validating using the [W3C CSS validation service](https://jigsaw.w3.org/css-validator/)
-
-![W3C Css validation badge](assets/images/vcss-blue.gif)
-
-**Errors:** 
-No errors were returned for the deployed version of this project.
-
-**Warnings**
-33 warning messages were returned during validation of the deployed version of this site. These warnings are due to some specific css features not being supported by the Jigsaw validation service and can therefore be **ignored**.
-
-*Vendor Prefixes*   
-23 warning messages are due to the use of vendor prefixes. This is because the vendor prefixes are browser specific properties and are not in the official CSS specification and therefore 
-return warnings during validation despite being considered good practice to ensure cross-browser compatibility. 
-This issue is outlined in the [following article](https://www.456bereastreet.com/archive/201101/css_validator_to_report_vendor-specific_extensions_as_warnings_not_errors/) 
-and in [this stackexchange forum](https://stackoverflow.com/questions/1889724/how-to-validate-vendor-prefixes-in-css-like-webkit-and-moz)
-Therefore these warning messages can be ignored. 
-
-*Root Variables*    
-10 warning messages are due to the use of root variables used for colors and fonts on the site. These are returning warning messages upon validation 
-because root variables are currently not supported by the validation service despite being widely supported across popular browsers. 
-This issue has been outlined at [this link](https://github.com/w3c/css-validator/issues/111) and therefore the warnings can be ignored.
-
----
-
-## Code 
-
-The code in this project was written by me ([Nick Kirk](https://github.com/nickassafkirk)) the project owner. Any code snippets written by other developers or found from online resources have been credited
-in the credits section below.
-
-### Frameworks
-**Bootstrap** CDN was used to create a responsive site design. Several bootstrap components were utilised including navbar, jumbotrons, alerts, modals, forms and the collapse functionality. 
-Custom CSS was used to apply unique styling to bootstrap components.
-
-### Vendor Prefixes
-Vendor prefixes were added to the main stylesheet using [autoprefixer](https://autoprefixer.github.io/) to ensure styles are applied as consistently 
-as possible across different browsers.
-
----
 ## Credits
 
 ### Content Credits
-All text is unique content written by me ([Nick Kirk](https://github.com/nickassafkirk)) the project owner for the purpose of this project. The business described by this project is of fictitious nature and has been fabricated purely for educational purposes.
+All text is unique content written by me, ([Nick Kirk](https://github.com/nickassafkirk)) the project owner, for the purpose of this project. The business described by this project is of fictitious nature and has been fabricated to prototype this site design for educational purposes.
 
 ---
 ### Code Credits
@@ -491,7 +455,7 @@ All text is unique content written by me ([Nick Kirk](https://github.com/nickass
     means that is supported by all browsers and devices.
 
 - To vertically center the carousel caption text on the index.html page. I used the transform technique as described in [this forum](https://stackoverflow.com/questions/27279865/how-to-vertically-center-a-bootstrap-carousel-caption)
- from which I utilised this snippet of css:
+ from which I utilised a snippet of css which has been edited for the purposes of this project as seen below:
 
     ```
         .carousel-caption{
@@ -561,7 +525,7 @@ All text is unique content written by me ([Nick Kirk](https://github.com/nickass
     }
     ```
 - To enable modals to appear upon page load by default I found a solution at [this article](https://www.tutorialrepublic.com/faq/how-to-launch-bootstrap-modal-on-page-load.php#:~:text=Answer%3A%20Use%20the%20Bootstrap%20.,modal('show')%20method&text=modal('show')%20method%20for%20launching%20the%20modal%20window,to%20subscribe%20the%20website%20newsletter.)
- I edited this simple script 
+ I edited this simple script by adding my modal's custom ID as displayed below:
     ```
     $(document).ready(function(){
         $("#shopmodal").modal('show');
@@ -579,7 +543,7 @@ All text is unique content written by me ([Nick Kirk](https://github.com/nickass
         }
     ```
 
-- To change the icon displayed when showing/hiding a bootstrap collapse component I used a technique found in [this article stackexchange forum](https://stackoverflow.com/questions/19024218/bootstrap-3-collapse-change-chevron-icon-on-click)
+- To change the icon displayed, when showing/hiding a bootstrap collapse component I used a technique found in [this article stackexchange forum](https://stackoverflow.com/questions/19024218/bootstrap-3-collapse-change-chevron-icon-on-click)
     
     ```
     HTML:
@@ -599,7 +563,7 @@ All text is unique content written by me ([Nick Kirk](https://github.com/nickass
     ```
 
 - To add a wiggle functionality to the menu pages call Icons/Images, I customised code found at [this codepen demo](https://codepen.io/theDeanH/pen/zBZXLN)
-The original is as seen below:
+  This animation was customised for use in this project to include properties that do not include vendor prefixes. The original code segment is as seen below: 
 
     ```
     p:hover {
@@ -639,12 +603,15 @@ The original is as seen below:
     ```
 
 ---
+
 ### README Credits
 
 I'd like to thank A Greaves who's excellent [README example](https://github.com/AJGreaves/portrait-artist/blob/master/TESTING.md) was used as guide in the creation of this README.
 
 The Code institute [Sample README](https://github.com/Code-Institute-Solutions/SampleREADME) was also used as a template for this project
+
 ---
+
 ### Image Credits:
 The photos used in this site were primarily sourced from [Unsplash.com](https://www.unsplash.com) and have been utilised for educational purposes only. 
 A full list of images used in this project can be seen below:
