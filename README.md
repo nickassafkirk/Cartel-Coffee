@@ -151,7 +151,7 @@ A success page loaded upon successful form submission to reassure users their me
  * Hero image slider - allows users to quickly learn the sites purpose by displaying a preview of the business location and decor and outlining the business's key functions (it's a cafe, they open 7 days and they also sell a range of products) with the use of bold overlying captions. The Carousel slider is used to display multiple images clearly across all device sizes.
  * Welcome text - allows users to quickly learn the sites purpose, in order to build trust in the business and to encourage users to explore more of the site.
  * Menu section - allows users quick access to the restaurant's food and beverage menus so they can order food to collect or decide wether to visit the cafe to dine.
- * Shop categories section - allows users to quickly access each individual product category in the online shop so they can access products by their particualr interest.
+ * Shop categories section - allows users to quickly access each individual product category in the online shop so they can access products by their particular interest.
  * About section -  this section provides more information about the business's background to build trust and rapport with new users.
  * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when located at the bottom of the webpage.
 
@@ -173,29 +173,32 @@ A success page loaded upon successful form submission to reassure users their me
  * Product tiles - Each product is composed of an Image thumbnail, Product tile, price and buy button. Clear, uniform product structure shows customers the key information needed to inform a purchase. Buy now buttons are currently utilised for display only.
  * Category trust marks - These sections summarise additional information relevant to each product category. They are added to provide additional information to build user trust and to show additional value in order to encourage a purchase.
  * Merchandise Jumbotron - A prominent text box to explain new products are coming soon. This is added to inform customers that the shop is regularly updated with new products. This aims to entice customers to return to the site at a later date to see new products and to make additional purchases.
- * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolled to the bottom of the page 
+ * Shop Modal - A modal pop up upon page load, informs customers that online store is under construction and directs to order by phone or email. As the scope of this project was to build a static project, this modal is utilised to explains lack of buy now button functionality. In future development of this 
+   project functionality should be added to ensure that this modal only appears on first visit to the shop page during a session. To improve the user experience when revisiting the shop page in a single session. 
+ * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolled to the bottom of the page.
 
 #### [Contact/Book Page](https://nickassafkirk.github.io/Cartel-Coffee/contact.html)
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons
  * Embedded map iframe - allows users to see the store's physical location. Clicking the map on mobile opens directions to the store in google maps. This allows new users to navigate easily to the cafe. 
  * Contact form - allows customers to make general email enquiries without the need to open another tab or their email application. By entering their name, email address, phone number (optional) and their message users can contact the business with their enquiry. Form validation ensures customers that ther enquiry has been submitted and notifies and prevents submission if a required field has been missed. 
  * Booking form - allows users to book a table at the location to convert users into customers. Form validation ensures bookings are submitted with required information for a quick and easy process for the user and the business.
- * FAQS section - A list of commonly asked questions builds trust with users by allowing users to instantly get answers to commonly asked questions without having to wait for a response by call or email. This increases the chance that users will convert into customers upon their first site visit
- and means staff don't have to reply to commonly asked questions, thus reducing the business's workload.. Bootstrap expand/collapse functionality is used for this section to condense large sections of text into a smaller space for better display on mobile devices. 
- * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolled to the bottom of the page 
+ * FAQS section - A list of commonly asked questions builds trust with users by allowing users to instantly get answers to commonly asked questions. This increases the chance that users will convert into customers upon their first site visit by reducing wait times for commonly asked queries. This also reduces the business's workload by reducing the hours spent by staff replying to commonly asked questions. 
+   Bootstrap expand/collapse functionality is used for this section to condense large sections of text into a smaller space for better display on mobile devices. 
+ * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolled to the bottom of the page. 
 
 #### [About page](https://nickassafkirk.github.io/Cartel-Coffee/about.html)
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons.
- * Info section - The about page on this site is used as a placeholder to state that the intention of this site is purely as an educational project. This page has been used as a link location for these footer items; about, terms & conditions, privacy policy, covid-19 and the covid-a9 alert where the creation of specific pages for these links was outside the scope of this project. 
+ * Info section - The about page on this site is used as a placeholder to state that the intention of this site is purely as an educational project. 
+   This page has been used as a placeholder link for footer items where the creation of a specific page was outside the scope of this project. 
  * Return home button - This button allows users to quickly return to the site hompeage after reading the information section.
- * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolled to the bottom of the page 
+ * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolled to the bottom of the page. 
 
 #### [Form submission page](https://nickassafkirk.github.io/Cartel-Coffee/submit.html)
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons.
  * Success message jumbotron - A bold heading states that the users message has been received. This finalizes form validation and ensures user confidence by communciating clearly that they have used the form correctly. 
  * Faq Link - A link to the FAQs section points to some commonly asked questions that may be relevant to the user's message, in case they previously missed it. 
  * Return home button - This button allows users to quickly return to the site hompeage so they can explore more site content.
- * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolled to the bottom of the page 
+ * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolled to the bottom of the page. 
 
 ---
 ## Skeleton
