@@ -205,16 +205,16 @@ A success page loaded upon successful form submission to reassure users their me
 
 ### Navigation
 
-1. **Main Navigation:** A consistent top nav bar is present across all site pages to allow navigation through various pages. 
+1. **Main Navigation:** A consistent top nav bar menu is present at the top of each page to allow navigation to the key site pages from each individual webpage. 
     ![main nav screenshot](assets/images/readmeimgs/main_nav.png)
      Bootstrap navbar expand/collapse classes were used to improve user experience on mobile devices.
 
-     The navbar menu items are listed in order of importance. With the business's primary services listed in order of priority from left to right or top to bottom on mobile.
+     The navbar menu items are listed in order of importance. With the business's primary services listed in order of priority from left to right on desktop and tablet or top to bottom on mobile.
     
     ![main nav collapse screenshot](assets/images/readmeimgs/navbar_collapse.png)
     
-    I chose to align the navbar collapse icon and collapsed to the menu to the right as [research shows](https://www.livescience.com/what-causes-left-handedness.html) that 85% - 90% of users are right handed and right-alignment results in marginally easier use for right-handed users.
-    The Active class is used highlight the current page.
+    I chose to align the navbar collapse icon and collapsed menu items to the right of the screen, as [research shows](https://www.livescience.com/what-causes-left-handedness.html) that 85% - 90% of users are right handed and right-alignment results in marginally easier use for right-handed users.
+    The Active class is used highlight the current page to encourage first time learning of the navigation menu functionality.
     
 2. **Footer navigation:** A consistent bottom footer allows users to navigate between additonal site pages and sections to those included in the main navbar located in the page header. This aids navigation to next point of interest once a user has scrolled down the page.
    Many of the footer items link to specific page section IDs, allowing more targetted navigation to specific sections of information on the site. The footer links essentially list the company's key products and services to teach users the scope of the businesses products and services and encourage 
@@ -236,7 +236,7 @@ A success page loaded upon successful form submission to reassure users their me
 
     ![](assets/images/Hover.png)
 
-5. **IDs as Links/Anchor Links/Jumo Links:** IDs have been used to allow quick navigation to specific sections on a single webpage. This is designed to aid conversion by bringing the user directly to their point of interest without the potential to get distracted when scrolling past content. 
+5. **IDs as Links/Anchor Links/Jump Links:** IDs have been used to allow quick navigation to specific sections on a single webpage. This is designed to aid conversion by bringing the user directly to their point of interest without the potential to get distracted when scrolling past content. 
    The use of ID based navigation also allows sections distinct information to be condensed onto a fewer number of pages for a better user experience, a more condensed site and faster page load times. The footer utilises several IDs as links to specific sections
    on the menu, shop and contact pages.
 
@@ -267,30 +267,35 @@ A responsive view of the site can be found at [this link](http://ami.responsived
 
 ### Fonts
 **General**
-Sans-serif fonts have been chosen site-wide for a minimilistic style, consistent with the companies interior decor and to improve legibility for site users.
-Font-size and line height are adjusted on different device sizes to ensure correct distribution of information and layout across all devices. Adding additional line height and text-padding to clickable links on smaller screenwidths adds additional space between links to 
-aid navigation and touch-interaction on touch-screen devices.
+
+Sans-serif fonts have been chosen site-wide for a minimilistic style, consistent with the company's interior decor. Sans serif fonts also improve legibility for site users on small screenwidths when text is more condensed.
+Font size and line height are adjusted on different device sizes to ensure correct distribution of information and layout across all devices. Adding additional line height and text-padding to clickable links on smaller screenwidths adds additional space between links to 
+aid click activity and touch-interaction on touch-screen devices.
 
 **Logo & Title Fonts**
+
 The Bebas Neue font is used for the company logo, carousel image titles and section headings. It was chosed because of it's bold appearance and clear readability. This font has been styled to be uppercase with a heavier font-weight than the body text
 to create recognisable branding and obvious visual impact for key site information. 
 
 **Body Fonts**
+
 The Montserrat font was selected for the body text for it's slim, legible and professional appearance. A much lighter font-weight is used to reinforce an overall minimilistic style 
-and to create contrast between branding text and headings. 
+and to create contrast between logo text and headings. This improves the communication of the hierarchy of information.
 
 **Headings**
+
 Headings also utilise the Bebas Neue font to reinforce that section headings denote the start of key sections of information with a higher priority of importance than accompanying body text.
 
 **Additional Fonts**
+
 The Sans-serif font has been chosen as a fallback font if chosen fonts cannot be loaded from external resources.
 
 ---
 
 ### Colors
 Colors are used to increase contrast, visual impact and to improve readability across the site. A grey, blue and white color palette has
-been chosen to add a neutral professional and minimalistic site design and to appeal to a broad range of users. Specific section areas are styled with consisted coloring to reinforce the correlation between different areas of relevant content. 
-Root variables were used to allow quick design changes to be made. The main colors used on this project are as follows:
+been chosen to add a neutral professional and minimalistic site design and to appeal to a broad range of users. Specific section areas are styled with consistent coloring to reinforce the correlation between different areas of relevant content. 
+Root variables were used to allow quick design changes to be made and to facilitate future color changes if necessary. The main colors used on this project are as follows:
 
 **`--custom: #212121;`** This is the primary brand color a dark grey pantone used for the navbar, footer background and homepage section headings. 
 
