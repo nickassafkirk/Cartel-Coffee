@@ -34,26 +34,32 @@
    **Result:** The site features satisfy the needs outlined in the user story. Improvements could be made by adding a dedicated gallery page to the site or by adding an instagram feed embed. 
 
 1. As a potential customer I want to see the Cafe's location on a map, so I know where to find the business.    
-    **To Test:** A new customer landing on the homepage can access the companies address by navigating to the contact page, which is clearly labelled in the main navbar. A user can get the business's location in the footer which is accessible from every site page. 
-    Clicking the contact page or the footer address links the user to the site's contact page. Here the first page section is a clearly labelled Find us section with a large embedded map link and a the company's full address listed clearly. 
+    **To Test:** A new customer landing on the homepage can access the company's address by navigating to the contact page, which is clearly labelled in the main navbar. A user can get the business's location in the footer which is accessible from every site page. 
+    Clicking the contact page or the footer address links the user to the site's contact page. Here the first page section is a clearly labelled Find us section with a large embedded map link. The company's full address is also listed clearly for manual entry into maps, sat nav etc.. 
     Clicking the map pin will open google maps in a new tab where the user can get directions to visit the cafe.    
     **Result:** The site features satisfy the needs outlined in the user story.
 
 1. As a potential customer I want to know when the business is open so I can visit the business.    
-    **To Test:**      
-    **Result:** 
+    **To Test:** A new user landing on any page can access the contact page from the main navigation menu. A user can also visit the contact page by clicking the find us footer link.
+    On the contact page the cafe's opening hours are clearly listed in the first page section. A customer can also see the business address and location on a map in the same page section, should they choose to visit the cafe.  
+    **Result:** The site features satisfy the needs outlined in the user story.
 
 1. As a new user I need to be able to navigate between site pages so I can view multiple site pages.    
-    **To Test:**      
-    **Result:**
+    **To Test:** A new user landing on any page can navigate between the different site pages by clicking the prominent navigation menu items at the top of every page. A user can also navigate to more specific page locations by using the detailed
+    page section links present in the site footer, which is present at the bottom of each site page.     
+    **Result:** The site navigation satisfies the user's needs from this user story.
 
 1. As a new user I want to trust the business and value their products so I can ensure I am spending my money wisely.   
-    **To Test:**      
-    **Result:**
+    **To Test:**  From the  homepage a user can view the business's about information which qualifies the business. An address and contact details in the footer show that the business has a physical location and can be contacted. The about page, Terms and conditions ans privacy policy 
+    show that the business has a professional approach and build trust with the user. By navigating to the shop page a user can see the product range offered by the business. Descriptive images, clear titles and prices display the products quality and value. Trust marks in each product section 
+    add additional value to the products with free shipping returns etc... All of these factors show new users that the business can be trusted and that their products are of adequate quality and value.  
+    **Result:** The site features satisfy the needs outlined in the user story.
 
 1. As a potential customer I need to know if the business is wheelchair accessible so I can decide if the business is suitable for people with disabilities.    
-    **To Test:**      
-    **Result:**
+    **To Test:** A new user can access the business's contact details from the footer of every page. A user can contact the business by phone or email to enquire if the business premises is wheelchair accessible.
+    Alternatively a user can access the contact page from the navbar or footer of any page on the site. Once on the contact page a user can make an enquiry or call the business via the contact form or phone number. Alternatively a user can scroll to the FAQ section
+    where the first FAQ heading is clearly regarding accessibility for customer with additional needs. Finally a user may access the FAQs section via the link in the footer which is accessible from every page. 
+    **Result:** The site features satisfy the needs outlined in the user story.
 
 ## Manual Testing
 ---
@@ -70,19 +76,22 @@ Testing involved:
    | Opera         |   &#9745;  |
    | Microsoft Edge|   &#9745;  |
 
-2. Testing the site across a range of devices to ensure a responsive site that provides a great user experience on all devices.
+1. Testing the site across a range of devices to ensure a responsive site that provides a great user experience on all devices.
    The site was tested on: 
 
    | IOS           | Windows/Android         |
    |---------------|-------------------------|
    |Macbook Pro 13"| Hp Pavillion 22"        |
    |Iphone 5s      | Samsung a51             |
-   |Iphone 6s Plus | Xiaomi Redmi note 9 Pro |
-   |Iphone SE      |
+   |Iphone 6s Plus | Samsung a50             |
+   |Iphone SE      | Xiaomi Redmi note 9 Pro |
    |Iphone XS      |
    |Ipad Mini      |
    
-3. Testing the site using chrome dev tools to confirm desired functionality across all breakpoints and screen-widths. 
+1. Testing the site using chrome dev tools to confirm desired functionality across all breakpoints and screen-widths. 
+
+1. Additional testing was carried out by asking friends and family to test the site and to provide feedback on a range of devices. 
+    From which a number of spelling areas were corrected and stylistic changes were made.
 ---
   
 ## Common Elements:

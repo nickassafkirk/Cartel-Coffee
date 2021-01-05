@@ -664,6 +664,7 @@ The original is as seen below:
 
 I'd like to thank A Greaves who's excellent [README example](https://github.com/AJGreaves/portrait-artist/blob/master/TESTING.md) was used as guide in the creation of this README.
 
+The Code institute [Sample README](https://github.com/Code-Institute-Solutions/SampleREADME) was also used as a template for this project
 ---
 ### Image Credits:
 The photos used in this site were primarily sourced from [Unsplash.com](https://www.unsplash.com) and have been utilised for educational purposes only. 
