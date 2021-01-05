@@ -5,26 +5,44 @@
 ---
 ## Overview
 
-The purpose of this project is to build a mobile responsive website for a new coffee shop in Dublin called Cartel coffee. The Business wants to increase their online visibility, increase revenue and to attract new customers. They want to introduce the ability to receive takeaway orders and start selling online. They want to use the site as a platform to update customers on business changes and to continue trading if restaurants are forced to close during Covid-19 restrictions. 
-The goal is to build a mobile first site which meets the intial business needs while providing an excellent user experience for site users. 
+The purpose of this project is to build a mobile responsive website for a new coffee shop in Dublin called Cartel coffee. By creating this site the business wants to increase their online visibility, increase revenue and to attract new customers to their business. They wish to introduce the ability to receive takeaway orders and start selling coffee and associated products online.     
+They want to use the site as a platform to update customers on business changes and news and as a means to continue trading if restaurant is forced to close during Covid-19 lockdown restrictions.     
+The goal of this project is to build a mobile first site which meets the intial business needs while providing an excellent user experience for site users. 
 
 **NB:** *This is a theoretical business created for educational purposes only*
 
 ---
 ## UX
 
-The intention of this site is to allow new and existing users to find the business, learn about the business and to convert into physical customers at the business's location or virtual customers via ordering online, over the phone and by email. 
-To provide a great user experience it is important that information is displayed clearly in a logical order of importance. 
+The intention of this site is to enable new and existing users, who are searching online, to find cartel coffee and to learn about the business's background, products and services. 
 
-As this website is designed to provide several distinct functions (contact, buy, order and inform), for a broad range of users, emphasis has been made to create multiple interlinking navigation methods so that customers can find and source the information that is relevant to them while ignoring information that may not be relevant at that moment. 
+The primary business goal is to convert customers who are landing on the site into physical customers at the business's location. 
+To achieve this goal the site's key focus is to provide the means to enable customers to make bookings to dine at the store, to order food for collection at the business's physical location and to generate general enquiries from potential customers landing on the site.
 
-To increase brand awareness and provide a consistent experience for online and offline customers, the website has been designed to mirror the styling and motif that customers experience while visiting the business's physical location. 
-As this is an imagined business the images used in the homepage carousel have been chosen to reflect the business's physical location. 
+The secondary goal of this site is to generate new revenue streams by offering coffee and associated products for sale online, by phone or email and to provide takeaway options by linking to 3rd party takeaway apps such as deliveroo, just eat, uber eats etc... 
+
+As this website is designed to provide several distinct functions (contact, order, buy and inform), for a broad range of users, emphasis has been made to create multiple inter-linking navigation methods so that customers can find and source the information that is relevant to them while ignoring information that may not be relevant at that moment. 
+To provide a great user experience every effort has been made to ensure that information is displayed clearly in a logical order of importance. 
+
+To increase brand awareness and provide a consistent user experience for online and offline customers, the website has been designed to mirror the styling and motif that customers experience while visiting the business's physical location. 
+As this is an imagined business the images depicted in the homepage carousel have been chosen to reflect the business's physical location. 
 
 ---
 ## Strategy
 
-### User goals
+### Ideal User
+The ideal customer for this site is: 
+* Age 21-55 with mid to high income.
+* Has disposable income.
+* Living within a 5km radius of the business.
+* Working within a 2km radius of the business.
+* A regular coffee drinker.
+* A person who enjoys dining out regularly.
+* A person who enjoys meeting friends for lunch, dinner, coffee etc...
+* A person who brews coffee at home or in the office.
+* A person who orders takeaway frequently.
+
+### User Goals
 * Users want to know the purpose of the site immediately.
 * Users want to learn more about the business.
 * Users want to view the business's menus.
@@ -35,13 +53,14 @@ As this is an imagined business the images used in the homepage carousel have be
 * Users want to contact the shop for more information.
 * Users want to visit the business's social media profiles to learn more about them.
 
-### Business Needs
+### Business Goals
 * The business owner wants to increase their online awareness.
 * The business owner wants to interact with new and existing customers online.
 * The business owner wants to increase revenues by attracting new customers who are searching for local businesses online.
 * The business owner wants to increase their brand awareness by providing background information about the business.
 * The business owner wants to prequalify customers and speed up how customers order in store by displaying their menus online.
 * The business owner wants to allow takeaway orders by displaying their menu and contact information online.
+* The business owner wants to increase takeaway orders by linking to 3rd party delivery applications.
 * The business owner wants to receive more reservations by providing customers with their booking policy and contact information online.
 * The business owner wants to engage existing customers by displaying new products and menu items.
 * The business wants to increase revenues by offering coffee, subscriptions, equipment and merchandise for sale online.
@@ -53,9 +72,9 @@ As this is an imagined business the images used in the homepage carousel have be
 1. As a new user I want to fill out a contact form so that I can make a reservation for dinner.
 1. As a new user I want to view the business's product range and contact details so I can order products remotely. 
 1. As a new user I want to view a gallery of the Cafe and their social media, so I can decide if it is an appropriate environment to hold a business meeting.
-1. As a potential customer I want to see the Cafe's location on a map, so I know where to find the business. 
-1. As a potential customer I want to know when the business is open so I can visit the business.
-1. As a new user I need to be able to navigate between site pages so I can view multiple site pages.
+1. As a potential customer I want to see the Cafe's location on a map, so I can visit the business premises. 
+1. As a potential customer I want to know when the business is open so I can visit during opening times.
+1. As a new user I need to be able to navigate between pages so I can view multiple site pages.
 1. As a new user I want to trust the business and value their products so I can ensure I am spending my money wisely.
 1. As a potential customer I need to know if the business is wheelchair accessible so I can decide if the business is suitable for people with disabilities.
 
@@ -63,30 +82,33 @@ As this is an imagined business the images used in the homepage carousel have be
 ## Scope 
 
 ### Features to be included in initial iteration
-* A prominent logo
-* A naviagtion menu for navigation between pages and distinct page sections
-* The business contact information
-* The business location & map
-* A contact form
-* A booking form
-* The food & drinks menus
+* A prominent logo.
+* A naviagtion menu for navigation between pages and distinct page sections.
+* The business contact information.
+* The business location & map.
+* A general contact form.
+* A specific booking form.
+* The food & drinks menus.
+* A link to deliveroo.
 * Products & product information and instructions on how to make a purchase.
-* The business's social media links
-* A list of commonly asked questions/FAQs
-* A Covid-19 alert
+* The business's social media links.
+* A list of commonly asked questions/FAQs.
+* A Covid-19 alert.
+* A form submission message.
+* An about, terms and conditions, Covid-19 and privacy policy placeholder page.
 
 ### Features/Functionality to be added
-* Functionality to add products to basket
-* Functionality to checkout and purchase products online
-* Functionality to order food online 
-* Detailed food menu item information - Allow a detailed description of the menu food item on click or hover.
-* A functioning contact box in contact.html page to link to preferred email address using PHP.
-* Detailed  product information - Allow a detailed description of each product on click or hover.
-* Individual product pages - A specific detailed .html page with full product information for each product in the shop.
+* Functionality to add products to basket to improve the customer shopping experience.
+* Functionality to checkout and purchase products online to aid online conversion.
+* Functionality to order food online to improve the customer ordering experience.
+* Detailed food menu item information - Allow a detailed description of the menu food item on click or hover to improve the customer ordering experience.
+* A functioning contact box in contact.html page to forward submitted enquiries and bookings to preferred email address using PHP.
+* Detailed  product information - Allow a detailed description of each product on click or hover to improve the user's online shopping experience.
+* Individual product pages - A specific detailed .html page with full product information for each product in the shop. To improve online conversion, seo and site traffic. 
 * Build out privacy policy & Terms and conditions pages - These footer links are here as placeholders only to display that these are important links to dislay on a consumer facing site. 
-  As this is a "fictional business" these have been left blank but if this were to be used a detailed privacy policy and Terms & conditions page would be created to build customer confidence and adhere to european regulations. 
-* A GDPR compliant cookies policy pop up.
-* Add Scroll functionality with wider browser and device support.
+  As this is a "fictional business" these are linked to a placeholder page (about.html) but if this were to be used commercially, a detailed privacy policy and Terms & conditions page would be created to build customer confidence and adhere to european regulations. 
+* A GDPR compliant cookies policy pop up to comply to EU regulations.
+* Add Scroll functionality with wider browser and device support to improve the user experience when navigating to anchor links.
 * Add functionality to allow animations to take place before users are redirected to the link destination, in order provide a better 
 user experience on touch screen devices where hover is not possible.
 
