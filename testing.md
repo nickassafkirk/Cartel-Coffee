@@ -47,14 +47,14 @@ This issue has been outlined at [this link](https://github.com/w3c/css-validator
 ## User Story Testing
 
 ### User stories
-1. As a new user I want to see the menu and phone number so I can order food for collection.    
+#### 1. As a new user I want to see the menu and phone number so I can order food for collection.    
    
    **To Test:**  From homepage a new user can click the menu link in the navbar from all pages. A new user can access the menu page from the popular menu tiles on the site homepage. A user can easily access the menu page from the site footer on all pages.
    Once on the menu page a user can clearly see the menu options and pricing in order to choose what they would like to order. Upon scrolling down the customer is provided with clear instructions on how to order. They can call to order via the call button or copy the phone number from the footer.   
    
    **Result:** The site features and functionality satisfy the needs outlined in the user story.
 
-1. As a new user I want to fill out a contact form so that I can make a reservation for dinner.      
+#### 1. As a new user I want to fill out a contact form so that I can make a reservation for dinner.      
     
     **To Test:**  A clearly labelled "contact" page is accessible in the navbar from all pages. A clearly labelled "Book" link is accessible in the navbar accessible from all pages. A "make a booking" link is located in the footer which is accessible from all site pages. When accessing the contact page the make a booking section is clearly labelled.
     When accessing the contact page by clicking the "Book" navbar menu option or the "make a booking" footer link, the user is scrolled directly to the booking form. 
@@ -63,7 +63,7 @@ This issue has been outlined at [this link](https://github.com/w3c/css-validator
     
     **Result:** The site features and functionality satisfy the needs outlined in the user story.
 
-1. As a new user I want to view the business's product range and contact details so I can order products remotely.   
+#### 1. As a new user I want to view the business's product range and contact details so I can order products remotely.   
     
     **To Test:** A new user landing on the site homepage can access the shop page from the clearly labelled shop heading in the main navbar. A user can navigate to specific product categories via the clearly labelled product category tiles on the site homepage. 
     A user can navigate to the shop page via one of the 4 shop category links located in the footer. Once on the shop page a modal appears notifying customers to call to order. 
@@ -72,50 +72,50 @@ This issue has been outlined at [this link](https://github.com/w3c/css-validator
     
     **Result:** The site features and functionality satisfy the needs outlined in the user story. The ability to checkout and order online would increase conversion and ease of use for the customer but was not within the scope of this project to achieve.
 
-1. As a new user I want to view a gallery of the Cafe and their social media, so I that can decide if it is an appropriate environment to hold a business meeting.   
+#### 1. As a new user I want to view a gallery of the Cafe and their social media, so I that can decide if it is an appropriate environment to hold a business meeting.   
    
    **To Test:** A new user landing on the homepage is first shown the main carousel at the top of the page. The first two carousel slides depict the business's physical location with ample seating and space. This shows the customer if the location will be appropriate for their needs. 
    Social media links can be found clearly displayed in the site footer, which is accessible from each page. From social media the user can see more images of the business's location, products, menu and more. 
    
    **Result:** The site features satisfy the needs outlined in the user story. Improvements could be made by adding a dedicated gallery page to the site or by adding an instagram feed embed. 
 
-1. As a potential customer I want to see the Cafe's location on a map, so I know where to find the business.    
+#### 1. As a potential customer I want to see the Cafe's location on a map, so I know where to find the business.    
     
-    **To Test:** A new customer landing on the homepage can access the company's address by navigating to the contact page, which is clearly labelled in the main navbar. A user can get the business's location in the footer which is accessible from every site page. 
+   **To Test:** A new customer landing on the homepage can access the company's address by navigating to the contact page, which is clearly labelled in the main navbar. A user can get the business's location in the footer which is accessible from every site page. 
     Clicking the contact page or the footer address links the user to the site's contact page. Here the first page section is a clearly labelled Find us section with a large embedded map link. The company's full address is also listed clearly for manual entry into maps, sat nav etc.. 
     Clicking the map pin will open google maps in a new tab where the user can get directions to visit the cafe.    
     
-    **Result:** The site features satisfy the needs outlined in the user story.
+   **Result:** The site features satisfy the needs outlined in the user story.
 
-1. As a potential customer I want to know when the business is open so I can visit the business.    
+#### 1. As a potential customer I want to know when the business is open so I can visit the business.    
     
-    **To Test:** A new user landing on any page can access the contact page from the main navigation menu. A user can also visit the contact page by clicking the find us footer link.
+   **To Test:** A new user landing on any page can access the contact page from the main navigation menu. A user can also visit the contact page by clicking the find us footer link.
     On the contact page the cafe's opening hours are clearly listed in the first page section. A customer can also see the business address and location on a map in the same page section, should they choose to visit the cafe.  
     
-    **Result:** The site features satisfy the needs outlined in the user story.
+   **Result:** The site features satisfy the needs outlined in the user story.
 
-1. As a new user I need to be able to navigate between site pages so I can view multiple site pages.    
+#### 1. As a new user I need to be able to navigate between site pages so I can view multiple site pages.    
     
-    **To Test:** A new user landing on any page can navigate between the different site pages by clicking the prominent navigation menu items at the top of every page. A user can also navigate to more specific page locations by using the detailed
+   **To Test:** A new user landing on any page can navigate between the different site pages by clicking the prominent navigation menu items at the top of every page. A user can also navigate to more specific page locations by using the detailed
     page section links present in the site footer, which is present at the bottom of each site page.     
     
-    **Result:** The site navigation satisfies the user's needs from this user story.
+   **Result:** The site navigation satisfies the user's needs from this user story.
 
-1. As a new user I want to trust the business and value their products so I can ensure I am spending my money wisely.   
+#### 1. As a new user I want to trust the business and value their products so I can ensure I am spending my money wisely.   
     
-    **To Test:**  From the  homepage a user can view the business's about information which qualifies the business. An address and contact details in the footer show that the business has a physical location and can be contacted. The about page, Terms and conditions ans privacy policy 
+   **To Test:**  From the  homepage a user can view the business's about information which qualifies the business. An address and contact details in the footer show that the business has a physical location and can be contacted. The about page, Terms and conditions ans privacy policy 
     show that the business has a professional approach and build trust with the user. By navigating to the shop page a user can see the product range offered by the business. Descriptive images, clear titles and prices display the products quality and value. Trust marks in each product section 
     add additional value to the products with free shipping returns etc... All of these factors show new users that the business can be trusted and that their products are of adequate quality and value.  
     
-    **Result:** The site features satisfy the needs outlined in the user story.
+   **Result:** The site features satisfy the needs outlined in the user story.
 
-1. As a potential customer I need to know if the business is wheelchair accessible so I can decide if the business is suitable for people with disabilities.    
+#### 1. As a potential customer I need to know if the business is wheelchair accessible so I can decide if the business is suitable for people with disabilities.    
     
-    **To Test:** A new user can access the business's contact details from the footer of every page. A user can contact the business by phone or email to enquire if the business premises is wheelchair accessible.
+   **To Test:** A new user can access the business's contact details from the footer of every page. A user can contact the business by phone or email to enquire if the business premises is wheelchair accessible.
     Alternatively a user can access the contact page from the navbar or footer of any page on the site. Once on the contact page a user can make an enquiry or call the business via the contact form or phone number. Alternatively a user can scroll to the FAQ section
     where the first FAQ heading is clearly regarding accessibility for customer with additional needs. Finally a user may access the FAQs section via the link in the footer which is accessible from every page. 
     
-    **Result:** The site features satisfy the needs outlined in the user story.
+   **Result:** The site features satisfy the needs outlined in the user story.
 
 ---
 
