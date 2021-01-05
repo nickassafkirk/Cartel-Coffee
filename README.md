@@ -168,19 +168,19 @@ A success page loaded upon successful form submission to reassure users their me
 
 #### [Shop Page](https://nickassafkirk.github.io/Cartel-Coffee/shop.html) 
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons
- * Intro Jumbotron - A brief intro text box explaining the purpose of the page and encouraging first-time learning.
+ * Intro Jumbotron - A brief intro text box explaining the subject of the page which encourages first-time learning.
  * Category headings - Relevant products are grouped together by association. Bold headings are utilised to delineate where each section starts and ends and to provide context for each grouping of products.
  * Product tiles - Each product is composed of an Image thumbnail, Product tile, price and buy button. Clear, uniform product structure shows customers the key information needed to inform a purchase. Buy now buttons are currently utilised for display only.
- * Category trust marks - These sections summarise additional information relevant to each product category. They are added to provide additional information to build user trust and to show additional value in order to encourage a purchase.
+ * Category trust marks - These sections summarise additional information relevant to each product category. They are added to provide additional information to build user trust and to show additional value to encourage a purchase.
  * Merchandise Jumbotron - A prominent text box to explain new products are coming soon. This is added to inform customers that the shop is regularly updated with new products. This aims to entice customers to return to the site at a later date to see new products and to make additional purchases.
- * Shop Modal - A modal pop up upon page load, informs customers that online store is under construction and directs to order by phone or email. As the scope of this project was to build a static project, this modal is utilised to explains lack of buy now button functionality. In future development of this 
-   project functionality should be added to ensure that this modal only appears on first visit to the shop page during a session. To improve the user experience when revisiting the shop page in a single session. 
+ * Shop Modal - A modal that opens upon page load informs customers that the online store is under construction and directs users to order by phone or email. As the scope of this project was to build a static project, this modal is utilised to explain the lack of buy now button functionality. In future development of this 
+   project functionality should be added to ensure that this modal only appears on first visit to the shop page during a site session. This would be to improve the user experience when revisiting the shop page in a single session until checkout functionality can be added to the online shop and the modal can be removed.
  * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolled to the bottom of the page.
 
 #### [Contact/Book Page](https://nickassafkirk.github.io/Cartel-Coffee/contact.html)
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons
  * Embedded map iframe - allows users to see the store's physical location. Clicking the map on mobile opens directions to the store in google maps. This allows new users to navigate easily to the cafe. 
- * Contact form - allows customers to make general email enquiries without the need to open another tab or their email application. By entering their name, email address, phone number (optional) and their message users can contact the business with their enquiry. Form validation ensures customers that ther enquiry has been submitted and notifies and prevents submission if a required field has been missed. 
+ * Contact form - allows customers to make general email enquiries without the need to open another tab or their email application. By entering their name, email address, phone number (optional) and their message users can contact the business with their enquiry. Form validation ensures customers that their enquiry has been submitted and notifies and prevents submission if a required field has been missed. 
  * Booking form - allows users to book a table at the location to convert users into customers. Form validation ensures bookings are submitted with required information for a quick and easy process for the user and the business.
  * FAQS section - A list of commonly asked questions builds trust with users by allowing users to instantly get answers to commonly asked questions. This increases the chance that users will convert into customers upon their first site visit by reducing wait times for commonly asked queries. This also reduces the business's workload by reducing the hours spent by staff replying to commonly asked questions. 
    Bootstrap expand/collapse functionality is used for this section to condense large sections of text into a smaller space for better display on mobile devices. 
@@ -195,7 +195,7 @@ A success page loaded upon successful form submission to reassure users their me
 
 #### [Form submission page](https://nickassafkirk.github.io/Cartel-Coffee/submit.html)
  * Navigation - a consistent navigation bar allows users to easily navigate to the different site pages without having to use their browser back/forward buttons.
- * Success message jumbotron - A bold heading states that the users message has been received. This finalizes form validation and ensures user confidence by communciating clearly that they have used the form correctly. 
+ * Success message jumbotron - A bold heading states that the users message has been received. This finalizes form validation and ensures user confidence by communicating clearly that they have used the form correctly. 
  * Faq Link - A link to the FAQs section points to some commonly asked questions that may be relevant to the user's message, in case they previously missed it. 
  * Return home button - This button allows users to quickly return to the site hompeage so they can explore more site content.
  * Footer - provides links to popular pages and contact information to allow users to navigate to additional site pages when scrolled to the bottom of the page. 
@@ -231,18 +231,18 @@ A success page loaded upon successful form submission to reassure users their me
     encourage first-time learning and correct use of buttons on the site.
     ![Buttons navigation screenshot](assets/images/contact_form_new.png)
 
-    **Button Hover:** Hover functionality has been used to highlight clickable links with bright contrasting colors, in order to reinforce interactivity of animation elements and encourage first time learning. 
+    **Hover:** Hover functionality has been used to highlight clickable links with bright contrasting colors, in order to reinforce interactive nature of navigation elements and to encourage first time learning. 
     On touch devices clickable elements are highlighted to display that a button or link is in use. 
 
     ![](assets/images/Hover.png)
 
-5. **IDs as links:** IDs have been used to allow quick navigation to specific points on a single webpage. This is designed to aid conversion by bringing the user directly to their point of interest without the potential to get distracted. 
-   The use of Id based navigation also allows more distinct information to be condensed onto a fewer number of pages for a better user experience, a more condensed site and faster page load times. The footer utilises several id's as links to specific sections
+5. **IDs as Links/Anchor Links/Jumo Links:** IDs have been used to allow quick navigation to specific sections on a single webpage. This is designed to aid conversion by bringing the user directly to their point of interest without the potential to get distracted when scrolling past content. 
+   The use of ID based navigation also allows sections distinct information to be condensed onto a fewer number of pages for a better user experience, a more condensed site and faster page load times. The footer utilises several IDs as links to specific sections
    on the menu, shop and contact pages.
 
 6. **Secondary Navigation Bar:** A secondary navigation menu is utilised on the menu page to allow swift navigation to a user's desired menu section. 
     This is particularly useful on mobile devices where a lot content stacks vertically making it necessary for users to have to scroll down throught page content to get to the bottom of the page. 
-    The secondary navigation menu uses a page specific color palette to reinforce it's specific association to the menu page. The submenu
+    The secondary navigation menu uses a color palette different to that of the header and footer to reinforce it's specific association to the menu page. The submenu
     links to specific page section IDs as outlined the the section above. 
 
     ![Buttons navigation screenshot](assets/images/sub_menu_new.png)
