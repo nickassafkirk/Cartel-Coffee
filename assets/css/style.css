@@ -576,6 +576,11 @@ h3 {
 	height: auto;
 }
 
+.contactback #icons-black-cont{
+    margin-top: 15%;
+    margin-bottom: auto;
+}
+
 #hours strong {
 	font-weight: 600;
 }
@@ -1330,6 +1335,12 @@ li.footh4::before {
 	}
 }
 
+@media screen and (max-width: 992px){
+    .contactback #icons-black-cont{
+        margin-top: 5%;
+    }
+}
+
 @media screen and (max-width: 850px) {
 	.col-6.col-sm-3.footerlist li {
 		font-size: 0.7rem;
@@ -1358,7 +1369,7 @@ li.footh4::before {
 @media screen and (max-width: 820px) {
 	.nav-link {
 		font-size: 1.2em;
-	}
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1382,10 +1393,10 @@ li.footh4::before {
 	h2.submenu {
 		font-size: 2.4rem;
 		margin: 0;
-	}
-	#page {
+    }
+    #page {
 		padding: 4rem 0;
-	}
+    }
 	#page #introshopjumbo.jumbotron.main {
 		margin-top: 0;
 	}
@@ -1398,7 +1409,7 @@ li.footh4::before {
 	}
 	.navbar-nav {
 		border-top: 2px solid var(--bg);
-	}
+    }
 }
 
 @media screen and (max-width: 576px) {
