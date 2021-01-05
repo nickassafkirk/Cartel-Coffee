@@ -266,36 +266,31 @@ A responsive view of the site can be found at [this link](http://ami.responsived
 ## Surface
 
 ### Fonts
-**General**
-
+**General**     
 Sans-serif fonts have been chosen site-wide for a minimilistic style, consistent with the company's interior decor. Sans serif fonts also improve legibility for site users on small screenwidths when text is more condensed.
 Font size and line height are adjusted on different device sizes to ensure correct distribution of information and layout across all devices. Adding additional line height and text-padding to clickable links on smaller screenwidths adds additional space between links to 
 aid click activity and touch-interaction on touch-screen devices.
 
-**Logo & Title Fonts**
-
-The Bebas Neue font is used for the company logo, carousel image titles and section headings. It was chosed because of it's bold appearance and clear readability. This font has been styled to be uppercase with a heavier font-weight than the body text
+**Logo & Title Fonts**      
+The [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue) font is used for the company logo, carousel image titles and section headings. It was chosed because of it's bold appearance and clear readability. This font has been styled to be uppercase with a heavier font-weight than the body text
 to create recognisable branding and obvious visual impact for key site information. 
 
-**Body Fonts**
-
-The Montserrat font was selected for the body text for it's slim, legible and professional appearance. A much lighter font-weight is used to reinforce an overall minimilistic style 
+**Body Fonts**      
+The [Montserrat](https://fonts.google.com/specimen/Montserrat) font was selected for the body text for it's slim, legible and professional appearance. A much lighter font-weight is used to reinforce an overall minimilistic style 
 and to create contrast between logo text and headings. This improves the communication of the hierarchy of information.
 
-**Headings**
+**Headings**        
+Headings also utilise the [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue) font to reinforce that section headings denote the start of key sections of information with a higher priority of importance than accompanying body text.
 
-Headings also utilise the Bebas Neue font to reinforce that section headings denote the start of key sections of information with a higher priority of importance than accompanying body text.
-
-**Additional Fonts**
-
+**Additional Fonts**        
 The Sans-serif font has been chosen as a fallback font if chosen fonts cannot be loaded from external resources.
 
 ---
 
-### Colors
+### Colors      
 Colors are used to increase contrast, visual impact and to improve readability across the site. A grey, blue and white color palette has
 been chosen to add a neutral professional and minimalistic site design and to appeal to a broad range of users. Specific section areas are styled with consistent coloring to reinforce the correlation between different areas of relevant content. 
-Root variables were used to allow quick design changes to be made and to facilitate future color changes if necessary. The main colors used on this project are as follows:
+Root variables are used to allow quick stylisitic changes to be made and to facilitate future color changes if necessary. The main colors used on this project are as follows:
 
 **`--custom: #212121;`** This is the primary brand color a dark grey pantone used for the navbar, footer background and homepage section headings. 
 
@@ -351,11 +346,11 @@ Images are used in several instances on the site to act as strong visual cues an
 
 **Carousel Images:** Eye catching images are used on the homepage carousel to clearly indicate the businesses key activities. These are chosen to encourage users to understand the purpose of the business as soon as they land on the homepage. The carousel images are also chosen to display the business's physical location to show new users what to expect when they visit the store. 
 
-**Homepage Image Tiles:** Appealing images are used as clickable tiles for the menu category navigation links and shop caetgory navigation links on the homepage. These images are included to quickly visually communicate the type of content a user will be brought to when clicking on each image tile. 
+**Homepage Image Tiles:** Appealing images are used as clickable tiles for the menu category navigation links and shop category navigation links on the homepage. These images are included to quickly visually communicate the type of content a user will be brought to when clicking on each image tile. 
 
-**Product images:** Studio images are used to clearly display a products purpose and to encourage users to buy. Clear striking product images are contrasted with plain backgrounds to put the emphasis on the product and to keep user focus on the key information on the page.
+**Product Images:** Studio images are used to clearly display a products purpose and to encourage users to buy. Clear striking product images are contrasted with plain backgrounds to put the emphasis on the product and to keep user focus on the key information on the page.
 
-**Background-images:** Subtle background images with added opacity are used to give users a greater understanding of the business's style and appearance without drawing away from the key information on each page. These background images and colored divs are also used to break-up large areas of white-space
+**Background-Images:** Subtle background images with added opacity are used to give users a greater understanding of the business's style and appearance without drawing away from the key information on each page. These background images and colored divs are also used to break-up large areas of white-space
 for a more visually appealing appearance and a more defined flow of information through the page. Background images utilise a relevant subject matter to the page subject to again reinforce the meaning of each page to first time users. 
 
 ---
@@ -363,7 +358,7 @@ for a more visually appealing appearance and a more defined flow of information 
 ### Animations
 Animations and Hover functionality are used to highlight the interactivity of links and buttons encouraging users to use navigation elements. 
 Pseudo classes such as hover, focus and active also provide user feedback by highlighting when an element is clickable and by validating when an action has been performed.
-In future iterations of this project, I hope to allow animations associated with links to take place before users are redirected to the link destination to provide a better 
+In future iterations of this project, I hope to allow animations associated with links to take place before users are redirected to the link destination, to provide a better 
 user experience on touch screen devices where hover is not possible.
 
 ---
@@ -387,7 +382,7 @@ Is used to add styles, layout, design and interactivity to the page and to incre
 ### Bootstrap V4.5.3 
 [https://getbootstrap.com/](https://getbootstrap.com/) 
 
-Is used to add structure, layout and mobile first responsive design to the webpages. 
+Is used to add structure, layout and a mobile-first responsive design to the website. 
 
 
 ![Gitpod Logo](assets/images/technologies/gitpod.png)
@@ -416,7 +411,7 @@ Is used to create wireframes as visual mockups of the final site design
 
 The current deployed version of this project has been thoroughly tested to ensure a great user experience on most common device types.
 Testing has also confirmed compatibility with all common browsers to accommodate a great user experience and predictable functionality 
-for easy as many users as possible. 
+for as many users as possible. 
 
 The responsive functionality of the site has been tested to work on most common devices with a 320px screen-width and larger. 
 
@@ -428,12 +423,13 @@ The full testing can be found in [the separate testing.md file](testing.md)
 
 ### HTML   
 All html files were validated using the [W3C markup validation service](https://validator.w3.org/)
+All html files passed validation.
 
 **Errors:** 
 There were no errors for the deployed version of this project.
 
 **Warnings**
-There were no errors for the deployed version of this project.
+There were no warnings for the deployed version of this project.
 
 ### CSS
 
@@ -460,71 +456,7 @@ because root variables are currently not supported by the validation service des
 This issue has been outlined at [this link](https://github.com/w3c/css-validator/issues/111) and therefore the warnings can be ignored.
 
 ---
-## Deployment
 
-This project was developed using the Gitpod IDE, committed to git and pushed to GitHub using the terminal within Gitpod and the gitpod extension for chrome. 
-
----
-
-### Deployment Instructions 
-To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
-
-1. First log into [GitHub account](https://github.com/nickassafkirk).
-1. From the list of oinned repositories on the home screen, select "Cartel-Coffee".
-1. From the menu items which includes *Code, Issues, Pull request, Actions, Projects, Wiki, Security, Insights and settings* 
-select the **settings** tab.
-1. Within the settings section, scroll down to the **GitHub Pages** section.
-1. Under **Source** subheading click the drop-down menu labelled "None" and select "Master Branch"
-1. Leave the default /Root folder selected and click save.
-1. On selecting Master Branch and saving the page is automatically refreshed, the website is now deployed.
-1. Return to the settings section and scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
-1. (Optional) Add the website link to the repository info box for ease of use. In the sidebar to the right click the cog icon to the right of the about subheading
-and paste the website url into the box labelled "website"
-
----
-### Cloning instructions with Gitpod
-To clone this project using Gitpod you will need:
-
-A Github account. [Create a Github account here](https://github.com/join)
-Use the Chrome browser
-Then follow these steps:
-
-1. Install the [Gitpod Browser Extentions for Chrome](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki?hl=en)
-2. After installation, restart your browser
-3. Log into Gitpod with your github account.
-4. Navigate to the [Project GitHub repository](https://github.com/nickassafkirk/Caffeine-Cartel-Coffee-Shop)
-5. Click the green "Gitpod" button in the top right corner of the repository
-6. This will open a new gitpod workspace with a clone of the repository
-
----
-### Cloning instructions to a local editor
-To work on the project code within a local IDE such as VSCode, Pycharm, brackets etc:
-
-1. Go to the Github repository at [this link](https://github.com/nickassafkirk/Cartel-Coffee)
-2. Under the repository name, click the code tab from the menu items
-3. In the submenu to the right which has the options: go to file, add file and code, select the code option. 
-4. In the Clone with HTTPs section, copy the clone URL for the repository.
-5. In your local IDE open the terminal.
-6. Change the current working directory to the location where you want the cloned directory to be made.
-7. In the terminal type git clone, and then paste the URL you copied in Step 3.
-   This should follow the format git clone https://github.com/github-username/repository-name.git
-8. Press Enter to successfully clone the repository to your local IDE
-9. For more information on cloning from github [see this page](https://docs.github.com/en/free-pro-team@latest/github/using-git/which-remote-url-should-i-use)
-
----
-### Forking instructions
-To Fork this repository:
-
-1. Go to the [github homepage](https://github.com/).
-1. Sign into Github or sign up for a new account.
-1. Find the repository you wish to fork. 
-(*([For example this project](https://github.com/nickassafkirk/Cartel-Coffee))*
-1. On the right hand side of the repository page you will see options to watch, star or fork. Click Fork.
-1. This will create a copy of the project in a new repository within your github account.
-1. Once the fork has been created in your github account, it can then be cloned to your prefered editor using one of the methods outlined above.
-1. After changes have been made locally they can be submitted via pull request for aprroval and inclusion in the original project.
-
----
 ## Code 
 
 The code in this project was written by me ([Nick Kirk](https://github.com/nickassafkirk)) the project owner. Any code snippets written by other developers or found from online resources have been credited
@@ -533,6 +465,10 @@ in the credits section below.
 ### Frameworks
 **Bootstrap** CDN was used to create a responsive site design. Several bootstrap components were utilised including navbar, jumbotrons, alerts, modals, forms and the collapse functionality. 
 Custom CSS was used to apply unique styling to bootstrap components.
+
+### Vendor Prefixes
+Vendor prefixes were added to the main stylesheet using [autoprefixer](https://autoprefixer.github.io/) to ensure styles are applied as consistently 
+as possible across different browsers.
 
 ---
 ## Credits
@@ -804,6 +740,74 @@ Sourced from [Balsamiq](https://balsamiq.com/company/brandassets/)
 All icons used on this project were sourced from [Fontawesome](https://fontawesome.com/).
 
 ---
+
+## Deployment
+
+This project was developed using the Gitpod IDE, committed to git and pushed to GitHub using the terminal within Gitpod and the gitpod extension for chrome. 
+
+---
+
+### Deployment Instructions 
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+1. First log into [GitHub account](https://github.com/nickassafkirk).
+1. From the list of oinned repositories on the home screen, select "Cartel-Coffee".
+1. From the menu items which includes *Code, Issues, Pull request, Actions, Projects, Wiki, Security, Insights and settings* 
+select the **settings** tab.
+1. Within the settings section, scroll down to the **GitHub Pages** section.
+1. Under **Source** subheading click the drop-down menu labelled "None" and select "Master Branch"
+1. Leave the default /Root folder selected and click save.
+1. On selecting Master Branch and saving the page is automatically refreshed, the website is now deployed.
+1. Return to the settings section and scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+1. (Optional) Add the website link to the repository info box for ease of use. In the sidebar to the right click the cog icon to the right of the about subheading
+and paste the website url into the box labelled "website"
+
+---
+### Cloning instructions with Gitpod
+To clone this project using Gitpod you will need:
+
+A Github account. [Create a Github account here](https://github.com/join)
+Use the Chrome browser
+Then follow these steps:
+
+1. Install the [Gitpod Browser Extentions for Chrome](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki?hl=en)
+2. After installation, restart your browser
+3. Log into Gitpod with your github account.
+4. Navigate to the [Project GitHub repository](https://github.com/nickassafkirk/Caffeine-Cartel-Coffee-Shop)
+5. Click the green "Gitpod" button in the top right corner of the repository
+6. This will open a new gitpod workspace with a clone of the repository
+
+---
+### Cloning instructions to a local editor
+To work on the project code within a local IDE such as VSCode, Pycharm, brackets etc:
+
+1. Go to the Github repository at [this link](https://github.com/nickassafkirk/Cartel-Coffee)
+2. Under the repository name, click the code tab from the menu items
+3. In the submenu to the right which has the options: go to file, add file and code, select the code option. 
+4. In the Clone with HTTPs section, copy the clone URL for the repository.
+5. In your local IDE open the terminal.
+6. Change the current working directory to the location where you want the cloned directory to be made.
+7. In the terminal type git clone, and then paste the URL you copied in Step 3.
+   This should follow the format git clone https://github.com/github-username/repository-name.git
+8. Press Enter to successfully clone the repository to your local IDE
+9. For more information on cloning from github [see this page](https://docs.github.com/en/free-pro-team@latest/github/using-git/which-remote-url-should-i-use)
+
+---
+
+### Forking instructions
+To Fork this repository:
+
+1. Go to the [github homepage](https://github.com/).
+1. Sign into Github or sign up for a new account.
+1. Find the repository you wish to fork. 
+(*([For example this project](https://github.com/nickassafkirk/Cartel-Coffee))*
+1. On the right hand side of the repository page you will see options to watch, star or fork. Click Fork.
+1. This will create a copy of the project in a new repository within your github account.
+1. Once the fork has been created in your github account, it can then be cloned to your prefered editor using one of the methods outlined above.
+1. After changes have been made locally they can be submitted via pull request for aprroval and inclusion in the original project.
+
+---
+
 ## Acknowledgements
 
 I'd like to thank my mentor Nishant Kumar for his help and advice throughout this project. His encouragement and feedback we're invaluable in the completion of this project.
